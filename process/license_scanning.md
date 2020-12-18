@@ -1,8 +1,18 @@
-**The Linux Foundation**
+# The Linux Foundation License Scanning and Analysis Support Program for LF projects
 
-**License Scanning and Analysis Support Program for LF projects**
+- [Support plan summary for 2021: LF Energy](#support-plan-summary-for-2021-lf-energy)
+    - [Notes](#notes)
+    - [Dependencies on other LF and project teams](#dependencies-on-other-lf-and-project-teams)
+  - [Covered projects and schedule of scans](#covered-projects-and-schedule-of-scans)
+    - [Cycle 1: January, April, July, October](#cycle-1-january-april-july-october)
+    - [Cycle 2: February, May, August, November](#cycle-2-february-may-august-november)
+    - [Cycle 3: March, June, September, December](#cycle-3-march-june-september-december)
+  - [Exhibits](#exhibits)
+    - [Exhibit 1](#exhibit-1)
+    - [Exhibit 2](#exhibit-2)
+    - [Exhibit 3](#exhibit-3)
 
-**Support plan summary for 2021: LF Energy**
+## Support plan summary for 2021: LF Energy
 
 Support to be provided by: Steve Winslow
 &lt;<swinslow@linuxfoundation.org>&gt;
@@ -83,11 +93,11 @@ resources and time:
     4.  work towards providing vulnerability findings as part of
         results.
 
-> Note that WhiteSource has recently been incorporated into the license
-> scanning workflow, so some of this functionality will be subject to
-> continued development of the scanning workflow automation.
+Note that WhiteSource has recently been incorporated into the license
+scanning workflow, so some of this functionality will be subject to
+continued development of the scanning workflow automation.
 
-Notes:
+### Notes
 
 -   The Linux Foundation is not able to provide legal advice to project
     community members. The support program is focused on providing
@@ -103,7 +113,7 @@ Notes:
     scanning results, and does not guarantee that all possible license
     issues in a scanned codebase will be identified.
 
-Dependencies on other LF and project teams:
+### Dependencies on other LF and project teams
 
 -   Will periodically need assistance from project manager or similar
     project staff support, to coordinate on preferred methods for
@@ -115,14 +125,14 @@ Dependencies on other LF and project teams:
     scan types)
 
 
-Covered projects and schedule of scans:
+## Covered projects and schedule of scans
 
-\*\* NOTE: during the TAC meeting on Dec. 8, 2020, it was stated that
+NOTE: during the TAC meeting on Dec. 8, 2020, it was stated that
 not all projects’ source code is currently available. It is possible
 that the schedule below may be adjusted to accommodate sizing or changes
 in timing for when the full code base is available.
 
-> **<u>Cycle 1</u>**: **January, April, July, October**:
+### Cycle 1: January, April, July, October
 
 -   RIAPS
 
@@ -130,7 +140,7 @@ in timing for when the full code base is available.
 
 -   OpenLeadr
 
-> **<u>Cycle 2</u>**: **February, May, August, November**:
+### Cycle 2: February, May, August, November
 
 -   GXF
 
@@ -138,7 +148,7 @@ in timing for when the full code base is available.
 
 -   PowSyBl
 
-> **<u>Cycle 3</u>**: **March, June, September, December**:
+### Cycle 3: March, June, September, December
 
 -   Seapath
 
@@ -146,7 +156,7 @@ in timing for when the full code base is available.
 
 -   OpenEEMeter
 
-Exhibits:
+## Exhibits
 
 1.  Screenshots from example SPDX document
 
@@ -154,14 +164,14 @@ Exhibits:
 
 3.  Screenshots from example board decks
 
-**Exhibit 1**
+### Exhibit 1
 
 **Screenshots from example SPDX document**
 
 <img src="media/media/image1.png" style="width:3.40084in;height:3.86239in" alt="Graphical user interface, text, application Description automatically generated" />
 <img src="media/media/image2.png" style="width:3.4in;height:3.86in" alt="Text Description automatically generated" />
 
-**Exhibit 2**
+### Exhibit 2
 
 **Screenshots from example scan report for developers**
 
@@ -177,7 +187,7 @@ Spreadsheet with detailed findings:
 
 <img src="media/media/image5.png" style="width:5.33061in;height:1.63303in" alt="Graphical user interface, table Description automatically generated" />
 
-**Exhibit 3**
+### Exhibit 3
 
 **Screenshots from example board decks**
 
