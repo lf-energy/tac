@@ -168,8 +168,8 @@ in timing for when the full code base is available.
 
 **Screenshots from example SPDX document**
 
-<img src="media/media/image1.png" style="width:3.40084in;height:3.86239in" alt="Graphical user interface, text, application Description automatically generated" />
-<img src="media/media/image2.png" style="width:3.4in;height:3.86in" alt="Text Description automatically generated" />
+<img src="assets/license_scanning_image1.png" style="width:3.40084in;height:3.86239in" alt="Graphical user interface, text, application Description automatically generated" />
+<img src="assets/license_scanning_image2.png" style="width:3.4in;height:3.86in" alt="Text Description automatically generated" />
 
 ### Exhibit 2
 
@@ -177,18 +177,18 @@ in timing for when the full code base is available.
 
 Key findings and recommended actions:
 
-<img src="media/media/image3.png" style="width:5.01835in;height:3.62088in" alt="Graphical user interface, text, application, email Description automatically generated" />
+<img src="assets/license_scanning_image3.png" style="width:5.01835in;height:3.62088in" alt="Graphical user interface, text, application, email Description automatically generated" />
 
 Summary of findings:
 
-<img src="media/media/image4.png" style="width:2.34972in;height:3.53211in" alt="A picture containing graphical user interface Description automatically generated" />
+<img src="assets/license_scanning_image4.png" style="width:2.34972in;height:3.53211in" alt="A picture containing graphical user interface Description automatically generated" />
 
 Spreadsheet with detailed findings:
 
-<img src="media/media/image5.png" style="width:5.33061in;height:1.63303in" alt="Graphical user interface, table Description automatically generated" />
+<img src="assets/license_scanning_image5.png" style="width:5.33061in;height:1.63303in" alt="Graphical user interface, table Description automatically generated" />
 
 ### Exhibit 3
 
 **Screenshots from example board decks**
 
-<img src="media/media/image6.png" style="width:7in;height:4.04444in" alt="Graphical user interface, application Description automatically generated" />
+<img src="assets/license_scanning_image6.png" style="width:7in;height:4.04444in" alt="Graphical user interface, application Description automatically generated" />
