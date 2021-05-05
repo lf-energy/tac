@@ -1,3 +1,5 @@
+**DEPRECATED - current guidelines at https://wiki.lfenergy.org/display/HOME/Contribution+and+Compliance+Guidelines+for+LF+Energy+Foundation+hosted+projects**
+
 # Contribution Guidelines for LF Energy Foundation hosted projects
 
 - [Two-factor authentication (2FA)](#two-factor-authentication-2fa)
