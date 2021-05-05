@@ -1,3 +1,5 @@
+**DEPRECATED - current version at https://wiki.lfenergy.org/display/HOME/Contribution+and+Compliance+Guidelines+for+LF+Energy+Foundation+hosted+projects**
+
 # The Linux Foundation License Scanning and Analysis Support Program for LF projects
 
 - [Support plan summary for 2021: LF Energy](#support-plan-summary-for-2021-lf-energy)
