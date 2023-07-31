@@ -87,10 +87,10 @@ layout: minimal
 <hr>
 <div class="project-sgam" id="{{ project['Slug']}}-sgam">
 {% for domain in domains %}
-<div style="grid-row-start: 1; grid-column-start: {{ forloop.index | plus: 1 }}; grid-column-end: {{ forloop.index | plus: 2}}; text-align: center;">{{ domain}}</div>
+<div style="grid-row-start: 1; grid-column-start: {{ forloop.index | plus: 1 }}; grid-column-end: {{ forloop.index | plus: 2}}; text-align: center">{{ domain}}</div>
 {% endfor %}
 {% for zone in zones %}
-<div style="grid-column-start: 1; grid-row-start: {{ forloop.index | plus: 1 }}; grid-row-end: {{ forloop.index | plus: 2}}; vertical-align: middle; text-align: center;">{{ zone }}</div>
+<div style="grid-column-start: 1; grid-row-start: {{ forloop.index | plus: 1 }}; grid-row-end: {{ forloop.index | plus: 2}}; vertical-align: middle; text-align: center; margin: auto;">{{ zone }}</div>
 {% endfor %}
 {% assign grid-column-start = 5 %}
 {% assign grid-column-end = 1 %}
