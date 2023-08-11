@@ -13,7 +13,7 @@ import os
 import subprocess
 
 csvFile = os.path.dirname(os.path.realpath(__file__))+'/../../_data/meeting-agenda-items.csv'
-jsonProjectData = subprocess.run("gh project item-list 21 --owner openmainframeproject --format json", shell=True, capture_output=True).stdout
+jsonProjectData = subprocess.run("gh project item-list 2 --owner lf-energy --format json", shell=True, capture_output=True).stdout
 
 csvRows = []
 projectData = json.loads(jsonProjectData)
