@@ -1,5 +1,8 @@
 source "https://rubygems.org"
 
+ruby "~>3.1"
+
+gem "jekyll", "~> 4.3.2" 
 gem "just-the-docs"
 gem "github-pages", group: :jekyll_plugins
 gem 'jekyll-toc'
