@@ -1,0 +1,41 @@
+# As defined at https://syc-se.iec.ch/wp-content/uploads/2019/10/SGCG_Methodology_SGAMUserManual.pdf
+domains:
+  - name: Generation
+    description: Representing generation of electrical energy in bulk quantities typically connected to the transmission system, such as by fossil, nuclear and hydro power plants, off-shore wind farms, large scale solar power plant (i.e. PV, CSP).
+    image: factory.png
+  - name: Transmission
+    description: Representing the infrastructure which transports electricity over long distances.
+    image: electric-pole.png
+  - name: Distribution
+    description: Representing the infrastructure which distributes electricity to customers.
+    image: distribution.png
+  - name: DER
+    description: Representing distributed electrical resources directly connected to the public distribution grid, applying small-scale power generation and consumption technologies (typically in the range of 3 kW to 10,000 kW). These distributed electrical resources may be directly controlled by e.g. a TSO, DSO, an aggregator or Balance Responsible Party (BRP)
+    image: renewable-energy.png
+  - name: Customer Premises
+    description: Hosting both end users of electricity and also local producers of electricity. The premises include industrial, commercial and home facilities (e.g. chemical plants, airports, harbors, shopping centers, homes). Also generation in form of e.g. photovoltaic generation, electric vehicles storage, batteries, micro turbines.
+    image: building.png
+zones:
+  - name: Process
+    description: Including the physical, chemical or spatial transformations of energy (electricity, solar, heat, water, wind …) and the physical equipment directly involved (e.g. generators, transformers, circuit breakers, overhead lines, cables, electrical loads, any kind of sensors and actuators which are part or directly connected to the process, etc).
+  - name: Field
+    description: Including equipment to protect, control and monitor the process of the power system, e.g. protection relays, bay controller, any kind of intelligent electronic devices which acquire and use process data from the power system.
+  - name: Station
+    description: Representing the areal aggregation level for field level, e.g. for data concentration, functional aggregation, substation automation, local SCADA systems, plant supervision…
+  - name: Operation
+    description: Hosting power system control operation in the respective domain, e.g. distribution management systems (DMS), energy management systems (EMS) in generation and transmission systems, microgrid management systems, virtual power plant management systems (aggregating several DER), electric vehicle (EV) fleet charging management systems.
+  - name: Enterprise
+    description: Including commercial and organizational processes, services and infrastructures for enterprises (utilities, service providers, energy traders …), e.g. asset management, logistics, work force management, staff training, customer relation management, billing and procurement, etc.
+  - name: Market
+    description: Reflecting the market operations possible along the energy conversion chain, e.g. energy trading, retail market.
+layers:
+  - name: Business
+    description: The business layer represents the business view on the information exchange related to smart grids. SGAM can be used to map regulatory and economic (market) structures (using harmonized roles and responsibilities) and policies, business models and use cases, business portfolios (products & services) of market parties involved. Also business capabilities, use cases and business processes can be represented in this layer.
+  - name: Function
+    description: The function layer describes system use cases, functions and services including their relationships from an architectural viewpoint. The functions are represented independent from actors and physical implementations in applications, systems and components. The functions are derived by extracting the use case functionality that is independent from actors.
+  - name: Information 
+    description: The information layer describes the information that is being used and exchanged between functions, services and components. It contains information objects and the underlying canonical data models. These information objects and canonical data models represent the common semantics for functions and services in order to allow an interoperable information exchange via communication means.
+  - name: Communication 
+    description: The emphasis of the communication layer is to describe protocols and mechanisms for the interoperable exchange of information between components in the context of the underlying use case, function or service and related information objects or data models.
+  - name: Component 
+    description: The emphasis of the component layer is the physical distribution of all participating components in the smart grid context. This includes system & device actors, power system equipment (typically located at process and field level), protection and telecontrol devices, network infrastructure (wired / wireless communication connections, routers, switches, servers) and any kind of computers.
