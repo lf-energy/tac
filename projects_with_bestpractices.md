@@ -3,7 +3,7 @@ nav_exclude: true
 layout: minimal
 ---
 
-<style>
+<style type="text/css">
 #projects_with_bestpractices dt::after {
   content: "" !important;
 }
