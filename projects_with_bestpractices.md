@@ -4,39 +4,39 @@ layout: minimal
 ---
 
 <style type="text/css">
-#projects_with_bestpractices dt::after {
-  content: "" !important;
-}
 #projects_with_bestpractices {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-#projects_with_bestpractices div {
-  flex-basis: 16%;
-  padding: 1em;
-}
-#projects_with_bestpractices dt img[src^="https://landscape.lfenergy.org/"] {
-  height: 100px;
-}
-#projects_with_bestpractices dt {
-  text-align: center;
-}
-#projects_with_bestpractices dd {
-  margin-left: 0;
-}
-#projects_with_bestpractices dd p {
-  text-align: center;
-}
-#projects_with_bestpractices dd p:first-child {
-    font-family: Arial;
-    font-size: 13px;
-    color: #AAAAAA;
-}
-#projects_with_bestpractices dd p:last-child {
-    font-family: Arial;
-    font-size: 17px;
-    color: #999999;
+  & dt::after {
+    content: "" !important;
+  }
+  & div {
+    flex-basis: 16%;
+    padding: 1em;
+  }
+  & dt img[src^="https://landscape.lfenergy.org/"] {
+    height: 100px;
+  }
+  & dt {
+    text-align: center;
+  }
+  & dd {
+    margin-left: 0;
+  }
+  & dd p {
+    text-align: center;
+  }
+  & dd p:first-child {
+      font-family: Arial;
+      font-size: 13px;
+      color: #AAAAAA;
+  }
+  & dd p:last-child {
+      font-family: Arial;
+      font-size: 17px;
+      color: #999999;
+  }
 }
 </style>
 <dl id="projects_with_bestpractices">
