@@ -1,68 +1,8 @@
 ---
 layout: minimal
 ---
-<link rel="stylesheet" id="redux-google-fonts-salient_redux-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A700%7CRoboto+Slab%3A500&amp;display=swap&amp;ver=1683165598" type="text/css" media="all">
-<style>
-summary {
-	font-family: "Roboto Slab";
-	font-size: xx-large;
-	padding-bottom: 1em;
-}
-#domains, #zones, .project-sgam {
-	display: grid;
-	grid-template-columns: repeat(5, 20%);
-	grid-column-gap: 2px;
-	grid-row-gap: 2px;
-	& div {
-		display: inline-grid;
-		background: white;
-		font-family: "Roboto Slab"
-	}
-	& div img { 
-		margin: auto;
-		height: 35px;
-		padding: 5px;
-	}
-	& div[id]:nth-child(3n) {
-		background: #008F6522;
-	}
-	& div[id]:nth-child(3n+1) {
-		background: #3a56e922;
-	}
-	& div[id]:nth-child(3n+2) {
-		background: #ff5d4722;
-	}
-	& img[src~="sgam-images"] {
-		height: 50px;
-	}
-	& details summary {
-		font-size: initial;
-	}
-	& details {
-		font-size: x-small;
-	}
-	& div:nth-child(-n+5) {
-		text-align: center; 
-		margin: auto; 
-		margin-top: 0;
-	} 
-}
-#zones, .project-sgam {
-	grid-template-columns: repeat(6, 16.6%);
-	& div:nth-child(-n+6) {
-		text-align: center; 
-		margin: auto; 
-		margin-top: 0;
-	} 
-}
-.project-sgam {
-	grid-template-rows: auto repeat(6, 50px);
-	& div:last-child {
-		background: #EEEEEE !important;
-	}
-}
-</style>
 
+<div id="sgam">
 <details>
 <summary>Smart Grid Plane (SGAM) domains for LF Energy projects</summary>
 <div id="domains">
@@ -180,3 +120,4 @@ summary {
 </div>
 </details>
 {% endfor %}
+</div>
