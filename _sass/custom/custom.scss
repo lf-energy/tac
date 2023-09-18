@@ -35,63 +35,84 @@
       color: #999999;
   }
 }
-#sgam {
-	& summary {
+#sgam_by_project {
+	summary {
 		font-family: "Roboto Slab";
 		font-size: xx-large;
 		padding-bottom: 1em;
 	}
-	& #domains, #zones, .project-sgam {
-		display: grid;
-		grid-template-columns: repeat(5, 20%);
-		grid-column-gap: 2px;
-		grid-row-gap: 2px;
-		& div {
-			display: inline-grid;
-			background: white;
-			font-family: "Roboto Slab"
-		}
-		& div img { 
-			margin: auto;
-			height: 35px;
-			padding: 5px;
-		}
-		& div[id]:nth-child(3n) {
-			background: #008F6522;
-		}
-		& div[id]:nth-child(3n+1) {
-			background: #3a56e922;
-		}
-		& div[id]:nth-child(3n+2) {
-			background: #ff5d4722;
-		}
-		& img[src~="sgam-images"] {
-			height: 50px;
-		}
-		& details summary {
-			font-size: initial;
-		}
-		& details {
-			font-size: x-small;
-		}
-		& div:nth-child(-n+5) {
-			text-align: center; 
-			margin: auto; 
-			margin-top: 0;
-		} 
-	}
-	& #zones, .project-sgam {
+	div.project-sgam {
+		grid-template-rows: auto;
 		grid-template-columns: repeat(6, 16.6%);
+		margin-top: 0;
+		& div:last-child {
+			background: #EEEEEE !important;
+		}
 		& div:nth-child(-n+6) {
 			text-align: center; 
 			margin: auto; 
 			margin-top: 0;
-		} 
+		} 	
 	}
-	& .project-sgam {
-		grid-template-rows: auto repeat(6, 50px);
-		& div:last-child {
-			background: #EEEEEE !important;
-		}
+}
+#sgam_zones, #sgam_domains, #sgam_by_project .project-sgam {
+	display: grid;
+	grid-template-columns: repeat(5, 20%);
+	grid-column-gap: 2px;
+	grid-row-gap: 2px;
+	margin-top: 50px;
+	& h1 {
+		position: absolute;
+		top: 0;
 	}
+	& h1, summary {
+		font-family: "Roboto Slab";
+		font-size: xx-large;
+		padding-bottom: 1em;
+	}
+	& div {
+		display: inline-grid;
+		background: white;
+		font-family: "Roboto Slab"
+	}
+	& div a { 
+		margin: auto;
+		height: 35px;
+		padding: 5px;
+	}
+	& div a img {
+		width: auto;
+		height: 100%;
+	}
+	& div[id]:nth-child(3n) {
+		background: #008F6522;
+	}
+	& div[id]:nth-child(3n+1) {
+		background: #3a56e922;
+	}
+	& div[id]:nth-child(3n+2) {
+		background: #ff5d4722;
+	}
+	& img[src~="sgam-images"] {
+		height: 50px;
+	}
+	& details summary {
+		font-size: initial;
+	}
+	& details {
+		font-size: x-small;
+	}
+	& div:nth-child(-n+5) {
+		text-align: center; 
+		margin: auto; 
+		margin-top: 0;
+	} 
+}
+#sgam_zones {
+	grid-template-columns: repeat(6, 16.6%);
+	& div:nth-child(-n+7) {
+		text-align: center; 
+		margin: auto; 
+		margin-top: 0;
+	} 
 }
