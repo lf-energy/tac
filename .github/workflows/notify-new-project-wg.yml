@@ -19,5 +19,5 @@ jobs:
           fromMailAddress: 'operations@lfenergy.org'
           toMailAddress: 'jmertic@linuxfoundation.org'
           #toMailAddress: 'tac@lists.lfenergy.org'
-          subject: 'New Project/WG Proposal'
+          subjectPrefix: 'Submission -'
           labelsToMonitor: '1-new-project-wg'
