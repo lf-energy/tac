@@ -1,0 +1,23 @@
+name: Notify TAC when a new project or working group is submitted
+
+on:
+  issues:
+    types:
+      - opened
+      - labeled
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      name: Notify TAC
+      uses: timheuer/issue-notifier@v1
+      env:
+        SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+      with:
+        fromMailAddress: 'operations@lfenergy.org'
+        toMailAddress: 'jmertic@linuxfoundation.org'
+        #toMailAddress: 'tac@lists.lfenergy.org'
+        subject: 'New Project/WG Proposal'
+        labelsToMonitor: '1-new-project-wg'
