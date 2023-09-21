@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Notify TAC
-        uses: timheuer/issue-notifier@v1
+        uses: timheuer/issue-notifier@v1.0.4
         env:
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
         with:
