@@ -1,0 +1,110 @@
+name: New Working Group Proposal
+description: Template for proposing a new Working Group to the TAC
+title: 'New Working Group/Special Interest Group Proposal - NAME'
+labels: ["1-new-project-wg"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a Working Group or Special Interest Group to the LF Energy Foundation. Please provide the name of the working group in the title above in place of NAME, and then answer the questions below to have this working group be added to the agenda at a future TAC meeting for consideration as a new project. Please refer to the guideance in the [Working Group and Special Interest Group Lifecycle](https://wiki.lfenergy.org/display/HOME/Working+Group+and+Special+Interest+Group+Lifecycle).
+        Please also note you must be available to lead this discussion on a TAC meeting. You can get information on TAC meetings and how to join the meetings at https://wiki.lfenergy.org/display/HOME/Technical+Advisory+Council#TechnicalAdvisoryCouncil-MeetingDetails.
+  - type: textarea
+    attributes:
+      label: Mission Statement
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Description
+      description: (what it does, why it is valuable, origin and history)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Is this a new project or an existing one?
+    validations:
+      required: true 
+  - type: textarea
+    attributes:
+      label: Current lead(s)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Sponsoring organization(s), along with any other key contributing individuals and/or organizations
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: |
+        Detail any existing community infrastructure, including:
+          - Github/GitLab, or other location where the code is hosted
+          - Website and/or docs
+          - Communication channels ( such as Mailing lists, Slack, IRC )
+          - Social Media Accounts
+    validations:
+      required: true 
+  - type: textarea
+    attributes:
+      label: |
+        Are there any specific infrastructure needs or requests outside of what is provided normally by LF Energy ? If so please detail them.
+      description: |
+        ( please refer to the [lifecycle](https://wiki.lfenergy.org/display/HOME/Technical+Project+Lifecycle) for project benefits )
+    validations:
+      required: true 
+  - type: textarea
+    attributes:
+      label: Why would this be a good candidate for inclusion in LF Energy?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: How would this benefit from inclusion in LF Energy?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Provide a statement on alignment with the mission in the LF Energy charter.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What specific need does this project address?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe how this project impacts the energy industry.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe how this project intersects with other LF Energy projects/working groups/special interest groups.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Who are the potential benefactors of this project?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What other organizations in the world should be interested in this project?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Plan for growing in maturity if accepted within LF Energy
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected deliverables
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Timeline for the working group
+    validations:
+      required: true
+

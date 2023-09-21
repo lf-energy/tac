@@ -1,0 +1,175 @@
+---
+name: New Project Proposal
+description: Template for proposing a new project to the TAC
+title: 'New Project Proposal - PROJECT NAME'
+labels: ["1-new-project-wg"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for looking to bring your project to the LF Energy Foundation. Please put the name of the project in the title above replacing PROJECT NAME, and then answer the questions below to have this project be added to the agenda at a future TAC meeting for consideration as a new project. Please refer to the guideance in the [project lifecycle](https://wiki.lfenergy.org/display/HOME/New+Proposals+Process).
+        Please also note you must be available to lead this discussion on a TAC meeting. You can get information on TAC meetings and how to join the meetings at https://wiki.lfenergy.org/display/HOME/Technical+Advisory+Council.
+  - type: textarea
+    attributes:
+      label: Mission Statement
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Description
+      description: (what it does, why it is valuable, origin and history)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Is this a new project or an existing one?
+    validations:
+      required: true 
+  - type: textarea
+    attributes:
+      label: Current lead(s)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Sponsoring organization(s), along with any other key contributing individuals and/or organizations
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: |
+        Detail any existing community infrastructure, including:
+          - Github/GitLab, or other location where the code is hosted
+          - Website and/or docs
+          - Communication channels ( such as Mailing lists, Slack, IRC )
+          - Social Media Accounts
+    validations:
+      required: true 
+  - type: textarea
+    attributes:
+      label: |
+        Are there any specific infrastructure needs or requests outside of what is provided normally by LF Energy ? If so please detail them.
+      description: |
+        ( please refer to the [lifecycle](https://wiki.lfenergy.org/display/HOME/Technical+Project+Lifecycle) for project benefits )
+    validations:
+      required: true 
+  - type: textarea
+    attributes:
+      label: Why would this be a good candidate for inclusion in LF Energy?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: How would this benefit from inclusion in LF Energy?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Provide a statement on alignment with the mission in the LF Energy charter.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What specific need does this project address?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe how this project impacts the energy industry.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe how this project intersects with other LF Energy projects/working groups/special interest groups.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Who are the potential benefactors of this project?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What other organizations in the world should be interested in this project?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Plan for growing in maturity if accepted within LF Energy
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Project license
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Is the project's code available now? If so provide a link to the code location.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Does this project have ongoing public (or private) technical meetings?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Does this project's community venues have a code of conduct? If so, please provide a link to it?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe the project's leadership team and decision-making process.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Does this project have public governance (more than just one organization)?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Does this project have a development schedule and/or release schedule?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Does this project have dependencies on other open source projects? Which ones?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe the project's documentation.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe any trademarks associated with the project.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Do you have a project roadmap? If so please attach or provide a link.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Are this project's roadmap and meeting minutes public posted?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Does this project have a legal entity and/or registered trademarks?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Has this project been announced or promoted in any press?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Does this project compete with other open source projects or commercial products?
+    validations:
+      required: true
