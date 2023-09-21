@@ -17,8 +17,7 @@ jobs:
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
         with:
           fromMailAddress: 'operations@lfenergy.org'
-          toMailAddress: 'jmertic@linuxfoundation.org'
-          #toMailAddress: 'tac@lists.lfenergy.org'
+          toMailAddress: 'tac@lists.lfenergy.org'
           subjectPrefix: 'Submission -'
           subject: 'New Project/WG'
           labelsToMonitor: '1-new-project-wg'
