@@ -1,0 +1,47 @@
+---
+name: LF Energy Ambassador Application
+description: Apply to be an LF Energy Ambassador.
+title: 'Ambassador Application - NAME'
+labels: ["4-ambassador-application"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interested in the LF Energy Foundation Ambassador Program. Please put your name in the title above replacing NAME, and then answer the questions below to be considered for the program. Please refer to the guideance in the [Ambassador Program Overview](https://lfenergy.org/ambassador-program/) if you have any questions.
+  - type: textarea
+    attributes:
+      label: Email
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Job title and organization name
+      description:
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Bio
+      description: Tell us about your background
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: LF Energy projects you would like to be an Ambassador for
+    validations:
+      required: true 
+  - type: textarea
+    attributes:
+      label: List any other topics you would be able to speak about
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Why do you want to be an Ambassador?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Please attach a headshot
+    validations:
+      required: true
