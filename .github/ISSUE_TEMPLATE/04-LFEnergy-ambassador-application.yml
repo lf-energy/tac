@@ -8,12 +8,12 @@ body:
     attributes:
       value: |
         Thank you for your interested in the LF Energy Foundation Ambassador Program. Please put your name in the title above replacing NAME, and then answer the questions below to be considered for the program. Please refer to the guideance in the [Ambassador Program Overview](https://lfenergy.org/ambassador-program/) if you have any questions.
-  - type: textarea
+  - type: input
     attributes:
       label: Email
     validations:
       required: true
-  - type: textarea
+  - type: input
     attributes:
       label: Job title and organization name
       description:
@@ -25,9 +25,31 @@ body:
       description: Tell us about your background
     validations:
       required: true
-  - type: textarea
+  - type: dropdown
     attributes:
       label: LF Energy projects you would like to be an Ambassador for
+      multiple: true
+      options:
+        - EVerest
+        - Grid eXchange Fabric
+        - OperatorFabric
+        - PowSyBl
+        - SEAPATH
+        - SOGNO
+        - CoMPAS
+        - Dynaωo
+        - FledgePOWER
+        - FlexMeasures
+        - Grid Capacity Map
+        - Hyphae
+        - OpenEEmeter
+        - openLEADR
+        - OpenSTEF
+        - Shapeshifter
+        - Arras
+        - OpenGEH
+        - Power Grid Model
+        - Real Time Data Ingestion Platform (RTDIP)
     validations:
       required: true 
   - type: textarea
