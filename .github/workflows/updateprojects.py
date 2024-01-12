@@ -25,7 +25,7 @@ with urllib.request.urlopen(landscapeHostedProjects) as hostedProjectsResponse:
                 projectData = json.load(singleItemResponse)
                 categories = []
                 categories.append(projectData['path'])
-                if projectData['second_path']:
+                if 'second_path' in projectData:
                     categories = categories + projectData['second_path']
                 print("Processing {}...".format(projectData['name']))
                 csvRows.append({
