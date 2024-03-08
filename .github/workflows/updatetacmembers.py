@@ -26,10 +26,10 @@ with urllib.request.urlopen(committeeURL) as committeeURLResponse:
                 'Full Name': "{} {}".format(committeeMember['FirstName'],committeeMember['LastName']),
                 'Account Name: Account Name': committeeMember['Organization']['Name'],
                 'Appointed By': committeeMember['AppointedBy'] if 'AppointedBy' in committeeMember else None,
-                'Voting Status': committeeMember['VotingStatus'],
-                'Special Role': committeeMember['Role'],
-                'Title': committeeMember['Title'],
-                'HeadshotURL': committeeMember['LogoURL']
+                'Voting Status': committeeMember['VotingStatus'] if 'VotingStatus' in committeeMember else None,
+                'Special Role': committeeMember['Role'] if 'Role' in committeeMember else None,
+                'Title': committeeMember['Title'] if 'Title' in committeeMember else None,
+                'HeadshotURL': committeeMember['LogoURL'] if 'LogoURL' in committeeMember else None
                 })
 
 with open(tacmembersCsvFile, 'w') as tacmembersCsvFileObject:
