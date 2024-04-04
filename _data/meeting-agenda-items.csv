@@ -1,12 +1,14 @@
 title,url,number,status
 GXF,https://github.com/lf-energy/tac/issues/8,8,Future Meeting Agenda Items
+New Project Proposal - Energy IoT Open Source,https://github.com/lf-energy/tac/issues/113,113,Upcoming Meeting Agenda Items
+SOGNO,https://github.com/lf-energy/tac/issues/75,75,Upcoming Meeting Agenda Items
 use Zulip instead of slack,https://github.com/lf-energy/tac/issues/48,48,Upcoming Meeting Agenda Items
 Transition to LFX Meeting Management for all projects,https://github.com/lf-energy/tac/issues/39,39,Upcoming Meeting Agenda Items
 CitrineOS,https://github.com/lf-energy/tac/issues/59,59,Future Meeting Agenda Items
 Hyphae,https://github.com/lf-energy/tac/issues/74,74,Future Meeting Agenda Items
 Power Grid Model,https://github.com/lf-energy/tac/issues/81,81,Future Meeting Agenda Items
-Sylva project presentation,https://github.com/lf-energy/tac/issues/61,61,Upcoming Meeting Agenda Items
-New Working Group/Special Interest Group Proposal - Digital Substation Automation Systems (DSAS),https://github.com/lf-energy/tac/issues/89,89,Future Meeting Agenda Items
+Sylva project presentation,https://github.com/lf-energy/tac/issues/61,61,Future Meeting Agenda Items
+Digital Substation Automation Systems (DSAS),https://github.com/lf-energy/tac/issues/89,89,Future Meeting Agenda Items
 Security Strategy updates for LF Energy hosted projects,https://github.com/lf-energy/tac/issues/14,14,Upcoming Meeting Agenda Items
 Schedule guest speakers,https://github.com/lf-energy/tac/issues/31,31,Upcoming Meeting Agenda Items
 SEAPATH ,https://github.com/lf-energy/tac/issues/73,73,Future Meeting Agenda Items
@@ -27,5 +29,3 @@ covXtreme,https://github.com/lf-energy/tac/issues/66,66,Future Meeting Agenda It
 Archimate WG,https://github.com/lf-energy/tac/issues/93,93,Future Meeting Agenda Items
 FlexMeasures,https://github.com/lf-energy/tac/issues/27,27,Future Meeting Agenda Items
 CoMPAS ,https://github.com/lf-energy/tac/issues/72,72,Future Meeting Agenda Items
-Real Time Data Ingestion Platform (RTDIP),https://github.com/lf-energy/tac/issues/26,26,Future Meeting Agenda Items
-OperatorFabric,https://github.com/lf-energy/tac/issues/71,71,Future Meeting Agenda Items
