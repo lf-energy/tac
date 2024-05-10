@@ -1,7 +1,12 @@
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans%3A700%7CRoboto+Slab%3A500&amp;display=swap&amp;ver=1683165598);
 
-#projects_with_bestpractices {
+p:has(+dl[id$="_projects_with_bestpractices"]),
+h2:has(+p+dl[id$="_projects_with_bestpractices"]) {
+  text-align: center;
+}
+ 
+dl[id$="_projects_with_bestpractices"] {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
