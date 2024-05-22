@@ -2,6 +2,7 @@ title: LF Energy Foundation TAC
 description: Materials and processes for the LF Energy Foundation TAC
 logo: "https://artwork.lfenergy.org/other/lf-energy/horizontal/color/lf-energy-horizontal-color.svg"
 theme: just-the-docs
+repository: lf-energy/tac
 
 exclude: [
   "README.md",
@@ -12,7 +13,8 @@ exclude: [
   "package.json", 
   "package-lock.json",
   "CODE_OF_CONDUCT.md",
-  "LICENSE"
+  "LICENSE",
+  "vendor"
 ]
 
 back_to_top: true
