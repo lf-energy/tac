@@ -1,7 +1,6 @@
 ---
 parent: Meetings
 title: "Meeting Template"
-layout: minimal
 nav_exclude: true
 ---
 
@@ -12,69 +11,107 @@ parent: Meetings
 title: "{{ "now" | date: "%Y-%m-%d" }}"
 ---
 
-# {{ site.foundation_name }} TAC Meeting - {{ "now" | date: "%B %e, %Y" }}
+# Academy Software Foundation - Technical Advisory Council (TAC) Meeting - {{ "now" | date: "%B %e, %Y" }}
 
-# Attendance
+Join the meeting at [https://zoom-lfx.platform.linuxfoundation.org/meeting/97880950229?password=81d2940e-c055-43b9-9b5a-6cd7d7090feb](https://zoom-lfx.platform.linuxfoundation.org/meeting/97880950229?password=81d2940e-c055-43b9-9b5a-6cd7d7090feb)
 
-## Voting member attendance
+## Voting Representative Attendees
 
-{% for member in site.data.tacmembers %}
-{%- if member["Appointed By"] == "Membership Entitlement" -%}
+### Premier Member Representatives
+{% for member in site.data.tacmembers -%}
+{% if member["Appointed By"] == "Membership Entitlement" %}
 - [ ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
-{%- elsif member["Appointed By"] == "Vote of TSC Committee" -%}
+{%- endif -%}
+{% endfor %}
+
+### Project Representatives
+{% for member in site.data.tacmembers -%}
+{% if member["Appointed By"] == "Vote of TSC Committee" and member['Voting Status'] != 'Observer' %}
 {%- for project in site.data.projects -%}
-{%- assign tac_representative = project["TAC Representative"] | upcase -%}
-{%- assign leads = project["Leads"] | upcase -%}
-{%- assign full_name = member["Full Name"] | upcase -%}
-{%- if tac_representative == full_name -%}
+{% if project["TAC Representative"] contains member["Full Name"] %}
 - [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
-{%- elsif leads == full_name -%}
+{%- break -%}
+{% elsif project["Leads"] contains member["Full Name"] %}
 - [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
+{%- break -%}
 {%- endif -%}
 {%- endfor -%}
-{% endif %}
+{%- endif -%}
 {% endfor %}
-## Other attendees
 
-# Antitrust Policy Notice
+### Industry Representatives
+{% for member in site.data.tacmembers -%}
+{% if member["Appointed By"] == "Vote of TAC Committee" %}
+- [ ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
+{%- endif -%}
+{% endfor %}
+
+## Non-Voting Attendees
+
+### Non-Voting Project and Working Group Representatives
+{% for member in site.data.tacmembers -%}
+{%- if member['Voting Status'] == 'Observer' -%}
+{%- for project in site.data.projects -%}
+{% if project["TAC Representative"] contains member["Full Name"] %}
+- [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
+{%- break -%}
+{% elsif project["Leads"] contains member["Full Name"] %}
+- [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
+{%- break -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endif -%}
+{% endfor %}
+
+### LF Staff
+{% for member in site.data.tacmembers -%}
+{% if member["Special Role"] == "LF Staff" %}
+- [ ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
+{%- endif -%}
+{% endfor %}
+
+### Other Attendees
+
+
+## Antitrust Policy Notice
 
 Linux Foundation meetings involve participation by industry competitors, and it
-is the intention of the Linux Foundation to conduct all of its activities in 
-accordance with applicable antitrust and competition laws. It is therefore 
-extremely important that attendees adhere to meeting agendas, and be aware of, 
-and not participate in, any activities that are prohibited under applicable US 
+is the intention of the Linux Foundation to conduct all of its activities in
+accordance with applicable antitrust and competition laws. It is therefore
+extremely important that attendees adhere to meeting agendas, and be aware of,
+and not participate in, any activities that are prohibited under applicable US
 state, federal or foreign antitrust and competition laws.
 
-Examples of types of actions that are prohibited at Linux Foundation meetings 
-and in connection with Linux Foundation activities are described in the Linux 
-Foundation Antitrust Policy available at 
-[linuxfoundation.org/antitrust-policy](https://www.linuxfoundation.org/antitrust-policy). 
-If you have questions about these matters, please contact your company counsel, 
-or if you are a member of the Linux Foundation, feel free to contact Andrew 
-Updegrove of the firm of Gesmer Updegrove LLP, which provides legal counsel to 
+Examples of types of actions that are prohibited at Linux Foundation meetings
+and in connection with Linux Foundation activities are described in the Linux
+Foundation Antitrust Policy available at
+[linuxfoundation.org/antitrust-policy](https://www.linuxfoundation.org/antitrust-policy).
+If you have questions about these matters, please contact your company counsel,
+or if you are a member of the Linux Foundation, feel free to contact Andrew
+Updegrove of the firm of Gesmer Updegrove LLP, which provides legal counsel to
 the Linux Foundation.
 
-# Meeting Recording
+## Agenda
 
-Meeting recording and transcript is [here]()
-
-# Agenda
-
-{% assign agendaitems = site.data.meeting-agenda-items | where: "status", "Upcoming Meeting Agenda Items" %}
+{% assign agendaitems = site.data.meeting-agenda-items | where: "status", "Upcoming Meeting Agenda Items" | sort: "meeting_label" -%}
+- General Updates
 {%- for agendaitem in agendaitems -%}
-- {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
+{%- if agendaitem.meeting_label == "4-tac-meeting-short" %}
+  - {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
+{%- endif -%}
 {% endfor %}
-# Notes
-
-# Next Meeting Agenda
-
-{% assign agendaitems = site.data.meeting-agenda-items | where: "status", "Next Meeting Agenda Items" %}
-{%- for agendaitem in agendaitems -%}
+{% for agendaitem in agendaitems -%}
+{%- if agendaitem.meeting_label != "4-tac-meeting-short" -%}
 - {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
+{%- endif %}
 {% endfor %}
+## Notes
+
+
 {%- endcapture -%}
 {{ agenda }}
 </pre>
 
-<a href="https://github.com/lf-energy/tac/new/main/meetings?filename={{ "now" | date: "%Y-%m-%d" }}.md&value={{ agenda | url_encode }}">Create Pull Request</a> | 
+<a href="https://github.com/AcademySoftwareFoundation/tac/new/main/meetings?filename={{ "now" | date: "%Y-%m-%d" }}.md&value={{ agenda | url_encode }}">Create Pull Request</a> | 
+
 
