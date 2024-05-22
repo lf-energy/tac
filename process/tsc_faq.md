@@ -1,6 +1,6 @@
 ---
-parent: Project Lifecycle
-grand_parent: Processes
+parent: Processes
+nav_order: 60
 ---
 
 # Technical Steering Committee (TSC) FAQ

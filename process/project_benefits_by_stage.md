@@ -1,7 +1,6 @@
 ---
-grand_parent: Processes
-parent: Project Lifecycle
-nav_order: 3
+parent: Processes
+nav_order: 30
 ---
 
 # Project Benefits by Stage

@@ -1,7 +1,6 @@
 ---
-parent: Project Lifecycle
-grand_parent: Processes
-nav_order: 1
+parent: Processes
+nav_order: 10
 ---
 
 # Bringing a project here

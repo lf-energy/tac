@@ -1,7 +1,7 @@
 ---
 parent: Processes
 title: Project Lifecycle
-has_children: true
+nav_order: 20
 ---
 
 # {{ site.foundation_name }} - Project Lifecycle

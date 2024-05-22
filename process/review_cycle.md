@@ -1,7 +1,6 @@
 ---
-grand_parent: Processes
-parent: Project Lifecycle
-nav_order: 80
+parent: Processes
+nav_order: 40
 ---
 
 # Project Review Cycle
