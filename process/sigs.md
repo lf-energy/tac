@@ -5,6 +5,7 @@ nav_order: 40
 
 # Special Interest Groups (SIGs)
 
+* TOC
 {:toc}
 
 {{ site.foundation_name }} hosts several Special Interest Groups (SIGs), which serve the role of being focal points for specific topics or focus areas within the technical work happening in {{ site.foundation_name }}. Current SIG sanctioned include...
