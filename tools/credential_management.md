@@ -6,7 +6,6 @@ parent: Tools
 
 In order to maintain all credentials for community resources in a secure manner, the {{ site.foundation_name }} uses [1Password Teams](https://github.com/1Password/1password-teams-open-source). This credential store contains usernames and passwords for services such as:
 
-- Zoom
 - Build Infrastructure
 - Community social accounts
 

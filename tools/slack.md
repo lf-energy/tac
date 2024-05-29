@@ -25,7 +25,7 @@ Some channels have specific rules or guidelines. If they do, they will be listed
 
 ## Requesting a Channel
 
-To add a channel, please [submit a request].
+To add a channel, please [submit a request][].
 
 Some general guidelines on new channels...
 
@@ -43,11 +43,11 @@ Some general guidelines on new channels...
 
 Bots, tokens, and webhooks are reviewed on a case-by-case basis, with most requests being rejected due to security, privacy, and usability concerns. Bots and the like tend to make a lot of noise in channels. The {{ site.foundation_name }} Slack instance has thousands of members and is crucial to ensure everyone has a great experience.
 
-Typically approved requests include: GitHub, tool requests, or other tools/platforms used to manage Slack. Please [submit a request] to have this reviewed.
+Typically approved requests include: GitHub, tool requests, or other tools/platforms used to manage Slack. Please [submit a request][] to have this reviewed.
 
 ## Escalating and Reporting Problems
 
-Please [submit a request] if you encounter an issue using the {{ site.foundation_name }} Slack.
+Please [submit a request][] if you encounter an issue using the {{ site.foundation_name }} Slack.
 
 [Code of Conduct]: /code_of_conduct
 [submit a request]: {{ site.helpdesk_url }}

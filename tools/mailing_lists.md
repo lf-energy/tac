@@ -11,11 +11,11 @@ parent: Tools
 
 ## Key mailing lists
 
-The primary mailing list for all technical community discussions is the [TAC Mailing List]({{ site.tac_mailinglist_url }}). Each hosted project and working group has its own mailing list as well, which are [listed in the project listing in the TAC repo](/#tac-projects).
+The primary mailing list for all technical community discussions is the [TAC Mailing List][]. Each hosted project and working group has its own mailing list as well, which are [listed in the project listing in the TAC repo](/#tac-projects).
 
 ## Moderation and Moderation Guidelines
 
-By default, TSC voting members serve as the moderator for discussions on the [TAC Mailing List]({{ site.tac_mailinglist_url }}), and each hosted project's TSC will serve as moderators for its mailing lists. Moderation privileges can be extended to others upon a vote by the TAC or respective TSC as applicable.
+By default, TSC voting members serve as the moderator for discussions on the [TAC Mailing List][], and each hosted project's TSC will serve as moderators for its mailing lists. Moderation privileges can be extended to others upon a vote by the TAC or respective TSC as applicable.
 
 Being a moderator is as much a privilege as it is a duty. As part of volunteering to become a moderator, you now represent the {{ site.foundation_name }} community. It is your responsibility to remain aware of your contributions in this space. These responsibilities apply to all official {{ site.foundation_name }} channels.
 
@@ -51,3 +51,4 @@ Being a moderator is as much a privilege as it is a duty. As part of volunteerin
 - Contact the list moderators if there are concerns about the [Code of Conduct][].
 
 [Code of Conduct]: /code_of_conduct
+[TAC Mailing List]: {{ site.tac_mailinglist_url }}

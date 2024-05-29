@@ -20,7 +20,7 @@ When a new project or repository is to be added, please [submit a request]({{ si
 If adding the new project or repository will include a significant contribution, requesting a code license scan is highly recommended before bringing the code in. This scan will look for and will provide recommendations (or, in some cases, required prior remediation) for:
 
 - The presence of third-party licenses (OSI-approved or otherwise) that might be considered incompatible with the project's license
-- Presence of headers with the project's designated license(s) and preferred copyright notices in project files (refer to the [License Specification in the Contribution Guidelines](https://github.com/openmainframeproject/tac/blob/master/process/contribution_guidelines.md#license-specification) for more information)
+- Presence of headers with the project's designated license(s) and preferred copyright notices in project files (refer to the [License Specification in the Contribution Guidelines](/process/contribution_guidelines.md#license-specification) for more information)
 - Any other best practices guidance 
 
 Typically code license scans are a quick turnaround, but that might take longer for more significant code bases.
@@ -49,6 +49,10 @@ Generally, the following settings apply to all hosted project repositories and o
 ### DCO
 
 By default, all GitHub repositories have both the [GitHub DCO App][] installed and [commit signoffs enabled][GitHub commit signoff policy]. DCO guidelines for hosted projects are outlined in the [contributing guidelines](/process/contributing#Code+License+Identification).
+
+### CLA
+
+All projects requiring a Contributor License Agreement (CLA) leverage [EasyCLA](https://easycla.lfx.linuxfoundation.org) for automated management. Documentation on EasyCLA can be found [here](https://docs.linuxfoundation.org/lfx/easycla/v2-current).
 
 ### Permissions
 
@@ -96,7 +100,7 @@ All the projects hosted at the {{ site.foundation_name }} are hosted on GitHub, 
 
 ### Working with Markdown files
 
-Markdown files (.md) are commonly used on GitHub for documentation and other non-code assets. They look similar to a document but have markings to allow for formatting. It can be easier to work with Markdown by using tools. You can find information on the types of elements used in GitHub Markdown here: https://guides.github.com/features/mastering-markdown/.
+Markdown files (.md) are commonly used on GitHub for documentation and other non-code assets. They look similar to a document but have markings to allow for formatting. It can be easier to work with Markdown by using tools. You can find information on the types of elements used in GitHub Markdown [here](https://guides.github.com/features/mastering-markdown/).
 
 There are also various tools you can use to help you see how your Markdown file will look when uploaded to GitHub. A good list of markdown editors can be found at [Awesome Markdown Editors & (Pre)viewers](https://github.com/mundimark/awesome-markdown-editors).
 
@@ -126,7 +130,7 @@ As project communities and members look for the {{ site.foundation_name }} to pr
 
 If there are concerns about this, feel free to [submit a request][].
 
-[submit a request]: https://servicedesk.openmainframeproject.org
+[submit a request]: {{ site.helpdesk_url }} 
 [Code of Conduct]: /code_of_conduct
 [GitHub commit signoff policy]: https://docs.github.com/en/organizations/managing-organization-settings/managing-the-commit-signoff-policy-for-your-organization
 [GitHub DCO App]: https://github.com/apps/dco
