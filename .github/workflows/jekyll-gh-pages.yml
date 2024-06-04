@@ -39,13 +39,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4.1.6
       - name: Setup Ruby
-        uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
+        uses: ruby/setup-ruby@d5fb7a202fc07872cb44f00ba8e6197b70cb0c55 # v1.179.0
         with:
           ruby-version: '3.2.2'
           bundler-cache: true
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@b8130d9ab958b325bbde9786d62f2c97a9885a0e # v3.0.7
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
@@ -53,7 +53,7 @@ jobs:
           JEKYLL_ENV: production
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@a753861a5debcf57bf8b404356158c8e1e33150c # v2.0.0
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
 
   # Deployment job
   deploy:
@@ -70,4 +70,4 @@ jobs:
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@de14547edc9944350dc0481aa5b7afb08e75f254 # v2.0.5
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4.0.5
