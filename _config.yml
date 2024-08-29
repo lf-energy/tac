@@ -2,6 +2,10 @@ title: LF Energy Foundation TAC
 description: Materials and processes for the LF Energy Foundation TAC
 logo: "https://artwork.lfenergy.org/other/lf-energy/horizontal/color/lf-energy-horizontal-color.svg"
 theme: just-the-docs
+<<<<<<< HEAD
+=======
+repository: lf-energy/tac
+>>>>>>> origin/main
 
 exclude: [
   "README.md",
@@ -12,7 +16,12 @@ exclude: [
   "package.json", 
   "package-lock.json",
   "CODE_OF_CONDUCT.md",
+<<<<<<< HEAD
   "LICENSE"
+=======
+  "LICENSE",
+  "vendor"
+>>>>>>> origin/main
 ]
 
 back_to_top: true
@@ -24,11 +33,30 @@ gh_edit_repository: "https://github.com/lf-energy/tac" # the github URL for your
 gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree"
 
+<<<<<<< HEAD
 landscape_url: 'https://landscape.lfenergy.org'
 calendar_url: 'https://calendar.lfenergy.org'
 slack_url: 'https://slack.lfenergy.org'
 membership_top_tier: 'Strategic'
 foundation_name: 'LF Energy Foundation'
+=======
+# Various URLs used across the site
+landscape_url: 'https://landscape.lfenergy.org'
+calendar_url: 'https://calendar.lfenergy.org'
+slack_url: 'https://slack.lfenergy.org'
+directed_fund_charter_url: 'https://charter.lfenergy.org'
+tac_issues_url: 'https://github.com/lf-energy/tac/issues/new'
+helpdesk_url: "https://servicedesk.lfenergy.org"
+tac_mailing_list_url: "https://lists.lfenergy.org/g/tac"
+website_url: "https://lfenergy.org"
+blog_url: "https://lfenergy.org/blog"
+
+# Foundation Settings
+membership_top_tier: 'Strategic'
+foundation_name: 'LF Energy'
+favicon_ico: "css/img/favicon.png"
+clotributor_name: "lfenergy"
+>>>>>>> origin/main
 
 aux_links:
   "Need help or have a question? Contact us here":
@@ -37,9 +65,27 @@ footer_content: Copyright &copy; The Linux Foundation&reg;. All rights reserved.
 
 readme_index:
   with_frontmatter: true
+<<<<<<< HEAD
   
 
 kramdown:
+=======
+
+ga_tracking: 361402579
+ga_tracking_anonymize_ip: true
+
+plugins:
+  - jekyll-redirect-from
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "10.9.0"
+
+kramdown:
+  parse_block_html: true
+  toc_levels: 2..6
+>>>>>>> origin/main
   input: GFM
   extensions:
     - autolink

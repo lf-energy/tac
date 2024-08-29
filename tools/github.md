@@ -11,9 +11,15 @@ parent: Tools
 
 This document outlines project policies and procedures using GitHub for code hosting. In addition, the Linux Foundation release engineering team maintains [documentation](https://docs.releng.linuxfoundation.org/en/latest/) on its services, policies, and procedures.
 
+<<<<<<< HEAD
 ## New project setup
 
 When bringing in a new project, please [submit a request]({{ site.helpdesk_url }}) to facilitate the process. The LF Staff can assist in provisioning a new GitHub repository or organization, or helping transfer the ownership of an existing one.
+=======
+## New project or repository
+
+When a new project or repository is to be added, please [submit a request]({{ site.helpdesk_url }}) to facilitate the process.
+>>>>>>> origin/main
 
 ### Code license scan
 
@@ -25,6 +31,15 @@ If adding the new project or repository will include a significant contribution,
 
 Typically code license scans are a quick turnaround, but that might take longer for more significant code bases.
 
+<<<<<<< HEAD
+=======
+### Repository setup
+
+Generally, most projects utilize the existing {{ site.foundation_name }} GitHub organization, especially if they intend to have a single repository. This practice enables the easiest discoverability of the project.
+
+If a project anticipates having multiple repositories, the {{ site.foundation_name }} staff can provision a GitHub organization specific to that project. The same policies apply to the administration and access control with either option.
+
+>>>>>>> origin/main
 ### Code migration
 
 There are two strategies for migrating the code to a hosted project repository.
@@ -35,6 +50,7 @@ There are two strategies for migrating the code to a hosted project repository.
 ```
 I, <AUTHOR NAME> <<AUTHOR EMAIL>> hereby sign-off-by all of the commits prior to and including <COMMIT_HASH> to this repo subject to the Developer Certificate of Origin (DCO), Version 1.1. 
 ```
+<<<<<<< HEAD
 ## Required Settings
 
 Generally, the following settings apply to all hosted project repositories and organizations.
@@ -43,6 +59,13 @@ Generally, the following settings apply to all hosted project repositories and o
 
 All GitHub organizations require the GitHub user `thelinuxfoundation` to be added as an [Organization Owner](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#organization-owners). Please do not remove this user as it both ties into the LFX tooling, and also provides a path for the LF Staff to access the GitHub organization if the current owners are not available.
 
+=======
+
+## Settings
+
+Generally, the following settings apply to all hosted project repositories and organizations.
+
+>>>>>>> origin/main
 ### DCO
 
 By default, all GitHub repositories have both the [GitHub DCO App][] installed and [commit signoffs enabled][GitHub commit signoff policy]. DCO guidelines for hosted projects are outlined in the [contributing guidelines](/process/contributing#Code+License+Identification).
@@ -51,6 +74,7 @@ By default, all GitHub repositories have both the [GitHub DCO App][] installed a
 
 All projects requiring a Contributor License Agreement (CLA) leverage [EasyCLA](https://easycla.lfx.linuxfoundation.org) for automated management. Documentation on EasyCLA can be found [here](https://docs.linuxfoundation.org/lfx/easycla/v2-current).
 
+<<<<<<< HEAD
 ### GitHub Apps
 
 All project repositories will have the following GitHub Apps installed to faciliate DCO and CLA management, along with integration with LFX tools.
@@ -61,6 +85,17 @@ All project repositories will have the following GitHub Apps installed to facili
 - Linux Foundation: EasyCLA (_only if using CLAs_)
 
 Please do not remove any of these GitHub Apps unless you have permission from the LF Staff.
+=======
+### Permissions
+
+Projects should define a COMMITTERS.* file for indicating committers that can merge in code to a repository. The list of committers is generally approved by the TSC or the committers, aligning with the requirements described in the project's governance. Permissions are managed using GitHub teams, where the TSC or committers will have a team, and that team will be given ['maintain' permission](https://docs.github.com/en/github/setting-up-and-managing-organizations-and-teams/repositoriesitory-permission-levels-for-an-organization#permission-levels-for-repositoriesitories-owned-by-an-organization) on the repositories.
+
+The best process for adding a new committer is to have that committer issue a pull request to add their name to the COMMITTERS.* file, where the required number of TSC members or committers can +1 the request, and the TSC chairperson can merge in it and can add the individual to the team.
+
+### Adding read-only members to an organization
+
+By default, hosted project GitHub organizations and repositories have enabled the [invite-contributors](https://probot.github.io/apps/invite-contributors/) GitHub app installed, which will automatically send an invite to anyone with a successful merged pull request to join the organization as a member. The *member* permission is read-only by default, but this enables members to have issues and pull requests assigned to them and be tagged inside of issues and pull requests.
+>>>>>>> origin/main
 
 ### Branch protection
 
@@ -68,6 +103,7 @@ The below branch protection settings on the `master` or `main` branch are enable
 
 ![](./assets/branch_protection.png)
 
+<<<<<<< HEAD
 ## Best Practices
 
 ### Permissions
@@ -95,6 +131,21 @@ As {{ site.foundation_name }} uses [CLOTributor] to help new contributors discov
 Defining a CODEOWNERS makes an automated process for assigning new pull requests to the right committers for review. Read more in the [GitHub CODEOWNERS documentation.](https://docs.github.com/en/github/creating-cloning-and-archiving-repositoriesitories/about-code-owners#about-code-owners)
 
 #### Project boards
+=======
+## Issue management
+
+Generally, projects leverage GitHub Issues for issue management. While each project is encouraged to develop its issue management strategy, below are some best practices for issue management.
+
+### Issue and pull request templates
+
+Using an issue or pull template request helps ensure the project maintainers have the right context and information to process these requests. More information on how to set this up is in the [GitHub issue and pull request documentation](https://docs.github.com/en/github/building-a-strong-community/about-issue-and-pull-request-templates).
+
+### CODEOWNERS
+
+Defining a CODEOWNERS makes an automated process for assigning new pull requests to the right committers for review. Read more in the [GitHub CODEOWNERS documentation.](https://docs.github.com/en/github/creating-cloning-and-archiving-repositoriesitories/about-code-owners#about-code-owners)
+
+### Project boards
+>>>>>>> origin/main
 
 Issue triaging can be complicated and overwhelming, especially when managing a project to a release point. For projects that utilize an organization, having a single view of open issues across repositories is also very helpful in release management.
 
@@ -146,4 +197,7 @@ If there are concerns about this, feel free to [submit a request][].
 [Code of Conduct]: /code_of_conduct
 [GitHub commit signoff policy]: https://docs.github.com/en/organizations/managing-organization-settings/managing-the-commit-signoff-policy-for-your-organization
 [GitHub DCO App]: https://github.com/apps/dco
+<<<<<<< HEAD
 [CLOTributor]: https://clotributor.dev/search?foundation={{ site.clotributor_name }}
+=======
+>>>>>>> origin/main

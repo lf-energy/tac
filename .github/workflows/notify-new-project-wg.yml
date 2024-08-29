@@ -1,0 +1,28 @@
+name: Notify TAC when a new project or working group is submitted
+
+on:
+  issues:
+    types:
+      - opened
+      - labeled
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@f086349bfa2bd1361f7909c78558e816508cdc10 # v2.8.0
+        with:
+          egress-policy: audit
+
+      - name: Notify TAC
+        uses: timheuer/issue-notifier@e49f1d2faf914fe5c7c028162adff3050234c70b # v1.0.4
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+        with:
+          fromMailAddress: 'operations@lfenergy.org'
+          toMailAddress: 'newprojectwg@lfenergy.org'
+          subjectPrefix: 'Submission -'
+          subject: 'New Project/WG'
+          labelsToMonitor: '1-new-project-wg'

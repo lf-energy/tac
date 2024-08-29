@@ -6,19 +6,27 @@
 # encoding=utf8
 
 import csv
+<<<<<<< HEAD
 import requests
 import urllib.request
+=======
+>>>>>>> origin/main
 import json
 import os
 import subprocess
 
 csvFile = os.path.dirname(os.path.realpath(__file__))+'/../../_data/meeting-agenda-items.csv'
+<<<<<<< HEAD
 jsonProjectData = subprocess.run("gh project item-list 21 --owner openmainframeproject --format json", shell=True, capture_output=True).stdout
+=======
+jsonProjectData = subprocess.run("gh project item-list 2 --owner lf-energy --format json", shell=True, capture_output=True).stdout
+>>>>>>> origin/main
 
 csvRows = []
 projectData = json.loads(jsonProjectData)
 for item in projectData['items']:
     print("Processing {}...".format(item['content']['title']))
+<<<<<<< HEAD
     meetingItem = {
         'title': item['content']['title'],
         'url': item['content']['url'],
@@ -38,6 +46,14 @@ for item in projectData['items']:
     else:
         meetingItem['meeting_label'] = None
     csvRows.append(meetingItem)
+=======
+    csvRows.append({
+        'title': item['content']['title'],
+        'url': item['content']['url'],
+        'number': item['content']['number'],
+        'status': item['status'] if 'status' in item else None
+        })
+>>>>>>> origin/main
 
 with open(csvFile, 'w') as csvFileObject:
     writer = csv.DictWriter(csvFileObject, fieldnames = csvRows[0].keys())

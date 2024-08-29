@@ -25,7 +25,11 @@ below.
 
 {%- include calendar.html -%}
 
+<<<<<<< HEAD
 ## Mailing Lists and Slack channels for hosted projects
+=======
+## Connecting with hosted projects
+>>>>>>> origin/main
 
 Each project hosted at the {{ site.foundation_name }} collaborates on open channels
 that are welcome for anyone in the community to participate in. See the below

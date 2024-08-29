@@ -25,7 +25,11 @@ with urllib.request.urlopen(landscapeHostedProjects) as hostedProjectsResponse:
                 projectData = json.load(singleItemResponse)
                 categories = []
                 categories.append(projectData['path'])
+<<<<<<< HEAD
                 if projectData['second_path']:
+=======
+                if 'second_path' in projectData:
+>>>>>>> origin/main
                     categories = categories + projectData['second_path']
                 print("Processing {}...".format(projectData['name']))
                 csvRows.append({
@@ -37,10 +41,16 @@ with urllib.request.urlopen(landscapeHostedProjects) as hostedProjectsResponse:
                         'Website': projectData['homepage_url'],
                         'Leads': projectData['extra']['leads'] if 'extra' in projectData and 'leads' in projectData['extra'] else None,
                         'TAC Representative': projectData['extra']['TAC_representative'] if 'extra' in projectData and 'TAC_representative' in projectData['extra'] else None,
+<<<<<<< HEAD
                         'Documentation': projectData['extra']['docs_url'] if 'extra' in projectData and 'docs_url' in projectData['extra'] else None,
                         'SBOM': projectData['extra']['SBOM'] if 'extra' in projectData and 'SBOM' in projectData['extra'] else None,
                         'Calendar': projectData['extra']['calendar_url'] if 'extra' in projectData and 'calendar_url' in projectData['extra'] else None,
                         'iCal': projectData['extra']['ical_url'] if 'extra' in projectData and 'ical_url' in projectData['extra'] else None,
+=======
+                        'Documentation': projectData['extra']['documentation'] if 'extra' in projectData and 'documentation' in projectData['extra'] else None,
+                        'SBOM': projectData['extra']['SBOM'] if 'extra' in projectData and 'SBOM' in projectData['extra'] else None,
+                        'Calendar': projectData['extra']['calendar'] if 'extra' in projectData and 'calendar' in projectData['extra'] else None,
+>>>>>>> origin/main
                         'Contribution Guidelines': projectData['extra']['contribution_guidelines'] if 'extra' in projectData and 'contribution_guidelines' in projectData['extra'] else None,
                         'Wiki Page': projectData['extra']['wiki_page'] if 'extra' in projectData and 'wiki_page' in projectData['extra'] else None,
                         'Meeting Cadence': projectData['extra']['meeting_cadence'] if 'extra' in projectData and 'meeting_cadence' in projectData['extra'] else None,
@@ -56,8 +66,12 @@ with urllib.request.urlopen(landscapeHostedProjects) as hostedProjectsResponse:
                         'Dev Mailing List': projectData['extra']['dev_mailing_list_url'] if 'extra' in projectData and 'dev_mailing_list_url' in projectData['extra'] else None,
                         'Primary Github Repo': projectData['project_org'] if 'project_org' in projectData else None,
                         'Best Practices Badge ID': projectData['bestPracticeBadgeId'] if 'bestPracticeBadgeId' in projectData else None,
+<<<<<<< HEAD
                         'Github Org': projectData['repo_url'] if 'repo_url' in projectData else None,
                         'Contributed By': projectData['extra']['contributed_by'] if 'extra' in projectData and 'contributed_by' in projectData['extra'] else None
+=======
+                        'Github Org': projectData['repo_url'] if 'repo_url' in projectData else None
+>>>>>>> origin/main
                         })
 
 with open(projectsCsvFile, 'w') as projectsCsvFileObject:

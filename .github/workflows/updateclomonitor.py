@@ -64,4 +64,8 @@ with urllib.request.urlopen(landscapeHostedProjects) as hostedProjectsResponse:
                     projectEntries.append(projectEntry)
     
 with open(cloMonitorFile, 'w') as cloMonitorFileObject:
+<<<<<<< HEAD
     yaml.dump(projectEntries, cloMonitorFileObject, sort_keys=False, indent=2)
+=======
+    yaml.dump(projectEntries, cloMonitorFileObject, sort_keys=False)
+>>>>>>> origin/main
