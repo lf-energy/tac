@@ -33,5 +33,8 @@ Temporary Items
 
 *.swp
 Gemfile.lock
+<<<<<<< HEAD
+=======
 
 _data/lfenergy.yaml
+>>>>>>> origin/main

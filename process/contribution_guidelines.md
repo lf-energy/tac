@@ -12,7 +12,7 @@ This document captures the general guidelines for contributing to open-source pr
 
 Note that each hosted project may adopt its guidelines, which would supersede these provisions in the case of conflict.
 
-## Two-factor authentication (2FA)
+## Two-factor Authentication (2FA)
 
 To enable more robust security for hosted projects, {{ site.foundation_name }} TAC requires all hosted projects to require Two-factor authentication (2FA) for accessing code repositories. Instructions for GitHub are below...
 
@@ -76,7 +76,7 @@ git() {
 
 ### Signoff for commits where the DCO signoff was missed
 
-When bringing in a code repository for the first time or commits done before the DCO checks are enabled, there would be a series of commits that don't include the sign-off statement. You can retroactively signoff commits you've made by making a commit with your DCO signoff that contains a new text file (the suggested name is past_commits.txt ) with the following contents:
+When bringing in a code repository for the first time or commits done before the DCO checks are enabled, there would be a series of commits that don't include the sign-off statement. You can retroactively signoff commits you've made by making a commit with your DCO signoff that contains a new text file (the suggested name is `past_commits.txt` ) with the following contents:
 
 ````
 The following commits were made pursuant to the Developer Certificate of Origin, even though a Signed-off-by: was not included in the commit message.
@@ -85,9 +85,11 @@ The following commits were made pursuant to the Developer Certificate of Origin,
 ...
 ````
 
-Each user who has made the past commits should have their `Signed-off-by:` line in the commit message.
+Each user who has made past commits should have their own <code>Signed-off-by:</code> line in the commit message.
 
-### Handling DCO errors using GitHub website commits
+This process can be automated using the [DCO Org Check script](https://github.com/jmertic/dco-org-check).
+
+### Handling DCO errors using GitHub website commits.
 
 The [Probot: DCO](https://github.com/probot/dco) app requires that the email address and name specified in the DCO Signoff match that of the current information from the user making the commit. Generally, this is handled automatically when using a local git client, but when making contributions from the GitHub website directly, this needs to be aligned manually.
 

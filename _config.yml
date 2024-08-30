@@ -36,12 +36,13 @@ helpdesk_url: "https://servicedesk.lfenergy.org"
 tac_mailing_list_url: "https://lists.lfenergy.org/g/tac"
 website_url: "https://lfenergy.org"
 blog_url: "https://lfenergy.org/blog"
+tac_lfx_meeting_url: "https://zoom-lfx.platform.linuxfoundation.org/meeting/97880950229?password=81d2940e-c055-43b9-9b5a-6cd7d7090feb" 
 
 # Foundation Settings
-membership_top_tier: 'Strategic'
-foundation_name: 'LF Energy'
-favicon_ico: "css/img/favicon.png"
+foundation_name: 'LF Energy Foundation'
 clotributor_name: "lfenergy"
+membership_top_tier: 'Strategic'
+favicon_ico: "css/img/favicon.png"
 
 aux_links:
   "Need help or have a question? Contact us here":
@@ -54,6 +55,13 @@ readme_index:
 ga_tracking: 361402579
 ga_tracking_anonymize_ip: true
 
+kramdown:
+  input: GFM
+  extensions:
+    - autolink
+  parse_block_html: true
+  toc_levels: 2..6
+
 plugins:
   - jekyll-redirect-from
 
@@ -61,10 +69,3 @@ mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "10.9.0"
-
-kramdown:
-  parse_block_html: true
-  toc_levels: 2..6
-  input: GFM
-  extensions:
-    - autolink
