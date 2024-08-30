@@ -5,29 +5,19 @@ on:
   pull_request:
     types: [labeled]
 
-<<<<<<< HEAD
-=======
 permissions:
   contents: read
 
->>>>>>> origin/main
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-<<<<<<< HEAD
-      - name: Automerge Pull Request if possible
-        uses: "pascalgn/automerge-action@v0.13.0"
-=======
       - name: Harden Runner
         uses: step-security/harden-runner@f086349bfa2bd1361f7909c78558e816508cdc10 # v2.8.0
         with:
           egress-policy: audit
-
       - name: Automerge Pull Request if possible
         uses: pascalgn/automerge-action@d1203c0bf94a827b991e5de69d662e9163304fa0 # v0.16.3
->>>>>>> origin/main
         env:
           GITHUB_TOKEN: "${{ secrets.PAT }}"
           MERGE_LABELS: "automerge"
