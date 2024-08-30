@@ -37,6 +37,7 @@ tac_mailing_list_url: "https://lists.lfenergy.org/g/tac"
 website_url: "https://lfenergy.org"
 blog_url: "https://lfenergy.org/blog"
 tac_lfx_meeting_url: "https://zoom-lfx.platform.linuxfoundation.org/meeting/97880950229?password=81d2940e-c055-43b9-9b5a-6cd7d7090feb" 
+lfscanning_repo_url: https://github.com/lfscanning/spdx-lfenergy
 
 # Foundation Settings
 foundation_name: 'LF Energy Foundation'
