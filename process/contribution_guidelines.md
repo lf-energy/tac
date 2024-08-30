@@ -11,7 +11,6 @@ title: Contribution Guidelines
 This document captures the general guidelines for contributing to open-source projects hosted by {{ site.foundation_name }}. These guidelines express the provisions in the Intellectual Property Policy within [{{ site.foundation_name }} charter]({{ site.directed_fund_charter_url }}).
 
 Note that each hosted project may adopt its guidelines, which would supersede these provisions in the case of conflict.
->>>>>>> origin/main
 
 ## Two-factor Authentication (2FA)
 
