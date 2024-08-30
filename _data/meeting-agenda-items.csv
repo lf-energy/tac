@@ -1,31 +1,31 @@
-title,url,number,status
-Annual Review - GXF,https://github.com/lf-energy/tac/issues/8,8,Future Meeting Agenda Items
-use Zulip instead of slack,https://github.com/lf-energy/tac/issues/48,48,Upcoming Meeting Agenda Items
-Transition to LFX Meeting Management for all projects,https://github.com/lf-energy/tac/issues/39,39,Upcoming Meeting Agenda Items
-Annual Review - CitrineOS EV Charging Management Software,https://github.com/lf-energy/tac/issues/59,59,Future Meeting Agenda Items
-Annual Review - Hyphae,https://github.com/lf-energy/tac/issues/74,74,Upcoming Meeting Agenda Items
-Annual Review - Power Grid Model,https://github.com/lf-energy/tac/issues/81,81,Upcoming Meeting Agenda Items
-OpenWallet / VC API presentation,https://github.com/lf-energy/tac/issues/87,87,Upcoming Meeting Agenda Items
-Security Strategy updates for LF Energy hosted projects,https://github.com/lf-energy/tac/issues/14,14,Upcoming Meeting Agenda Items
-Schedule guest speakers,https://github.com/lf-energy/tac/issues/31,31,Upcoming Meeting Agenda Items
-Annual Review - SEAPATH ,https://github.com/lf-energy/tac/issues/73,73,Future Meeting Agenda Items
-Annual Review - OpenGEH- to be rescheduled,https://github.com/lf-energy/tac/issues/23,23,Future Meeting Agenda Items
-Annual Review - EVerest,https://github.com/lf-energy/tac/issues/28,28,Future Meeting Agenda Items
-Annual Review - Synthetic Energy Data (SED),https://github.com/lf-energy/tac/issues/68,68,Future Meeting Agenda Items
-Annual Review - OpenSTEF,https://github.com/lf-energy/tac/issues/25,25,Future Meeting Agenda Items
-Annual Review - PowSyBl,https://github.com/lf-energy/tac/issues/22,22,Future Meeting Agenda Items
-Annual Review - TROLIE - 09/03/2024,https://github.com/lf-energy/tac/issues/79,79,Future Meeting Agenda Items
-Annual Review - OpenEEmeter- 10/08/2024,https://github.com/lf-energy/tac/issues/7,7,Future Meeting Agenda Items
-New Working Group/Special Interest Group Proposal - Digital Substation Automation Systems (DSAS),https://github.com/lf-energy/tac/issues/89,89,Next Meeting Agenda Items
-New Working Group/Special Interest Group Proposal - Open Renewable Energy System (ORES) Working Group,https://github.com/lf-energy/tac/issues/107,107,Next Meeting Agenda Items
-TAC Evolution Plan,https://github.com/lf-energy/tac/issues/116,116,Next Meeting Agenda Items
-Annual Review - OpenLEADR- Need to reschedule,https://github.com/lf-energy/tac/issues/24,24,Future Meeting Agenda Items
-Annual Review - OpenSCD,https://github.com/lf-energy/tac/issues/86,86,Future Meeting Agenda Items
-Annual Review - Arras,https://github.com/lf-energy/tac/issues/104,104,Future Meeting Agenda Items
-Annual Review - covXtreme,https://github.com/lf-energy/tac/issues/66,66,Future Meeting Agenda Items
-Annual Review - Archimate WG,https://github.com/lf-energy/tac/issues/93,93,Future Meeting Agenda Items
-Annual Review - FlexMeasures,https://github.com/lf-energy/tac/issues/27,27,Future Meeting Agenda Items
-Annual Review - SOGNO,https://github.com/lf-energy/tac/issues/75,75,Future Meeting Agenda Items
-Annual Review - CoMPAS ,https://github.com/lf-energy/tac/issues/72,72,Future Meeting Agenda Items
-Annual Review - Real Time Data Ingestion Platform (RTDIP),https://github.com/lf-energy/tac/issues/26,26,Future Meeting Agenda Items
-Annual Review - OperatorFabric,https://github.com/lf-energy/tac/issues/71,71,Future Meeting Agenda Items
+title,url,number,scheduled_date,status,meeting_label
+Arras,https://github.com/lf-energy/tac/issues/104,104,2025-07-08,Future Meeting Agenda Items,2-annual-review
+Grid eXchange Fabric (GXF),https://github.com/lf-energy/tac/issues/8,8,2024-09-18,Next Meeting Agenda Items,2-annual-review
+AI SIG,https://github.com/lf-energy/tac/issues/53,53,2024-09-17,Next Meeting Agenda Items,2-annual-review
+Grid Resilience and Intelligence Platform (GRIP),https://github.com/lf-energy/tac/issues/52,52,2024-09-17,On Hold,2-annual-review
+InterConnect SIF (Semantic Interoperability Framework),https://github.com/lf-energy/tac/issues/132,132,2025-04-15,Future Meeting Agenda Items,2-annual-review
+OperatorFabric,https://github.com/lf-energy/tac/issues/71,71,2025-07-08,Future Meeting Agenda Items,2-annual-review
+OneNet Framework,https://github.com/lf-energy/tac/issues/112,112,2025-05-06,Future Meeting Agenda Items,2-annual-review
+Shapeshifter,https://github.com/lf-energy/tac/issues/136,136,2025-05-06,Future Meeting Agenda Items,2-annual-review
+FledgePower,https://github.com/lf-energy/tac/issues/137,137,2025-05-27,Future Meeting Agenda Items,2-annual-review
+SOGNO,https://github.com/lf-energy/tac/issues/75,75,2025-04-15,Future Meeting Agenda Items,2-annual-review
+TAC Evolution Plan,https://github.com/lf-energy/tac/issues/116,116,,Upcoming Meeting Agenda Items,4-tac-meeting-short
+Transition to LFX Meeting Management for all projects,https://github.com/lf-energy/tac/issues/39,39,,Upcoming Meeting Agenda Items,4-tac-meeting-short
+CitrineOS,https://github.com/lf-energy/tac/issues/59,59,2024-11-26,Future Meeting Agenda Items,2-annual-review
+Hyphae,https://github.com/lf-energy/tac/issues/74,74,2025-02-11,Future Meeting Agenda Items,2-annual-review
+Power Grid Model,https://github.com/lf-energy/tac/issues/81,81,2025-02-11,Future Meeting Agenda Items,2-annual-review
+Digital Substation Automation Systems (DSAS),https://github.com/lf-energy/tac/issues/89,89,2025-03-25,Future Meeting Agenda Items,2-annual-review
+Security Strategy updates for LF Energy hosted projects,https://github.com/lf-energy/tac/issues/14,14,,Upcoming Meeting Agenda Items,4-tac-meeting-short
+SEAPATH ,https://github.com/lf-energy/tac/issues/73,73,2024-12-10,Future Meeting Agenda Items,2-annual-review
+EVerest,https://github.com/lf-energy/tac/issues/28,28,2025-01-21,Future Meeting Agenda Items,2-annual-review
+OpenSynth,https://github.com/lf-energy/tac/issues/68,68,2025-01-21,Future Meeting Agenda Items,2-annual-review
+Battery Data Alliance,https://github.com/lf-energy/tac/issues/57,57,2025-08-19,Future Meeting Agenda Items,2-annual-review
+OpenSTEF,https://github.com/lf-energy/tac/issues/25,25,2024-10-29,Future Meeting Agenda Items,2-annual-review
+PowSyBl,https://github.com/lf-energy/tac/issues/22,22,2024-11-26,Future Meeting Agenda Items,2-annual-review
+OpenDSM,https://github.com/lf-energy/tac/issues/7,7,2024-10-08,Future Meeting Agenda Items,2-annual-review
+NODE Collective,https://github.com/lf-energy/tac/issues/108,108,2025-03-25,Future Meeting Agenda Items,2-annual-review
+OpenGEH,https://github.com/lf-energy/tac/issues/23,23,2025-05-27,Future Meeting Agenda Items,2-annual-review
+Open Renewable Energy System (ORES) Working Group,https://github.com/lf-energy/tac/issues/107,107,2025-03-25,Future Meeting Agenda Items,2-annual-review
+OpenSCD,https://github.com/lf-energy/tac/issues/86,86,2025-01-25,Future Meeting Agenda Items,2-annual-review
+covXtreme,https://github.com/lf-energy/tac/issues/66,66,2024-12-10,Future Meeting Agenda Items,2-annual-review
+Archimate WG,https://github.com/lf-energy/tac/issues/93,93,2024-10-29,Future Meeting Agenda Items,2-annual-review

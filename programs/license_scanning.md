@@ -1,23 +1,13 @@
-**DEPRECATED - current version at https://wiki.lfenergy.org/display/HOME/Contribution+and+Compliance+Guidelines+for+LF+Energy+Foundation+hosted+projects**
+---
+title: License Scanning
+parent: Programs
+---
 
-# The Linux Foundation License Scanning and Analysis Support Program for LF projects
+# License Scanning and Analysis Support Program
 
-- [Support plan summary for 2021: LF Energy](#support-plan-summary-for-2021-lf-energy)
-    - [Notes](#notes)
-    - [Dependencies on other LF and project teams](#dependencies-on-other-lf-and-project-teams)
-  - [Covered projects and schedule of scans](#covered-projects-and-schedule-of-scans)
-    - [Cycle 1: January, April, July, October](#cycle-1-january-april-july-october)
-    - [Cycle 2: February, May, August, November](#cycle-2-february-may-august-november)
-    - [Cycle 3: March, June, September, December](#cycle-3-march-june-september-december)
-  - [Exhibits](#exhibits)
-    - [Exhibit 1](#exhibit-1)
-    - [Exhibit 2](#exhibit-2)
-    - [Exhibit 3](#exhibit-3)
-
-## Support plan summary for 2021: LF Energy
-
-Support to be provided by: Steve Winslow
-&lt;<swinslow@linuxfoundation.org>&gt;
+* TOC
+{:toc}
+## Support plan summary
 
 For the projects described below, the following actions will be
 performed:
@@ -29,8 +19,7 @@ performed:
     contained in the project codebases
 
 3.  Publish SPDX documents with the license conclusions and copyright
-    statements at <https://github.com/lfscanning> (or a similar public
-    location), for broader community use in their own compliance
+    statements at <{{ site.lfscanning_repo_url }}>, for broader community use in their own compliance
     processes
 
 4.  Produce summary reports for project leads / maintainers, with
@@ -66,8 +55,9 @@ performed:
         describe the requested exceptions and facilitate approvals under
         the charter
 
-Stretch goals: will perform where feasible, subject to available
-resources and time:
+### Stretch goals
+
+Will perform where feasible, subject to available resources and time:
 
 1.  Run “red flag” pre-intake scans, for net new projects:
 
@@ -126,38 +116,6 @@ continued development of the scanning workflow automation.
     managed by LF IT (none presently anticipated for current projects /
     scan types)
 
-
-## Covered projects and schedule of scans
-
-NOTE: during the TAC meeting on Dec. 8, 2020, it was stated that
-not all projects’ source code is currently available. It is possible
-that the schedule below may be adjusted to accommodate sizing or changes
-in timing for when the full code base is available.
-
-### Cycle 1: January, April, July, October
-
--   RIAPS
-
--   CoMPAS
-
--   OpenLeadr
-
-### Cycle 2: February, May, August, November
-
--   GXF
-
--   OperatorFabric
-
--   PowSyBl
-
-### Cycle 3: March, June, September, December
-
--   Seapath
-
--   EM2
-
--   OpenEEMeter
-
 ## Exhibits
 
 1.  Screenshots from example SPDX document
@@ -170,8 +128,8 @@ in timing for when the full code base is available.
 
 **Screenshots from example SPDX document**
 
-<img src="assets/license_scanning_image1.png" style="width:3.40084in;height:3.86239in" alt="Graphical user interface, text, application Description automatically generated" />
-<img src="assets/license_scanning_image2.png" style="width:3.4in;height:3.86in" alt="Text Description automatically generated" />
+<img src="media/license_scanning_image1.png" style="width:3.40084in;height:3.86239in" alt="Graphical user interface, text, application Description automatically generated" />
+<img src="media/license_scanning_image2.png" style="width:3.4in;height:3.86in" alt="Text Description automatically generated" />
 
 ### Exhibit 2
 
@@ -179,18 +137,18 @@ in timing for when the full code base is available.
 
 Key findings and recommended actions:
 
-<img src="assets/license_scanning_image3.png" style="width:5.01835in;height:3.62088in" alt="Graphical user interface, text, application, email Description automatically generated" />
+<img src="media/license_scanning_image3.png" style="width:5.01835in;height:3.62088in" alt="Graphical user interface, text, application, email Description automatically generated" />
 
 Summary of findings:
 
-<img src="assets/license_scanning_image4.png" style="width:2.34972in;height:3.53211in" alt="A picture containing graphical user interface Description automatically generated" />
+<img src="media/license_scanning_image4.png" style="width:2.34972in;height:3.53211in" alt="A picture containing graphical user interface Description automatically generated" />
 
 Spreadsheet with detailed findings:
 
-<img src="assets/license_scanning_image5.png" style="width:5.33061in;height:1.63303in" alt="Graphical user interface, table Description automatically generated" />
+<img src="media/license_scanning_image5.png" style="width:5.33061in;height:1.63303in" alt="Graphical user interface, table Description automatically generated" />
 
 ### Exhibit 3
 
 **Screenshots from example board decks**
 
-<img src="assets/license_scanning_image6.png" style="width:7in;height:4.04444in" alt="Graphical user interface, application Description automatically generated" />
+<img src="media/license_scanning_image6.png" style="width:7in;height:4.04444in" alt="Graphical user interface, application Description automatically generated" />
