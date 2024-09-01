@@ -1,6 +1,6 @@
 ---
 parent: Processes
-nav_order: 40
+nav_order: 25
 ---
 
 # Special Interest Groups (SIGs)

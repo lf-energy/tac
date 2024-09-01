@@ -1,6 +1,7 @@
 ---
-parent: Processes
-nav_order: 10
+parent: Project Lifecycle
+grand_parent: Processes
+nav_order: 1
 ---
 
 # Bringing a project here
@@ -101,7 +102,7 @@ The “LF Way”, which is aligned with how {{ site.foundation_name }} operates,
 The project must:
 
 - Use an approved [OSI open-source license](https://opensource.org/licenses).
-- Be supported by a [TAC member](https://lfenergy.org/about/people/#technical-advisory-council).
+- Be supported by a [TAC member]({{ site.tac_member_list.url }}).
 - Allow neutral ownership of project assets such as a trademark, domain, or GitHub account (the community can define and manage rules).
 - Technical "do-ocracy" and separation of business governance from technical governance (we're flexible on the model) are clearly documented (which we can help you establish).
 - Allow anyone to participate in the technical community, whether or not a financial member or supporter of the project.
@@ -134,7 +135,7 @@ In parallel, the project, in conjunction with the LF Staff and TAC voting repres
 *   Overview of the project and its purpose
     *  If a project is new, it’s often helpful to share the vision for the project, the anticipated structure, and benefits.
     *  If the project is an existing open-source project proposed to join ASWF, it is often helpful to schedule a project walkthrough for the community to understand better the project, including the architecture, structure, and how to get started using the project. This often helps review progress more efficiently.
-*   How does this submission support the [{{ site.foundation_name }} Mission and Vision statements](https://lfenergy.org/about/why-lf-energy/)?
+*   How does this submission support the [{{ site.foundation_name }} Mission and Vision statements]( {{ site.mission_statement_url }})?
 *   Does the project have any users? 
     *   How do you plan to attract users if accepted?
 *   How many committers will you have upfront, and from which companies? 
@@ -143,7 +144,7 @@ In parallel, the project, in conjunction with the LF Staff and TAC voting repres
 
 The TAC Chairperson will share with TAC voting members the prospective Sandbox project once it has completed the requirements outlined above. TAC voting members will have a two week period to review and raise any questions or concerns with the proposal. If there is no open questions or concerns after two weeks, the project will be accepted into the Sandbox stage. If there are open questions or concerns, the TAC Chairperson will coordinate discussions to address them, and hold a formal vote of TAC voting members to approve.
 
-#### Key things to keep in mind for project proposals to the TAC
+### Key things to keep in mind for project proposals to the TAC
 
 - Projects accepted at the [Incubation stage] are generally mature, stable projects that have existed for many years. Projects that are newly forming or incomplete should propose to join at the [Sandbox stage].
 - It's rare to see a project accepted at the [Early Adoption stage] or [Graduated stage], as even incoming projects that have existed for years require a fair amount of governance and operations changes as they come into the {{ site.foundation_name }}; those projects tend to come in at the Incubation level and move to Adopted within a year.
