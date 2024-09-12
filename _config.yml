@@ -33,6 +33,9 @@ slack_url: 'https://slack.lfenergy.org'
 directed_fund_charter_url: 'https://charter.lfenergy.org'
 tac_issues_url: 'https://github.com/lf-energy/tac/issues/new'
 helpdesk_url: "https://servicedesk.lfenergy.org"
+mailing_list_url: "https://lists.lfenergy.org"
+wiki_url: "https://wiki.lfenergy.org"
+lfx_insights_url: "https://insights.lfx.linuxfoundation.org/foundation/lfenergy"
 tac_mailing_list_url: "https://lists.lfenergy.org/g/tac"
 website_url: "https://lfenergy.org"
 blog_url: "https://lfenergy.org/blog"
