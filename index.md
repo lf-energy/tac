@@ -17,8 +17,8 @@ Per the [Directed Fund Charter]({{ site.directed_fund_charter_url }}), the role 
 
 All members of the broad {{ site.foundation_name }} community are welcome to participate in TAC activities, such as meetings or online discussion. For voting matters such as project inclusion or graduation, TAC members are composed of:
 
-* One representative appointed by each Strategic Member;
-* One representative appointed by the technical oversight body (e.g., a technical steering committee) of each TAC Project; and
+* One representative appointed by each Strategic Member
+* One representative appointed by the technical oversight body (e.g., a technical steering committee) of each TAC Project
 
 Current TAC Members are:
 
