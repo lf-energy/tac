@@ -23,5 +23,5 @@ Future meeting agenda items can be found [here](https://github.com/orgs/AcademyS
 
 Past meeting notes and agendas are listed below.
 
-[Register for TAC meetings]: https://zoom-lfx.platform.linuxfoundation.org/meeting/97880950229?password=81d2940e-c055-43b9-9b5a-6cd7d7090feb
+[Register for TAC meetings]: https://zoom-lfx.platform.linuxfoundation.org/meeting/95214651568?password=eda16f17-bdd1-4a9f-a594-0947a1433153
 [creating a new issue]: {{ site.tac_issues_url }}
