@@ -39,11 +39,12 @@ lfx_insights_url: "https://insights.lfx.linuxfoundation.org/foundation/lfenergy"
 tac_mailing_list_url: "https://lists.lfenergy.org/g/tac"
 website_url: "https://lfenergy.org"
 blog_url: "https://lfenergy.org/blog"
-tac_lfx_meeting_url: "https://zoom-lfx.platform.linuxfoundation.org/meeting/97880950229?password=81d2940e-c055-43b9-9b5a-6cd7d7090feb" 
+tac_lfx_meeting_url: https://zoom-lfx.platform.linuxfoundation.org/meeting/95214651568?password=eda16f17-bdd1-4a9f-a594-0947a1433153
 lfscanning_repo_url: https://github.com/lfscanning/spdx-lfenergy
 tac_member_list_url: https://lfenergy.org/about/people/#technical-advisory-council
 lf_staff_list_url: https://lfenergy.org/about/people/#executive-leadership
 mission_statement_url: https://lfenergy.org/about/why-lf-energy/ 
+tac_agenda_url: https://github.com/orgs/lf-energy/projects/2
 
 # Foundation Settings
 foundation_name: 'LF Energy Foundation'
