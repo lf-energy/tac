@@ -1,8 +1,11 @@
 ---
-title: "2024-07-16"
-parent: Meetings
+title: '2024-07-16'
 ---
 
-- [Deck](./deck.pdf)
-- [Minutes](./minutes.pdf)
-- [Recording](https://zoom.us/rec/share/J-WfrFuNlUHFUtKnLZrruliZMj_XqJ9cVrLPy80M_2IXvQnVVdsECwqRKTS0jt9P.2vzyRShduLutMoGM)
+# {{ page.dir | split: "/" | slice: 2 }}
+
+{% for file in site.static_files %}
+{% if file.path contains page.dir %}
+- [{{ file.basename }}]({{ file.path }})
+{%- endif -%}
+{%- endfor -%}
