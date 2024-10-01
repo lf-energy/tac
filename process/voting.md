@@ -25,7 +25,7 @@ Voting is only required in these cases:
 - Approving new projects or SIGs
 - Approving annual reviews
 - Approving projects moving a [lifecycle stage]({% link process/lifecycle.md %})
-- Changes to [Project Lifecycle]({% link process/lifecycle.html %}) or [SIG Program]({% link process/sigs.md %})
+- Changes to [Project Lifecycle]({% link process/lifecycle.md %}) or [SIG Program]({% link process/sigs.md %})
 - Any other decisions where a consensus cannot be achieved.
 
 ## Voting Process
