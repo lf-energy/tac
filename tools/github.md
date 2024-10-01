@@ -9,27 +9,27 @@ parent: Tools
 
 {{ site.foundation_name }} projects generally use GitHub for code hosting and issue management. GitHub organizations for hosted projects are owned and administered by the Linux Foundation staff, including the Linux Foundation release engineering team, to ensure the sustainability of the infrastructure. 
 
-This document outlines project policies and procedures using GitHub for code hosting. In addition, the Linux Foundation release engineering team maintains [documentation](https://docs.releng.linuxfoundation.org/en/latest/) on its services, policies, and procedures.
+This document outlines project policies and procedures using GitHub for code hosting.
 
-## New project or repository
+## Setting up a new project
+
+Generally each project has a separate GitHub organization, which is done to give the project a degree of autonomy in how it structures and manages it code infrastructure. Occasionally a project may be setup under the {{ site.foundation_name }} GitHub organization.
+
+Projects are responsible for day-to-day maintainance of thier GitHub organization and repositories. The LF Staff performs the following services for projects.
+
+- Initial provisioning of the GitHub organization.
+- Maintaining the billing information for the project.
+- Ensuring any required LFX service integrations are in place and maintained.
 
 When a new project or repository is to be added, please [submit a request]({{ site.helpdesk_url }}) to facilitate the process.
 
-### Code license scan
+### Repository settings
 
-If adding the new project or repository will include a significant contribution, requesting a code license scan is highly recommended before bringing the code in. This scan will look for and will provide recommendations (or, in some cases, required prior remediation) for:
+The following settings are recommended for project organizations.
 
-- The presence of third-party licenses (OSI-approved or otherwise) that might be considered incompatible with the project's license
-- Presence of headers with the project's designated license(s) and preferred copyright notices in project files (refer to the [License Specification in the Contribution Guidelines](/process/contribution_guidelines.md#license-specification) for more information)
-- Any other best practices guidance 
-
-Typically code license scans are a quick turnaround, but that might take longer for more significant code bases.
-
-### Repository setup
-
-Generally, most projects utilize the existing {{ site.foundation_name }} GitHub organization, especially if they intend to have a single repository. This practice enables the easiest discoverability of the project.
-
-If a project anticipates having multiple repositories, the {{ site.foundation_name }} staff can provision a GitHub organization specific to that project. The same policies apply to the administration and access control with either option.
+- Create an [organizational README](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile#organization-profile-readmes) which describes the project, points to the governance policies, and outlines the repositories.
+- [Pin the primary repositories for the organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile#pinning-repositories-to-your-organizations-profile). 
+- [Change the organization profile picture](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile#changing-your-organizations-profile-picture) to your project's logo.
 
 ### Code migration
 
@@ -42,9 +42,23 @@ There are two strategies for migrating the code to a hosted project repository.
 I, <AUTHOR NAME> <<AUTHOR EMAIL>> hereby sign-off-by all of the commits prior to and including <COMMIT_HASH> to this repo subject to the Developer Certificate of Origin (DCO), Version 1.1. 
 ```
 
+### Code license scan
+
+If adding the new project or repository will include a significant contribution, requesting a code license scan is highly recommended before bringing the code in. This scan will look for and will provide recommendations (or, in some cases, required prior remediation) for:
+
+- The presence of third-party licenses (OSI-approved or otherwise) that might be considered incompatible with the project's license
+- Presence of headers with the project's designated license(s) and preferred copyright notices in project files (refer to the [License Specification in the Contribution Guidelines](/process/contribution_guidelines.md#license-specification) for more information)
+- Any other best practices guidance 
+
+Typically code license scans are a quick turnaround, but that might take longer for more significant code bases.
+
 ## Settings
 
 Generally, the following settings apply to all hosted project repositories and organizations.
+
+### Default Users
+
+By default, the user `thelinuxfoundation` is added as an owner for all GitHub Organizations. Do not remove this user, as it is required for various LFX integrations and is used for access to a GitHub Organization if the maintainers are no longer available.
 
 ### DCO
 
@@ -60,15 +74,9 @@ Projects should define a COMMITTERS.* file for indicating committers that can me
 
 The best process for adding a new committer is to have that committer issue a pull request to add their name to the COMMITTERS.* file, where the required number of TSC members or committers can +1 the request, and the TSC chairperson can merge in it and can add the individual to the team.
 
-### Adding read-only members to an organization
-
-By default, hosted project GitHub organizations and repositories have enabled the [invite-contributors](https://probot.github.io/apps/invite-contributors/) GitHub app installed, which will automatically send an invite to anyone with a successful merged pull request to join the organization as a member. The *member* permission is read-only by default, but this enables members to have issues and pull requests assigned to them and be tagged inside of issues and pull requests.
-
 ### Branch protection
 
-The below branch protection settings on the `master` or `main` branch are enabled by default.
-
-![](./assets/branch_protection.png)
+The `master` or `main` branch must have the branch protections setup inline with the [OpenSSF Scorecard requirements](https://github.com/ossf/scorecard/blob/main/docs/checks.md#branch-protection).
 
 ## Issue management
 
@@ -131,6 +139,7 @@ As project communities and members look for the {{ site.foundation_name }} to pr
 If there are concerns about this, feel free to [submit a request][].
 
 [submit a request]: {{ site.helpdesk_url }} 
+
 [Code of Conduct]: /code_of_conduct
 [GitHub commit signoff policy]: https://docs.github.com/en/organizations/managing-organization-settings/managing-the-commit-signoff-policy-for-your-organization
 [GitHub DCO App]: https://github.com/apps/dco
