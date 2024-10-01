@@ -60,7 +60,7 @@ To be accepted at the Sandbox stage, a project must:
 
 ### Approval Process
 
-In conjunction with the LF staff and TAC voting representative, the project will be scheduled to be presented at an upcoming TAC meeting. This presentation should provide an overview of the project and its alignment with {{ site.foundation_name }}, and speak to the information shared in the project contribution proposal. Voting will be done per the [TAC voting policy]({% link process/voting.html %}).
+In conjunction with the LF staff and TAC voting representative, the project will be scheduled to be presented at an upcoming TAC meeting. This presentation should provide an overview of the project and its alignment with {{ site.foundation_name }}, and speak to the information shared in the project contribution proposal. Voting will be done per the [TAC voting policy]({% link process/voting %}).
 
 ### Benefits
 
