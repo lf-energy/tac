@@ -3,7 +3,7 @@ title: Home
 nav_order: 1
 ---
 
-# Overview
+# {{ site.foundation_name }} TAC
 
 Per the [Directed Fund Charter]({{ site.directed_fund_charter_url }}), the role of the Technical Advisory Committee (TAC) is to facilitate communication and collaboration among the Technical Projects. The TAC will be responsible for:
 
