@@ -10,7 +10,7 @@
 </thead>
 <tbody>
 {%- for member in site.data.tacmembers -%}
-{%- if member["Appointed By"] == "Membership Entitlement" -%}
+{%- if member["Appointed By"] == "Membership Entitlement" and member['Voting Status'] != 'Observer' -%}
     <tr>
         <td>{{ member["Full Name"] }}</td>
         <td>{{ site.membership_top_tier | default: "Premier" }} Member Representative</td>
@@ -38,7 +38,7 @@
 {%- endif -%}
 {%- endfor -%}
 {%- for member in site.data.tacmembers -%}
-{%- if member["Appointed By"] == "Vote of TAC Committee" -%}
+{%- if member["Appointed By"] == "Vote of TAC Committee" and member['Voting Status'] != 'Observer' -%}
     <tr>
         <td>{{ member["Full Name"] }}</td>
         <td>{{ site.vote_of_tac_committee_title | default: "Other Representative" }}</td>

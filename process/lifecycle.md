@@ -56,13 +56,11 @@ To be accepted at the Sandbox stage, a project must:
 - Submit a completed Project Contribution Proposal to the TAC via the process outlined at [Project Contribution](/process/start_project) Process .
 - Complete and approve the Technical Charter and agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones.
 - Have a successful license scan with any critical issues remedied.
-- Provide administrator access to all project tools, such as it’s GitHub organization, collaboration and communicaton tools, and build/testing infrastructure.
+- Provide administrator access to all project tools, such as its GitHub organization, collaboration and communication tools, and build/test infrastructure.
 
 ### Approval Process
 
-The project, in conjunction with the LF Staff and TAC voting representative, will record a presentation ( 20-30 minutes in length ) to be shared with TAC members that provides an overview of the project and it’s alignment with {{ site.foundation_name }}. and speak to the information in the contribution proposal. 
-
-The TAC Chairperson will share with TAC voting members the prospective Sandbox project once it has completed the requirements outlined above. TAC voting members will have a two week period to review and raise any questions or concerns with the proposal. If there is no open questions or concerns after two weeks, the project will be accepted into the Sandbox stage. If there are open questions or concerns, the TAC Chairperson will coordinate discussions to address them, and hold a formal vote of TAC voting members to approve.
+In conjunction with the LF staff and TAC voting representative, the project will be scheduled to be presented at an upcoming TAC meeting. This presentation should provide an overview of the project and its alignment with {{ site.foundation_name }}, and speak to the information shared in the project contribution proposal. Voting will be done per the [TAC voting policy]({% link process/voting.md %}).
 
 ### Benefits
 
