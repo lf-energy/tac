@@ -16,7 +16,7 @@ Once the {{ site.foundation_name }} TAC approves a project, the LF Staff will wo
 {{ site.foundation_name }} has several standard collaboration tools for projects to use.
 
 - [Mailing Lists]({{ site.mailing_list_url }}) - {{ site.foundation_name }} by default sets up projects with a public and private email list. Additional mailing lists can be provisioned by the LF Staff if needed. Please review the [guidelines for mailing list management]({{ link tools/mailing_lists.md }})
-- [{{ site.foundation_name }} Slack]{{ site.slack_url }}} - {{ site.foundation_name }} by default sets up projects with a public Slack channel; additional channels can be setup upon request.
+- [{{ site.foundation_name }} Slack]({{ site.slack_url }}) - {{ site.foundation_name }} by default sets up projects with a public Slack channel; additional channels can be setup upon request.
 
 The project may use other collaboration tools, but the LF Staff will not support these. {{ site.foundation_name }} does require ownership access to any third-party tools. Funding is unavailable for third-party collaboration tools if a standard collaboration tool outlined above is available.
 
