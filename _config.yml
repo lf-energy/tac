@@ -1,5 +1,5 @@
 title: LF Energy Foundation TAC
-description: Materials and processes for the LF Energy Foundation TAC
+description: Materials and processes for the LF Energy TAC
 logo: "https://artwork.lfenergy.org/other/lf-energy/horizontal/color/lf-energy-horizontal-color.svg"
 theme: just-the-docs
 repository: lf-energy/tac
@@ -48,7 +48,7 @@ tac_agenda_url: https://github.com/orgs/lf-energy/projects/2
 artwork_url: 'https://srtwork.lfenergy.org'
 
 # Foundation Settings
-foundation_name: 'LF Energy Foundation'
+foundation_name: 'LF Energy'
 clotributor_name: "lfenergy"
 membership_top_tier: 'Strategic'
 favicon_ico: "css/img/favicon.png"
