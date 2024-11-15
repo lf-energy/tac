@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: jmertic/lfx-tac-actions@main
+      - uses: jmertic/lfx-tac-actions@movetopoetry
         with:
           landscape_url: https://lfenergy.landscape2.io
           artwork_url: https://artwork.lfenergy.org
