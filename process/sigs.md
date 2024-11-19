@@ -10,7 +10,7 @@ nav_order: 25
 
 {{ site.foundation_name }} hosts several Special Interest Groups (SIGs), which serve the role of being focal points for specific topics or focus areas within the technical work happening in {{ site.foundation_name }}. Current SIG sanctioned are listed below.
 
-<iframe src="{{ site.landscape_url }}/sigs?style=body%7Bbackground-color:white;%7D.borderless-mode%20.mosaic%20.logo%7Bheight:100px;%7D%20.sh_wrapper%7Bdisplay:none;%7D%23embedded-footer%7Bdisplay:none;%7D.borderless-mode%20.mosaic-wrap%20%7B%20padding:%2010px%2020px%7D" frameborder="0" id="landscape" scrolling="no" style="width: 1px; min-width: 100%; opacity: 1; visibility: visible; overflow: hidden;"></iframe>
+<iframe src="{{ site.landscape_url }}/pages/sigs?style=body%7Bbackground-color:white;%7D.borderless-mode%20.mosaic%20.logo%7Bheight:100px;%7D%20.sh_wrapper%7Bdisplay:none;%7D%23embedded-footer%7Bdisplay:none;%7D.borderless-mode%20.mosaic-wrap%20%7B%20padding:%2010px%2020px%7D" frameborder="0" id="landscape" scrolling="no" style="width: 1px; min-width: 100%; opacity: 1; visibility: visible; overflow: hidden;"></iframe>
 <script src="{{ site.landscape_url }}/iframeResizer.js"></script>
 
 ## Responsibilities
