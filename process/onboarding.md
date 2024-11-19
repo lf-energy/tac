@@ -48,9 +48,12 @@ The {{ site.foundation_name }} Marketing team partners with each new project to 
 
 - Designing a project logo and adding it to the [artwork repository]({{ site.artwork_url }}). If there is an existing project logo that the project wishes to continue to use, we can add that to the [artwork repository]({{ site.artwork_url }}).
 - Adding the project to the [{{ site.foundation_name }} website]({{ site.website_url }}), along with a dedicated landing page for the project.
+  - Projects can request changes made to their landing page at any time by making a [marketing request]({{ site.helpdesk_url }}).
 - Adding the project to the [{{ site.foundation_name }} landscape]({{ site.landscape_url }}).
+  - Projects can request changes made to their landscape entry at any time by making a [helpdesk request]({{ site.helpdesk_url }}).
 - Including a slide on the project in the {{ site.foundation_name }} overview deck.
+  - The LF Staff will contact the project periodically to validate the information presented.   
 
-All marketing requests can be made [here](https://form.asana.com/?k=1O2rcYUN67xtS9qccmzwmw&d=9283783873717).
+All marketing requests can be made [here]({{ site.helpdesk_url }}).
 
 {{ site.foundation_name }} is committed to supporting hosted projects and other initiatives to ensure their success. If a project needs any assistance, don't hesitate to reach out via our [support site]({{ site.helpdesk_url }}).
