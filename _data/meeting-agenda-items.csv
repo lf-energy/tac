@@ -1,5 +1,6 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
 SIG leader feedback,https://github.com/lf-energy/tac/issues/349,349,,Next Meeting Agenda Items,,3-tac-meeting-long
+Speakers from other LF projects on community building,https://github.com/lf-energy/tac/issues/350,350,,Next Meeting Agenda Items,,4-tac-meeting-short
 Arras,https://github.com/lf-energy/tac/issues/104,104,2025-07-02,Future Meeting Agenda Items,2024-07-16,2-annual-review-sig
 Grid Resilience and Intelligence Platform (GRIP),https://github.com/lf-energy/tac/issues/52,52,2024-09-17,On Hold,,2-annual-review
 InterConnect SIF (Semantic Interoperability Framework),https://github.com/lf-energy/tac/issues/132,132,2025-04-15,Future Meeting Agenda Items,2024-04-23,2-annual-review-sig
@@ -33,16 +34,15 @@ CoMPAS ,https://github.com/lf-energy/tac/issues/72,72,2025-06-10,Future Meeting 
 OpenFIDO,https://github.com/lf-energy/tac/issues/82,82,2025-01-21,Future Meeting Agenda Items,2024-01-30,2-annual-review-sig
 Dynaωo,https://github.com/lf-energy/tac/issues/29,29,2025-01-01,Future Meeting Agenda Items,2024-01-30,2-annual-review-sig
 SC Decarbonisation Hub,https://github.com/lf-energy/tac/issues/171,171,2025-09-11,Future Meeting Agenda Items,,2-annual-review-sig
+New Project Proposal - Grid2Op,https://github.com/lf-energy/tac/issues/287,287,,On Hold,,1-new-project-wg
 LFX Insights updates,https://github.com/lf-energy/tac/issues/351,351,,On Hold,,3-tac-meeting-long
 OpenLEADR,https://github.com/lf-energy/tac/issues/24,24,2025-09-17,On Hold,2021-11-23,2-annual-review
 TROLIE,https://github.com/lf-energy/tac/issues/79,79,2024-08-27,On Hold,,2-annual-review
 GridCal,https://github.com/lf-energy/tac/issues/187,187,,On Hold,,1-new-project-wg
+New Project Proposal - RTC-Tools,https://github.com/lf-energy/tac/issues/344,344,,On Hold,,1-new-project-wg
 pyELQ: python Emission Localization and Quantification,https://github.com/lf-energy/tac/issues/234,234,,On Hold,,1-new-project-wg
 Security Strategy updates for LF Energy hosted projects,https://github.com/lf-energy/tac/issues/14,14,,On Hold,,4-tac-meeting-short
 Grid Edge Interoperability & Security Alliance (GEISA),https://github.com/lf-energy/tac/issues/230,230,2025-09-11,Future Meeting Agenda Items,,2-annual-review-sig
 Grid Capacity Map,https://github.com/lf-energy/tac/issues/6,6,2024-10-08,On Hold,2023-10-17,2-annual-review
-New Project Proposal - Grid2Op,https://github.com/lf-energy/tac/issues/287,287,,Future Meeting Agenda Items,,1-new-project-wg
-New Project Proposal - RTC-Tools,https://github.com/lf-energy/tac/issues/344,344,,Future Meeting Agenda Items,,1-new-project-wg
 Use Slack Pro through the LFE,https://github.com/lf-energy/tac/issues/346,346,2024-12-10,Upcoming Meeting Agenda Items,,3-tac-meeting-long
-Speakers from other LF projects on community building,https://github.com/lf-energy/tac/issues/350,350,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 Review LF Energy 2025 Strategy,https://github.com/lf-energy/tac/issues/348,348,,Upcoming Meeting Agenda Items,,3-tac-meeting-long
