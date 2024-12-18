@@ -6,6 +6,6 @@ title: '2022-11-15'
 
 {% for file in site.static_files %}
 {% if file.path contains page.dir %}
-- [{{ file.basename }}]({{ file.path }})
+- [{{ file.basename }}]({{ file.path | replace: ".md", ".html" }})
 {%- endif -%}
 {%- endfor -%}
