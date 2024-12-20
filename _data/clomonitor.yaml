@@ -276,6 +276,54 @@
     url: https://github.com/hyphae/apis-common
     exclude:
     - clomonitor
+- name: node-collective
+  display_name: NODE Collective
+  description: 'A nonprofit alliance founded by the Building Decarbonization Coalition,
+    Rewiring America, and Eli Technologies, the National Open Data for Electrification
+    (NODE) Collective will source, structure, and maintain data on every incentive
+    program in the nation, and make it open and accessible to all who are committed
+    to furthering the goal of building decarbonization. The NODE Collective has already
+    amassed the most complete, well-structured, and accurate set of incentive data
+    in the U.S. It has developed the tools to enlist a broad coalition in this effort
+    moving forward.
+
+
+    The Challenge: Fragmented and outdated electrification incentive data are major
+    barriers to progress in the electrification
+
+
+    Our Solution: NODE Collective introduces a vibrant, evolving data repository,
+    a cornerstone of reliable and up-to-date electrification information, energized
+    by:
+
+
+    Proactive Data Collection: dedicated submission channels enable us to actively
+    gather up-to-date and precise incentive data.
+
+
+    Collaborative Updates: A network of stakeholders collaborating to maintain data
+    accuracy and consistency, underpinned by structured protocols and expert review.
+
+
+    Standardization of Incentive Data: By creating clear formats and guidelines, NODE
+    Collective eliminates inconsistencies, facilitating streamlined data exchange.
+
+
+    The Foundation for Impact:
+
+    NODE Collective''s data repository will set the gold standard for tracking electrification
+    incentives, laying a solid foundation for informed decisions, innovative tools,
+    and insightful policy development.'
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/node-collectiveNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/node-collectiveNone
+  devstats_url: null
+  maturity: sandbox
+  repositories:
+  - name: .github
+    url: https://github.com/NODE-Collective/.github
+    exclude:
+    - clomonitor
 - name: opendsm
   display_name: OpenDSM
   description: "The mission of the Project is to develop an open source project with\
