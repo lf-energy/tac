@@ -1,4 +1,13 @@
-- name: null
+- name: lf-energy-ai-sig
+  display_name: AI SIG
+  description: LF Energy SIG focused on AI
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/lf-energy-ai-sigNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/lf-energy-ai-sigNone
+  devstats_url: null
+  maturity: sig
+  repositories: []
+- name: arras
   display_name: Arras
   description: The mission of the Arras project is to enable and support the use of
     DOE's GridLAB-D technology by utilities, researchers, and vendors with special
@@ -13,7 +22,59 @@
     url: https://github.com/arras-energy/tsc
     exclude:
     - clomonitor
-- name: null
+  - name: .github
+    url: https://github.com/arras-energy/.github
+    exclude:
+    - clomonitor
+  - name: arras-energy.github.io
+    url: https://github.com/arras-energy/arras-energy.github.io
+    exclude:
+    - clomonitor
+  - name: gridlabd
+    url: https://github.com/arras-energy/gridlabd
+    exclude:
+    - clomonitor
+  - name: gridlabd-converters
+    url: https://github.com/arras-energy/gridlabd-converters
+    exclude:
+    - clomonitor
+  - name: gridlabd-examples
+    url: https://github.com/arras-energy/gridlabd-examples
+    exclude:
+    - clomonitor
+  - name: gridlabd-library
+    url: https://github.com/arras-energy/gridlabd-library
+    exclude:
+    - clomonitor
+  - name: gridlabd-models
+    url: https://github.com/arras-energy/gridlabd-models
+    exclude:
+    - clomonitor
+  - name: gridlabd-old
+    url: https://github.com/arras-energy/gridlabd-old
+    exclude:
+    - clomonitor
+  - name: gridlabd-template
+    url: https://github.com/arras-energy/gridlabd-template
+    exclude:
+    - clomonitor
+  - name: gridlabd-weather
+    url: https://github.com/arras-energy/gridlabd-weather
+    exclude:
+    - clomonitor
+  - name: marimo
+    url: https://github.com/arras-energy/marimo
+    exclude:
+    - clomonitor
+  - name: module_template
+    url: https://github.com/arras-energy/module_template
+    exclude:
+    - clomonitor
+  - name: static-website
+    url: https://github.com/arras-energy/static-website
+    exclude:
+    - clomonitor
+- name: battery-data-alliance
   display_name: Battery Data Alliance
   description: The mission of the Battery Data Alliance is to build sustainable open
     source software and best practices for the battery industry.
@@ -27,20 +88,42 @@
     url: https://github.com/BatteryDataAlliance/battery-data-interface
     exclude:
     - clomonitor
-- name: null
-  display_name: Carbon Data Specification Consortium (CDSC)
-  description: CDSC Steering Committee and general CDSC rules and procedures
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.lfess.energy/projects/cdsc/horizontal/color/cdsc-horizontal-color.svg
-  logo_url_dark: https://artwork.lfess.energy/projects/cdsc/horizontal/color/cdsc-horizontal-color.svg
-  devstats_url: null
-  maturity: lfess
-  repositories:
-  - name: Steering_Committee
-    url: https://github.com/carbon-data-specification/Steering_Committee
+  - name: BDAOntology
+    url: https://github.com/BatteryDataAlliance/BDAOntology
     exclude:
     - clomonitor
-- name: null
+  - name: BatteryDataInterface
+    url: https://github.com/BatteryDataAlliance/BatteryDataInterface
+    exclude:
+    - clomonitor
+  - name: pyadmiral
+    url: https://github.com/BatteryDataAlliance/pyadmiral
+    exclude:
+    - clomonitor
+  - name: pyctiarbin
+    url: https://github.com/BatteryDataAlliance/pyctiarbin
+    exclude:
+    - clomonitor
+  - name: pymacnet
+    url: https://github.com/BatteryDataAlliance/pymacnet
+    exclude:
+    - clomonitor
+- name: cdsc-connectivity-wg
+  display_name: CDSC Connectivity WG (WG3)
+  description: The Carbon Data Specification (CDS) is a data dictionary for raw data
+    and a standard for data requirements that enable energy data access for measuring,
+    quantifying, and tracking carbon emissions.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/cdsc-connectivity-wgNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/cdsc-connectivity-wgNone
+  devstats_url: null
+  maturity: working-group
+  repositories:
+  - name: Connectivity
+    url: https://github.com/carbon-data-specification/Connectivity
+    exclude:
+    - clomonitor
+- name: citrineos
   display_name: CitrineOS
   description: The mission of the Project is to develop EV charging station management
     software.
@@ -52,6 +135,26 @@
   repositories:
   - name: citrineos
     url: https://github.com/citrineos/citrineos
+    exclude:
+    - clomonitor
+  - name: citrineos-core
+    url: https://github.com/citrineos/citrineos-core
+    exclude:
+    - clomonitor
+  - name: citrineos-ocpi
+    url: https://github.com/citrineos/citrineos-ocpi
+    exclude:
+    - clomonitor
+  - name: citrineos-operator-ui
+    url: https://github.com/citrineos/citrineos-operator-ui
+    exclude:
+    - clomonitor
+  - name: citrineos-payment
+    url: https://github.com/citrineos/citrineos-payment
+    exclude:
+    - clomonitor
+  - name: citrineos.github.io
+    url: https://github.com/citrineos/citrineos.github.io
     exclude:
     - clomonitor
 - name: compas
@@ -70,13 +173,85 @@
   logo_url: https://artwork.lfenergy.org/projects/compasNone
   logo_url_dark: https://artwork.lfenergy.org/projects/compasNone
   devstats_url: null
-  maturity: incubation
+  maturity: incubating
   repositories:
   - name: compas-core
     url: https://github.com/com-pas/compas-core
     exclude:
     - clomonitor
-- name: null
+  - name: .allstar
+    url: https://github.com/com-pas/.allstar
+    exclude:
+    - clomonitor
+  - name: .github
+    url: https://github.com/com-pas/.github
+    exclude:
+    - clomonitor
+  - name: com-pas.github.io
+    url: https://github.com/com-pas/com-pas.github.io
+    exclude:
+    - clomonitor
+  - name: compas-architecture
+    url: https://github.com/com-pas/compas-architecture
+    exclude:
+    - clomonitor
+  - name: compas-cim-mapping
+    url: https://github.com/com-pas/compas-cim-mapping
+    exclude:
+    - clomonitor
+  - name: compas-deployment
+    url: https://github.com/com-pas/compas-deployment
+    exclude:
+    - clomonitor
+  - name: compas-oscd-docops
+    url: https://github.com/com-pas/compas-oscd-docops
+    exclude:
+    - clomonitor
+  - name: compas-plugin-template
+    url: https://github.com/com-pas/compas-plugin-template
+    exclude:
+    - clomonitor
+  - name: compas-scl-auto-alignment
+    url: https://github.com/com-pas/compas-scl-auto-alignment
+    exclude:
+    - clomonitor
+  - name: compas-scl-data-service
+    url: https://github.com/com-pas/compas-scl-data-service
+    exclude:
+    - clomonitor
+  - name: compas-scl-validator
+    url: https://github.com/com-pas/compas-scl-validator
+    exclude:
+    - clomonitor
+  - name: compas-scl-xsd
+    url: https://github.com/com-pas/compas-scl-xsd
+    exclude:
+    - clomonitor
+  - name: compas-sct
+    url: https://github.com/com-pas/compas-sct
+    exclude:
+    - clomonitor
+  - name: compas-sitipe-service
+    url: https://github.com/com-pas/compas-sitipe-service
+    exclude:
+    - clomonitor
+  - name: compas-template-service
+    url: https://github.com/com-pas/compas-template-service
+    exclude:
+    - clomonitor
+  - name: contributing
+    url: https://github.com/com-pas/contributing
+    exclude:
+    - clomonitor
+  - name: cross-framework-web-components
+    url: https://github.com/com-pas/cross-framework-web-components
+    exclude:
+    - clomonitor
+  - name: virtual-template-ied
+    url: https://github.com/com-pas/virtual-template-ied
+    exclude:
+    - clomonitor
+- name: covxtreme
   display_name: covXtreme
   description: The project's mission is to develop pragmatic but statistically sound
     non- stationary, multivariate extreme value analysis for the characterization
@@ -89,6 +264,14 @@
   repositories:
   - name: .github
     url: https://github.com/covxtreme/.github
+    exclude:
+    - clomonitor
+  - name: .github
+    url: https://github.com/covXtreme/.github
+    exclude:
+    - clomonitor
+  - name: covXtreme
+    url: https://github.com/covXtreme/covXtreme
     exclude:
     - clomonitor
 - name: lfenergy-data-standards-and-tooling-sig
@@ -114,7 +297,7 @@
   devstats_url: null
   maturity: sig
   repositories: []
-- name: null
+- name: dynawo
   display_name: "Dyna\u03C9o"
   description: The mission of the Project is to develop a hybrid C++/Modelica open
     source suite of simulation tools for power systems.
@@ -122,10 +305,54 @@
   logo_url: https://artwork.lfenergy.org/projects/dynawoNone
   logo_url_dark: https://artwork.lfenergy.org/projects/dynawoNone
   devstats_url: null
-  maturity: incubation
+  maturity: incubating
   repositories:
   - name: dynawo
     url: https://github.com/dynawo/dynawo
+    exclude:
+    - clomonitor
+  - name: .github
+    url: https://github.com/dynawo/.github
+    exclude:
+    - clomonitor
+  - name: IEC-WECC-GenericModels-Comparison
+    url: https://github.com/dynawo/IEC-WECC-GenericModels-Comparison
+    exclude:
+    - clomonitor
+  - name: dyn-grid-compliance-verification
+    url: https://github.com/dynawo/dyn-grid-compliance-verification
+    exclude:
+    - clomonitor
+  - name: dynaflow-launcher
+    url: https://github.com/dynawo/dynaflow-launcher
+    exclude:
+    - clomonitor
+  - name: dynamic-model-validation-open-engine
+    url: https://github.com/dynawo/dynamic-model-validation-open-engine
+    exclude:
+    - clomonitor
+  - name: dynawo-algorithms
+    url: https://github.com/dynawo/dynawo-algorithms
+    exclude:
+    - clomonitor
+  - name: dynawo-docker
+    url: https://github.com/dynawo/dynawo-docker
+    exclude:
+    - clomonitor
+  - name: dynawo-large-scale-validation
+    url: https://github.com/dynawo/dynawo-large-scale-validation
+    exclude:
+    - clomonitor
+  - name: dynawo-nightly
+    url: https://github.com/dynawo/dynawo-nightly
+    exclude:
+    - clomonitor
+  - name: dynawo-replay-AIA
+    url: https://github.com/dynawo/dynawo-replay-AIA
+    exclude:
+    - clomonitor
+  - name: dynawo.github.io
+    url: https://github.com/dynawo/dynawo.github.io
     exclude:
     - clomonitor
 - name: ev-charging-sig
@@ -137,7 +364,7 @@
   devstats_url: null
   maturity: sig
   repositories: []
-- name: null
+- name: everest
   display_name: EVerest
   description: EVerest is intended to have an extremely customizable/configurable
     software stack that runs on an electric vehicle charging point (AC or DC) and
@@ -152,6 +379,126 @@
     url: https://github.com/EVerest/EVerest
     exclude:
     - clomonitor
+  - name: cbexigen
+    url: https://github.com/EVerest/cbexigen
+    exclude:
+    - clomonitor
+  - name: connector-container
+    url: https://github.com/EVerest/connector-container
+    exclude:
+    - clomonitor
+  - name: connector-serverless
+    url: https://github.com/EVerest/connector-serverless
+    exclude:
+    - clomonitor
+  - name: doc-preview
+    url: https://github.com/EVerest/doc-preview
+    exclude:
+    - clomonitor
+  - name: everest-admin-panel
+    url: https://github.com/EVerest/everest-admin-panel
+    exclude:
+    - clomonitor
+  - name: everest-ci
+    url: https://github.com/EVerest/everest-ci
+    exclude:
+    - clomonitor
+  - name: everest-cmake
+    url: https://github.com/EVerest/everest-cmake
+    exclude:
+    - clomonitor
+  - name: everest-core
+    url: https://github.com/EVerest/everest-core
+    exclude:
+    - clomonitor
+  - name: everest-demo
+    url: https://github.com/EVerest/everest-demo
+    exclude:
+    - clomonitor
+  - name: everest-dev-environment
+    url: https://github.com/EVerest/everest-dev-environment
+    exclude:
+    - clomonitor
+  - name: everest-framework
+    url: https://github.com/EVerest/everest-framework
+    exclude:
+    - clomonitor
+  - name: everest-template
+    url: https://github.com/EVerest/everest-template
+    exclude:
+    - clomonitor
+  - name: everest-utils
+    url: https://github.com/EVerest/everest-utils
+    exclude:
+    - clomonitor
+  - name: everest.github.io
+    url: https://github.com/EVerest/everest.github.io
+    exclude:
+    - clomonitor
+  - name: libcbv2g
+    url: https://github.com/EVerest/libcbv2g
+    exclude:
+    - clomonitor
+  - name: libevse-security
+    url: https://github.com/EVerest/libevse-security
+    exclude:
+    - clomonitor
+  - name: libfsm
+    url: https://github.com/EVerest/libfsm
+    exclude:
+    - clomonitor
+  - name: libiso15118
+    url: https://github.com/EVerest/libiso15118
+    exclude:
+    - clomonitor
+  - name: liblog
+    url: https://github.com/EVerest/liblog
+    exclude:
+    - clomonitor
+  - name: libmodbus
+    url: https://github.com/EVerest/libmodbus
+    exclude:
+    - clomonitor
+  - name: libocpp
+    url: https://github.com/EVerest/libocpp
+    exclude:
+    - clomonitor
+  - name: libslac
+    url: https://github.com/EVerest/libslac
+    exclude:
+    - clomonitor
+  - name: libsunspec
+    url: https://github.com/EVerest/libsunspec
+    exclude:
+    - clomonitor
+  - name: libtimer
+    url: https://github.com/EVerest/libtimer
+    exclude:
+    - clomonitor
+  - name: logfiles
+    url: https://github.com/EVerest/logfiles
+    exclude:
+    - clomonitor
+  - name: meta-everest
+    url: https://github.com/EVerest/meta-everest
+    exclude:
+    - clomonitor
+  - name: ocpp-csms
+    url: https://github.com/EVerest/ocpp-csms
+    exclude:
+    - clomonitor
+  - name: openv2g_parser
+    url: https://github.com/EVerest/openv2g_parser
+    exclude:
+    - clomonitor
+  - name: repo-manifests
+    url: https://github.com/EVerest/repo-manifests
+    exclude:
+    - clomonitor
+  - name: zvt
+    url: https://github.com/EVerest/zvt
+    exclude:
+    - clomonitor
 - name: fledgepower
   display_name: FledgePower
   description: The mission of the Project is to coordinate, configure, test and prepare
@@ -163,10 +510,110 @@
   logo_url: https://artwork.lfenergy.org/projects/fledgepowerNone
   logo_url_dark: https://artwork.lfenergy.org/projects/fledgepowerNone
   devstats_url: null
-  maturity: incubation
+  maturity: incubating
   repositories:
   - name: contributing
     url: https://github.com/fledge-power/contributing
+    exclude:
+    - clomonitor
+  - name: .github
+    url: https://github.com/fledge-power/.github
+    exclude:
+    - clomonitor
+  - name: fledge-north-auditsnmp
+    url: https://github.com/fledge-power/fledge-north-auditsnmp
+    exclude:
+    - clomonitor
+  - name: fledge-north-hnz
+    url: https://github.com/fledge-power/fledge-north-hnz
+    exclude:
+    - clomonitor
+  - name: fledge-north-s2opcua
+    url: https://github.com/fledge-power/fledge-north-s2opcua
+    exclude:
+    - clomonitor
+  - name: fledge-north-sysinfosnmp
+    url: https://github.com/fledge-power/fledge-north-sysinfosnmp
+    exclude:
+    - clomonitor
+  - name: fledge-north-tase2
+    url: https://github.com/fledge-power/fledge-north-tase2
+    exclude:
+    - clomonitor
+  - name: fledge-south-hnz
+    url: https://github.com/fledge-power/fledge-south-hnz
+    exclude:
+    - clomonitor
+  - name: fledge-south-tase2
+    url: https://github.com/fledge-power/fledge-south-tase2
+    exclude:
+    - clomonitor
+  - name: fledgepower-ci
+    url: https://github.com/fledge-power/fledgepower-ci
+    exclude:
+    - clomonitor
+  - name: fledgepower-deployment
+    url: https://github.com/fledge-power/fledgepower-deployment
+    exclude:
+    - clomonitor
+  - name: fledgepower-der-scheduler
+    url: https://github.com/fledge-power/fledgepower-der-scheduler
+    exclude:
+    - clomonitor
+  - name: fledgepower-filter-hnztopivot
+    url: https://github.com/fledge-power/fledgepower-filter-hnztopivot
+    exclude:
+    - clomonitor
+  - name: fledgepower-filter-iec104topivot
+    url: https://github.com/fledge-power/fledgepower-filter-iec104topivot
+    exclude:
+    - clomonitor
+  - name: fledgepower-filter-mvcyclingcheck
+    url: https://github.com/fledge-power/fledgepower-filter-mvcyclingcheck
+    exclude:
+    - clomonitor
+  - name: fledgepower-filter-mvscale
+    url: https://github.com/fledge-power/fledgepower-filter-mvscale
+    exclude:
+    - clomonitor
+  - name: fledgepower-filter-opcuatopivot
+    url: https://github.com/fledge-power/fledgepower-filter-opcuatopivot
+    exclude:
+    - clomonitor
+  - name: fledgepower-filter-spoperators
+    url: https://github.com/fledge-power/fledgepower-filter-spoperators
+    exclude:
+    - clomonitor
+  - name: fledgepower-filter-stamp
+    url: https://github.com/fledge-power/fledgepower-filter-stamp
+    exclude:
+    - clomonitor
+  - name: fledgepower-filter-tase2topivot
+    url: https://github.com/fledge-power/fledgepower-filter-tase2topivot
+    exclude:
+    - clomonitor
+  - name: fledgepower-filter-transientsp
+    url: https://github.com/fledge-power/fledgepower-filter-transientsp
+    exclude:
+    - clomonitor
+  - name: fledgepower-notify-systemsp
+    url: https://github.com/fledge-power/fledgepower-notify-systemsp
+    exclude:
+    - clomonitor
+  - name: fledgepower-perf-testing
+    url: https://github.com/fledge-power/fledgepower-perf-testing
+    exclude:
+    - clomonitor
+  - name: fledgepower-pivot-model
+    url: https://github.com/fledge-power/fledgepower-pivot-model
+    exclude:
+    - clomonitor
+  - name: fledgepower-rule-systemsp
+    url: https://github.com/fledge-power/fledgepower-rule-systemsp
+    exclude:
+    - clomonitor
+  - name: libhnz
+    url: https://github.com/fledge-power/libhnz
     exclude:
     - clomonitor
 - name: flexmeasures
@@ -179,13 +626,49 @@
   logo_url: https://artwork.lfenergy.org/projects/flexmeasuresNone
   logo_url_dark: https://artwork.lfenergy.org/projects/flexmeasuresNone
   devstats_url: null
-  maturity: incubation
+  maturity: incubating
   repositories:
   - name: flexmeasures
     url: https://github.com/SeitaBV/flexmeasures
     exclude:
     - clomonitor
-- name: null
+  - name: .github
+    url: https://github.com/FlexMeasures/.github
+    exclude:
+    - clomonitor
+  - name: flexmeasures
+    url: https://github.com/FlexMeasures/flexmeasures
+    exclude:
+    - clomonitor
+  - name: flexmeasures-client
+    url: https://github.com/FlexMeasures/flexmeasures-client
+    exclude:
+    - clomonitor
+  - name: flexmeasures-ha-integration
+    url: https://github.com/FlexMeasures/flexmeasures-ha-integration
+    exclude:
+    - clomonitor
+  - name: flexmeasures-plugin-template
+    url: https://github.com/FlexMeasures/flexmeasures-plugin-template
+    exclude:
+    - clomonitor
+  - name: flexmeasures-s2
+    url: https://github.com/FlexMeasures/flexmeasures-s2
+    exclude:
+    - clomonitor
+  - name: screenshots
+    url: https://github.com/FlexMeasures/screenshots
+    exclude:
+    - clomonitor
+  - name: tsc
+    url: https://github.com/FlexMeasures/tsc
+    exclude:
+    - clomonitor
+  - name: website
+    url: https://github.com/FlexMeasures/website
+    exclude:
+    - clomonitor
+- name: grid-capacity-map
   display_name: Grid Capacity Map
   description: Grid Capacity Map is a project that aims to give customers and stakeholders
     public information about grid capacity and grid connection costs in different
@@ -203,6 +686,41 @@
     url: https://github.com/gridcapacitymap/tsc
     exclude:
     - clomonitor
+  - name: gridcapacity
+    url: https://github.com/gridcapacitymap/gridcapacity
+    exclude:
+    - clomonitor
+  - name: gridcapacitymap
+    url: https://github.com/gridcapacitymap/gridcapacitymap
+    exclude:
+    - clomonitor
+  - name: gridcapacitymap-web
+    url: https://github.com/gridcapacitymap/gridcapacitymap-web
+    exclude:
+    - clomonitor
+  - name: splunk-grid-analysis
+    url: https://github.com/gridcapacitymap/splunk-grid-analysis
+    exclude:
+    - clomonitor
+- name: geisa
+  display_name: Grid Edge Interoperability & Security Alliance (GEISA)
+  description: GEISA creates the secure, interoperable ecosystem to streamline the
+    cybersecurity, deployment, scaling and operation of next-generation grid edge
+    computing and applications. This computing and application ecosystem focuses on
+    capabilities around grid operations, DER orchestration, AI, and other advanced
+    functionality, with standard metering and billing out of scope. Security and interoperability
+    driven by open technology and compliance testing ensure utilities can confidently
+    create the best solution for their needs, and continue delivering reliable, safe,
+    cost-effective power while meeting rapidly evolving grid modernization challenges.
+    Vendors embrace the open ecosystem to accelerate innovation, increase security,
+    and improve competitiveness around value-add services of analytics, AI, and grid
+    optimization.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/geisaNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/geisaNone
+  devstats_url: null
+  maturity: sandbox
+  repositories: []
 - name: grid-exchange-fabric
   display_name: Grid eXchange Fabric (GXF)
   description: "Grid eXchange Fabric (GXF) is a software platform that enables hardware\
@@ -227,6 +745,54 @@
     url: https://github.com/OSGP/Shared
     exclude:
     - clomonitor
+  - name: .github
+    url: https://github.com/OSGP/.github
+    exclude:
+    - clomonitor
+  - name: Documentation
+    url: https://github.com/OSGP/Documentation
+    exclude:
+    - clomonitor
+  - name: charts
+    url: https://github.com/OSGP/charts
+    exclude:
+    - clomonitor
+  - name: gxf-gitops
+    url: https://github.com/OSGP/gxf-gitops
+    exclude:
+    - clomonitor
+  - name: gxf-java-utilities
+    url: https://github.com/OSGP/gxf-java-utilities
+    exclude:
+    - clomonitor
+  - name: gxf-service-template
+    url: https://github.com/OSGP/gxf-service-template
+    exclude:
+    - clomonitor
+  - name: gxf-soap-bridge
+    url: https://github.com/OSGP/gxf-soap-bridge
+    exclude:
+    - clomonitor
+  - name: open-smart-grid-platform
+    url: https://github.com/OSGP/open-smart-grid-platform
+    exclude:
+    - clomonitor
+  - name: sng-coap-http-proxy
+    url: https://github.com/OSGP/sng-coap-http-proxy
+    exclude:
+    - clomonitor
+  - name: sng-crest-device-service
+    url: https://github.com/OSGP/sng-crest-device-service
+    exclude:
+    - clomonitor
+  - name: sng-crest-device-service-web
+    url: https://github.com/OSGP/sng-crest-device-service-web
+    exclude:
+    - clomonitor
+  - name: sng-crest-device-simulator
+    url: https://github.com/OSGP/sng-crest-device-simulator
+    exclude:
+    - clomonitor
 - name: lfenergy-grid-operations-sig
   display_name: Grid Operations SIG
   description: SIG for collaboration and coordination for LF Energy Projects in the
@@ -237,20 +803,6 @@
   devstats_url: null
   maturity: sig
   repositories: []
-- name: null
-  display_name: Grid Resilience and Intelligence Platform (GRIP)
-  description: Open Source will speed technological innovation and enable the energy
-    transition, globally.
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.lfenergy.org/projects/grip/horizontal/color/grip-horizontal-color.svg
-  logo_url_dark: https://artwork.lfenergy.org/projects/grip/horizontal/color/grip-horizontal-color.svg
-  devstats_url: null
-  maturity: sandbox
-  repositories:
-  - name: grip-integration
-    url: https://github.com/gripenergy/grip-integration
-    exclude:
-    - clomonitor
 - name: lfenergy-grid-simulation-and-modeling-sig
   display_name: Grid Simulation and Modeling SIG
   description: SIG for LF Energy project collaboration in the area of Grid Simulation
@@ -261,6 +813,73 @@
   devstats_url: null
   maturity: sig
   repositories: []
+- name: grid2op
+  display_name: Grid2Op
+  description: Grid2op presents a valuable platform for researchers, utilities, and
+    other stakeholders in the power grid domain. Its modularity, customizability,
+    and open-source nature make it a powerful tool for advancing power grid management.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/grid2opNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/grid2opNone
+  devstats_url: null
+  maturity: sandbox
+  repositories:
+  - name: grid2op
+    url: https://github.com/Grid2op/grid2op
+    exclude:
+    - clomonitor
+  - name: .github
+    url: https://github.com/Grid2op/.github
+    exclude:
+    - clomonitor
+  - name: LearningToAlert
+    url: https://github.com/Grid2op/LearningToAlert
+    exclude:
+    - clomonitor
+  - name: chronix2grid
+    url: https://github.com/Grid2op/chronix2grid
+    exclude:
+    - clomonitor
+  - name: grid2game
+    url: https://github.com/Grid2op/grid2game
+    exclude:
+    - clomonitor
+  - name: grid2op-datasets
+    url: https://github.com/Grid2op/grid2op-datasets
+    exclude:
+    - clomonitor
+  - name: grid2op-milp-agent
+    url: https://github.com/Grid2op/grid2op-milp-agent
+    exclude:
+    - clomonitor
+  - name: grid2viz
+    url: https://github.com/Grid2op/grid2viz
+    exclude:
+    - clomonitor
+  - name: l2rpn-baselines
+    url: https://github.com/Grid2op/l2rpn-baselines
+    exclude:
+    - clomonitor
+  - name: lightsim2grid
+    url: https://github.com/Grid2op/lightsim2grid
+    exclude:
+    - clomonitor
+  - name: pypowsybl2grid
+    url: https://github.com/Grid2op/pypowsybl2grid
+    exclude:
+    - clomonitor
+- name: gridfm
+  display_name: GridFM
+  description: This project aims at developing foundation models for electrical grids
+    (GridFMs). Foundation Models (FMs), pre-trained on large data sets and adapted
+    to a broad set of applications, are revolutionizing the field of Artificial Intelligence
+    (AI).
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/gridfmNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/gridfmNone
+  devstats_url: null
+  maturity: sandbox
+  repositories: []
 - name: hyphae
   display_name: Hyphae
   description: Open source software to realize Microgrid which is one of the key elements
@@ -270,10 +889,66 @@
   logo_url: https://artwork.lfenergy.org/projects/hyphaeNone
   logo_url_dark: https://artwork.lfenergy.org/projects/hyphaeNone
   devstats_url: null
-  maturity: incubation
+  maturity: incubating
   repositories:
   - name: apis-common
     url: https://github.com/hyphae/apis-common
+    exclude:
+    - clomonitor
+  - name: APIS
+    url: https://github.com/hyphae/APIS
+    exclude:
+    - clomonitor
+  - name: adrc-converter-controller
+    url: https://github.com/hyphae/adrc-converter-controller
+    exclude:
+    - clomonitor
+  - name: apis-bom
+    url: https://github.com/hyphae/apis-bom
+    exclude:
+    - clomonitor
+  - name: apis-build_version_up_system
+    url: https://github.com/hyphae/apis-build_version_up_system
+    exclude:
+    - clomonitor
+  - name: apis-ccc
+    url: https://github.com/hyphae/apis-ccc
+    exclude:
+    - clomonitor
+  - name: apis-dcdc_batt_comm
+    url: https://github.com/hyphae/apis-dcdc_batt_comm
+    exclude:
+    - clomonitor
+  - name: apis-emulator
+    url: https://github.com/hyphae/apis-emulator
+    exclude:
+    - clomonitor
+  - name: apis-hw-info
+    url: https://github.com/hyphae/apis-hw-info
+    exclude:
+    - clomonitor
+  - name: apis-log
+    url: https://github.com/hyphae/apis-log
+    exclude:
+    - clomonitor
+  - name: apis-main
+    url: https://github.com/hyphae/apis-main
+    exclude:
+    - clomonitor
+  - name: apis-main_controller
+    url: https://github.com/hyphae/apis-main_controller
+    exclude:
+    - clomonitor
+  - name: apis-service_center
+    url: https://github.com/hyphae/apis-service_center
+    exclude:
+    - clomonitor
+  - name: apis-tester
+    url: https://github.com/hyphae/apis-tester
+    exclude:
+    - clomonitor
+  - name: apis-web
+    url: https://github.com/hyphae/apis-web
     exclude:
     - clomonitor
 - name: node-collective
@@ -324,6 +999,10 @@
     url: https://github.com/NODE-Collective/.github
     exclude:
     - clomonitor
+  - name: specification
+    url: https://github.com/NODE-Collective/specification
+    exclude:
+    - clomonitor
 - name: opendsm
   display_name: OpenDSM
   description: "The mission of the Project is to develop an open source project with\
@@ -342,10 +1021,18 @@
   logo_url: https://artwork.lfenergy.org/projects/opendsmNone
   logo_url_dark: https://artwork.lfenergy.org/projects/opendsmNone
   devstats_url: null
-  maturity: incubation
+  maturity: incubating
   repositories:
   - name: eemeter
     url: https://github.com/openeemeter/eemeter
+    exclude:
+    - clomonitor
+  - name: caltrack
+    url: https://github.com/openeemeter/caltrack
+    exclude:
+    - clomonitor
+  - name: eeweather
+    url: https://github.com/openeemeter/eeweather
     exclude:
     - clomonitor
 - name: opengeh
@@ -371,13 +1058,33 @@
   logo_url: https://artwork.lfenergy.org/projects/openleadrNone
   logo_url_dark: https://artwork.lfenergy.org/projects/openleadrNone
   devstats_url: null
-  maturity: incubation
+  maturity: incubating
   repositories:
   - name: openleadr-python
     url: https://github.com/OpenLEADR/openleadr-python
     exclude:
     - clomonitor
-- name: null
+  - name: openleadr-example-ven
+    url: https://github.com/OpenLEADR/openleadr-example-ven
+    exclude:
+    - clomonitor
+  - name: openleadr-example-vtn
+    url: https://github.com/OpenLEADR/openleadr-example-vtn
+    exclude:
+    - clomonitor
+  - name: openleadr-rs
+    url: https://github.com/OpenLEADR/openleadr-rs
+    exclude:
+    - clomonitor
+  - name: openleadr-tsc
+    url: https://github.com/OpenLEADR/openleadr-tsc
+    exclude:
+    - clomonitor
+  - name: openleadr-website
+    url: https://github.com/OpenLEADR/openleadr-website
+    exclude:
+    - clomonitor
+- name: openstef
   display_name: OpenSTEF
   description: OpenSTEF provides a complete software stack that forecasts the load
     on the electricity grid for the next hours to days.
@@ -385,13 +1092,33 @@
   logo_url: https://artwork.lfenergy.org/projects/openstefNone
   logo_url_dark: https://artwork.lfenergy.org/projects/openstefNone
   devstats_url: null
-  maturity: incubation
+  maturity: incubating
   repositories:
   - name: openstef
     url: https://github.com/OpenSTEF/openstef
     exclude:
     - clomonitor
-- name: null
+  - name: .github
+    url: https://github.com/OpenSTEF/.github
+    exclude:
+    - clomonitor
+  - name: openstef-dbc
+    url: https://github.com/OpenSTEF/openstef-dbc
+    exclude:
+    - clomonitor
+  - name: openstef-offline-example
+    url: https://github.com/OpenSTEF/openstef-offline-example
+    exclude:
+    - clomonitor
+  - name: openstef-reference
+    url: https://github.com/OpenSTEF/openstef-reference
+    exclude:
+    - clomonitor
+  - name: openstef-workshop
+    url: https://github.com/OpenSTEF/openstef-workshop
+    exclude:
+    - clomonitor
+- name: opensynth
   display_name: OpenSynth
   description: The mission of the Project is to unlock access to synthetic data to
     accelerate the decarbonization of global energy systems.
@@ -403,6 +1130,14 @@
   repositories:
   - name: .github
     url: https://github.com/opensynth-energy/.github
+    exclude:
+    - clomonitor
+  - name: .github
+    url: https://github.com/OpenSynth-energy/.github
+    exclude:
+    - clomonitor
+  - name: OpenSynth
+    url: https://github.com/OpenSynth-energy/OpenSynth
     exclude:
     - clomonitor
 - name: operator-fabric
@@ -423,7 +1158,39 @@
     url: https://github.com/opfab/operatorfabric-core
     exclude:
     - clomonitor
-- name: null
+  - name: keycloak-perf
+    url: https://github.com/opfab/keycloak-perf
+    exclude:
+    - clomonitor
+  - name: letscoordinate
+    url: https://github.com/opfab/letscoordinate
+    exclude:
+    - clomonitor
+  - name: operatorfabric-getting-started
+    url: https://github.com/opfab/operatorfabric-getting-started
+    exclude:
+    - clomonitor
+  - name: opfab.github.io
+    url: https://github.com/opfab/opfab.github.io
+    exclude:
+    - clomonitor
+  - name: pyopfab-api
+    url: https://github.com/opfab/pyopfab-api
+    exclude:
+    - clomonitor
+  - name: release-notes
+    url: https://github.com/opfab/release-notes
+    exclude:
+    - clomonitor
+  - name: tsc
+    url: https://github.com/opfab/tsc
+    exclude:
+    - clomonitor
+  - name: virtual-select-issue
+    url: https://github.com/opfab/virtual-select-issue
+    exclude:
+    - clomonitor
+- name: powergridmodel
   display_name: Power Grid Model
   description: The mission of the Project is to develop a Python library for steady-state
     distribution power system analysis.
@@ -431,10 +1198,62 @@
   logo_url: https://artwork.lfenergy.org/projects/powergridmodelNone
   logo_url_dark: https://artwork.lfenergy.org/projects/powergridmodelNone
   devstats_url: null
-  maturity: incubation
+  maturity: incubating
   repositories:
   - name: power-grid-model
     url: https://github.com/PowerGridModel/power-grid-model
+    exclude:
+    - clomonitor
+  - name: .github
+    url: https://github.com/PowerGridModel/.github
+    exclude:
+    - clomonitor
+  - name: IEC-CIM-conversion-services-beta
+    url: https://github.com/PowerGridModel/IEC-CIM-conversion-services-beta
+    exclude:
+    - clomonitor
+  - name: benchmark-pgm-vision
+    url: https://github.com/PowerGridModel/benchmark-pgm-vision
+    exclude:
+    - clomonitor
+  - name: boost-pypi
+    url: https://github.com/PowerGridModel/boost-pypi
+    exclude:
+    - clomonitor
+  - name: ict-workshop-newton-raphson
+    url: https://github.com/PowerGridModel/ict-workshop-newton-raphson
+    exclude:
+    - clomonitor
+  - name: msgpack-cxx-pypi
+    url: https://github.com/PowerGridModel/msgpack-cxx-pypi
+    exclude:
+    - clomonitor
+  - name: nlohmann-json-pypi
+    url: https://github.com/PowerGridModel/nlohmann-json-pypi
+    exclude:
+    - clomonitor
+  - name: pgm-tpf-playground
+    url: https://github.com/PowerGridModel/pgm-tpf-playground
+    exclude:
+    - clomonitor
+  - name: power-grid-model-benchmark
+    url: https://github.com/PowerGridModel/power-grid-model-benchmark
+    exclude:
+    - clomonitor
+  - name: power-grid-model-ds
+    url: https://github.com/PowerGridModel/power-grid-model-ds
+    exclude:
+    - clomonitor
+  - name: power-grid-model-io
+    url: https://github.com/PowerGridModel/power-grid-model-io
+    exclude:
+    - clomonitor
+  - name: power-grid-model-io-native
+    url: https://github.com/PowerGridModel/power-grid-model-io-native
+    exclude:
+    - clomonitor
+  - name: power-grid-model-workshop
+    url: https://github.com/PowerGridModel/power-grid-model-workshop
     exclude:
     - clomonitor
 - name: powsybl
@@ -459,7 +1278,203 @@
     url: https://github.com/powsybl/powsybl-core
     exclude:
     - clomonitor
-- name: null
+  - name: .github
+    url: https://github.com/powsybl/.github
+    exclude:
+    - clomonitor
+  - name: github-ci
+    url: https://github.com/powsybl/github-ci
+    exclude:
+    - clomonitor
+  - name: java-docker
+    url: https://github.com/powsybl/java-docker
+    exclude:
+    - clomonitor
+  - name: java-dynawo-docker
+    url: https://github.com/powsybl/java-dynawo-docker
+    exclude:
+    - clomonitor
+  - name: powsybl-afs
+    url: https://github.com/powsybl/powsybl-afs
+    exclude:
+    - clomonitor
+  - name: powsybl-balances-adjustment
+    url: https://github.com/powsybl/powsybl-balances-adjustment
+    exclude:
+    - clomonitor
+  - name: powsybl-benchmark
+    url: https://github.com/powsybl/powsybl-benchmark
+    exclude:
+    - clomonitor
+  - name: powsybl-case-datasource
+    url: https://github.com/powsybl/powsybl-case-datasource
+    exclude:
+    - clomonitor
+  - name: powsybl-case-server
+    url: https://github.com/powsybl/powsybl-case-server
+    exclude:
+    - clomonitor
+  - name: powsybl-cgmes-conformity-assessments
+    url: https://github.com/powsybl/powsybl-cgmes-conformity-assessments
+    exclude:
+    - clomonitor
+  - name: powsybl-cgmes-gl
+    url: https://github.com/powsybl/powsybl-cgmes-gl
+    exclude:
+    - clomonitor
+  - name: powsybl-dependencies
+    url: https://github.com/powsybl/powsybl-dependencies
+    exclude:
+    - clomonitor
+  - name: powsybl-dev-tools
+    url: https://github.com/powsybl/powsybl-dev-tools
+    exclude:
+    - clomonitor
+  - name: powsybl-diagram
+    url: https://github.com/powsybl/powsybl-diagram
+    exclude:
+    - clomonitor
+  - name: powsybl-distribution
+    url: https://github.com/powsybl/powsybl-distribution
+    exclude:
+    - clomonitor
+  - name: powsybl-dynawo
+    url: https://github.com/powsybl/powsybl-dynawo
+    exclude:
+    - clomonitor
+  - name: powsybl-entsoe
+    url: https://github.com/powsybl/powsybl-entsoe
+    exclude:
+    - clomonitor
+  - name: powsybl-eurostag
+    url: https://github.com/powsybl/powsybl-eurostag
+    exclude:
+    - clomonitor
+  - name: powsybl-gse
+    url: https://github.com/powsybl/powsybl-gse
+    exclude:
+    - clomonitor
+  - name: powsybl-hpc
+    url: https://github.com/powsybl/powsybl-hpc
+    exclude:
+    - clomonitor
+  - name: powsybl-iidm4cpp
+    url: https://github.com/powsybl/powsybl-iidm4cpp
+    exclude:
+    - clomonitor
+  - name: powsybl-incubator
+    url: https://github.com/powsybl/powsybl-incubator
+    exclude:
+    - clomonitor
+  - name: powsybl-integration-test
+    url: https://github.com/powsybl/powsybl-integration-test
+    exclude:
+    - clomonitor
+  - name: powsybl-math-native
+    url: https://github.com/powsybl/powsybl-math-native
+    exclude:
+    - clomonitor
+  - name: powsybl-metrix
+    url: https://github.com/powsybl/powsybl-metrix
+    exclude:
+    - clomonitor
+  - name: powsybl-network-area-diagram
+    url: https://github.com/powsybl/powsybl-network-area-diagram
+    exclude:
+    - clomonitor
+  - name: powsybl-network-conversion-server
+    url: https://github.com/powsybl/powsybl-network-conversion-server
+    exclude:
+    - clomonitor
+  - name: powsybl-network-hypothesis
+    url: https://github.com/powsybl/powsybl-network-hypothesis
+    exclude:
+    - clomonitor
+  - name: powsybl-network-store
+    url: https://github.com/powsybl/powsybl-network-store
+    exclude:
+    - clomonitor
+  - name: powsybl-network-store-server
+    url: https://github.com/powsybl/powsybl-network-store-server
+    exclude:
+    - clomonitor
+  - name: powsybl-network-viewer
+    url: https://github.com/powsybl/powsybl-network-viewer
+    exclude:
+    - clomonitor
+  - name: powsybl-open-loadflow
+    url: https://github.com/powsybl/powsybl-open-loadflow
+    exclude:
+    - clomonitor
+  - name: powsybl-open-loadflow-knitro-solver
+    url: https://github.com/powsybl/powsybl-open-loadflow-knitro-solver
+    exclude:
+    - clomonitor
+  - name: powsybl-open-rao
+    url: https://github.com/powsybl/powsybl-open-rao
+    exclude:
+    - clomonitor
+  - name: powsybl-open-sc
+    url: https://github.com/powsybl/powsybl-open-sc
+    exclude:
+    - clomonitor
+  - name: powsybl-optimizer
+    url: https://github.com/powsybl/powsybl-optimizer
+    exclude:
+    - clomonitor
+  - name: powsybl-parent
+    url: https://github.com/powsybl/powsybl-parent
+    exclude:
+    - clomonitor
+  - name: powsybl-powerfactory-db-native
+    url: https://github.com/powsybl/powsybl-powerfactory-db-native
+    exclude:
+    - clomonitor
+  - name: powsybl-single-line-diagram-server
+    url: https://github.com/powsybl/powsybl-single-line-diagram-server
+    exclude:
+    - clomonitor
+  - name: powsybl-starter
+    url: https://github.com/powsybl/powsybl-starter
+    exclude:
+    - clomonitor
+  - name: powsybl-tutorials
+    url: https://github.com/powsybl/powsybl-tutorials
+    exclude:
+    - clomonitor
+  - name: powsybl-ws-commons
+    url: https://github.com/powsybl/powsybl-ws-commons
+    exclude:
+    - clomonitor
+  - name: powsybl-ws-dependencies
+    url: https://github.com/powsybl/powsybl-ws-dependencies
+    exclude:
+    - clomonitor
+  - name: powsybl.github.io
+    url: https://github.com/powsybl/powsybl.github.io
+    exclude:
+    - clomonitor
+  - name: powsybl.jl
+    url: https://github.com/powsybl/powsybl.jl
+    exclude:
+    - clomonitor
+  - name: pypowsybl
+    url: https://github.com/powsybl/pypowsybl
+    exclude:
+    - clomonitor
+  - name: pypowsybl-grid2opbackend
+    url: https://github.com/powsybl/pypowsybl-grid2opbackend
+    exclude:
+    - clomonitor
+  - name: pypowsybl-jupyter
+    url: https://github.com/powsybl/pypowsybl-jupyter
+    exclude:
+    - clomonitor
+  - name: pypowsybl-notebooks
+    url: https://github.com/powsybl/pypowsybl-notebooks
+    exclude:
+    - clomonitor
+- name: rtdip
   display_name: Real Time Data Ingestion Platform (RTDIP)
   description: The mission of the Project is to enable easy access to high volume,
     historical and real time process data for analytics applications, engineers, and
@@ -472,6 +1487,30 @@
   repositories:
   - name: core
     url: https://github.com/rtdip/core
+    exclude:
+    - clomonitor
+  - name: samples
+    url: https://github.com/rtdip/samples
+    exclude:
+    - clomonitor
+- name: sc-decarbonisation-hub
+  display_name: SC Decarbonisation Hub
+  description: Oil and Gas companies face extreme pressure to address GHG emissions.
+    Proactively addressing scope 3 emissions for suppliers and other cases could help
+    improve scope 3 accountability. Such data and insights can help an organization
+    to come up with a mitigation plan.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/sc-decarbonisation-hubNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/sc-decarbonisation-hubNone
+  devstats_url: null
+  maturity: sandbox
+  repositories:
+  - name: SCDH
+    url: https://github.com/sc-decarbonization-hub/SCDH
+    exclude:
+    - clomonitor
+  - name: SCDHApi
+    url: https://github.com/sc-decarbonization-hub/SCDHApi
     exclude:
     - clomonitor
 - name: seapath
@@ -491,6 +1530,114 @@
     url: https://github.com/seapath/.github
     exclude:
     - clomonitor
+  - name: TSC
+    url: https://github.com/seapath/TSC
+    exclude:
+    - clomonitor
+  - name: ansible
+    url: https://github.com/seapath/ansible
+    exclude:
+    - clomonitor
+  - name: build_debian_iso
+    url: https://github.com/seapath/build_debian_iso
+    exclude:
+    - clomonitor
+  - name: ci
+    url: https://github.com/seapath/ci
+    exclude:
+    - clomonitor
+  - name: ci.deprecated
+    url: https://github.com/seapath/ci.deprecated
+    exclude:
+    - clomonitor
+  - name: cockpit-cluster-dashboard
+    url: https://github.com/seapath/cockpit-cluster-dashboard
+    exclude:
+    - clomonitor
+  - name: cockpit-cluster-vm-management
+    url: https://github.com/seapath/cockpit-cluster-vm-management
+    exclude:
+    - clomonitor
+  - name: cockpit-plugin-tests
+    url: https://github.com/seapath/cockpit-plugin-tests
+    exclude:
+    - clomonitor
+  - name: cockpit-update
+    url: https://github.com/seapath/cockpit-update
+    exclude:
+    - clomonitor
+  - name: containers.deprecated
+    url: https://github.com/seapath/containers.deprecated
+    exclude:
+    - clomonitor
+  - name: cukinia-tests
+    url: https://github.com/seapath/cukinia-tests
+    exclude:
+    - clomonitor
+  - name: jenkins-pipelines.deprecated
+    url: https://github.com/seapath/jenkins-pipelines.deprecated
+    exclude:
+    - clomonitor
+  - name: meta-seapath
+    url: https://github.com/seapath/meta-seapath
+    exclude:
+    - clomonitor
+  - name: meta-seapath-tools
+    url: https://github.com/seapath/meta-seapath-tools
+    exclude:
+    - clomonitor
+  - name: python3-setup-ovs
+    url: https://github.com/seapath/python3-setup-ovs
+    exclude:
+    - clomonitor
+  - name: repo-manifest
+    url: https://github.com/seapath/repo-manifest
+    exclude:
+    - clomonitor
+  - name: seapath-architecture
+    url: https://github.com/seapath/seapath-architecture
+    exclude:
+    - clomonitor
+  - name: seapath-benchmark
+    url: https://github.com/seapath/seapath-benchmark
+    exclude:
+    - clomonitor
+  - name: sv-pcap-generator
+    url: https://github.com/seapath/sv-pcap-generator
+    exclude:
+    - clomonitor
+  - name: sv-timestamp-analysis
+    url: https://github.com/seapath/sv-timestamp-analysis
+    exclude:
+    - clomonitor
+  - name: sv_latency_tests
+    url: https://github.com/seapath/sv_latency_tests
+    exclude:
+    - clomonitor
+  - name: sv_parser
+    url: https://github.com/seapath/sv_parser
+    exclude:
+    - clomonitor
+  - name: sv_timestamp_logger
+    url: https://github.com/seapath/sv_timestamp_logger
+    exclude:
+    - clomonitor
+  - name: svtrace
+    url: https://github.com/seapath/svtrace
+    exclude:
+    - clomonitor
+  - name: svtrace-ansible
+    url: https://github.com/seapath/svtrace-ansible
+    exclude:
+    - clomonitor
+  - name: vm_manager
+    url: https://github.com/seapath/vm_manager
+    exclude:
+    - clomonitor
+  - name: yocto-bsp
+    url: https://github.com/seapath/yocto-bsp
+    exclude:
+    - clomonitor
 - name: shapeshifter
   display_name: Shapeshifter
   description: "Focused specifically on the exchange of flexibility between Aggregators\
@@ -505,10 +1652,26 @@
   logo_url: https://artwork.lfenergy.org/projects/shapeshifterNone
   logo_url_dark: https://artwork.lfenergy.org/projects/shapeshifterNone
   devstats_url: null
-  maturity: incubation
+  maturity: incubating
   repositories:
   - name: shapeshifter-library-java
     url: https://github.com/shapeshifter/shapeshifter-library-java
+    exclude:
+    - clomonitor
+  - name: .github
+    url: https://github.com/shapeshifter/.github
+    exclude:
+    - clomonitor
+  - name: shapeshifter-library-python
+    url: https://github.com/shapeshifter/shapeshifter-library-python
+    exclude:
+    - clomonitor
+  - name: shapeshifter-specification
+    url: https://github.com/shapeshifter/shapeshifter-specification
+    exclude:
+    - clomonitor
+  - name: tsc
+    url: https://github.com/shapeshifter/tsc
     exclude:
     - clomonitor
 - name: sogno
@@ -530,20 +1693,127 @@
     url: https://github.com/sogno-platform/dpsim
     exclude:
     - clomonitor
-- name: null
-  display_name: Super Advanced Meter (SAM)
-  description: LF Energy project focused on enabling advanced smart meter solutions.
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.lfess.energy/projects/superadvancedmeterNone
-  logo_url_dark: https://artwork.lfess.energy/projects/superadvancedmeterNone
-  devstats_url: null
-  maturity: lfess
-  repositories:
-  - name: SAMeter
-    url: https://github.com/super-advanced-meter/SAMeter
+  - name: .github
+    url: https://github.com/sogno-platform/.github
     exclude:
     - clomonitor
-- name: null
+  - name: cim-service
+    url: https://github.com/sogno-platform/cim-service
+    exclude:
+    - clomonitor
+  - name: cim4j
+    url: https://github.com/sogno-platform/cim4j
+    exclude:
+    - clomonitor
+  - name: cimgen
+    url: https://github.com/sogno-platform/cimgen
+    exclude:
+    - clomonitor
+  - name: cimpy
+    url: https://github.com/sogno-platform/cimpy
+    exclude:
+    - clomonitor
+  - name: clonemap
+    url: https://github.com/sogno-platform/clonemap
+    exclude:
+    - clomonitor
+  - name: clonemapy
+    url: https://github.com/sogno-platform/clonemapy
+    exclude:
+    - clomonitor
+  - name: covee
+    url: https://github.com/sogno-platform/covee
+    exclude:
+    - clomonitor
+  - name: covee-powerflow
+    url: https://github.com/sogno-platform/covee-powerflow
+    exclude:
+    - clomonitor
+  - name: covee-service
+    url: https://github.com/sogno-platform/covee-service
+    exclude:
+    - clomonitor
+  - name: datafev
+    url: https://github.com/sogno-platform/datafev
+    exclude:
+    - clomonitor
+  - name: dpsim-api
+    url: https://github.com/sogno-platform/dpsim-api
+    exclude:
+    - clomonitor
+  - name: dpsim-service
+    url: https://github.com/sogno-platform/dpsim-service
+    exclude:
+    - clomonitor
+  - name: dpsim-worker
+    url: https://github.com/sogno-platform/dpsim-worker
+    exclude:
+    - clomonitor
+  - name: evrich
+    url: https://github.com/sogno-platform/evrich
+    exclude:
+    - clomonitor
+  - name: example-deployments
+    url: https://github.com/sogno-platform/example-deployments
+    exclude:
+    - clomonitor
+  - name: helm-charts
+    url: https://github.com/sogno-platform/helm-charts
+    exclude:
+    - clomonitor
+  - name: libcimpp
+    url: https://github.com/sogno-platform/libcimpp
+    exclude:
+    - clomonitor
+  - name: pgm-service
+    url: https://github.com/sogno-platform/pgm-service
+    exclude:
+    - clomonitor
+  - name: pintura
+    url: https://github.com/sogno-platform/pintura
+    exclude:
+    - clomonitor
+  - name: proloaf
+    url: https://github.com/sogno-platform/proloaf
+    exclude:
+    - clomonitor
+  - name: proloaf-worker
+    url: https://github.com/sogno-platform/proloaf-worker
+    exclude:
+    - clomonitor
+  - name: pymfm
+    url: https://github.com/sogno-platform/pymfm
+    exclude:
+    - clomonitor
+  - name: pyvolt
+    url: https://github.com/sogno-platform/pyvolt
+    exclude:
+    - clomonitor
+  - name: pyvolt-service
+    url: https://github.com/sogno-platform/pyvolt-service
+    exclude:
+    - clomonitor
+  - name: sogno-file-service
+    url: https://github.com/sogno-platform/sogno-file-service
+    exclude:
+    - clomonitor
+  - name: sogno-job-queue
+    url: https://github.com/sogno-platform/sogno-job-queue
+    exclude:
+    - clomonitor
+  - name: sogno-platform.github.io
+    url: https://github.com/sogno-platform/sogno-platform.github.io
+    exclude:
+    - clomonitor
+  - name: sogno-videos
+    url: https://github.com/sogno-platform/sogno-videos
+    exclude:
+    - clomonitor
+  - name: state-estimation-api
+    url: https://github.com/sogno-platform/state-estimation-api
+    exclude:
+    - clomonitor
+- name: trolie
   display_name: TROLIE
   description: 'The mission of the Project is to establish an open conformance standard
     and
@@ -557,9 +1827,17 @@
   logo_url: https://artwork.lfenergy.org/projects/trolieNone
   logo_url_dark: https://artwork.lfenergy.org/projects/trolieNone
   devstats_url: null
-  maturity: lfess
+  maturity: sandbox
   repositories:
   - name: spec
     url: https://github.com/trolie/spec
+    exclude:
+    - clomonitor
+  - name: conformance
+    url: https://github.com/trolie/conformance
+    exclude:
+    - clomonitor
+  - name: java-client-sdk
+    url: https://github.com/trolie/java-client-sdk
     exclude:
     - clomonitor
