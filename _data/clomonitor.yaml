@@ -183,8 +183,20 @@
     url: https://github.com/com-pas/.allstar
     exclude:
     - clomonitor
+  - name: .allstar
+    url: https://github.com/com-pas/.allstar
+    exclude:
+    - clomonitor
   - name: .github
     url: https://github.com/com-pas/.github
+    exclude:
+    - clomonitor
+  - name: .github
+    url: https://github.com/com-pas/.github
+    exclude:
+    - clomonitor
+  - name: com-pas.github.io
+    url: https://github.com/com-pas/com-pas.github.io
     exclude:
     - clomonitor
   - name: com-pas.github.io
@@ -195,8 +207,20 @@
     url: https://github.com/com-pas/compas-architecture
     exclude:
     - clomonitor
+  - name: compas-architecture
+    url: https://github.com/com-pas/compas-architecture
+    exclude:
+    - clomonitor
   - name: compas-cim-mapping
     url: https://github.com/com-pas/compas-cim-mapping
+    exclude:
+    - clomonitor
+  - name: compas-cim-mapping
+    url: https://github.com/com-pas/compas-cim-mapping
+    exclude:
+    - clomonitor
+  - name: compas-deployment
+    url: https://github.com/com-pas/compas-deployment
     exclude:
     - clomonitor
   - name: compas-deployment
@@ -207,8 +231,20 @@
     url: https://github.com/com-pas/compas-oscd-docops
     exclude:
     - clomonitor
+  - name: compas-oscd-docops
+    url: https://github.com/com-pas/compas-oscd-docops
+    exclude:
+    - clomonitor
   - name: compas-plugin-template
     url: https://github.com/com-pas/compas-plugin-template
+    exclude:
+    - clomonitor
+  - name: compas-plugin-template
+    url: https://github.com/com-pas/compas-plugin-template
+    exclude:
+    - clomonitor
+  - name: compas-scl-auto-alignment
+    url: https://github.com/com-pas/compas-scl-auto-alignment
     exclude:
     - clomonitor
   - name: compas-scl-auto-alignment
@@ -219,8 +255,20 @@
     url: https://github.com/com-pas/compas-scl-data-service
     exclude:
     - clomonitor
+  - name: compas-scl-data-service
+    url: https://github.com/com-pas/compas-scl-data-service
+    exclude:
+    - clomonitor
   - name: compas-scl-validator
     url: https://github.com/com-pas/compas-scl-validator
+    exclude:
+    - clomonitor
+  - name: compas-scl-validator
+    url: https://github.com/com-pas/compas-scl-validator
+    exclude:
+    - clomonitor
+  - name: compas-scl-xsd
+    url: https://github.com/com-pas/compas-scl-xsd
     exclude:
     - clomonitor
   - name: compas-scl-xsd
@@ -231,8 +279,20 @@
     url: https://github.com/com-pas/compas-sct
     exclude:
     - clomonitor
+  - name: compas-sct
+    url: https://github.com/com-pas/compas-sct
+    exclude:
+    - clomonitor
   - name: compas-sitipe-service
     url: https://github.com/com-pas/compas-sitipe-service
+    exclude:
+    - clomonitor
+  - name: compas-sitipe-service
+    url: https://github.com/com-pas/compas-sitipe-service
+    exclude:
+    - clomonitor
+  - name: compas-template-service
+    url: https://github.com/com-pas/compas-template-service
     exclude:
     - clomonitor
   - name: compas-template-service
@@ -243,8 +303,20 @@
     url: https://github.com/com-pas/contributing
     exclude:
     - clomonitor
+  - name: contributing
+    url: https://github.com/com-pas/contributing
+    exclude:
+    - clomonitor
   - name: cross-framework-web-components
     url: https://github.com/com-pas/cross-framework-web-components
+    exclude:
+    - clomonitor
+  - name: cross-framework-web-components
+    url: https://github.com/com-pas/cross-framework-web-components
+    exclude:
+    - clomonitor
+  - name: virtual-template-ied
+    url: https://github.com/com-pas/virtual-template-ied
     exclude:
     - clomonitor
   - name: virtual-template-ied
@@ -690,12 +762,28 @@
     url: https://github.com/gridcapacitymap/gridcapacity
     exclude:
     - clomonitor
+  - name: gridcapacity
+    url: https://github.com/gridcapacitymap/gridcapacity
+    exclude:
+    - clomonitor
+  - name: gridcapacitymap
+    url: https://github.com/gridcapacitymap/gridcapacitymap
+    exclude:
+    - clomonitor
   - name: gridcapacitymap
     url: https://github.com/gridcapacitymap/gridcapacitymap
     exclude:
     - clomonitor
   - name: gridcapacitymap-web
     url: https://github.com/gridcapacitymap/gridcapacitymap-web
+    exclude:
+    - clomonitor
+  - name: gridcapacitymap-web
+    url: https://github.com/gridcapacitymap/gridcapacitymap-web
+    exclude:
+    - clomonitor
+  - name: splunk-grid-analysis
+    url: https://github.com/gridcapacitymap/splunk-grid-analysis
     exclude:
     - clomonitor
   - name: splunk-grid-analysis
@@ -749,8 +837,20 @@
     url: https://github.com/OSGP/.github
     exclude:
     - clomonitor
+  - name: .github
+    url: https://github.com/OSGP/.github
+    exclude:
+    - clomonitor
   - name: Documentation
     url: https://github.com/OSGP/Documentation
+    exclude:
+    - clomonitor
+  - name: Documentation
+    url: https://github.com/OSGP/Documentation
+    exclude:
+    - clomonitor
+  - name: charts
+    url: https://github.com/OSGP/charts
     exclude:
     - clomonitor
   - name: charts
@@ -761,8 +861,20 @@
     url: https://github.com/OSGP/gxf-gitops
     exclude:
     - clomonitor
+  - name: gxf-gitops
+    url: https://github.com/OSGP/gxf-gitops
+    exclude:
+    - clomonitor
   - name: gxf-java-utilities
     url: https://github.com/OSGP/gxf-java-utilities
+    exclude:
+    - clomonitor
+  - name: gxf-java-utilities
+    url: https://github.com/OSGP/gxf-java-utilities
+    exclude:
+    - clomonitor
+  - name: gxf-service-template
+    url: https://github.com/OSGP/gxf-service-template
     exclude:
     - clomonitor
   - name: gxf-service-template
@@ -773,8 +885,20 @@
     url: https://github.com/OSGP/gxf-soap-bridge
     exclude:
     - clomonitor
+  - name: gxf-soap-bridge
+    url: https://github.com/OSGP/gxf-soap-bridge
+    exclude:
+    - clomonitor
   - name: open-smart-grid-platform
     url: https://github.com/OSGP/open-smart-grid-platform
+    exclude:
+    - clomonitor
+  - name: open-smart-grid-platform
+    url: https://github.com/OSGP/open-smart-grid-platform
+    exclude:
+    - clomonitor
+  - name: sng-coap-http-proxy
+    url: https://github.com/OSGP/sng-coap-http-proxy
     exclude:
     - clomonitor
   - name: sng-coap-http-proxy
@@ -785,8 +909,20 @@
     url: https://github.com/OSGP/sng-crest-device-service
     exclude:
     - clomonitor
+  - name: sng-crest-device-service
+    url: https://github.com/OSGP/sng-crest-device-service
+    exclude:
+    - clomonitor
   - name: sng-crest-device-service-web
     url: https://github.com/OSGP/sng-crest-device-service-web
+    exclude:
+    - clomonitor
+  - name: sng-crest-device-service-web
+    url: https://github.com/OSGP/sng-crest-device-service-web
+    exclude:
+    - clomonitor
+  - name: sng-crest-device-simulator
+    url: https://github.com/OSGP/sng-crest-device-simulator
     exclude:
     - clomonitor
   - name: sng-crest-device-simulator
@@ -832,8 +968,20 @@
     url: https://github.com/Grid2op/.github
     exclude:
     - clomonitor
+  - name: .github
+    url: https://github.com/Grid2op/.github
+    exclude:
+    - clomonitor
   - name: LearningToAlert
     url: https://github.com/Grid2op/LearningToAlert
+    exclude:
+    - clomonitor
+  - name: LearningToAlert
+    url: https://github.com/Grid2op/LearningToAlert
+    exclude:
+    - clomonitor
+  - name: chronix2grid
+    url: https://github.com/Grid2op/chronix2grid
     exclude:
     - clomonitor
   - name: chronix2grid
@@ -844,8 +992,20 @@
     url: https://github.com/Grid2op/grid2game
     exclude:
     - clomonitor
+  - name: grid2game
+    url: https://github.com/Grid2op/grid2game
+    exclude:
+    - clomonitor
   - name: grid2op-datasets
     url: https://github.com/Grid2op/grid2op-datasets
+    exclude:
+    - clomonitor
+  - name: grid2op-datasets
+    url: https://github.com/Grid2op/grid2op-datasets
+    exclude:
+    - clomonitor
+  - name: grid2op-milp-agent
+    url: https://github.com/Grid2op/grid2op-milp-agent
     exclude:
     - clomonitor
   - name: grid2op-milp-agent
@@ -856,12 +1016,28 @@
     url: https://github.com/Grid2op/grid2viz
     exclude:
     - clomonitor
+  - name: grid2viz
+    url: https://github.com/Grid2op/grid2viz
+    exclude:
+    - clomonitor
+  - name: l2rpn-baselines
+    url: https://github.com/Grid2op/l2rpn-baselines
+    exclude:
+    - clomonitor
   - name: l2rpn-baselines
     url: https://github.com/Grid2op/l2rpn-baselines
     exclude:
     - clomonitor
   - name: lightsim2grid
     url: https://github.com/Grid2op/lightsim2grid
+    exclude:
+    - clomonitor
+  - name: lightsim2grid
+    url: https://github.com/Grid2op/lightsim2grid
+    exclude:
+    - clomonitor
+  - name: pypowsybl2grid
+    url: https://github.com/Grid2op/pypowsybl2grid
     exclude:
     - clomonitor
   - name: pypowsybl2grid
@@ -1003,6 +1179,10 @@
     url: https://github.com/NODE-Collective/specification
     exclude:
     - clomonitor
+  - name: specification
+    url: https://github.com/NODE-Collective/specification
+    exclude:
+    - clomonitor
 - name: opendsm
   display_name: OpenDSM
   description: "The mission of the Project is to develop an open source project with\
@@ -1029,6 +1209,14 @@
     - clomonitor
   - name: caltrack
     url: https://github.com/openeemeter/caltrack
+    exclude:
+    - clomonitor
+  - name: caltrack
+    url: https://github.com/openeemeter/caltrack
+    exclude:
+    - clomonitor
+  - name: eeweather
+    url: https://github.com/openeemeter/eeweather
     exclude:
     - clomonitor
   - name: eeweather
@@ -1162,8 +1350,20 @@
     url: https://github.com/opfab/keycloak-perf
     exclude:
     - clomonitor
+  - name: keycloak-perf
+    url: https://github.com/opfab/keycloak-perf
+    exclude:
+    - clomonitor
   - name: letscoordinate
     url: https://github.com/opfab/letscoordinate
+    exclude:
+    - clomonitor
+  - name: letscoordinate
+    url: https://github.com/opfab/letscoordinate
+    exclude:
+    - clomonitor
+  - name: operatorfabric-getting-started
+    url: https://github.com/opfab/operatorfabric-getting-started
     exclude:
     - clomonitor
   - name: operatorfabric-getting-started
@@ -1174,6 +1374,14 @@
     url: https://github.com/opfab/opfab.github.io
     exclude:
     - clomonitor
+  - name: opfab.github.io
+    url: https://github.com/opfab/opfab.github.io
+    exclude:
+    - clomonitor
+  - name: pyopfab-api
+    url: https://github.com/opfab/pyopfab-api
+    exclude:
+    - clomonitor
   - name: pyopfab-api
     url: https://github.com/opfab/pyopfab-api
     exclude:
@@ -1182,8 +1390,20 @@
     url: https://github.com/opfab/release-notes
     exclude:
     - clomonitor
+  - name: release-notes
+    url: https://github.com/opfab/release-notes
+    exclude:
+    - clomonitor
   - name: tsc
     url: https://github.com/opfab/tsc
+    exclude:
+    - clomonitor
+  - name: tsc
+    url: https://github.com/opfab/tsc
+    exclude:
+    - clomonitor
+  - name: virtual-select-issue
+    url: https://github.com/opfab/virtual-select-issue
     exclude:
     - clomonitor
   - name: virtual-select-issue
@@ -1282,8 +1502,20 @@
     url: https://github.com/powsybl/.github
     exclude:
     - clomonitor
+  - name: .github
+    url: https://github.com/powsybl/.github
+    exclude:
+    - clomonitor
   - name: github-ci
     url: https://github.com/powsybl/github-ci
+    exclude:
+    - clomonitor
+  - name: github-ci
+    url: https://github.com/powsybl/github-ci
+    exclude:
+    - clomonitor
+  - name: java-docker
+    url: https://github.com/powsybl/java-docker
     exclude:
     - clomonitor
   - name: java-docker
@@ -1294,8 +1526,20 @@
     url: https://github.com/powsybl/java-dynawo-docker
     exclude:
     - clomonitor
+  - name: java-dynawo-docker
+    url: https://github.com/powsybl/java-dynawo-docker
+    exclude:
+    - clomonitor
   - name: powsybl-afs
     url: https://github.com/powsybl/powsybl-afs
+    exclude:
+    - clomonitor
+  - name: powsybl-afs
+    url: https://github.com/powsybl/powsybl-afs
+    exclude:
+    - clomonitor
+  - name: powsybl-balances-adjustment
+    url: https://github.com/powsybl/powsybl-balances-adjustment
     exclude:
     - clomonitor
   - name: powsybl-balances-adjustment
@@ -1306,8 +1550,20 @@
     url: https://github.com/powsybl/powsybl-benchmark
     exclude:
     - clomonitor
+  - name: powsybl-benchmark
+    url: https://github.com/powsybl/powsybl-benchmark
+    exclude:
+    - clomonitor
   - name: powsybl-case-datasource
     url: https://github.com/powsybl/powsybl-case-datasource
+    exclude:
+    - clomonitor
+  - name: powsybl-case-datasource
+    url: https://github.com/powsybl/powsybl-case-datasource
+    exclude:
+    - clomonitor
+  - name: powsybl-case-server
+    url: https://github.com/powsybl/powsybl-case-server
     exclude:
     - clomonitor
   - name: powsybl-case-server
@@ -1318,8 +1574,20 @@
     url: https://github.com/powsybl/powsybl-cgmes-conformity-assessments
     exclude:
     - clomonitor
+  - name: powsybl-cgmes-conformity-assessments
+    url: https://github.com/powsybl/powsybl-cgmes-conformity-assessments
+    exclude:
+    - clomonitor
   - name: powsybl-cgmes-gl
     url: https://github.com/powsybl/powsybl-cgmes-gl
+    exclude:
+    - clomonitor
+  - name: powsybl-cgmes-gl
+    url: https://github.com/powsybl/powsybl-cgmes-gl
+    exclude:
+    - clomonitor
+  - name: powsybl-dependencies
+    url: https://github.com/powsybl/powsybl-dependencies
     exclude:
     - clomonitor
   - name: powsybl-dependencies
@@ -1330,8 +1598,20 @@
     url: https://github.com/powsybl/powsybl-dev-tools
     exclude:
     - clomonitor
+  - name: powsybl-dev-tools
+    url: https://github.com/powsybl/powsybl-dev-tools
+    exclude:
+    - clomonitor
   - name: powsybl-diagram
     url: https://github.com/powsybl/powsybl-diagram
+    exclude:
+    - clomonitor
+  - name: powsybl-diagram
+    url: https://github.com/powsybl/powsybl-diagram
+    exclude:
+    - clomonitor
+  - name: powsybl-distribution
+    url: https://github.com/powsybl/powsybl-distribution
     exclude:
     - clomonitor
   - name: powsybl-distribution
@@ -1342,8 +1622,20 @@
     url: https://github.com/powsybl/powsybl-dynawo
     exclude:
     - clomonitor
+  - name: powsybl-dynawo
+    url: https://github.com/powsybl/powsybl-dynawo
+    exclude:
+    - clomonitor
   - name: powsybl-entsoe
     url: https://github.com/powsybl/powsybl-entsoe
+    exclude:
+    - clomonitor
+  - name: powsybl-entsoe
+    url: https://github.com/powsybl/powsybl-entsoe
+    exclude:
+    - clomonitor
+  - name: powsybl-eurostag
+    url: https://github.com/powsybl/powsybl-eurostag
     exclude:
     - clomonitor
   - name: powsybl-eurostag
@@ -1354,8 +1646,20 @@
     url: https://github.com/powsybl/powsybl-gse
     exclude:
     - clomonitor
+  - name: powsybl-gse
+    url: https://github.com/powsybl/powsybl-gse
+    exclude:
+    - clomonitor
   - name: powsybl-hpc
     url: https://github.com/powsybl/powsybl-hpc
+    exclude:
+    - clomonitor
+  - name: powsybl-hpc
+    url: https://github.com/powsybl/powsybl-hpc
+    exclude:
+    - clomonitor
+  - name: powsybl-iidm4cpp
+    url: https://github.com/powsybl/powsybl-iidm4cpp
     exclude:
     - clomonitor
   - name: powsybl-iidm4cpp
@@ -1366,8 +1670,20 @@
     url: https://github.com/powsybl/powsybl-incubator
     exclude:
     - clomonitor
+  - name: powsybl-incubator
+    url: https://github.com/powsybl/powsybl-incubator
+    exclude:
+    - clomonitor
   - name: powsybl-integration-test
     url: https://github.com/powsybl/powsybl-integration-test
+    exclude:
+    - clomonitor
+  - name: powsybl-integration-test
+    url: https://github.com/powsybl/powsybl-integration-test
+    exclude:
+    - clomonitor
+  - name: powsybl-math-native
+    url: https://github.com/powsybl/powsybl-math-native
     exclude:
     - clomonitor
   - name: powsybl-math-native
@@ -1378,8 +1694,20 @@
     url: https://github.com/powsybl/powsybl-metrix
     exclude:
     - clomonitor
+  - name: powsybl-metrix
+    url: https://github.com/powsybl/powsybl-metrix
+    exclude:
+    - clomonitor
   - name: powsybl-network-area-diagram
     url: https://github.com/powsybl/powsybl-network-area-diagram
+    exclude:
+    - clomonitor
+  - name: powsybl-network-area-diagram
+    url: https://github.com/powsybl/powsybl-network-area-diagram
+    exclude:
+    - clomonitor
+  - name: powsybl-network-conversion-server
+    url: https://github.com/powsybl/powsybl-network-conversion-server
     exclude:
     - clomonitor
   - name: powsybl-network-conversion-server
@@ -1390,8 +1718,20 @@
     url: https://github.com/powsybl/powsybl-network-hypothesis
     exclude:
     - clomonitor
+  - name: powsybl-network-hypothesis
+    url: https://github.com/powsybl/powsybl-network-hypothesis
+    exclude:
+    - clomonitor
   - name: powsybl-network-store
     url: https://github.com/powsybl/powsybl-network-store
+    exclude:
+    - clomonitor
+  - name: powsybl-network-store
+    url: https://github.com/powsybl/powsybl-network-store
+    exclude:
+    - clomonitor
+  - name: powsybl-network-store-server
+    url: https://github.com/powsybl/powsybl-network-store-server
     exclude:
     - clomonitor
   - name: powsybl-network-store-server
@@ -1402,8 +1742,20 @@
     url: https://github.com/powsybl/powsybl-network-viewer
     exclude:
     - clomonitor
+  - name: powsybl-network-viewer
+    url: https://github.com/powsybl/powsybl-network-viewer
+    exclude:
+    - clomonitor
   - name: powsybl-open-loadflow
     url: https://github.com/powsybl/powsybl-open-loadflow
+    exclude:
+    - clomonitor
+  - name: powsybl-open-loadflow
+    url: https://github.com/powsybl/powsybl-open-loadflow
+    exclude:
+    - clomonitor
+  - name: powsybl-open-loadflow-knitro-solver
+    url: https://github.com/powsybl/powsybl-open-loadflow-knitro-solver
     exclude:
     - clomonitor
   - name: powsybl-open-loadflow-knitro-solver
@@ -1414,8 +1766,20 @@
     url: https://github.com/powsybl/powsybl-open-rao
     exclude:
     - clomonitor
+  - name: powsybl-open-rao
+    url: https://github.com/powsybl/powsybl-open-rao
+    exclude:
+    - clomonitor
   - name: powsybl-open-sc
     url: https://github.com/powsybl/powsybl-open-sc
+    exclude:
+    - clomonitor
+  - name: powsybl-open-sc
+    url: https://github.com/powsybl/powsybl-open-sc
+    exclude:
+    - clomonitor
+  - name: powsybl-optimizer
+    url: https://github.com/powsybl/powsybl-optimizer
     exclude:
     - clomonitor
   - name: powsybl-optimizer
@@ -1426,8 +1790,20 @@
     url: https://github.com/powsybl/powsybl-parent
     exclude:
     - clomonitor
+  - name: powsybl-parent
+    url: https://github.com/powsybl/powsybl-parent
+    exclude:
+    - clomonitor
   - name: powsybl-powerfactory-db-native
     url: https://github.com/powsybl/powsybl-powerfactory-db-native
+    exclude:
+    - clomonitor
+  - name: powsybl-powerfactory-db-native
+    url: https://github.com/powsybl/powsybl-powerfactory-db-native
+    exclude:
+    - clomonitor
+  - name: powsybl-single-line-diagram-server
+    url: https://github.com/powsybl/powsybl-single-line-diagram-server
     exclude:
     - clomonitor
   - name: powsybl-single-line-diagram-server
@@ -1438,8 +1814,20 @@
     url: https://github.com/powsybl/powsybl-starter
     exclude:
     - clomonitor
+  - name: powsybl-starter
+    url: https://github.com/powsybl/powsybl-starter
+    exclude:
+    - clomonitor
   - name: powsybl-tutorials
     url: https://github.com/powsybl/powsybl-tutorials
+    exclude:
+    - clomonitor
+  - name: powsybl-tutorials
+    url: https://github.com/powsybl/powsybl-tutorials
+    exclude:
+    - clomonitor
+  - name: powsybl-ws-commons
+    url: https://github.com/powsybl/powsybl-ws-commons
     exclude:
     - clomonitor
   - name: powsybl-ws-commons
@@ -1450,8 +1838,20 @@
     url: https://github.com/powsybl/powsybl-ws-dependencies
     exclude:
     - clomonitor
+  - name: powsybl-ws-dependencies
+    url: https://github.com/powsybl/powsybl-ws-dependencies
+    exclude:
+    - clomonitor
   - name: powsybl.github.io
     url: https://github.com/powsybl/powsybl.github.io
+    exclude:
+    - clomonitor
+  - name: powsybl.github.io
+    url: https://github.com/powsybl/powsybl.github.io
+    exclude:
+    - clomonitor
+  - name: powsybl.jl
+    url: https://github.com/powsybl/powsybl.jl
     exclude:
     - clomonitor
   - name: powsybl.jl
@@ -1462,12 +1862,28 @@
     url: https://github.com/powsybl/pypowsybl
     exclude:
     - clomonitor
+  - name: pypowsybl
+    url: https://github.com/powsybl/pypowsybl
+    exclude:
+    - clomonitor
+  - name: pypowsybl-grid2opbackend
+    url: https://github.com/powsybl/pypowsybl-grid2opbackend
+    exclude:
+    - clomonitor
   - name: pypowsybl-grid2opbackend
     url: https://github.com/powsybl/pypowsybl-grid2opbackend
     exclude:
     - clomonitor
   - name: pypowsybl-jupyter
     url: https://github.com/powsybl/pypowsybl-jupyter
+    exclude:
+    - clomonitor
+  - name: pypowsybl-jupyter
+    url: https://github.com/powsybl/pypowsybl-jupyter
+    exclude:
+    - clomonitor
+  - name: pypowsybl-notebooks
+    url: https://github.com/powsybl/pypowsybl-notebooks
     exclude:
     - clomonitor
   - name: pypowsybl-notebooks
@@ -1513,6 +1929,10 @@
     url: https://github.com/sc-decarbonization-hub/SCDHApi
     exclude:
     - clomonitor
+  - name: SCDHApi
+    url: https://github.com/sc-decarbonization-hub/SCDHApi
+    exclude:
+    - clomonitor
 - name: seapath
   display_name: SEAPATH
   description: "SEAPATH, Software Enabled Automation Platform and Artifacts (THerein),\
@@ -1534,8 +1954,20 @@
     url: https://github.com/seapath/TSC
     exclude:
     - clomonitor
+  - name: TSC
+    url: https://github.com/seapath/TSC
+    exclude:
+    - clomonitor
   - name: ansible
     url: https://github.com/seapath/ansible
+    exclude:
+    - clomonitor
+  - name: ansible
+    url: https://github.com/seapath/ansible
+    exclude:
+    - clomonitor
+  - name: build_debian_iso
+    url: https://github.com/seapath/build_debian_iso
     exclude:
     - clomonitor
   - name: build_debian_iso
@@ -1546,8 +1978,20 @@
     url: https://github.com/seapath/ci
     exclude:
     - clomonitor
+  - name: ci
+    url: https://github.com/seapath/ci
+    exclude:
+    - clomonitor
   - name: ci.deprecated
     url: https://github.com/seapath/ci.deprecated
+    exclude:
+    - clomonitor
+  - name: ci.deprecated
+    url: https://github.com/seapath/ci.deprecated
+    exclude:
+    - clomonitor
+  - name: cockpit-cluster-dashboard
+    url: https://github.com/seapath/cockpit-cluster-dashboard
     exclude:
     - clomonitor
   - name: cockpit-cluster-dashboard
@@ -1558,8 +2002,20 @@
     url: https://github.com/seapath/cockpit-cluster-vm-management
     exclude:
     - clomonitor
+  - name: cockpit-cluster-vm-management
+    url: https://github.com/seapath/cockpit-cluster-vm-management
+    exclude:
+    - clomonitor
   - name: cockpit-plugin-tests
     url: https://github.com/seapath/cockpit-plugin-tests
+    exclude:
+    - clomonitor
+  - name: cockpit-plugin-tests
+    url: https://github.com/seapath/cockpit-plugin-tests
+    exclude:
+    - clomonitor
+  - name: cockpit-update
+    url: https://github.com/seapath/cockpit-update
     exclude:
     - clomonitor
   - name: cockpit-update
@@ -1570,8 +2026,20 @@
     url: https://github.com/seapath/containers.deprecated
     exclude:
     - clomonitor
+  - name: containers.deprecated
+    url: https://github.com/seapath/containers.deprecated
+    exclude:
+    - clomonitor
   - name: cukinia-tests
     url: https://github.com/seapath/cukinia-tests
+    exclude:
+    - clomonitor
+  - name: cukinia-tests
+    url: https://github.com/seapath/cukinia-tests
+    exclude:
+    - clomonitor
+  - name: jenkins-pipelines.deprecated
+    url: https://github.com/seapath/jenkins-pipelines.deprecated
     exclude:
     - clomonitor
   - name: jenkins-pipelines.deprecated
@@ -1582,8 +2050,20 @@
     url: https://github.com/seapath/meta-seapath
     exclude:
     - clomonitor
+  - name: meta-seapath
+    url: https://github.com/seapath/meta-seapath
+    exclude:
+    - clomonitor
   - name: meta-seapath-tools
     url: https://github.com/seapath/meta-seapath-tools
+    exclude:
+    - clomonitor
+  - name: meta-seapath-tools
+    url: https://github.com/seapath/meta-seapath-tools
+    exclude:
+    - clomonitor
+  - name: python3-setup-ovs
+    url: https://github.com/seapath/python3-setup-ovs
     exclude:
     - clomonitor
   - name: python3-setup-ovs
@@ -1594,8 +2074,20 @@
     url: https://github.com/seapath/repo-manifest
     exclude:
     - clomonitor
+  - name: repo-manifest
+    url: https://github.com/seapath/repo-manifest
+    exclude:
+    - clomonitor
   - name: seapath-architecture
     url: https://github.com/seapath/seapath-architecture
+    exclude:
+    - clomonitor
+  - name: seapath-architecture
+    url: https://github.com/seapath/seapath-architecture
+    exclude:
+    - clomonitor
+  - name: seapath-benchmark
+    url: https://github.com/seapath/seapath-benchmark
     exclude:
     - clomonitor
   - name: seapath-benchmark
@@ -1606,8 +2098,20 @@
     url: https://github.com/seapath/sv-pcap-generator
     exclude:
     - clomonitor
+  - name: sv-pcap-generator
+    url: https://github.com/seapath/sv-pcap-generator
+    exclude:
+    - clomonitor
   - name: sv-timestamp-analysis
     url: https://github.com/seapath/sv-timestamp-analysis
+    exclude:
+    - clomonitor
+  - name: sv-timestamp-analysis
+    url: https://github.com/seapath/sv-timestamp-analysis
+    exclude:
+    - clomonitor
+  - name: sv_latency_tests
+    url: https://github.com/seapath/sv_latency_tests
     exclude:
     - clomonitor
   - name: sv_latency_tests
@@ -1618,8 +2122,20 @@
     url: https://github.com/seapath/sv_parser
     exclude:
     - clomonitor
+  - name: sv_parser
+    url: https://github.com/seapath/sv_parser
+    exclude:
+    - clomonitor
   - name: sv_timestamp_logger
     url: https://github.com/seapath/sv_timestamp_logger
+    exclude:
+    - clomonitor
+  - name: sv_timestamp_logger
+    url: https://github.com/seapath/sv_timestamp_logger
+    exclude:
+    - clomonitor
+  - name: svtrace
+    url: https://github.com/seapath/svtrace
     exclude:
     - clomonitor
   - name: svtrace
@@ -1630,8 +2146,20 @@
     url: https://github.com/seapath/svtrace-ansible
     exclude:
     - clomonitor
+  - name: svtrace-ansible
+    url: https://github.com/seapath/svtrace-ansible
+    exclude:
+    - clomonitor
   - name: vm_manager
     url: https://github.com/seapath/vm_manager
+    exclude:
+    - clomonitor
+  - name: vm_manager
+    url: https://github.com/seapath/vm_manager
+    exclude:
+    - clomonitor
+  - name: yocto-bsp
+    url: https://github.com/seapath/yocto-bsp
     exclude:
     - clomonitor
   - name: yocto-bsp
@@ -1662,12 +2190,28 @@
     url: https://github.com/shapeshifter/.github
     exclude:
     - clomonitor
+  - name: .github
+    url: https://github.com/shapeshifter/.github
+    exclude:
+    - clomonitor
+  - name: shapeshifter-library-python
+    url: https://github.com/shapeshifter/shapeshifter-library-python
+    exclude:
+    - clomonitor
   - name: shapeshifter-library-python
     url: https://github.com/shapeshifter/shapeshifter-library-python
     exclude:
     - clomonitor
   - name: shapeshifter-specification
     url: https://github.com/shapeshifter/shapeshifter-specification
+    exclude:
+    - clomonitor
+  - name: shapeshifter-specification
+    url: https://github.com/shapeshifter/shapeshifter-specification
+    exclude:
+    - clomonitor
+  - name: tsc
+    url: https://github.com/shapeshifter/tsc
     exclude:
     - clomonitor
   - name: tsc
