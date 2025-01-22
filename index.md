@@ -39,5 +39,3 @@ Below are the projects and working groups supported by the TAC, listed by [proje
 ## {{ site.foundation_name }} Landscape
 
 There are many more related open source projects than what is hosted at {{ site.foundation_name }}; check out the list and add any we are missing at the [{{ site.foundation_name }} Landscape]({{ site.landscape_url }})
-
-[![{{ site.foundation_name }} Landscape]({{ site.landscape_url }}/images/landscape.png)]({{ site.landscape_url }})
