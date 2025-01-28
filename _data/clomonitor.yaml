@@ -84,8 +84,8 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: battery-data-interface
-    url: https://github.com/BatteryDataAlliance/battery-data-interface
+  - name: pymacnet
+    url: https://github.com/BatteryDataAlliance/pymacnet
     exclude:
     - clomonitor
   - name: BDAOntology
@@ -334,8 +334,8 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: .github
-    url: https://github.com/covxtreme/.github
+  - name: covXtreme
+    url: https://github.com/covXtreme/covXtreme
     exclude:
     - clomonitor
   - name: .github
@@ -1067,8 +1067,8 @@
   devstats_url: null
   maturity: incubating
   repositories:
-  - name: apis-common
-    url: https://github.com/hyphae/apis-common
+  - name: APIS
+    url: https://github.com/hyphae/APIS
     exclude:
     - clomonitor
   - name: APIS
@@ -1316,8 +1316,8 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: .github
-    url: https://github.com/opensynth-energy/.github
+  - name: OpenSynth
+    url: https://github.com/OpenSynth-energy/OpenSynth
     exclude:
     - clomonitor
   - name: .github
@@ -1420,8 +1420,8 @@
   devstats_url: null
   maturity: incubating
   repositories:
-  - name: power-grid-model
-    url: https://github.com/PowerGridModel/power-grid-model
+  - name: power-grid-model-benchmark
+    url: https://github.com/PowerGridModel/power-grid-model-benchmark
     exclude:
     - clomonitor
   - name: .github
@@ -2233,8 +2233,8 @@
   devstats_url: null
   maturity: earlyadoption
   repositories:
-  - name: dpsim
-    url: https://github.com/sogno-platform/dpsim
+  - name: cimpy
+    url: https://github.com/sogno-platform/cimpy
     exclude:
     - clomonitor
   - name: .github
