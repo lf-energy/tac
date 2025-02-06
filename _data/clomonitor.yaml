@@ -1204,7 +1204,7 @@
   maturity: incubating
   repositories:
   - name: eemeter
-    url: https://github.com/openeemeter/eemeter
+    url: https://github.com/opendsm/eemeter
     exclude:
     - clomonitor
   - name: caltrack
