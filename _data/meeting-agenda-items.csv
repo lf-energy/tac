@@ -1,4 +1,5 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
+OpenGEH,https://github.com/lf-energy/tac/issues/23,23,2025-05-27,In Voting,2024-06-04,2-annual-review-sig
 SIG leader feedback,https://github.com/lf-energy/tac/issues/349,349,,Next Meeting Agenda Items,,3-tac-meeting-long
 Speakers from other LF projects on community building,https://github.com/lf-energy/tac/issues/350,350,,Next Meeting Agenda Items,,4-tac-meeting-short
 Arras,https://github.com/lf-energy/tac/issues/104,104,2025-09-03,Future Meeting Agenda Items,2024-07-16,2-annual-review-sig
@@ -41,10 +42,9 @@ pyELQ: python Emission Localization and Quantification,https://github.com/lf-ene
 Security Strategy updates for LF Energy hosted projects,https://github.com/lf-energy/tac/issues/14,14,,On Hold,,4-tac-meeting-short
 Grid Edge Interoperability & Security Alliance (GEISA),https://github.com/lf-energy/tac/issues/230,230,2025-10-14,Future Meeting Agenda Items,,2-annual-review-sig
 Grid Capacity Map,https://github.com/lf-energy/tac/issues/6,6,2024-10-08,On Hold,2023-10-17,2-annual-review
-Security audits for Early Adoption projects through OSTIF,https://github.com/lf-energy/tac/issues/11,11,,Upcoming Meeting Agenda Items,,
-LF Energy TAC Vice Chair conversation,https://github.com/lf-energy/tac/issues/372,372,,Upcoming Meeting Agenda Items,,
+Security audits for Early Adoption projects through OSTIF,https://github.com/lf-energy/tac/issues/11,11,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+LF Energy TAC Vice Chair conversation,https://github.com/lf-energy/tac/issues/372,372,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 Previously TAC approved projects stalled in LF onboarding,https://github.com/lf-energy/tac/issues/390,390,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 Hyphae,https://github.com/lf-energy/tac/issues/74,74,2025-02-11,Upcoming Meeting Agenda Items,2024-02-20,2-annual-review-sig
 New Project Proposal - Grid2Op,https://github.com/lf-energy/tac/issues/287,287,2025-02-11,Upcoming Meeting Agenda Items,,1-new-project-wg
-OpenGEH,https://github.com/lf-energy/tac/issues/23,23,2025-05-27,Upcoming Meeting Agenda Items,2024-06-04,2-annual-review-sig
 IEEE 2030.5 over NATS,https://github.com/lf-energy/tac/issues/383,383,,Future Meeting Agenda Items,,1-new-project-wg
