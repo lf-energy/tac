@@ -123,6 +123,35 @@
     url: https://github.com/carbon-data-specification/Connectivity
     exclude:
     - clomonitor
+- name: cdsc1
+  display_name: CDSC Customer Data WG (WG1)
+  description: This working group focuses on writing free, open specifications for
+    providing utility customer data access, in order to facilitate carbon emissions
+    calculations and decarbonization efforts.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/cdsc1None
+  logo_url_dark: https://artwork.lfenergy.org/projects/cdsc1None
+  devstats_url: null
+  maturity: working-group
+  repositories:
+  - name: Customer-Data
+    url: https://github.com/carbon-data-specification/Customer-Data
+    exclude:
+    - clomonitor
+- name: cdsc2
+  display_name: CDSC Power System Data WG (WG2)
+  description: An open specification for raw electric power system data to facilitate
+    a systematic and more accurate approach to report grid emissions.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/cdsc2None
+  logo_url_dark: https://artwork.lfenergy.org/projects/cdsc2None
+  devstats_url: null
+  maturity: working-group
+  repositories:
+  - name: Power-Systems-Data
+    url: https://github.com/carbon-data-specification/Power-Systems-Data
+    exclude:
+    - clomonitor
 - name: citrineos
   display_name: CitrineOS
   description: The mission of the Project is to develop EV charging station management
@@ -829,8 +858,8 @@
   devstats_url: null
   maturity: earlyadoption
   repositories:
-  - name: Shared
-    url: https://github.com/OSGP/Shared
+  - name: Config
+    url: https://github.com/OSGP/Config
     exclude:
     - clomonitor
   - name: .github
@@ -949,101 +978,6 @@
   devstats_url: null
   maturity: sig
   repositories: []
-- name: grid2op
-  display_name: Grid2Op
-  description: Grid2op presents a valuable platform for researchers, utilities, and
-    other stakeholders in the power grid domain. Its modularity, customizability,
-    and open-source nature make it a powerful tool for advancing power grid management.
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.lfenergy.org/projects/grid2opNone
-  logo_url_dark: https://artwork.lfenergy.org/projects/grid2opNone
-  devstats_url: null
-  maturity: sandbox
-  repositories:
-  - name: grid2op
-    url: https://github.com/Grid2op/grid2op
-    exclude:
-    - clomonitor
-  - name: .github
-    url: https://github.com/Grid2op/.github
-    exclude:
-    - clomonitor
-  - name: .github
-    url: https://github.com/Grid2op/.github
-    exclude:
-    - clomonitor
-  - name: LearningToAlert
-    url: https://github.com/Grid2op/LearningToAlert
-    exclude:
-    - clomonitor
-  - name: LearningToAlert
-    url: https://github.com/Grid2op/LearningToAlert
-    exclude:
-    - clomonitor
-  - name: chronix2grid
-    url: https://github.com/Grid2op/chronix2grid
-    exclude:
-    - clomonitor
-  - name: chronix2grid
-    url: https://github.com/Grid2op/chronix2grid
-    exclude:
-    - clomonitor
-  - name: grid2game
-    url: https://github.com/Grid2op/grid2game
-    exclude:
-    - clomonitor
-  - name: grid2game
-    url: https://github.com/Grid2op/grid2game
-    exclude:
-    - clomonitor
-  - name: grid2op-datasets
-    url: https://github.com/Grid2op/grid2op-datasets
-    exclude:
-    - clomonitor
-  - name: grid2op-datasets
-    url: https://github.com/Grid2op/grid2op-datasets
-    exclude:
-    - clomonitor
-  - name: grid2op-milp-agent
-    url: https://github.com/Grid2op/grid2op-milp-agent
-    exclude:
-    - clomonitor
-  - name: grid2op-milp-agent
-    url: https://github.com/Grid2op/grid2op-milp-agent
-    exclude:
-    - clomonitor
-  - name: grid2viz
-    url: https://github.com/Grid2op/grid2viz
-    exclude:
-    - clomonitor
-  - name: grid2viz
-    url: https://github.com/Grid2op/grid2viz
-    exclude:
-    - clomonitor
-  - name: l2rpn-baselines
-    url: https://github.com/Grid2op/l2rpn-baselines
-    exclude:
-    - clomonitor
-  - name: l2rpn-baselines
-    url: https://github.com/Grid2op/l2rpn-baselines
-    exclude:
-    - clomonitor
-  - name: lightsim2grid
-    url: https://github.com/Grid2op/lightsim2grid
-    exclude:
-    - clomonitor
-  - name: lightsim2grid
-    url: https://github.com/Grid2op/lightsim2grid
-    exclude:
-    - clomonitor
-  - name: pypowsybl2grid
-    url: https://github.com/Grid2op/pypowsybl2grid
-    exclude:
-    - clomonitor
-  - name: pypowsybl2grid
-    url: https://github.com/Grid2op/pypowsybl2grid
-    exclude:
-    - clomonitor
 - name: gridfm
   display_name: GridFM
   description: This project aims at developing foundation models for electrical grids
@@ -1079,8 +1013,20 @@
     url: https://github.com/hyphae/adrc-converter-controller
     exclude:
     - clomonitor
+  - name: adrc-converter-controller
+    url: https://github.com/hyphae/adrc-converter-controller
+    exclude:
+    - clomonitor
   - name: apis-bom
     url: https://github.com/hyphae/apis-bom
+    exclude:
+    - clomonitor
+  - name: apis-bom
+    url: https://github.com/hyphae/apis-bom
+    exclude:
+    - clomonitor
+  - name: apis-build_version_up_system
+    url: https://github.com/hyphae/apis-build_version_up_system
     exclude:
     - clomonitor
   - name: apis-build_version_up_system
@@ -1091,8 +1037,24 @@
     url: https://github.com/hyphae/apis-ccc
     exclude:
     - clomonitor
+  - name: apis-ccc
+    url: https://github.com/hyphae/apis-ccc
+    exclude:
+    - clomonitor
+  - name: apis-common
+    url: https://github.com/hyphae/apis-common
+    exclude:
+    - clomonitor
   - name: apis-dcdc_batt_comm
     url: https://github.com/hyphae/apis-dcdc_batt_comm
+    exclude:
+    - clomonitor
+  - name: apis-dcdc_batt_comm
+    url: https://github.com/hyphae/apis-dcdc_batt_comm
+    exclude:
+    - clomonitor
+  - name: apis-emulator
+    url: https://github.com/hyphae/apis-emulator
     exclude:
     - clomonitor
   - name: apis-emulator
@@ -1103,8 +1065,20 @@
     url: https://github.com/hyphae/apis-hw-info
     exclude:
     - clomonitor
+  - name: apis-hw-info
+    url: https://github.com/hyphae/apis-hw-info
+    exclude:
+    - clomonitor
   - name: apis-log
     url: https://github.com/hyphae/apis-log
+    exclude:
+    - clomonitor
+  - name: apis-log
+    url: https://github.com/hyphae/apis-log
+    exclude:
+    - clomonitor
+  - name: apis-main
+    url: https://github.com/hyphae/apis-main
     exclude:
     - clomonitor
   - name: apis-main
@@ -1115,12 +1089,28 @@
     url: https://github.com/hyphae/apis-main_controller
     exclude:
     - clomonitor
+  - name: apis-main_controller
+    url: https://github.com/hyphae/apis-main_controller
+    exclude:
+    - clomonitor
+  - name: apis-service_center
+    url: https://github.com/hyphae/apis-service_center
+    exclude:
+    - clomonitor
   - name: apis-service_center
     url: https://github.com/hyphae/apis-service_center
     exclude:
     - clomonitor
   - name: apis-tester
     url: https://github.com/hyphae/apis-tester
+    exclude:
+    - clomonitor
+  - name: apis-tester
+    url: https://github.com/hyphae/apis-tester
+    exclude:
+    - clomonitor
+  - name: apis-web
+    url: https://github.com/hyphae/apis-web
     exclude:
     - clomonitor
   - name: apis-web
@@ -1203,12 +1193,16 @@
   devstats_url: null
   maturity: incubating
   repositories:
-  - name: eemeter
-    url: https://github.com/opendsm/eemeter
+  - name: opendsm
+    url: https://github.com/opendsm/opendsm
     exclude:
     - clomonitor
   - name: caltrack
-    url: https://github.com/openeemeter/caltrack
+    url: https://github.com/opendsm/caltrack
+    exclude:
+    - clomonitor
+  - name: eeweather
+    url: https://github.com/opendsm/eeweather
     exclude:
     - clomonitor
   - name: caltrack
@@ -1217,24 +1211,6 @@
     - clomonitor
   - name: eeweather
     url: https://github.com/openeemeter/eeweather
-    exclude:
-    - clomonitor
-  - name: eeweather
-    url: https://github.com/openeemeter/eeweather
-    exclude:
-    - clomonitor
-- name: opengeh
-  display_name: OpenGEH
-  description: The focus of the Green Energy Hub is to accelerate the transition to
-    green energy.
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.lfenergy.org/projects/opengehNone
-  logo_url_dark: https://artwork.lfenergy.org/projects/opengehNone
-  devstats_url: null
-  maturity: sandbox
-  repositories:
-  - name: .github
-    url: https://github.com/opengeh/.github
     exclude:
     - clomonitor
 - name: openleadr
@@ -1256,6 +1232,14 @@
     url: https://github.com/OpenLEADR/openleadr-example-ven
     exclude:
     - clomonitor
+  - name: openleadr-example-ven
+    url: https://github.com/OpenLEADR/openleadr-example-ven
+    exclude:
+    - clomonitor
+  - name: openleadr-example-vtn
+    url: https://github.com/OpenLEADR/openleadr-example-vtn
+    exclude:
+    - clomonitor
   - name: openleadr-example-vtn
     url: https://github.com/OpenLEADR/openleadr-example-vtn
     exclude:
@@ -1264,8 +1248,20 @@
     url: https://github.com/OpenLEADR/openleadr-rs
     exclude:
     - clomonitor
+  - name: openleadr-rs
+    url: https://github.com/OpenLEADR/openleadr-rs
+    exclude:
+    - clomonitor
   - name: openleadr-tsc
     url: https://github.com/OpenLEADR/openleadr-tsc
+    exclude:
+    - clomonitor
+  - name: openleadr-tsc
+    url: https://github.com/OpenLEADR/openleadr-tsc
+    exclude:
+    - clomonitor
+  - name: openleadr-website
+    url: https://github.com/OpenLEADR/openleadr-website
     exclude:
     - clomonitor
   - name: openleadr-website
@@ -1290,6 +1286,14 @@
     url: https://github.com/OpenSTEF/.github
     exclude:
     - clomonitor
+  - name: .github
+    url: https://github.com/OpenSTEF/.github
+    exclude:
+    - clomonitor
+  - name: openstef-dbc
+    url: https://github.com/OpenSTEF/openstef-dbc
+    exclude:
+    - clomonitor
   - name: openstef-dbc
     url: https://github.com/OpenSTEF/openstef-dbc
     exclude:
@@ -1298,8 +1302,20 @@
     url: https://github.com/OpenSTEF/openstef-offline-example
     exclude:
     - clomonitor
+  - name: openstef-offline-example
+    url: https://github.com/OpenSTEF/openstef-offline-example
+    exclude:
+    - clomonitor
   - name: openstef-reference
     url: https://github.com/OpenSTEF/openstef-reference
+    exclude:
+    - clomonitor
+  - name: openstef-reference
+    url: https://github.com/OpenSTEF/openstef-reference
+    exclude:
+    - clomonitor
+  - name: openstef-workshop
+    url: https://github.com/OpenSTEF/openstef-workshop
     exclude:
     - clomonitor
   - name: openstef-workshop
@@ -1370,6 +1386,10 @@
     url: https://github.com/opfab/operatorfabric-getting-started
     exclude:
     - clomonitor
+  - name: opfab-grafana
+    url: https://github.com/opfab/opfab-grafana
+    exclude:
+    - clomonitor
   - name: opfab.github.io
     url: https://github.com/opfab/opfab.github.io
     exclude:
@@ -1428,8 +1448,20 @@
     url: https://github.com/PowerGridModel/.github
     exclude:
     - clomonitor
+  - name: .github
+    url: https://github.com/PowerGridModel/.github
+    exclude:
+    - clomonitor
   - name: IEC-CIM-conversion-services-beta
     url: https://github.com/PowerGridModel/IEC-CIM-conversion-services-beta
+    exclude:
+    - clomonitor
+  - name: IEC-CIM-conversion-services-beta
+    url: https://github.com/PowerGridModel/IEC-CIM-conversion-services-beta
+    exclude:
+    - clomonitor
+  - name: benchmark-pgm-vision
+    url: https://github.com/PowerGridModel/benchmark-pgm-vision
     exclude:
     - clomonitor
   - name: benchmark-pgm-vision
@@ -1440,8 +1472,20 @@
     url: https://github.com/PowerGridModel/boost-pypi
     exclude:
     - clomonitor
+  - name: boost-pypi
+    url: https://github.com/PowerGridModel/boost-pypi
+    exclude:
+    - clomonitor
   - name: ict-workshop-newton-raphson
     url: https://github.com/PowerGridModel/ict-workshop-newton-raphson
+    exclude:
+    - clomonitor
+  - name: ict-workshop-newton-raphson
+    url: https://github.com/PowerGridModel/ict-workshop-newton-raphson
+    exclude:
+    - clomonitor
+  - name: msgpack-cxx-pypi
+    url: https://github.com/PowerGridModel/msgpack-cxx-pypi
     exclude:
     - clomonitor
   - name: msgpack-cxx-pypi
@@ -1452,8 +1496,20 @@
     url: https://github.com/PowerGridModel/nlohmann-json-pypi
     exclude:
     - clomonitor
+  - name: nlohmann-json-pypi
+    url: https://github.com/PowerGridModel/nlohmann-json-pypi
+    exclude:
+    - clomonitor
   - name: pgm-tpf-playground
     url: https://github.com/PowerGridModel/pgm-tpf-playground
+    exclude:
+    - clomonitor
+  - name: pgm-tpf-playground
+    url: https://github.com/PowerGridModel/pgm-tpf-playground
+    exclude:
+    - clomonitor
+  - name: power-grid-model
+    url: https://github.com/PowerGridModel/power-grid-model
     exclude:
     - clomonitor
   - name: power-grid-model-benchmark
@@ -1464,12 +1520,28 @@
     url: https://github.com/PowerGridModel/power-grid-model-ds
     exclude:
     - clomonitor
+  - name: power-grid-model-ds
+    url: https://github.com/PowerGridModel/power-grid-model-ds
+    exclude:
+    - clomonitor
+  - name: power-grid-model-io
+    url: https://github.com/PowerGridModel/power-grid-model-io
+    exclude:
+    - clomonitor
   - name: power-grid-model-io
     url: https://github.com/PowerGridModel/power-grid-model-io
     exclude:
     - clomonitor
   - name: power-grid-model-io-native
     url: https://github.com/PowerGridModel/power-grid-model-io-native
+    exclude:
+    - clomonitor
+  - name: power-grid-model-io-native
+    url: https://github.com/PowerGridModel/power-grid-model-io-native
+    exclude:
+    - clomonitor
+  - name: power-grid-model-workshop
+    url: https://github.com/PowerGridModel/power-grid-model-workshop
     exclude:
     - clomonitor
   - name: power-grid-model-workshop
@@ -1909,6 +1981,36 @@
     url: https://github.com/rtdip/samples
     exclude:
     - clomonitor
+  - name: samples
+    url: https://github.com/rtdip/samples
+    exclude:
+    - clomonitor
+- name: samwga
+  display_name: SAM WG Architecture
+  description: Super Advanced Smart Meter
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/samwgaNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/samwgaNone
+  devstats_url: null
+  maturity: working-group
+  repositories:
+  - name: WG-Architecture
+    url: https://github.com/super-advanced-meter/WG-Architecture
+    exclude:
+    - clomonitor
+- name: samwguc
+  display_name: SAM WG Use Cases
+  description: Super Advanced Smart Meter Use Cases
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/samwgucNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/samwgucNone
+  devstats_url: null
+  maturity: working-group
+  repositories:
+  - name: WG-UseCases
+    url: https://github.com/super-advanced-meter/WG-UseCases
+    exclude:
+    - clomonitor
 - name: sc-decarbonisation-hub
   display_name: SC Decarbonisation Hub
   description: Oil and Gas companies face extreme pressure to address GHG emissions.
@@ -2241,12 +2343,28 @@
     url: https://github.com/sogno-platform/.github
     exclude:
     - clomonitor
+  - name: .github
+    url: https://github.com/sogno-platform/.github
+    exclude:
+    - clomonitor
+  - name: cim-service
+    url: https://github.com/sogno-platform/cim-service
+    exclude:
+    - clomonitor
   - name: cim-service
     url: https://github.com/sogno-platform/cim-service
     exclude:
     - clomonitor
   - name: cim4j
     url: https://github.com/sogno-platform/cim4j
+    exclude:
+    - clomonitor
+  - name: cim4j
+    url: https://github.com/sogno-platform/cim4j
+    exclude:
+    - clomonitor
+  - name: cimgen
+    url: https://github.com/sogno-platform/cimgen
     exclude:
     - clomonitor
   - name: cimgen
@@ -2261,8 +2379,20 @@
     url: https://github.com/sogno-platform/clonemap
     exclude:
     - clomonitor
+  - name: clonemap
+    url: https://github.com/sogno-platform/clonemap
+    exclude:
+    - clomonitor
   - name: clonemapy
     url: https://github.com/sogno-platform/clonemapy
+    exclude:
+    - clomonitor
+  - name: clonemapy
+    url: https://github.com/sogno-platform/clonemapy
+    exclude:
+    - clomonitor
+  - name: covee
+    url: https://github.com/sogno-platform/covee
     exclude:
     - clomonitor
   - name: covee
@@ -2273,12 +2403,32 @@
     url: https://github.com/sogno-platform/covee-powerflow
     exclude:
     - clomonitor
+  - name: covee-powerflow
+    url: https://github.com/sogno-platform/covee-powerflow
+    exclude:
+    - clomonitor
+  - name: covee-service
+    url: https://github.com/sogno-platform/covee-service
+    exclude:
+    - clomonitor
   - name: covee-service
     url: https://github.com/sogno-platform/covee-service
     exclude:
     - clomonitor
   - name: datafev
     url: https://github.com/sogno-platform/datafev
+    exclude:
+    - clomonitor
+  - name: datafev
+    url: https://github.com/sogno-platform/datafev
+    exclude:
+    - clomonitor
+  - name: dpsim
+    url: https://github.com/sogno-platform/dpsim
+    exclude:
+    - clomonitor
+  - name: dpsim-api
+    url: https://github.com/sogno-platform/dpsim-api
     exclude:
     - clomonitor
   - name: dpsim-api
@@ -2289,8 +2439,20 @@
     url: https://github.com/sogno-platform/dpsim-service
     exclude:
     - clomonitor
+  - name: dpsim-service
+    url: https://github.com/sogno-platform/dpsim-service
+    exclude:
+    - clomonitor
   - name: dpsim-worker
     url: https://github.com/sogno-platform/dpsim-worker
+    exclude:
+    - clomonitor
+  - name: dpsim-worker
+    url: https://github.com/sogno-platform/dpsim-worker
+    exclude:
+    - clomonitor
+  - name: evrich
+    url: https://github.com/sogno-platform/evrich
     exclude:
     - clomonitor
   - name: evrich
@@ -2301,8 +2463,20 @@
     url: https://github.com/sogno-platform/example-deployments
     exclude:
     - clomonitor
+  - name: example-deployments
+    url: https://github.com/sogno-platform/example-deployments
+    exclude:
+    - clomonitor
   - name: helm-charts
     url: https://github.com/sogno-platform/helm-charts
+    exclude:
+    - clomonitor
+  - name: helm-charts
+    url: https://github.com/sogno-platform/helm-charts
+    exclude:
+    - clomonitor
+  - name: libcimpp
+    url: https://github.com/sogno-platform/libcimpp
     exclude:
     - clomonitor
   - name: libcimpp
@@ -2313,8 +2487,20 @@
     url: https://github.com/sogno-platform/pgm-service
     exclude:
     - clomonitor
+  - name: pgm-service
+    url: https://github.com/sogno-platform/pgm-service
+    exclude:
+    - clomonitor
   - name: pintura
     url: https://github.com/sogno-platform/pintura
+    exclude:
+    - clomonitor
+  - name: pintura
+    url: https://github.com/sogno-platform/pintura
+    exclude:
+    - clomonitor
+  - name: proloaf
+    url: https://github.com/sogno-platform/proloaf
     exclude:
     - clomonitor
   - name: proloaf
@@ -2325,8 +2511,20 @@
     url: https://github.com/sogno-platform/proloaf-worker
     exclude:
     - clomonitor
+  - name: proloaf-worker
+    url: https://github.com/sogno-platform/proloaf-worker
+    exclude:
+    - clomonitor
   - name: pymfm
     url: https://github.com/sogno-platform/pymfm
+    exclude:
+    - clomonitor
+  - name: pymfm
+    url: https://github.com/sogno-platform/pymfm
+    exclude:
+    - clomonitor
+  - name: pyvolt
+    url: https://github.com/sogno-platform/pyvolt
     exclude:
     - clomonitor
   - name: pyvolt
@@ -2337,8 +2535,20 @@
     url: https://github.com/sogno-platform/pyvolt-service
     exclude:
     - clomonitor
+  - name: pyvolt-service
+    url: https://github.com/sogno-platform/pyvolt-service
+    exclude:
+    - clomonitor
   - name: sogno-file-service
     url: https://github.com/sogno-platform/sogno-file-service
+    exclude:
+    - clomonitor
+  - name: sogno-file-service
+    url: https://github.com/sogno-platform/sogno-file-service
+    exclude:
+    - clomonitor
+  - name: sogno-job-queue
+    url: https://github.com/sogno-platform/sogno-job-queue
     exclude:
     - clomonitor
   - name: sogno-job-queue
@@ -2349,8 +2559,20 @@
     url: https://github.com/sogno-platform/sogno-platform.github.io
     exclude:
     - clomonitor
+  - name: sogno-platform.github.io
+    url: https://github.com/sogno-platform/sogno-platform.github.io
+    exclude:
+    - clomonitor
   - name: sogno-videos
     url: https://github.com/sogno-platform/sogno-videos
+    exclude:
+    - clomonitor
+  - name: sogno-videos
+    url: https://github.com/sogno-platform/sogno-videos
+    exclude:
+    - clomonitor
+  - name: state-estimation-api
+    url: https://github.com/sogno-platform/state-estimation-api
     exclude:
     - clomonitor
   - name: state-estimation-api
@@ -2371,7 +2593,7 @@
   logo_url: https://artwork.lfenergy.org/projects/trolieNone
   logo_url_dark: https://artwork.lfenergy.org/projects/trolieNone
   devstats_url: null
-  maturity: sandbox
+  maturity: working-group
   repositories:
   - name: spec
     url: https://github.com/trolie/spec
