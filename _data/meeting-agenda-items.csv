@@ -1,6 +1,4 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
-SIG leader feedback,https://github.com/lf-energy/tac/issues/349,349,,Next Meeting Agenda Items,,3-tac-meeting-long
-Speakers from other LF projects on community building,https://github.com/lf-energy/tac/issues/350,350,,Next Meeting Agenda Items,,4-tac-meeting-short
 Security audits for Early Adoption projects through OSTIF,https://github.com/lf-energy/tac/issues/11,11,,Next Meeting Agenda Items,,4-tac-meeting-short
 Arras,https://github.com/lf-energy/tac/issues/104,104,2025-09-03,Future Meeting Agenda Items,2024-07-16,2-annual-review-sig
 Grid Resilience and Intelligence Platform (GRIP),https://github.com/lf-energy/tac/issues/52,52,2024-09-17,On Hold,,2-annual-review
@@ -24,6 +22,7 @@ FlexMeasures,https://github.com/lf-energy/tac/issues/27,27,2025-11-11,Future Mee
 PowSyBl,https://github.com/lf-energy/tac/issues/22,22,2025-12-03,Future Meeting Agenda Items,2024-12-04,2-annual-review-sig
 Review LF Energy 2025 Strategy,https://github.com/lf-energy/tac/issues/348,348,,Future Meeting Agenda Items,,
 NODE Collective,https://github.com/lf-energy/tac/issues/108,108,2025-07-08,Future Meeting Agenda Items,2024-04-02,2-annual-review-sig
+Hyphae,https://github.com/lf-energy/tac/issues/74,74,2026-02-10,Future Meeting Agenda Items,2025-02-11,2-annual-review
 Open Renewable Energy System (ORES) Working Group,https://github.com/lf-energy/tac/issues/107,107,2025-03-25,Future Meeting Agenda Items,,2-annual-review
 Archimate WG,https://github.com/lf-energy/tac/issues/93,93,2025-10-14,Future Meeting Agenda Items,2024-10-29,2-annual-review
 AI SIG,https://github.com/lf-energy/tac/issues/53,53,2025-11-11,Future Meeting Agenda Items,2024-10-29,2-annual-review
@@ -43,6 +42,7 @@ Security Strategy updates for LF Energy hosted projects,https://github.com/lf-en
 Grid Edge Interoperability & Security Alliance (GEISA),https://github.com/lf-energy/tac/issues/230,230,2025-10-14,Future Meeting Agenda Items,,2-annual-review-sig
 Grid Capacity Map,https://github.com/lf-energy/tac/issues/6,6,2024-10-08,On Hold,2023-10-17,2-annual-review
 Previously TAC approved projects stalled in LF onboarding,https://github.com/lf-energy/tac/issues/390,390,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+Speakers from other LF projects on community building,https://github.com/lf-energy/tac/issues/350,350,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+SIG leader feedback,https://github.com/lf-energy/tac/issues/349,349,,Upcoming Meeting Agenda Items,,3-tac-meeting-long
 OpenSynth,https://github.com/lf-energy/tac/issues/68,68,2025-03-11,Upcoming Meeting Agenda Items,2024-01-09,2-annual-review
-Hyphae,https://github.com/lf-energy/tac/issues/74,74,2026-02-10,Upcoming Meeting Agenda Items,2025-02-11,2-annual-review-sig
 IEEE 2030.5 over NATS,https://github.com/lf-energy/tac/issues/383,383,,Future Meeting Agenda Items,,1-new-project-wg
