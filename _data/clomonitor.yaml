@@ -753,7 +753,11 @@
   logo_url_dark: https://artwork.lfenergy.org/projects/gridfmNone
   devstats_url: null
   maturity: sandbox
-  repositories: []
+  repositories:
+  - name: gridfm-data-zoo
+    url: https://github.com/gridfm-energy/gridfm-data-zoo
+    exclude:
+    - clomonitor
 - name: hyphae
   display_name: Hyphae
   description: Open source software to realize Microgrid which is one of the key elements
