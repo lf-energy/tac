@@ -758,6 +758,18 @@
     url: https://github.com/gridfm-energy/gridfm-data-zoo
     exclude:
     - clomonitor
+  - name: gridfm-federated
+    url: https://github.com/gridfm-energy/gridfm-federated
+    exclude:
+    - clomonitor
+  - name: gridfm-federated
+    url: https://github.com/gridfm-energy/gridfm-federated
+    exclude:
+    - clomonitor
+  - name: gridfm-lab
+    url: https://github.com/gridfm-energy/gridfm-lab
+    exclude:
+    - clomonitor
 - name: hyphae
   display_name: Hyphae
   description: Open source software to realize Microgrid which is one of the key elements
