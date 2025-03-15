@@ -761,12 +761,12 @@
     url: https://github.com/Grid2op/.github
     exclude:
     - clomonitor
-  - name: LearningToAlert
-    url: https://github.com/Grid2op/LearningToAlert
+  - name: .github
+    url: https://github.com/Grid2op/.github
     exclude:
     - clomonitor
-  - name: chronix2grid
-    url: https://github.com/Grid2op/chronix2grid
+  - name: LearningToAlert
+    url: https://github.com/Grid2op/LearningToAlert
     exclude:
     - clomonitor
 - name: gridfm
