@@ -742,6 +742,33 @@
   devstats_url: null
   maturity: sig
   repositories: []
+- name: grid2op
+  display_name: Grid2Op
+  description: Grid2op presents a valuable platform for researchers, utilities, and
+    other stakeholders in the power grid domain. Its modularity, customizability,
+    and open-source nature make it a powerful tool for advancing power grid management.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/grid2opNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/grid2opNone
+  devstats_url: null
+  maturity: sandbox
+  repositories:
+  - name: grid2op
+    url: https://github.com/Grid2op/grid2op
+    exclude:
+    - clomonitor
+  - name: .github
+    url: https://github.com/Grid2op/.github
+    exclude:
+    - clomonitor
+  - name: .github
+    url: https://github.com/Grid2op/.github
+    exclude:
+    - clomonitor
+  - name: LearningToAlert
+    url: https://github.com/Grid2op/LearningToAlert
+    exclude:
+    - clomonitor
 - name: gridfm
   display_name: GridFM
   description: This project aims at developing foundation models for electrical grids
@@ -753,7 +780,23 @@
   logo_url_dark: https://artwork.lfenergy.org/projects/gridfmNone
   devstats_url: null
   maturity: sandbox
-  repositories: []
+  repositories:
+  - name: gridfm-data-zoo
+    url: https://github.com/gridfm-energy/gridfm-data-zoo
+    exclude:
+    - clomonitor
+  - name: gridfm-federated
+    url: https://github.com/gridfm-energy/gridfm-federated
+    exclude:
+    - clomonitor
+  - name: gridfm-federated
+    url: https://github.com/gridfm-energy/gridfm-federated
+    exclude:
+    - clomonitor
+  - name: gridfm-lab
+    url: https://github.com/gridfm-energy/gridfm-lab
+    exclude:
+    - clomonitor
 - name: hyphae
   display_name: Hyphae
   description: Open source software to realize Microgrid which is one of the key elements
