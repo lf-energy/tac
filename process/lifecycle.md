@@ -53,10 +53,12 @@ Projects submitted to {{ site.foundation_name }} at the Sandbox stage are intend
 
 To be accepted at the Sandbox stage, a project must:
 
-- Submit a completed Project Contribution Proposal to the TAC via the process outlined at [Project Contribution](/process/start_project) Process .
+- Submit a completed Project Contribution Proposal to the TAC via the process outlined at [Project Contribution](/process/start_project) Process.
 - Complete and approve the Technical Charter and agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones.
 - Have a successful license scan with any critical issues remedied.
 - Provide administrator access to all project tools, such as its GitHub organization, collaboration and communication tools, and build/test infrastructure.
+
+*NOTE: The LF Energy TAC expects projects to complete the requirements above within six months of the Project Contribution Proposal submission. If a project is unable to complete the requirements in that timeframe, the TAC may request that the project re-apply when they can focus on completing the requirements.*
 
 ### Approval Process
 
