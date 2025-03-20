@@ -243,6 +243,38 @@
     url: https://github.com/covXtreme/covXtreme
     exclude:
     - clomonitor
+- name: cupid
+  display_name: CUPID (Controllable Unit Protocol Interface for DER)
+  description: "The original IEEE 2030.5 standard from 2018 and recently updated by\
+    \ the 2023 version, is a widely used communication protocol designed to manage\
+    \ distributed resources, already adopted in California and Australia. The original\
+    \ standard is an interoperability dictionary-based protocol. In our project we\u2019\
+    ve upgraded the current version of the IEEE2030.5 software/firmware package by\
+    \ using a NATS messaging, added JSON structure support and moreover, we\u2019\
+    ve developed a protocol converter to bridge the gap to other protocols (MQTT and\
+    \ ModBUS) and standardization procedures of existing equipment and systems."
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/cupidNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/cupidNone
+  devstats_url: null
+  maturity: sandbox
+  repositories:
+  - name: Hybrid-Storage-Sizing-Model
+    url: https://github.com/Horizont-Europe-Interstore/Hybrid-Storage-Sizing-Model
+    exclude:
+    - clomonitor
+  - name: Client-Server
+    url: https://github.com/Horizont-Europe-Interstore/Client-Server
+    exclude:
+    - clomonitor
+  - name: Data-Space-Connector
+    url: https://github.com/Horizont-Europe-Interstore/Data-Space-Connector
+    exclude:
+    - clomonitor
+  - name: Data-Space-Connector-Fiware-Data-App
+    url: https://github.com/Horizont-Europe-Interstore/Data-Space-Connector-Fiware-Data-App
+    exclude:
+    - clomonitor
 - name: lfenergy-data-standards-and-tooling-sig
   display_name: Data Standards and Tooling SIG
   description: The LF Energy Data Standards and Tooling SIG will focus on collaboration
