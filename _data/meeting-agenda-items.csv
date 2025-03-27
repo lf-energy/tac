@@ -2,7 +2,6 @@ title,url,number,scheduled_date,status,last_review_date,meeting_label
 FIDOPower,https://github.com/lf-energy/tac/issues/82,82,2025-01-21,SIG Annual Reviews,2024-01-30,2-annual-review-sig
 OneNet Framework,https://github.com/lf-energy/tac/issues/112,112,2025-05-13,LF Onboarding,2024-05-14,2-annual-review
 New Project Proposal - RTC-Tools,https://github.com/lf-energy/tac/issues/344,344,,LF Onboarding,,1-new-project-wg
-CUPID (Controllable Unit Protocol Interface for DER) (was IEEE 2030.5 over NATS),https://github.com/lf-energy/tac/issues/383,383,,LF Onboarding,,1-new-project-wg
 Grid Resilience and Intelligence Platform (GRIP),https://github.com/lf-energy/tac/issues/52,52,,LF Onboarding,2023-09-26,2-annual-review-sig
 InterConnect SIF (Semantic Interoperability Framework),https://github.com/lf-energy/tac/issues/132,132,,LF Onboarding,2024-04-23,2-annual-review
 Arras,https://github.com/lf-energy/tac/issues/104,104,2025-09-03,SIG Annual Reviews,2024-07-16,2-annual-review-sig
@@ -44,6 +43,7 @@ OpenSynth,https://github.com/lf-energy/tac/issues/68,68,2026-03-10,Future Meetin
 FledgePower,https://github.com/lf-energy/tac/issues/137,137,2025-05-13,SIG Annual Reviews,2024-06-04,2-annual-review-sig
 SOGNO,https://github.com/lf-energy/tac/issues/75,75,2025-05-13,Next Meeting Agenda Items,2024-04-23,2-annual-review
 Battery Data Alliance,https://github.com/lf-energy/tac/issues/57,57,2025-05-13,Next Meeting Agenda Items,2024-08-27,2-annual-review
+CUPID (Controllable Unit Protocol Interface for DER) (was IEEE 2030.5 over NATS),https://github.com/lf-energy/tac/issues/383,383,2025-05-13,Next Meeting Agenda Items,,1-new-project-wg
 EV Charging SIG,https://github.com/lf-energy/tac/issues/458,458,,Future Meeting Agenda Items,,2-annual-review
 Grid Simulation and Modeling SIG,https://github.com/lf-energy/tac/issues/459,459,,Future Meeting Agenda Items,,2-annual-review
 Process for projects to request resources/funding,https://github.com/lf-energy/tac/issues/477,477,,Upcoming Meeting Agenda Items,,4-tac-meeting-short

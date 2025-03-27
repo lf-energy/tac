@@ -769,10 +769,6 @@
     url: https://github.com/gridfm-energy/gridfm-federated
     exclude:
     - clomonitor
-  - name: gridfm-federated
-    url: https://github.com/gridfm-energy/gridfm-federated
-    exclude:
-    - clomonitor
   - name: gridfm-lab
     url: https://github.com/gridfm-energy/gridfm-lab
     exclude:
