@@ -84,8 +84,8 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: pymacnet
-    url: https://github.com/BatteryDataAlliance/pymacnet
+  - name: ampcloud-service
+    url: https://github.com/battery-data-alliance/ampcloud-service
     exclude:
     - clomonitor
   - name: BDAOntology
@@ -98,14 +98,6 @@
     - clomonitor
   - name: pyadmiral
     url: https://github.com/BatteryDataAlliance/pyadmiral
-    exclude:
-    - clomonitor
-  - name: pyctiarbin
-    url: https://github.com/BatteryDataAlliance/pyctiarbin
-    exclude:
-    - clomonitor
-  - name: pymacnet
-    url: https://github.com/BatteryDataAlliance/pymacnet
     exclude:
     - clomonitor
 - name: cdsc-connectivity-wg
