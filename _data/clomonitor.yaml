@@ -84,8 +84,8 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: pymacnet
-    url: https://github.com/BatteryDataAlliance/pymacnet
+  - name: ampcloud-service
+    url: https://github.com/battery-data-alliance/ampcloud-service
     exclude:
     - clomonitor
   - name: BDAOntology
@@ -98,14 +98,6 @@
     - clomonitor
   - name: pyadmiral
     url: https://github.com/BatteryDataAlliance/pyadmiral
-    exclude:
-    - clomonitor
-  - name: pyctiarbin
-    url: https://github.com/BatteryDataAlliance/pyctiarbin
-    exclude:
-    - clomonitor
-  - name: pymacnet
-    url: https://github.com/BatteryDataAlliance/pymacnet
     exclude:
     - clomonitor
 - name: cdsc-connectivity-wg
@@ -243,18 +235,38 @@
     url: https://github.com/covXtreme/covXtreme
     exclude:
     - clomonitor
-- name: lfenergy-data-standards-and-tooling-sig
-  display_name: Data Standards and Tooling SIG
-  description: The LF Energy Data Standards and Tooling SIG will focus on collaboration
-    amongst several projects in LF Energy that focus on data standards and the associated
-    tooling by helping promote interoperability and identifying gaps for new collaborations
-    and projects
+- name: cupid
+  display_name: CUPID (Controllable Unit Protocol Interface for DER)
+  description: "The original IEEE 2030.5 standard from 2018 and recently updated by\
+    \ the 2023 version, is a widely used communication protocol designed to manage\
+    \ distributed resources, already adopted in California and Australia. The original\
+    \ standard is an interoperability dictionary-based protocol. In our project we\u2019\
+    ve upgraded the current version of the IEEE2030.5 software/firmware package by\
+    \ using a NATS messaging, added JSON structure support and moreover, we\u2019\
+    ve developed a protocol converter to bridge the gap to other protocols (MQTT and\
+    \ ModBUS) and standardization procedures of existing equipment and systems."
   category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.lfenergy.org/projects/lfenergy-data-standards-and-tooling-sigNone
-  logo_url_dark: https://artwork.lfenergy.org/projects/lfenergy-data-standards-and-tooling-sigNone
+  logo_url: https://artwork.lfenergy.org/projects/cupidNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/cupidNone
   devstats_url: null
-  maturity: sig
-  repositories: []
+  maturity: sandbox
+  repositories:
+  - name: Hybrid-Storage-Sizing-Model
+    url: https://github.com/Horizont-Europe-Interstore/Hybrid-Storage-Sizing-Model
+    exclude:
+    - clomonitor
+  - name: Client-Server
+    url: https://github.com/Horizont-Europe-Interstore/Client-Server
+    exclude:
+    - clomonitor
+  - name: Client-Server
+    url: https://github.com/Horizont-Europe-Interstore/Client-Server
+    exclude:
+    - clomonitor
+  - name: Data-Space-Connector
+    url: https://github.com/Horizont-Europe-Interstore/Data-Space-Connector
+    exclude:
+    - clomonitor
 - name: dsas-working-group
   display_name: Digital Substations SIG
   description: The Digital Substation Automation Systems (DSAS) initiative seeks to
@@ -637,36 +649,6 @@
     url: https://github.com/FlexMeasures/website
     exclude:
     - clomonitor
-- name: grid-capacity-map
-  display_name: Grid Capacity Map
-  description: Grid Capacity Map is a project that aims to give customers and stakeholders
-    public information about grid capacity and grid connection costs in different
-    locations. The purpose is to give an early indication to customers that want to
-    connect to the grid and to ensure customer and stakeholders expectations on-grid
-    connections are realistic to give a better connection experience with fewer surprises
-    for both grid owner (DSO/TSO),  grid customers, and other stakeholders.
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.lfenergy.org/projects/grid-capacity-mapNone
-  logo_url_dark: https://artwork.lfenergy.org/projects/grid-capacity-mapNone
-  devstats_url: null
-  maturity: sandbox
-  repositories:
-  - name: tsc
-    url: https://github.com/gridcapacitymap/tsc
-    exclude:
-    - clomonitor
-  - name: gridcapacity
-    url: https://github.com/gridcapacitymap/gridcapacity
-    exclude:
-    - clomonitor
-  - name: gridcapacity
-    url: https://github.com/gridcapacitymap/gridcapacity
-    exclude:
-    - clomonitor
-  - name: gridcapacitymap
-    url: https://github.com/gridcapacitymap/gridcapacitymap
-    exclude:
-    - clomonitor
 - name: geisa
   display_name: Grid Edge Interoperability & Security Alliance (GEISA)
   description: GEISA creates the secure, interoperable ecosystem to streamline the
@@ -722,16 +704,6 @@
     url: https://github.com/OSGP/Documentation
     exclude:
     - clomonitor
-- name: lfenergy-grid-operations-sig
-  display_name: Grid Operations SIG
-  description: SIG for collaboration and coordination for LF Energy Projects in the
-    Grid Operations space.
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.lfenergy.org/projects/lfenergy-grid-operations-sigNone
-  logo_url_dark: https://artwork.lfenergy.org/projects/lfenergy-grid-operations-sigNone
-  devstats_url: null
-  maturity: sig
-  repositories: []
 - name: lfenergy-grid-simulation-and-modeling-sig
   display_name: Grid Simulation and Modeling SIG
   description: SIG for LF Energy project collaboration in the area of Grid Simulation
@@ -783,10 +755,6 @@
   repositories:
   - name: gridfm-data-zoo
     url: https://github.com/gridfm-energy/gridfm-data-zoo
-    exclude:
-    - clomonitor
-  - name: gridfm-federated
-    url: https://github.com/gridfm-energy/gridfm-federated
     exclude:
     - clomonitor
   - name: gridfm-federated

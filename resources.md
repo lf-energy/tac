@@ -4,7 +4,7 @@ nav_order: 60
 
 # Resources
 
-If you are new to open source, or have some experience in open source and looking to grow your knowledge, the following resources are recommended to help grow your open source skills.
+If you are new to open source or have some experience in it and are looking to expand your knowledge, the following resources are recommended to help you develop your open source skills.
 
 - LF Training Courses ( free to audit )
     - [A Beginner’s Guide to Open Source Software Development (LFD102)](https://training.linuxfoundation.org/training/beginners-guide-open-source-software-development/)
@@ -14,6 +14,7 @@ If you are new to open source, or have some experience in open source and lookin
     - [Antitrust Laws and Open Source Software Project Management and Participation (LFC105)](https://training.linuxfoundation.org/training/antitrust-laws-and-open-source-software-project-management-and-participation-lfc105/)
     - [Secure Software Development: Requirements, Design, and Reuse (LFD104x)](https://training.linuxfoundation.org/training/secure-software-development-requirements-design-and-reuse-lfd104/)
     - [Secure Software Development: Implementation (LFD105x)](https://training.linuxfoundation.org/training/secure-software-development-implementation-lfd105/)
+    - [IT Specification Basics for New Developers (LFD141)](https://trainingportal.linuxfoundation.org/courses/it-specification-basics-for-new-developers-lfd141)
 - [GitHub for Developers](https://githubtraining.github.io/training-manual/#/01_getting_ready_for_class)
 - [Open Source Guides from GitHub](https://opensource.guide/)
 - [Open Source License Best Practices - Quick Reference Guide](https://www.linuxfoundation.org/licensebestpractices)
