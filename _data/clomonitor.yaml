@@ -84,8 +84,8 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: ampcloud-service
-    url: https://github.com/battery-data-alliance/ampcloud-service
+  - name: schema-management-service
+    url: https://github.com/battery-data-alliance/schema-management-service
     exclude:
     - clomonitor
   - name: BDAOntology
