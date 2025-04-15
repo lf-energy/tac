@@ -1072,32 +1072,6 @@
     url: https://github.com/rtdip/samples
     exclude:
     - clomonitor
-- name: samwga
-  display_name: SAM WG Architecture
-  description: Super Advanced Smart Meter
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.lfenergy.org/projects/samwgaNone
-  logo_url_dark: https://artwork.lfenergy.org/projects/samwgaNone
-  devstats_url: null
-  maturity: working-group
-  repositories:
-  - name: WG-Architecture
-    url: https://github.com/super-advanced-meter/WG-Architecture
-    exclude:
-    - clomonitor
-- name: samwguc
-  display_name: SAM WG Use Cases
-  description: Super Advanced Smart Meter Use Cases
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.lfenergy.org/projects/samwgucNone
-  logo_url_dark: https://artwork.lfenergy.org/projects/samwgucNone
-  devstats_url: null
-  maturity: working-group
-  repositories:
-  - name: WG-UseCases
-    url: https://github.com/super-advanced-meter/WG-UseCases
-    exclude:
-    - clomonitor
 - name: sc-decarbonisation-hub
   display_name: SC Decarbonisation Hub
   description: Oil and Gas companies face extreme pressure to address GHG emissions.
