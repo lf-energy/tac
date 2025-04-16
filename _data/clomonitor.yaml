@@ -989,6 +989,26 @@
     url: https://github.com/opfab/letscoordinate
     exclude:
     - clomonitor
+- name: ores-open-renewal-energy-systems
+  display_name: ORES (Open Renewal Energy Systems)
+  description: ORES aims to address these challenges by developing a set of easy-to-follow
+    open standard specifications on system architecture, APIs, and communication protocols
+    that empower device manufacturers, hardware and software developers, and DIYers
+    to
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/ores-open-renewal-energy-systemsNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/ores-open-renewal-energy-systemsNone
+  devstats_url: null
+  maturity: sandbox
+  repositories:
+  - name: ores
+    url: https://github.com/open-renewable-energy-systems/ores
+    exclude:
+    - clomonitor
+  - name: .github
+    url: https://github.com/open-renewable-energy-systems/.github
+    exclude:
+    - clomonitor
 - name: powergridmodel
   display_name: Power Grid Model
   description: The mission of the Project is to develop a Python library for steady-state
