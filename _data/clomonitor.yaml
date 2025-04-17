@@ -1009,6 +1009,10 @@
     url: https://github.com/open-renewable-energy-systems/.github
     exclude:
     - clomonitor
+  - name: .github
+    url: https://github.com/open-renewable-energy-systems/.github
+    exclude:
+    - clomonitor
 - name: powergridmodel
   display_name: Power Grid Model
   description: The mission of the Project is to develop a Python library for steady-state
