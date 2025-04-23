@@ -1,0 +1,79 @@
+name: Automatic reply to new project proposal
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Check for '1-new-project-wg' label
+        id: check_label
+        run: |
+          echo "Checking for '1-new-project-wg' label..."
+          HAS_LABEL=false
+          for label in "${{ toJson(github.event.issue.labels) }}"; do
+            if [[ "$label" == *"1-new-project-wg"* ]]; then
+              HAS_LABEL=true
+              break
+            fi
+          done
+          echo "has_label=$HAS_LABEL" >> $GITHUB_OUTPUT
+
+      - name: Exit if label not found
+        if: steps.check_label.outputs.has_label != 'true'
+        run: |
+          echo "No '1-new-project-wg' label. Skipping welcome comment."
+          exit 0
+
+      - name: Read welcome message from file
+        id: readfile
+        run: |
+          MESSAGE=$(cat messages/new-project-proposal.md)
+          echo "message<<EOF" >> $GITHUB_OUTPUT
+          echo "$MESSAGE" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Comment on the new issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `${{ steps.readfile.outputs.message }}`
+            })
+
+      - name: Extract new title from issue body
+        id: get_title
+        run: |
+          echo "Parsing issue body..."
+          BODY="${{ github.event.issue.body }}"
+          
+          # This assumes the field label is `### Project Name`
+          TITLE=$(echo "$BODY" | awk '/### Project Name/{getline; print}' | xargs)
+
+          if [[ -z "$TITLE" ]]; then
+            echo "No title found in template field. Skipping rename."
+            echo "should_update=false" >> $GITHUB_OUTPUT
+          else
+            echo "Extracted title: $TITLE"
+            echo "new_title=$TITLE" >> $GITHUB_OUTPUT
+            echo "should_update=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Update the issue title
+        if: steps.get_title.outputs.should_update == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.update({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `New Project Proposal - ${{ steps.get_title.outputs.new_title }}`
+            })
