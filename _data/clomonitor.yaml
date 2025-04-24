@@ -635,7 +635,11 @@
   logo_url_dark: https://artwork.lfenergy.org/projects/geisaNone
   devstats_url: null
   maturity: sandbox
-  repositories: []
+  repositories:
+  - name: specification
+    url: https://github.com/geisa/specification
+    exclude:
+    - clomonitor
 - name: grid-exchange-fabric
   display_name: Grid eXchange Fabric (GXF)
   description: "Grid eXchange Fabric (GXF) is a software platform that enables hardware\
