@@ -43,6 +43,12 @@ body:
       required: true
   - type: input
     attributes:
+      label: What are the projected costs for this?
+      description: If applicable, provide a link to the AWS cost estimator.
+    validations:
+      required: true
+  - type: input
+    attributes:
       label: What else should the TAC and Governing Board know about this request
     validations:
       required: true
