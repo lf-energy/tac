@@ -694,6 +694,32 @@
   devstats_url: null
   maturity: sig
   repositories: []
+- name: gridvantage
+  display_name: Grid Vantage
+  description: The mission of the Project is to help electric grid operators anticipate,
+    mitigate against, and recover from the effects of extreme weather events.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/gridvantageNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/gridvantageNone
+  devstats_url: null
+  maturity: sandbox
+  repositories:
+  - name: grip-integration
+    url: https://github.com/grid-vantage/grip-integration
+    exclude:
+    - clomonitor
+  - name: grip-absorption-pipeline
+    url: https://github.com/grid-vantage/grip-absorption-pipeline
+    exclude:
+    - clomonitor
+  - name: grip-anticipation-pipeline
+    url: https://github.com/grid-vantage/grip-anticipation-pipeline
+    exclude:
+    - clomonitor
+  - name: grip-recovery-pipeline
+    url: https://github.com/grid-vantage/grip-recovery-pipeline
+    exclude:
+    - clomonitor
 - name: grid2op
   display_name: Grid2Op
   description: Grid2op presents a valuable platform for researchers, utilities, and
