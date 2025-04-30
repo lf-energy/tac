@@ -712,12 +712,12 @@
     url: https://github.com/grid-vantage/grip-absorption-pipeline
     exclude:
     - clomonitor
-  - name: grip-anticipation-pipeline
-    url: https://github.com/grid-vantage/grip-anticipation-pipeline
+  - name: grip-absorption-pipeline
+    url: https://github.com/grid-vantage/grip-absorption-pipeline
     exclude:
     - clomonitor
-  - name: grip-recovery-pipeline
-    url: https://github.com/grid-vantage/grip-recovery-pipeline
+  - name: grip-anticipation-pipeline
+    url: https://github.com/grid-vantage/grip-anticipation-pipeline
     exclude:
     - clomonitor
 - name: grid2op
