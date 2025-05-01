@@ -18,60 +18,20 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: tsc
-    url: https://github.com/arras-energy/tsc
+  - name: gridlabd-weather
+    url: https://github.com/arras-energy/gridlabd-weather
     exclude:
     - clomonitor
   - name: .github
     url: https://github.com/arras-energy/.github
     exclude:
     - clomonitor
-  - name: arras-energy.github.io
-    url: https://github.com/arras-energy/arras-energy.github.io
+  - name: .github
+    url: https://github.com/arras-energy/.github
     exclude:
     - clomonitor
-  - name: gridlabd
-    url: https://github.com/arras-energy/gridlabd
-    exclude:
-    - clomonitor
-  - name: gridlabd-converters
-    url: https://github.com/arras-energy/gridlabd-converters
-    exclude:
-    - clomonitor
-  - name: gridlabd-examples
-    url: https://github.com/arras-energy/gridlabd-examples
-    exclude:
-    - clomonitor
-  - name: gridlabd-library
-    url: https://github.com/arras-energy/gridlabd-library
-    exclude:
-    - clomonitor
-  - name: gridlabd-models
-    url: https://github.com/arras-energy/gridlabd-models
-    exclude:
-    - clomonitor
-  - name: gridlabd-old
-    url: https://github.com/arras-energy/gridlabd-old
-    exclude:
-    - clomonitor
-  - name: gridlabd-template
-    url: https://github.com/arras-energy/gridlabd-template
-    exclude:
-    - clomonitor
-  - name: gridlabd-weather
-    url: https://github.com/arras-energy/gridlabd-weather
-    exclude:
-    - clomonitor
-  - name: marimo
-    url: https://github.com/arras-energy/marimo
-    exclude:
-    - clomonitor
-  - name: module_template
-    url: https://github.com/arras-energy/module_template
-    exclude:
-    - clomonitor
-  - name: static-website
-    url: https://github.com/arras-energy/static-website
+  - name: arras
+    url: https://github.com/arras-energy/arras
     exclude:
     - clomonitor
 - name: battery-data-alliance
@@ -446,6 +406,36 @@
     - clomonitor
   - name: zvt
     url: https://github.com/EVerest/zvt
+    exclude:
+    - clomonitor
+- name: fidopower
+  display_name: FIDOPower
+  description: 'The mission of the Project is to enable and support the use of DOE''s
+    GridLAB-D
+
+    technology by utilities, researchers, and vendors of smart grid, renewable energy,
+    and climate-change mitigation technology with special attention to electric energy
+    delivery systems.'
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/fidopowerNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/fidopowerNone
+  devstats_url: null
+  maturity: sandbox
+  repositories:
+  - name: tsc
+    url: https://github.com/fidopower/tsc
+    exclude:
+    - clomonitor
+  - name: .github
+    url: https://github.com/fidopower/.github
+    exclude:
+    - clomonitor
+  - name: model_viewer
+    url: https://github.com/fidopower/model_viewer
+    exclude:
+    - clomonitor
+  - name: optimal_sizing_placement
+    url: https://github.com/fidopower/optimal_sizing_placement
     exclude:
     - clomonitor
 - name: fledgepower
