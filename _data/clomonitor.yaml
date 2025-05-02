@@ -430,12 +430,12 @@
     url: https://github.com/fidopower/.github
     exclude:
     - clomonitor
-  - name: model_viewer
-    url: https://github.com/fidopower/model_viewer
+  - name: .github
+    url: https://github.com/fidopower/.github
     exclude:
     - clomonitor
-  - name: optimal_sizing_placement
-    url: https://github.com/fidopower/optimal_sizing_placement
+  - name: model_viewer
+    url: https://github.com/fidopower/model_viewer
     exclude:
     - clomonitor
 - name: fledgepower
