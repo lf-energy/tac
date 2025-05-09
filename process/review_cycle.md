@@ -16,7 +16,7 @@ Projects should prepare a short presentation for the Annual Review that covers t
 
 Projects should use the [Annual Review template]({% link process/annual_review_template.pptx %}) to structure their presentation.
 
-Annual Reviews require an affirmative majority vote of the TAC for the project to continue at the current stage or the appropriate number of votes outlined for each stage in this document to move to the next stage. If the TAC deems the project not meeting the current stage's requirements, it may vote to move the project to the appropriate or {{ site.archived_lifecycle_stage }} stage. The project may choose to move outside of {{ site.foundation_name }} at any time.
+The TAC may consider changing the [project lifecycle stage](lifecycle) as part of the annual review; projects should notify the TAC before the meeting to request a change to their lifecycle stage. If the TAC deems the project not meeting the current stage's requirements, it may vote to move the project to the appropriate or {{ site.archived_lifecycle_stage }} stage. The project may choose to move outside of {{ site.foundation_name }} at any time.
 
 ## Annual Review Schedule
 
