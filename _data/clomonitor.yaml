@@ -634,8 +634,8 @@
     url: https://github.com/geisa/application-isolation-security-systemd-demo
     exclude:
     - clomonitor
-  - name: conformance
-    url: https://github.com/geisa/conformance
+  - name: application-isolation-security-systemd-demo
+    url: https://github.com/geisa/application-isolation-security-systemd-demo
     exclude:
     - clomonitor
   - name: conformance
