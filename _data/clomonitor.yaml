@@ -60,50 +60,6 @@
     url: https://github.com/BatteryDataAlliance/pyadmiral
     exclude:
     - clomonitor
-- name: cdsc-connectivity-wg
-  display_name: CDSC Connectivity WG (WG3)
-  description: The Carbon Data Specification (CDS) is a data dictionary for raw data
-    and a standard for data requirements that enable energy data access for measuring,
-    quantifying, and tracking carbon emissions.
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.lfenergy.org/projects/cdsc-connectivity-wgNone
-  logo_url_dark: https://artwork.lfenergy.org/projects/cdsc-connectivity-wgNone
-  devstats_url: null
-  maturity: working-group
-  repositories:
-  - name: Connectivity
-    url: https://github.com/carbon-data-specification/Connectivity
-    exclude:
-    - clomonitor
-- name: cdsc1
-  display_name: CDSC Customer Data WG (WG1)
-  description: This working group focuses on writing free, open specifications for
-    providing utility customer data access, in order to facilitate carbon emissions
-    calculations and decarbonization efforts.
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.lfenergy.org/projects/cdsc1None
-  logo_url_dark: https://artwork.lfenergy.org/projects/cdsc1None
-  devstats_url: null
-  maturity: working-group
-  repositories:
-  - name: Customer-Data
-    url: https://github.com/carbon-data-specification/Customer-Data
-    exclude:
-    - clomonitor
-- name: cdsc2
-  display_name: CDSC Power System Data WG (WG2)
-  description: An open specification for raw electric power system data to facilitate
-    a systematic and more accurate approach to report grid emissions.
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.lfenergy.org/projects/cdsc2None
-  logo_url_dark: https://artwork.lfenergy.org/projects/cdsc2None
-  devstats_url: null
-  maturity: working-group
-  repositories:
-  - name: Power-Systems-Data
-    url: https://github.com/carbon-data-specification/Power-Systems-Data
-    exclude:
-    - clomonitor
 - name: citrineos
   display_name: CitrineOS
   description: The mission of the Project is to develop EV charging station management
@@ -170,6 +126,67 @@
     - clomonitor
   - name: .github
     url: https://github.com/com-pas/.github
+    exclude:
+    - clomonitor
+- name: cdsc1
+  display_name: Connected Data Specification - Customer Data Working Group (CDS WG1)
+  description: 'The Connected Data Specification (CDS) is a set of specifications
+    for secure and standardized access and sharing of energy and energy-related data.
+    This working group focuses on writing free, open specifications for providing
+    utility customer data access, in order to facilitate carbon emissions calculations
+    and decarbonization efforts, including, but not limited to: 1) Metering consumption
+    and production data, 2) Account and bill data needed for project analysis, 3)
+    Authorization and consent processes.'
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/cdsc1None
+  logo_url_dark: https://artwork.lfenergy.org/projects/cdsc1None
+  devstats_url: null
+  maturity: working-group
+  repositories:
+  - name: CDS-Customer-Data
+    url: https://github.com/lfe-cds/CDS-Customer-Data
+    exclude:
+    - clomonitor
+- name: cdsc2
+  display_name: Connected Data Specification - Power Systems Data Working Group (CDS
+    WG2)
+  description: 'The Connected Data Specification (CDS) is a set of specifications
+    for secure and standardized access and sharing of energy and energy-related data.
+    This working group focuses on writing free, open specifications for raw / measured
+    energy and emissions source data, including recommendations for temporal scale,
+    locational scale, timely acquisition, and quality assurance. This Working Group
+    focuses on Power systems data. This may include, but is not limited to: 1) Power
+    generation emissions; 2) Delivery capacities and/or constraints; 3) Generation
+    mix; 4) Power imports and exports; 5) Power market data; 6) Contractual data.'
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/cdsc2None
+  logo_url_dark: https://artwork.lfenergy.org/projects/cdsc2None
+  devstats_url: null
+  maturity: working-group
+  repositories:
+  - name: CDS-Power-Systems-Data
+    url: https://github.com/lfe-cds/CDS-Power-Systems-Data
+    exclude:
+    - clomonitor
+- name: cdsc-connectivity-wg
+  display_name: Connected Data Specification - Registration Working Group (CDS WG3)
+  description: The Connected Data Specification (CDS) is a set of specifications for
+    secure and standardized access and sharing of energy and energy-related data.
+    This working group focuses on writing free, open specifications for utilities
+    and other central entities ("Servers") to provide discovery, registration, connectivity,
+    and profile management abilities to third party entities ("Clients"). By providing
+    standardized protocols for these abilities, utilities and other central entities
+    can significantly scale and streamline adoption and integration of carbon tracking
+    platforms, energy management service providers, energy flexibility providers,
+    and other entities that can accelerate the energy transition.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/cdsc-connectivity-wgNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/cdsc-connectivity-wgNone
+  devstats_url: null
+  maturity: working-group
+  repositories:
+  - name: CDS-Registration
+    url: https://github.com/lfe-cds/CDS-Registration
     exclude:
     - clomonitor
 - name: covxtreme
