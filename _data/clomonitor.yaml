@@ -128,7 +128,7 @@
     url: https://github.com/com-pas/.github
     exclude:
     - clomonitor
-- name: cdsc1
+- name: cds-customerdata-wg
   display_name: Connected Data Specification - Customer Data Working Group (CDS WG1)
   description: 'The Connected Data Specification (CDS) is a set of specifications
     for secure and standardized access and sharing of energy and energy-related data.
@@ -138,8 +138,8 @@
     and production data, 2) Account and bill data needed for project analysis, 3)
     Authorization and consent processes.'
   category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.lfenergy.org/projects/cdsc1None
-  logo_url_dark: https://artwork.lfenergy.org/projects/cdsc1None
+  logo_url: https://artwork.lfenergy.org/projects/cds-customerdata-wgNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/cds-customerdata-wgNone
   devstats_url: null
   maturity: working-group
   repositories:
@@ -147,7 +147,7 @@
     url: https://github.com/lfe-cds/CDS-Customer-Data
     exclude:
     - clomonitor
-- name: cdsc2
+- name: cds-powersystemsdata-wg
   display_name: Connected Data Specification - Power Systems Data Working Group (CDS
     WG2)
   description: 'The Connected Data Specification (CDS) is a set of specifications
@@ -159,8 +159,8 @@
     generation emissions; 2) Delivery capacities and/or constraints; 3) Generation
     mix; 4) Power imports and exports; 5) Power market data; 6) Contractual data.'
   category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.lfenergy.org/projects/cdsc2None
-  logo_url_dark: https://artwork.lfenergy.org/projects/cdsc2None
+  logo_url: https://artwork.lfenergy.org/projects/cds-powersystemsdata-wgNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/cds-powersystemsdata-wgNone
   devstats_url: null
   maturity: working-group
   repositories:
@@ -168,7 +168,7 @@
     url: https://github.com/lfe-cds/CDS-Power-Systems-Data
     exclude:
     - clomonitor
-- name: cdsc-connectivity-wg
+- name: cds-registration-wg
   display_name: Connected Data Specification - Registration Working Group (CDS WG3)
   description: The Connected Data Specification (CDS) is a set of specifications for
     secure and standardized access and sharing of energy and energy-related data.
@@ -180,8 +180,8 @@
     platforms, energy management service providers, energy flexibility providers,
     and other entities that can accelerate the energy transition.
   category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.lfenergy.org/projects/cdsc-connectivity-wgNone
-  logo_url_dark: https://artwork.lfenergy.org/projects/cdsc-connectivity-wgNone
+  logo_url: https://artwork.lfenergy.org/projects/cds-registration-wgNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/cds-registration-wgNone
   devstats_url: null
   maturity: working-group
   repositories:
