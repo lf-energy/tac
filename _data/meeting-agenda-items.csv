@@ -1,5 +1,4 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
-Battery Data Alliance,https://github.com/lf-energy/tac/issues/57,57,2025-09-02,Next Meeting Agenda Items,2024-08-27,2-annual-review
 Grid eXchange Fabric (GXF),https://github.com/lf-energy/tac/issues/8,8,2025-07-08,Next Meeting Agenda Items,2024-09-18,2-annual-review
 Real Time Data Ingestion Platform (RTDIP),https://github.com/lf-energy/tac/issues/26,26,2025-07-08,Next Meeting Agenda Items,2024-01-30,2-annual-review
 NODE Collective,https://github.com/lf-energy/tac/issues/108,108,2025-06-10,Upcoming Meeting Agenda Items,2024-04-02,2-annual-review
@@ -17,6 +16,7 @@ GridFM,https://github.com/lf-energy/tac/issues/260,260,2025-10-14,Future Meeting
 CitrineOS,https://github.com/lf-energy/tac/issues/59,59,2025-11-26,SIG Annual Reviews,2024-11-27,2-annual-review-sig
 Power Grid Model,https://github.com/lf-energy/tac/issues/81,81,2026-02-04,SIG Annual Reviews,2025-02-05,2-annual-review-sig
 OperatorFabric,https://github.com/lf-energy/tac/issues/71,71,2025-09-02,Future Meeting Agenda Items,2024-07-16,2-annual-review
+Battery Data Alliance,https://github.com/lf-energy/tac/issues/57,57,2025-09-02,Future Meeting Agenda Items,2024-08-27,2-annual-review
 Digital Substations SIG,https://github.com/lf-energy/tac/issues/89,89,2025-12-09,Future Meeting Agenda Items,,2-annual-review
 SEAPATH ,https://github.com/lf-energy/tac/issues/73,73,2026-01-13,SIG Annual Reviews,2025-01-14,2-annual-review-sig
 Grid2Op,https://github.com/lf-energy/tac/issues/287,287,2026-02-10,Future Meeting Agenda Items,2025-02-11,2-annual-review
@@ -33,8 +33,7 @@ OpenSTEF,https://github.com/lf-energy/tac/issues/25,25,2026-02-04,SIG Annual Rev
 CoMPAS ,https://github.com/lf-energy/tac/issues/72,72,2025-06-10,SIG Annual Reviews,2024-06-25,2-annual-review-sig
 Dynaωo,https://github.com/lf-energy/tac/issues/29,29,2025-06-25,SIG Annual Reviews,2024-01-30,2-annual-review-sig
 LFX Insights updates,https://github.com/lf-energy/tac/issues/351,351,,On Hold,,3-tac-meeting-long
-TROLIE,https://github.com/lf-energy/tac/issues/79,79,2025-12-09,On Hold,2023-09-06,2-annual-review
-pyELQ: python Emission Localization and Quantification,https://github.com/lf-energy/tac/issues/234,234,,On Hold,,2-annual-review
+TROLIE,https://github.com/lf-energy/tac/issues/79,79,2025-12-09,Future Meeting Agenda Items,2023-09-06,2-annual-review
 Project SIG around Edge solutions / flexibility,https://github.com/lf-energy/tac/issues/483,483,,On Hold,,4-tac-meeting-short
 Speakers from other LF projects on community building,https://github.com/lf-energy/tac/issues/350,350,,On Hold,,4-tac-meeting-short
 Security Strategy updates for LF Energy hosted projects,https://github.com/lf-energy/tac/issues/14,14,,On Hold,,4-tac-meeting-short
@@ -49,6 +48,8 @@ EV Charging SIG,https://github.com/lf-energy/tac/issues/458,458,2026-01-13,Futur
 Grid Simulation and Modeling SIG,https://github.com/lf-energy/tac/issues/459,459,2026-01-13,Future Meeting Agenda Items,,2-annual-review
 Process for projects to request resources/funding,https://github.com/lf-energy/tac/issues/477,477,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 New Project Proposal -CityLearn,https://github.com/lf-energy/tac/issues/506,506,,LF Onboarding,,1-new-project-wg
-CDSC Connectivity WG (WG3),https://github.com/lf-energy/tac/issues/511,511,2025-12-09,On Hold,,2-annual-review
-CDSC Customer Data WG (WG1),https://github.com/lf-energy/tac/issues/512,512,2025-12-09,On Hold,,2-annual-review
-CDSC Power System Data WG (WG2),https://github.com/lf-energy/tac/issues/513,513,2025-12-09,On Hold,,2-annual-review
+pyELQ: python Emission Localization and Quantification,https://github.com/lf-energy/tac/issues/234,234,,LF Onboarding,,2-annual-review
+CDSC Connectivity WG (WG3),https://github.com/lf-energy/tac/issues/511,511,2025-12-09,Future Meeting Agenda Items,,2-annual-review
+CDSC Customer Data WG (WG1),https://github.com/lf-energy/tac/issues/512,512,2025-12-09,Future Meeting Agenda Items,,2-annual-review
+CDSC Power System Data WG (WG2),https://github.com/lf-energy/tac/issues/513,513,2025-12-09,Future Meeting Agenda Items,,2-annual-review
+Improve SIG support and interface to the TAC,https://github.com/lf-energy/tac/issues/544,544,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
