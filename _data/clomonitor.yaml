@@ -1076,12 +1076,12 @@
     url: https://github.com/powsybl/.github
     exclude:
     - clomonitor
-  - name: github-ci
-    url: https://github.com/powsybl/github-ci
+  - name: .github
+    url: https://github.com/powsybl/.github
     exclude:
     - clomonitor
-  - name: java-docker
-    url: https://github.com/powsybl/java-docker
+  - name: github-ci
+    url: https://github.com/powsybl/github-ci
     exclude:
     - clomonitor
 - name: rtdip
