@@ -1,9 +1,8 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
 Grid eXchange Fabric (GXF),https://github.com/lf-energy/tac/issues/8,8,2025-07-08,Next Meeting Agenda Items,2024-09-18,2-annual-review
 Real Time Data Ingestion Platform (RTDIP),https://github.com/lf-energy/tac/issues/26,26,2025-07-08,Next Meeting Agenda Items,2024-01-30,2-annual-review
-NODE Collective,https://github.com/lf-energy/tac/issues/108,108,2025-06-10,Upcoming Meeting Agenda Items,2024-04-02,2-annual-review
+NODE Collective,https://github.com/lf-energy/tac/issues/108,108,2025-07-08,Next Meeting Agenda Items,2024-04-02,2-annual-review
 OpenLEADR,https://github.com/lf-energy/tac/issues/24,24,2025-06-10,Upcoming Meeting Agenda Items,2021-11-23,2-annual-review
-SC Decarbonisation Hub,https://github.com/lf-energy/tac/issues/171,171,2025-06-10,Upcoming Meeting Agenda Items,,2-annual-review
 SOGNO,https://github.com/lf-energy/tac/issues/75,75,2026-05-12,Future Meeting Agenda Items,2025-05-13,2-annual-review
 FIDOPower,https://github.com/lf-energy/tac/issues/82,82,2025-06-04,SIG Annual Reviews,2024-01-30,2-annual-review-sig
 OneNet Framework,https://github.com/lf-energy/tac/issues/112,112,,LF Onboarding,2024-05-14,2-annual-review
@@ -16,6 +15,7 @@ GridFM,https://github.com/lf-energy/tac/issues/260,260,2025-10-14,Future Meeting
 CitrineOS,https://github.com/lf-energy/tac/issues/59,59,2025-11-26,SIG Annual Reviews,2024-11-27,2-annual-review-sig
 Power Grid Model,https://github.com/lf-energy/tac/issues/81,81,2026-02-04,SIG Annual Reviews,2025-02-05,2-annual-review-sig
 OperatorFabric,https://github.com/lf-energy/tac/issues/71,71,2025-09-02,Future Meeting Agenda Items,2024-07-16,2-annual-review
+SC Decarbonisation Hub,https://github.com/lf-energy/tac/issues/171,171,2025-09-02,Future Meeting Agenda Items,,2-annual-review
 Battery Data Alliance,https://github.com/lf-energy/tac/issues/57,57,2025-09-02,Future Meeting Agenda Items,2024-08-27,2-annual-review
 Digital Substations SIG,https://github.com/lf-energy/tac/issues/89,89,2025-12-09,Future Meeting Agenda Items,,2-annual-review
 SEAPATH ,https://github.com/lf-energy/tac/issues/73,73,2026-01-13,SIG Annual Reviews,2025-01-14,2-annual-review-sig
