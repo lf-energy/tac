@@ -1057,7 +1057,7 @@
     exclude:
     - clomonitor
 - name: powsybl
-  display_name: PowSyBL
+  display_name: PowSyBl
   description: The mission of the Project is to develop a modular, high performance,
     and industrial grade open source framework for the modeling, simulation and analytics
     of power systems (the "Framework"), leveraging reusable components, common APIs
@@ -1072,16 +1072,36 @@
     url: https://github.com/powsybl/powsybl-core
     exclude:
     - clomonitor
-  - name: .github
-    url: https://github.com/powsybl/.github
+  - name: powsybl-open-loadflow
+    url: https://github.com/powsybl/powsybl-open-loadflow
+    exclude:
+    - clomonitor
+  - name: powsybl-diagram
+    url: https://github.com/powsybl/powsybl-diagram
+    exclude:
+    - clomonitor
+  - name: powsybl-open-rao
+    url: https://github.com/powsybl/powsybl-open-rao
+    exclude:
+    - clomonitor
+  - name: powsybl-entsoe
+    url: https://github.com/powsybl/powsybl-entsoe
+    exclude:
+    - clomonitor
+  - name: powsybl-dynawo
+    url: https://github.com/powsybl/powsybl-dynawo
+    exclude:
+    - clomonitor
+  - name: pypowsybl
+    url: https://github.com/powsybl/pypowsybl
+    exclude:
+    - clomonitor
+  - name: powsybl.jl
+    url: https://github.com/powsybl/powsybl.jl
     exclude:
     - clomonitor
   - name: .github
     url: https://github.com/powsybl/.github
-    exclude:
-    - clomonitor
-  - name: github-ci
-    url: https://github.com/powsybl/github-ci
     exclude:
     - clomonitor
 - name: rtdip
