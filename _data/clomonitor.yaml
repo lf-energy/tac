@@ -18,20 +18,12 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: gridlabd-weather
-    url: https://github.com/arras-energy/gridlabd-weather
+  - name: tsc
+    url: https://github.com/arras-energy/tsc
     exclude:
     - clomonitor
-  - name: .github
-    url: https://github.com/arras-energy/.github
-    exclude:
-    - clomonitor
-  - name: .github
-    url: https://github.com/arras-energy/.github
-    exclude:
-    - clomonitor
-  - name: arras
-    url: https://github.com/arras-energy/arras
+  - name: gridlabd
+    url: https://github.com/arras-energy/gridlabd
     exclude:
     - clomonitor
 - name: battery-data-alliance
@@ -44,20 +36,16 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: schema-management-service
-    url: https://github.com/battery-data-alliance/schema-management-service
+  - name: pymacnet
+    url: https://github.com/battery-data-alliance/pymacnet
     exclude:
     - clomonitor
-  - name: BDAOntology
-    url: https://github.com/BatteryDataAlliance/BDAOntology
+  - name: pyctiarbin
+    url: https://github.com/battery-data-alliance/pyctiarbin
     exclude:
     - clomonitor
-  - name: BatteryDataInterface
-    url: https://github.com/BatteryDataAlliance/BatteryDataInterface
-    exclude:
-    - clomonitor
-  - name: pyadmiral
-    url: https://github.com/BatteryDataAlliance/pyadmiral
+  - name: battery-data-format-ontology
+    url: https://github.com/battery-data-alliance/battery-data-format-ontology
     exclude:
     - clomonitor
 - name: citrineos
@@ -112,20 +100,28 @@
   devstats_url: null
   maturity: incubating
   repositories:
-  - name: compas-core
-    url: https://github.com/com-pas/compas-core
+  - name: compas-open-scd
+    url: https://github.com/com-pas/compas-open-scd
     exclude:
     - clomonitor
-  - name: .allstar
-    url: https://github.com/com-pas/.allstar
+  - name: compas-cim-mapping
+    url: https://github.com/com-pas/compas-cim-mapping
     exclude:
     - clomonitor
-  - name: .allstar
-    url: https://github.com/com-pas/.allstar
+  - name: compas-sct
+    url: https://github.com/com-pas/compas-sct
     exclude:
     - clomonitor
-  - name: .github
-    url: https://github.com/com-pas/.github
+  - name: compas-scl-data-service
+    url: https://github.com/com-pas/compas-scl-data-service
+    exclude:
+    - clomonitor
+  - name: compas-scl-auto-alignment
+    url: https://github.com/com-pas/compas-scl-auto-alignment
+    exclude:
+    - clomonitor
+  - name: compas-scl-validator
+    url: https://github.com/com-pas/compas-scl-validator
     exclude:
     - clomonitor
 - name: cds-customerdata-wg
@@ -439,20 +435,8 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: tsc
-    url: https://github.com/fidopower/tsc
-    exclude:
-    - clomonitor
   - name: .github
     url: https://github.com/fidopower/.github
-    exclude:
-    - clomonitor
-  - name: .github
-    url: https://github.com/fidopower/.github
-    exclude:
-    - clomonitor
-  - name: model_viewer
-    url: https://github.com/fidopower/model_viewer
     exclude:
     - clomonitor
 - name: fledgepower
@@ -643,18 +627,6 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: specification
-    url: https://github.com/geisa/specification
-    exclude:
-    - clomonitor
-  - name: application-isolation-security-systemd-demo
-    url: https://github.com/geisa/application-isolation-security-systemd-demo
-    exclude:
-    - clomonitor
-  - name: application-isolation-security-systemd-demo
-    url: https://github.com/geisa/application-isolation-security-systemd-demo
-    exclude:
-    - clomonitor
   - name: conformance
     url: https://github.com/geisa/conformance
     exclude:
@@ -679,20 +651,16 @@
   devstats_url: null
   maturity: earlyadoption
   repositories:
-  - name: Config
-    url: https://github.com/OSGP/Config
-    exclude:
-    - clomonitor
-  - name: .github
-    url: https://github.com/OSGP/.github
-    exclude:
-    - clomonitor
-  - name: .github
-    url: https://github.com/OSGP/.github
-    exclude:
-    - clomonitor
   - name: Documentation
     url: https://github.com/OSGP/Documentation
+    exclude:
+    - clomonitor
+  - name: open-smart-grid-platform
+    url: https://github.com/OSGP/open-smart-grid-platform
+    exclude:
+    - clomonitor
+  - name: Config
+    url: https://github.com/OSGP/Config
     exclude:
     - clomonitor
 - name: lfenergy-grid-simulation-and-modeling-sig
@@ -715,20 +683,8 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: grip-integration
-    url: https://github.com/grid-vantage/grip-integration
-    exclude:
-    - clomonitor
   - name: grip-absorption-pipeline
     url: https://github.com/grid-vantage/grip-absorption-pipeline
-    exclude:
-    - clomonitor
-  - name: grip-absorption-pipeline
-    url: https://github.com/grid-vantage/grip-absorption-pipeline
-    exclude:
-    - clomonitor
-  - name: grip-anticipation-pipeline
-    url: https://github.com/grid-vantage/grip-anticipation-pipeline
     exclude:
     - clomonitor
 - name: grid2op
@@ -746,16 +702,8 @@
     url: https://github.com/Grid2op/grid2op
     exclude:
     - clomonitor
-  - name: .github
-    url: https://github.com/Grid2op/.github
-    exclude:
-    - clomonitor
-  - name: .github
-    url: https://github.com/Grid2op/.github
-    exclude:
-    - clomonitor
-  - name: LearningToAlert
-    url: https://github.com/Grid2op/LearningToAlert
+  - name: lightsim2grid
+    url: https://github.com/Grid2op/lightsim2grid
     exclude:
     - clomonitor
 - name: gridfm
@@ -795,18 +743,6 @@
   repositories:
   - name: APIS
     url: https://github.com/hyphae/APIS
-    exclude:
-    - clomonitor
-  - name: APIS
-    url: https://github.com/hyphae/APIS
-    exclude:
-    - clomonitor
-  - name: adrc-converter-controller
-    url: https://github.com/hyphae/adrc-converter-controller
-    exclude:
-    - clomonitor
-  - name: adrc-converter-controller
-    url: https://github.com/hyphae/adrc-converter-controller
     exclude:
     - clomonitor
 - name: node-collective
@@ -853,14 +789,6 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: .github
-    url: https://github.com/NODE-Collective/.github
-    exclude:
-    - clomonitor
-  - name: specification
-    url: https://github.com/NODE-Collective/specification
-    exclude:
-    - clomonitor
   - name: specification
     url: https://github.com/NODE-Collective/specification
     exclude:
@@ -889,16 +817,12 @@
     url: https://github.com/opendsm/opendsm
     exclude:
     - clomonitor
-  - name: caltrack
-    url: https://github.com/opendsm/caltrack
-    exclude:
-    - clomonitor
-  - name: caltrack
-    url: https://github.com/opendsm/caltrack
-    exclude:
-    - clomonitor
   - name: eeweather
     url: https://github.com/opendsm/eeweather
+    exclude:
+    - clomonitor
+  - name: caltrack
+    url: https://github.com/opendsm/caltrack
     exclude:
     - clomonitor
 - name: openleadr
@@ -912,20 +836,12 @@
   devstats_url: null
   maturity: incubating
   repositories:
+  - name: openleadr-rs
+    url: https://github.com/OpenLEADR/openleadr-rs
+    exclude:
+    - clomonitor
   - name: openleadr-python
     url: https://github.com/OpenLEADR/openleadr-python
-    exclude:
-    - clomonitor
-  - name: openleadr-example-ven
-    url: https://github.com/OpenLEADR/openleadr-example-ven
-    exclude:
-    - clomonitor
-  - name: openleadr-example-ven
-    url: https://github.com/OpenLEADR/openleadr-example-ven
-    exclude:
-    - clomonitor
-  - name: openleadr-example-vtn
-    url: https://github.com/OpenLEADR/openleadr-example-vtn
     exclude:
     - clomonitor
 - name: openstef
@@ -942,16 +858,12 @@
     url: https://github.com/OpenSTEF/openstef
     exclude:
     - clomonitor
-  - name: .github
-    url: https://github.com/OpenSTEF/.github
+  - name: openstef-reference
+    url: https://github.com/OpenSTEF/openstef-reference
     exclude:
     - clomonitor
-  - name: .github
-    url: https://github.com/OpenSTEF/.github
-    exclude:
-    - clomonitor
-  - name: openstef-dbc
-    url: https://github.com/OpenSTEF/openstef-dbc
+  - name: openstef-offline-example
+    url: https://github.com/OpenSTEF/openstef-offline-example
     exclude:
     - clomonitor
 - name: opensynth
@@ -994,16 +906,8 @@
     url: https://github.com/opfab/operatorfabric-core
     exclude:
     - clomonitor
-  - name: keycloak-perf
-    url: https://github.com/opfab/keycloak-perf
-    exclude:
-    - clomonitor
-  - name: keycloak-perf
-    url: https://github.com/opfab/keycloak-perf
-    exclude:
-    - clomonitor
-  - name: letscoordinate
-    url: https://github.com/opfab/letscoordinate
+  - name: operatorfabric-getting-started
+    url: https://github.com/opfab/operatorfabric-getting-started
     exclude:
     - clomonitor
 - name: ores-open-renewal-energy-systems
@@ -1022,14 +926,6 @@
     url: https://github.com/open-renewable-energy-systems/ores
     exclude:
     - clomonitor
-  - name: .github
-    url: https://github.com/open-renewable-energy-systems/.github
-    exclude:
-    - clomonitor
-  - name: .github
-    url: https://github.com/open-renewable-energy-systems/.github
-    exclude:
-    - clomonitor
 - name: powergridmodel
   display_name: Power Grid Model
   description: The mission of the Project is to develop a Python library for steady-state
@@ -1040,24 +936,20 @@
   devstats_url: null
   maturity: incubating
   repositories:
-  - name: power-grid-model-benchmark
-    url: https://github.com/PowerGridModel/power-grid-model-benchmark
+  - name: power-grid-model
+    url: https://github.com/PowerGridModel/power-grid-model
     exclude:
     - clomonitor
-  - name: .github
-    url: https://github.com/PowerGridModel/.github
+  - name: power-grid-model-io
+    url: https://github.com/PowerGridModel/power-grid-model-io
     exclude:
     - clomonitor
-  - name: .github
-    url: https://github.com/PowerGridModel/.github
-    exclude:
-    - clomonitor
-  - name: IEC-CIM-conversion-services-beta
-    url: https://github.com/PowerGridModel/IEC-CIM-conversion-services-beta
+  - name: power-grid-model-ds
+    url: https://github.com/PowerGridModel/power-grid-model-ds
     exclude:
     - clomonitor
 - name: powsybl
-  display_name: PowSyBl
+  display_name: PowSyBL
   description: The mission of the Project is to develop a modular, high performance,
     and industrial grade open source framework for the modeling, simulation and analytics
     of power systems (the "Framework"), leveraging reusable components, common APIs
@@ -1068,6 +960,10 @@
   devstats_url: null
   maturity: earlyadoption
   repositories:
+  - name: powsybl-starter
+    url: https://github.com/powsybl/powsybl-starter
+    exclude:
+    - clomonitor
   - name: powsybl-core
     url: https://github.com/powsybl/powsybl-core
     exclude:
@@ -1080,28 +976,12 @@
     url: https://github.com/powsybl/powsybl-diagram
     exclude:
     - clomonitor
-  - name: powsybl-open-rao
-    url: https://github.com/powsybl/powsybl-open-rao
-    exclude:
-    - clomonitor
-  - name: powsybl-entsoe
-    url: https://github.com/powsybl/powsybl-entsoe
-    exclude:
-    - clomonitor
-  - name: powsybl-dynawo
-    url: https://github.com/powsybl/powsybl-dynawo
-    exclude:
-    - clomonitor
   - name: pypowsybl
     url: https://github.com/powsybl/pypowsybl
     exclude:
     - clomonitor
-  - name: powsybl.jl
-    url: https://github.com/powsybl/powsybl.jl
-    exclude:
-    - clomonitor
-  - name: .github
-    url: https://github.com/powsybl/.github
+  - name: powsybl-open-rao
+    url: https://github.com/powsybl/powsybl-open-rao
     exclude:
     - clomonitor
 - name: rtdip
@@ -1119,14 +999,6 @@
     url: https://github.com/rtdip/core
     exclude:
     - clomonitor
-  - name: samples
-    url: https://github.com/rtdip/samples
-    exclude:
-    - clomonitor
-  - name: samples
-    url: https://github.com/rtdip/samples
-    exclude:
-    - clomonitor
 - name: sc-decarbonisation-hub
   display_name: SC Decarbonisation Hub
   description: Oil and Gas companies face extreme pressure to address GHG emissions.
@@ -1139,14 +1011,6 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: SCDH
-    url: https://github.com/sc-decarbonization-hub/SCDH
-    exclude:
-    - clomonitor
-  - name: SCDHApi
-    url: https://github.com/sc-decarbonization-hub/SCDHApi
-    exclude:
-    - clomonitor
   - name: SCDHApi
     url: https://github.com/sc-decarbonization-hub/SCDHApi
     exclude:
@@ -1164,20 +1028,20 @@
   devstats_url: null
   maturity: earlyadoption
   repositories:
-  - name: .github
-    url: https://github.com/seapath/.github
-    exclude:
-    - clomonitor
-  - name: TSC
-    url: https://github.com/seapath/TSC
-    exclude:
-    - clomonitor
   - name: TSC
     url: https://github.com/seapath/TSC
     exclude:
     - clomonitor
   - name: ansible
     url: https://github.com/seapath/ansible
+    exclude:
+    - clomonitor
+  - name: build_debian_iso
+    url: https://github.com/seapath/build_debian_iso
+    exclude:
+    - clomonitor
+  - name: yocto-bsp
+    url: https://github.com/seapath/yocto-bsp
     exclude:
     - clomonitor
 - name: shapeshifter
@@ -1200,16 +1064,8 @@
     url: https://github.com/shapeshifter/shapeshifter-library-java
     exclude:
     - clomonitor
-  - name: .github
-    url: https://github.com/shapeshifter/.github
-    exclude:
-    - clomonitor
-  - name: .github
-    url: https://github.com/shapeshifter/.github
-    exclude:
-    - clomonitor
-  - name: shapeshifter-library-python
-    url: https://github.com/shapeshifter/shapeshifter-library-python
+  - name: shapeshifter-specification
+    url: https://github.com/shapeshifter/shapeshifter-specification
     exclude:
     - clomonitor
 - name: sogno
@@ -1227,20 +1083,20 @@
   devstats_url: null
   maturity: earlyadoption
   repositories:
+  - name: dpsim
+    url: https://github.com/sogno-platform/dpsim
+    exclude:
+    - clomonitor
+  - name: cimgen
+    url: https://github.com/sogno-platform/cimgen
+    exclude:
+    - clomonitor
   - name: cimpy
     url: https://github.com/sogno-platform/cimpy
     exclude:
     - clomonitor
-  - name: .github
-    url: https://github.com/sogno-platform/.github
-    exclude:
-    - clomonitor
-  - name: .github
-    url: https://github.com/sogno-platform/.github
-    exclude:
-    - clomonitor
-  - name: cim-service
-    url: https://github.com/sogno-platform/cim-service
+  - name: libcimpp
+    url: https://github.com/sogno-platform/libcimpp
     exclude:
     - clomonitor
 - name: trolie
