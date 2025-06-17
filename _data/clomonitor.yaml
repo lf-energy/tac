@@ -208,6 +208,26 @@
     url: https://github.com/covXtreme/covXtreme
     exclude:
     - clomonitor
+- name: cupid
+  display_name: CUPID (Controllable Unit Protocol Interface for DER)
+  description: "The original IEEE 2030.5 standard from 2018 and recently updated by\
+    \ the 2023 version, is a widely used communication protocol designed to manage\
+    \ distributed resources, already adopted in California and Australia. The original\
+    \ standard is an interoperability dictionary-based protocol. In our project we\u2019\
+    ve upgraded the current version of the IEEE2030.5 software/firmware package by\
+    \ using a NATS messaging, added JSON structure support and moreover, we\u2019\
+    ve developed a protocol converter to bridge the gap to other protocols (MQTT and\
+    \ ModBUS) and standardization procedures of existing equipment and systems."
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/cupidNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/cupidNone
+  devstats_url: null
+  maturity: sandbox
+  repositories:
+  - name: Data-Space-Connector-Fiware-Data-App
+    url: https://github.com/Horizont-Europe-Interstore/Data-Space-Connector-Fiware-Data-App
+    exclude:
+    - clomonitor
 - name: dsas-working-group
   display_name: Digital Substations SIG
   description: The Digital Substation Automation Systems (DSAS) initiative seeks to
@@ -890,12 +910,14 @@
     - clomonitor
 - name: operator-fabric
   display_name: OperatorFabric
-  description: "OperatorFabric is a modular, extensible, industrial-strength, and\
-    \ field-tested platform for systems operators. OperatorFabric includes several\
-    \ features essential for electricity, water, and other utility operations.\n\n\
-    System visualization and console integration\nPrecise alerting\nWorkflow scheduling\n\
-    Remedial action manager\nHistorian\nScripting (ex: Python, JavaScript)\n\nOperatorFabric\
-    \ has a robust reference implementation called Let\u2019s Coordinate."
+  description: 'OperatorFabric is a modular, extensible, industrial-strength platform
+    for use in electricity, water, and other utility operations. It aims to facilitate
+    operational activities for utilities in two ways:
+
+    - Centralize real time business events in a single place to avoid having multiple
+    screens/software.
+
+    - Facilitate interactions between operational control centers.'
   category: Visual Effects and Computer Graphics
   logo_url: https://artwork.lfenergy.org/projects/operator-fabricNone
   logo_url_dark: https://artwork.lfenergy.org/projects/operator-fabricNone
