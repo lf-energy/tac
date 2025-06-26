@@ -92,10 +92,10 @@ To be considered for the Incubation Stage, the project must meet the following r
 
 - Have achieved and maintained an [OpenSSF Best Practices Badge](https://bestpractices.coreinfrastructure.org/) at the [‘Passing' level](https://bestpractices.coreinfrastructure.org/en/criteria/0).
 - Have an open and documented technical governance, including:
-  - A README file in each code repository, welcoming new community members to the project and explaining why the project is useful and how to get started ( follow the guidelines at the [README checklist](https://github.com/ddbeck/readme-checklist) to create an excellent README file ).
-  - A GOVERNANCE file that documents the project’s technical governance ( more details here ).
-  - All current Technical Steering Committee members specified in the ‘Technical Steering Committee (TSC)’ committee in LFX Project Control Center ( details on how this should be setup are [here](/tools/collaboration.html#committee-management) ).
-  - A CODEOWNERS or COMMITTERS file to define individuals or teams that are responsible for code in a repository, as well as documenting current project owners and current and emeritus committers ( example here )
+  - A README file in each code repository, welcoming new community members to the project and explaining why the project is useful and how to get started (follow the guidelines at the [README checklist](https://github.com/ddbeck/readme-checklist) to create an excellent README file).
+  - A GOVERNANCE file that documents the project’s technical governance ([template](https://github.com/lf-energy/tsc-template/blob/main/GOVERNANCE.md)).
+  - All current Technical Steering Committee members specified in the ‘Technical Steering Committee (TSC)’ committee in LFX Project Control Center (details on how this should be set up are [here]({% link tools/collaboration.md %})).
+  - A CODEOWNERS or COMMITTERS file to define individuals or teams that are responsible for code in a repository, as well as documenting current project owners and current and emeritus committers ( [template](https://github.com/lf-energy/tsc-template/blob/main/COMMITTERS.csv) )
 - Documentation of the architecture (aka high-level design) of the software produced by the project ([aligns with this OpenSSF Best Practices Silver badge requirement](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.documentation_architecture)).
   - The project should work with the Archimate SIG to ensure the project's functional architecture is built in the [{{ site.foundation_name }} ArchiMate tool](http://architecture.lfenergy.org/). 
 - A documented roadmap that describes what the project intends to do and not do for at least the next year ([aligns with this OpenSSF Best Practices Silver badge requirement](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.documentation_roadmap)).
@@ -196,7 +196,7 @@ Projects in this stage are not in active development. Their maintainers may infr
 
 ### Acceptance Criteria
 
-Projects may be granted Emeritus status via a 2/3 vote from the TAC and with approval from project ownership. In cases where there is a lack of project ownership, only a 2/3 vote from the TAC is required.
+Projects may be granted Emeritus status via a 2/3 vote from the TAC and with approval from project ownership. In cases w t is a lack of project ownership, only a 2/3 vote from the TAC is required.
 
 ### Benefits
 
