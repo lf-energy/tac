@@ -190,7 +190,7 @@ Graduated Stage projects are considered “TAC Projects” as defined in the {{ 
 
 ## Emeritus Stage
 
-Emeritus projects are projects that the maintainers or the TAC feel have reached or are nearing end-of-life. Emeritus projects have contributed to the ecosystem, but are not necessarily recommended for modern development, as there may be more actively maintained choices. {{ site.{{foundation_name }} appreciates the contributions of these projects and their communities, as well as the role they have played in advancing the ecosystem.
+Emeritus projects are projects that the maintainers or the TAC feel have reached or are nearing end-of-life. Emeritus projects have contributed to the ecosystem, but are not necessarily recommended for modern development, as there may be more actively maintained choices. {{ site.foundation_name }} appreciates the contributions of these projects and their communities, as well as the role they have played in advancing the ecosystem.
 
 Projects in this stage are not in active development. Their maintainers may infrequently monitor their repositories and may only push updates to address security issues, if at all. Emeritus projects should clearly state their status and what users or contributors can expect in terms of response or support. If there is an alternative project the maintainers recommend, it should be listed as well. The foundation will continue to hold the IP, as well as any trademarks and domains, but the project does not draw on foundation resources.
 
