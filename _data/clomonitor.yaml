@@ -647,8 +647,8 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: perf-eval-zeromq
-    url: https://github.com/geisa/perf-eval-zeromq
+  - name: conformance
+    url: https://github.com/geisa/conformance
     exclude:
     - clomonitor
 - name: grid-exchange-fabric
