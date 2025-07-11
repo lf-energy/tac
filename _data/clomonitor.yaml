@@ -925,14 +925,11 @@
     - clomonitor
 - name: operator-fabric
   display_name: OperatorFabric
-  description: 'OperatorFabric is a modular, extensible, industrial-strength platform
+  description: OperatorFabric is a modular, extensible, industrial-strength platform
     for use in electricity, water, and other utility operations. It aims to facilitate
-    operational activities for utilities in two ways:
-
-    - Centralize real time business events in a single place to avoid having multiple
-    screens/software.
-
-    - Facilitate interactions between operational control centers.'
+    operational activities for utilities by centralizing real-time business events
+    in a single place to avoid having multiple screens/software and facilitating interactions
+    between operational control centers.
   category: Visual Effects and Computer Graphics
   logo_url: https://artwork.lfenergy.org/projects/operator-fabricNone
   logo_url_dark: https://artwork.lfenergy.org/projects/operator-fabricNone
