@@ -14,5 +14,6 @@ The following guidelines apply to these websites.
 4. The website MUST NOT enable any third-party functionality or integrations, particularly those that collect and/or share any user-submitted data without LF approval. 
 5. The domain name and DNS for the website MUST be owned by the LF and managed in LFX PCC. LF IT and PMO can easily make any adjustments on behalf of the project.
 6. Ensure that the website does not bias any particular company (e.g., no links to a vendor’s products from the website, no promotions or offers). 
+7. Any use of LF marks must comply with the [LF Trademark Policy](https://www.linuxfoundation.org/legal/trademark-usage) and [LF Projects Trademark Policy](https://lfprojects.org/policies/trademark-policy/).
 
 [Contact {{ site.foundation_name }} Staff]({{ site.helpdesk_url }}) if you have any questions or need support for the items above.
