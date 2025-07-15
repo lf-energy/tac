@@ -1,17 +1,18 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
-OperatorFabric,https://github.com/lf-energy/tac/issues/71,71,2025-09-02,Next Meeting Agenda Items,2024-07-16,2-annual-review
-Battery Data Alliance,https://github.com/lf-energy/tac/issues/57,57,2025-09-02,Next Meeting Agenda Items,2024-08-27,2-annual-review
-NODE Collective,https://github.com/lf-energy/tac/issues/108,108,2025-09-02,Next Meeting Agenda Items,2024-04-02,2-annual-review
+GridFM,https://github.com/lf-energy/tac/issues/260,260,2025-10-14,Next Meeting Agenda Items,2024-10-29,2-annual-review
+Archimate SIG,https://github.com/lf-energy/tac/issues/93,93,2025-10-14,Next Meeting Agenda Items,2024-10-29,2-annual-review
+Grid Edge Interoperability & Security Alliance (GEISA),https://github.com/lf-energy/tac/issues/230,230,2025-10-14,Next Meeting Agenda Items,,2-annual-review
+OperatorFabric,https://github.com/lf-energy/tac/issues/71,71,2025-09-02,Upcoming Meeting Agenda Items,2024-07-16,2-annual-review
+Battery Data Alliance,https://github.com/lf-energy/tac/issues/57,57,2025-09-02,Upcoming Meeting Agenda Items,2024-08-27,2-annual-review
+NODE Collective,https://github.com/lf-energy/tac/issues/108,108,2025-09-02,Upcoming Meeting Agenda Items,2024-04-02,2-annual-review
 OpenLEADR,https://github.com/lf-energy/tac/issues/24,24,2026-06-24,SIG Annual Reviews,2025-06-10,2-annual-review-sig
 SOGNO,https://github.com/lf-energy/tac/issues/75,75,2026-05-12,Future Meeting Agenda Items,2025-05-13,2-annual-review
 FIDOPower,https://github.com/lf-energy/tac/issues/82,82,2026-06-03,SIG Annual Reviews,2025-06-04,2-annual-review-sig
 OneNet Framework,https://github.com/lf-energy/tac/issues/112,112,,LF Onboarding,2024-05-14,2-annual-review
 New Project Proposal - RTC-Tools,https://github.com/lf-energy/tac/issues/344,344,,LF Onboarding,,1-new-project-wg
 Grid Vantage,https://github.com/lf-energy/tac/issues/52,52,,SIG Annual Reviews,2023-09-26,2-annual-review-sig
-LF Energy Semantic Energy Framework (LFE-SEF),https://github.com/lf-energy/tac/issues/132,132,,LF Onboarding,2024-04-23,2-annual-review
 New Project Proposal - LFC (Load Frequency Controller),https://github.com/lf-energy/tac/issues/520,520,,On Hold,,1-new-project-wg
 Arras,https://github.com/lf-energy/tac/issues/104,104,2025-10-01,SIG Annual Reviews,2024-07-16,2-annual-review-sig
-GridFM,https://github.com/lf-energy/tac/issues/260,260,2025-10-14,Future Meeting Agenda Items,2024-10-29,2-annual-review
 CitrineOS,https://github.com/lf-energy/tac/issues/59,59,2025-11-26,SIG Annual Reviews,2024-11-27,2-annual-review-sig
 Power Grid Model,https://github.com/lf-energy/tac/issues/81,81,2026-02-04,SIG Annual Reviews,2025-02-05,2-annual-review-sig
 Digital Substations SIG,https://github.com/lf-energy/tac/issues/89,89,2025-12-09,Future Meeting Agenda Items,,2-annual-review
@@ -23,7 +24,7 @@ PowSyBl,https://github.com/lf-energy/tac/issues/22,22,2025-12-03,SIG Annual Revi
 OpenDSM,https://github.com/lf-energy/tac/issues/7,7,2026-05-12,Future Meeting Agenda Items,2025-05-13,2-annual-review
 CUPID (Controllable Unit Protocol Interface for DER) (was IEEE 2030.5 over NATS),https://github.com/lf-energy/tac/issues/383,383,2026-05-12,Future Meeting Agenda Items,2025-05-13,2-annual-review
 Hyphae,https://github.com/lf-energy/tac/issues/74,74,2026-02-10,Future Meeting Agenda Items,2025-02-11,2-annual-review
-Archimate SIG,https://github.com/lf-energy/tac/issues/93,93,2025-10-14,Future Meeting Agenda Items,2024-10-29,2-annual-review
+LF Energy Semantic Energy Framework (LFE-SEF),https://github.com/lf-energy/tac/issues/132,132,2026-03-10,Future Meeting Agenda Items,2024-04-23,2-annual-review
 AI SIG,https://github.com/lf-energy/tac/issues/53,53,2025-11-11,Future Meeting Agenda Items,2024-10-29,2-annual-review
 covXtreme,https://github.com/lf-energy/tac/issues/66,66,2026-04-01,SIG Annual Reviews,2025-04-02,2-annual-review-sig
 OpenSTEF,https://github.com/lf-energy/tac/issues/25,25,2026-02-04,SIG Annual Reviews,2025-02-05,2-annual-review-sig
@@ -34,11 +35,10 @@ TROLIE,https://github.com/lf-energy/tac/issues/79,79,2025-12-09,Future Meeting A
 Project SIG around Edge solutions / flexibility,https://github.com/lf-energy/tac/issues/483,483,,On Hold,,4-tac-meeting-short
 Speakers from other LF projects on community building,https://github.com/lf-energy/tac/issues/350,350,,On Hold,,4-tac-meeting-short
 Security Strategy updates for LF Energy hosted projects,https://github.com/lf-energy/tac/issues/14,14,,On Hold,,4-tac-meeting-short
-Grid Edge Interoperability & Security Alliance (GEISA),https://github.com/lf-energy/tac/issues/230,230,2025-10-14,Future Meeting Agenda Items,,2-annual-review
 SC Decarbonisation Hub,https://github.com/lf-energy/tac/issues/171,171,2025-11-11,Future Meeting Agenda Items,,2-annual-review
 Previously TAC approved projects stalled in LF onboarding,https://github.com/lf-energy/tac/issues/390,390,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
-Real Time Data Ingestion Platform (RTDIP),https://github.com/lf-energy/tac/issues/26,26,2025-07-08,Upcoming Meeting Agenda Items,2024-01-30,2-annual-review
-Grid eXchange Fabric (GXF),https://github.com/lf-energy/tac/issues/8,8,2025-07-08,Upcoming Meeting Agenda Items,2024-09-18,2-annual-review
+Real Time Data Ingestion Platform (RTDIP),https://github.com/lf-energy/tac/issues/26,26,2026-07-14,Future Meeting Agenda Items,2025-07-08,2-annual-review
+Grid eXchange Fabric (GXF),https://github.com/lf-energy/tac/issues/8,8,2026-07-14,Future Meeting Agenda Items,2025-07-08,2-annual-review
 TAC Priorities 2025,https://github.com/lf-energy/tac/issues/436,436,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 Shapeshifter,https://github.com/lf-energy/tac/issues/136,136,2026-04-14,Future Meeting Agenda Items,2025-04-08,2-annual-review
 Open Renewable Energy System (ORES) Working Group,https://github.com/lf-energy/tac/issues/107,107,2026-04-14,Future Meeting Agenda Items,2025-04-08,2-annual-review
@@ -54,3 +54,4 @@ Connected Data Specification - Customer Data Working Group (CDS WG1),https://git
 Connected Data Specification - Power Systems Data Working Group (CDS WG2),https://github.com/lf-energy/tac/issues/513,513,2025-12-09,Future Meeting Agenda Items,,2-annual-review
 Improve SIG support and interface to the TAC,https://github.com/lf-energy/tac/issues/544,544,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 Global Granular Certificate Registry,https://github.com/lf-energy/tac/issues/556,556,,LF Onboarding,,1-new-project-wg
+Add project website policy,https://github.com/lf-energy/tac/pull/582,582,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
