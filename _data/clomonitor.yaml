@@ -766,7 +766,7 @@
     exclude:
     - clomonitor
 - name: interconnect-sif
-  display_name: LF Energy Semantic Energy Framework (LFE-SEF)v
+  display_name: LF Energy Semantic Energy Framework (LFE-SEF)
   description: The mission of the Project is to enable semantic interoperability without
     a centralized facilitator in cross domain challenges related to grids and smart
     homes/buildings.
