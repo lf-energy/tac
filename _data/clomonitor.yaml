@@ -765,21 +765,17 @@
     url: https://github.com/hyphae/APIS
     exclude:
     - clomonitor
-- name: interconnect-sif
+- name: lfe-sef
   display_name: LF Energy Semantic Energy Framework (LFE-SEF)
   description: The mission of the Project is to enable semantic interoperability without
     a centralized facilitator in cross domain challenges related to grids and smart
     homes/buildings.
   category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.lfenergy.org/projects/interconnect-sifNone
-  logo_url_dark: https://artwork.lfenergy.org/projects/interconnect-sifNone
+  logo_url: https://artwork.lfenergy.org/projects/lfe-sefNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/lfe-sefNone
   devstats_url: null
   maturity: sandbox
-  repositories:
-  - name: home#interconnect-interoperability-framework
-    url: https://gitlab.inesctec.pt/groups/interconnect-public/-/wikis/home#interconnect-interoperability-framework
-    exclude:
-    - clomonitor
+  repositories: []
 - name: node-collective
   display_name: NODE Collective
   description: 'A nonprofit alliance founded by the Building Decarbonization Coalition,
