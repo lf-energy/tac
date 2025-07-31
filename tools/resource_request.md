@@ -16,7 +16,7 @@ Projects needing resources should aim to request funding 2-3 months before the n
 
 ### Project Resource Request Form
 
-Projects should submit resource requests as [an issue in the TAC repo](https://github.com/AcademySoftwareFoundation/tac/issues/new/choose) to make the request.
+Projects should submit resource requests as [an issue in the TAC repo](https://github.com/lf-energy/tac/issues/new?template=05-resource-request.yml) to make the request.
 
 ### Request review - TAC
 
