@@ -3,6 +3,8 @@ name: LF Energy Ambassador Application
 description: Apply to be an LF Energy Ambassador.
 title: 'Ambassador Application - NAME'
 labels: ["4-ambassador-application"]
+assignees:
+  - lfenergy
 body:
   - type: markdown
     attributes:

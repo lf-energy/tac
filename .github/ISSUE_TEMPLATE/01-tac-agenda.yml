@@ -2,6 +2,8 @@ name: TAC Meeting agenda item
 description: Propose an agenda item to discuss at an upcoming TAC meeting
 title: "AGENDA TOPIC"
 labels: ["4-tac-short-discussion"]
+assignees:
+  - lfenergy
 body:
   - type: markdown
     attributes:

@@ -3,6 +3,8 @@ name: New Project Proposal
 description: Template for proposing a new project to the TAC
 title: 'New Project Proposal - PROJECT NAME'
 labels: ["1-new-project-wg"]
+assignees: 
+  - lfenewprojectwg
 body:
   - type: markdown
     attributes:

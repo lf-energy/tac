@@ -5,14 +5,13 @@ description: |
 title: "SUBJECT - Resource Request"
 labels: ["help wanted"]
 assignees: 
-  - yarille
-  - jmertic
+  - lfenergy
 body:
   - type: markdown
     attributes:
       value: |
         For hosted projects and working groups only, use this form to submit a resource 
-        or funding request to the TAC for consideration. Details on the full process 
+        or a funding request to the TAC for consideration. Details on the full process 
         are at https://tac.lfenergy.org/tools/resource_request.
 
         Please update `SUBJECT` in the title with a title for the request.
