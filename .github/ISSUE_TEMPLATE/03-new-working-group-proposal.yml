@@ -2,6 +2,8 @@ name: New Working Group Proposal
 description: Template for proposing a new Working Group to the TAC
 title: 'New Working Group/Special Interest Group Proposal - NAME'
 labels: ["1-new-project-wg"]
+assignees: 
+  - lfenewprojectwg
 body:
   - type: markdown
     attributes:
