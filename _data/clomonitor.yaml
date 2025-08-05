@@ -95,7 +95,6 @@
   description: 'Open source profile configuration and management for IEC 61850 substation
     protection, automation, and control systems
 
-
     CoMPAS (Configuration Modules for Power industry Automation Systems is being developed
     using several guiding principles, including the use of cross-platform Docker-based
     microservices along with a lightweight browser client, multiple language support
@@ -179,11 +178,7 @@
     - clomonitor
 - name: covxtreme
   display_name: covXtreme
-  description: 'Open source project that promotes interoperability and standardization
-    for distributed energy system communication, primarily through the implementation
-    of the IEEE 2030.5 standard
-
-    '
+  description: Model and software for hazard risk analysis of extreme events
   category: Visual Effects and Computer Graphics
   logo_url: https://artwork.lfenergy.org/projects/covxtremeNone
   logo_url_dark: https://artwork.lfenergy.org/projects/covxtremeNone
@@ -204,14 +199,9 @@
     - clomonitor
 - name: cupid
   display_name: CUPID (Controllable Unit Protocol Interface for DER)
-  description: "The original IEEE 2030.5 standard from 2018 and recently updated by\
-    \ the 2023 version, is a widely used communication protocol designed to manage\
-    \ distributed resources, already adopted in California and Australia. The original\
-    \ standard is an interoperability dictionary-based protocol. In our project we\u2019\
-    ve upgraded the current version of the IEEE2030.5 software/firmware package by\
-    \ using a NATS messaging, added JSON structure support and moreover, we\u2019\
-    ve developed a protocol converter to bridge the gap to other protocols (MQTT and\
-    \ ModBUS) and standardization procedures of existing equipment and systems."
+  description: Open source project that promotes interoperability and standardization
+    for distributed energy system communication, primarily through the implementation
+    of the IEEE 2030.5 standard
   category: Visual Effects and Computer Graphics
   logo_url: https://artwork.lfenergy.org/projects/cupidNone
   logo_url_dark: https://artwork.lfenergy.org/projects/cupidNone
@@ -649,7 +639,7 @@
   display_name: Grid eXchange Fabric (GXF)
   description: "Open source, scalable, and technology-agnostic industrial Internet\
     \ of Things (IoT) platform that enables grid operators to securely collect data,\
-    \ monitor, control, and manage smart devices across the power grid\n\nGXF is open,\
+    \ monitor, control, and manage smart devices across the power grid\nGXF is open,\
     \ independent, and driven by its community, developed using open source best practices\
     \ and designed to use open standards. This enables third parties to develop new\
     \ and innovative solutions. The trade-off is flexibility and freedom. Unlike closed\
@@ -789,7 +779,6 @@
     and standardized dataset of every residential electrification incentive program
     in the US to accelerate clean energy adoption
 
-
     The Challenge: Fragmented and outdated electrification incentive data are major
     barriers to progress in the electrification
 
@@ -831,7 +820,7 @@
   description: "Open source library that measures the impacts of demand-side energy\
     \ programs (like energy efficiency and demand response) by modeling historical\
     \ energy usage to predict counterfactuals and compare them to actual post-intervention\
-    \ consumption\n\n- Build an open source library for predicting energy consumption\
+    \ consumption\n- Build an open source library for predicting energy consumption\
     \ of utility meters based on their historical usage and additional covariate data;\
     \  \n- Maintain a production-ready library to act as a measurement system for\
     \ distributed energy resources that can be replicated by all parties in markets\
