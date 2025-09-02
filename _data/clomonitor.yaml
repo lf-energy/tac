@@ -984,11 +984,9 @@
     - clomonitor
 - name: powsybl
   display_name: PowSyBL
-  description: 'Open source, modular Java library with Python bindings designed for
-    comprehensive electrical grid modeling, simulation, and visualization, enabling
-    complex power flow, security, and dynamic analyses
-
-    '
+  description: Open source, modular Java library with Python & Julia bindings designed
+    for comprehensive electrical grid modeling, simulation, and visualization, enabling
+    complex power flow, security, and dynamic analyses.
   category: Visual Effects and Computer Graphics
   logo_url: https://artwork.lfenergy.org/projects/powsyblNone
   logo_url_dark: https://artwork.lfenergy.org/projects/powsyblNone
