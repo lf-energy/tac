@@ -17,6 +17,8 @@ Other requests may be considered over time.
 
 Projects needing resources should aim to request funding 2-3 months before the need arises. Projects should propose funding needs for the subsequent year in September/October, if possible, during budget planning.
 
+Pending requests can be found [here](https://github.com/orgs/lf-energy/projects/2/views/6)
+
 ### Project Resource Request Form
 
 Projects should submit resource requests as [an issue in the TAC repo](https://github.com/lf-energy/tac/issues/new?template=05-resource-request.yml) to make the request.
