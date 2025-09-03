@@ -40,3 +40,7 @@ Once the TAC approves, the budget request will be shared with the Budget Committ
 The review from the budget committee ensures that enough budget is allocated for the request. If additional funds are required, the committee will conduct a reforecast for this request and other anticipated needs, submitting the revised budget to the Governing Board for approval. 
 
 The Budget Committee will monitor the budget for project requests and propose reforecasts to the Governing Board for approval.
+
+### Post approval
+
+Once approved, the LF Staff will work with the project to operationalize the resources approved.
