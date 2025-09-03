@@ -993,10 +993,6 @@
   devstats_url: null
   maturity: earlyadoption
   repositories:
-  - name: powsybl-starter
-    url: https://github.com/powsybl/powsybl-starter
-    exclude:
-    - clomonitor
   - name: powsybl-core
     url: https://github.com/powsybl/powsybl-core
     exclude:
@@ -1015,6 +1011,10 @@
     - clomonitor
   - name: powsybl-open-rao
     url: https://github.com/powsybl/powsybl-open-rao
+    exclude:
+    - clomonitor
+  - name: powsybl-starter
+    url: https://github.com/powsybl/powsybl-starter
     exclude:
     - clomonitor
 - name: rtdip
