@@ -16,7 +16,7 @@ OneNet Framework,https://github.com/lf-energy/tac/issues/112,112,,LF Onboarding,
 Utility Rate Plan Exchange (URPX),https://github.com/lf-energy/tac/issues/600,600,,LF Onboarding,,1-new-project-wg
 Grid Vantage,https://github.com/lf-energy/tac/issues/52,52,,SIG Annual Reviews,2023-09-26,2-annual-review-sig
 New Project Proposal - LFC (Load Frequency Controller),https://github.com/lf-energy/tac/issues/520,520,,On Hold,,1-new-project-wg
-Arras,https://github.com/lf-energy/tac/issues/104,104,2025-10-01,SIG Annual Reviews,2024-07-16,2-annual-review-sig
+Arras,https://github.com/lf-energy/tac/issues/104,104,2026-10-07,SIG Annual Reviews,2025-10-01,2-annual-review-sig
 CitrineOS,https://github.com/lf-energy/tac/issues/59,59,2025-11-26,SIG Annual Reviews,2024-11-27,2-annual-review-sig
 Power Grid Model,https://github.com/lf-energy/tac/issues/81,81,2026-02-04,SIG Annual Reviews,2025-02-05,2-annual-review-sig
 Digital Substations SIG,https://github.com/lf-energy/tac/issues/89,89,2025-12-09,Future Meeting Agenda Items,,2-annual-review
@@ -31,7 +31,7 @@ LF Energy Semantic Energy Framework (LFE-SEF),https://github.com/lf-energy/tac/i
 covXtreme,https://github.com/lf-energy/tac/issues/66,66,2026-04-01,SIG Annual Reviews,2025-04-02,2-annual-review-sig
 OpenSTEF,https://github.com/lf-energy/tac/issues/25,25,2026-02-04,SIG Annual Reviews,2025-02-05,2-annual-review-sig
 CoMPAS ,https://github.com/lf-energy/tac/issues/72,72,2026-06-02,SIG Annual Reviews,2025-06-10,2-annual-review-sig
-Dynaωo,https://github.com/lf-energy/tac/issues/29,29,2025-10-01,SIG Annual Reviews,2024-01-30,2-annual-review-sig
+Dynaωo,https://github.com/lf-energy/tac/issues/29,29,2026-04-01,SIG Annual Reviews,2025-10-01,2-annual-review-sig
 LFX Insights updates,https://github.com/lf-energy/tac/issues/351,351,,On Hold,,3-tac-meeting-long
 TROLIE,https://github.com/lf-energy/tac/issues/79,79,2025-12-09,Future Meeting Agenda Items,2023-09-06,2-annual-review
 Project SIG around Edge solutions / flexibility,https://github.com/lf-energy/tac/issues/483,483,,On Hold,,4-tac-meeting-short
@@ -57,3 +57,4 @@ Global Granular Certificate Registry,https://github.com/lf-energy/tac/issues/556
 New Project Proposal - PowerCore,https://github.com/lf-energy/tac/issues/590,590,,LF Onboarding,,1-new-project-wg
 Project website policy,https://github.com/lf-energy/tac/pull/582,582,2025-10-14,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 Pypowsybl : upgrade macos ARM-64 runner for CI/CD,https://github.com/lf-energy/tac/issues/596,596,,Project Resource Requests,,
+Call for Collaboration: Safe-OSE Proposal with LF Energy,https://github.com/lf-energy/tac/issues/636,636,2025-10-14,Upcoming Meeting Agenda Items,,4-tac-meeting-short
