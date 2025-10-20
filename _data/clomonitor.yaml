@@ -1038,6 +1038,23 @@
     url: https://github.com/rtdip/core
     exclude:
     - clomonitor
+- name: rtc-tools
+  display_name: RTC-Tools
+  description: RTC-Tools is an open-source Python package for simulation and operational
+    optimization of assets. Models can be specified in Python or in the Modelica modelling
+    language, making it generically applicable to a broad class of assets. It can
+    be used for model-predictive control and operational decision making of water
+    and energy systems.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/rtc-toolsNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/rtc-toolsNone
+  devstats_url: null
+  maturity: sandbox
+  repositories:
+  - name: rtc-tools
+    url: https://github.com/Deltares/rtc-tools
+    exclude:
+    - clomonitor
 - name: sc-decarbonisation-hub
   display_name: SC Decarbonisation Hub
   description: 'An open source platform that provides visibility into, and enables
