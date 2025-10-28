@@ -111,14 +111,33 @@ The best practice is to either outline contribution guidelines in the `README` f
 * Defining the coding style used ( which ideally should align with a standard style for the given language, which means you could just point to where that is documented ).
 * Outlining the legal requirements ( DCO, CLA, copyright notices )
 
+Some examples around the Linux Foundation projects:
+
+- [OpenEXR](https://github.com/AcademySoftwareFoundation/openexr/blob/main/CONTRIBUTING.md)
+- [Zowe](https://docs.zowe.org/stable/contribute/roadmap-contribute/)
+- [Kubeflow](https://www.kubeflow.org/docs/about/contributing/)
+
 ### Test Policy
 
 > - The project MUST have a formal written policy that as major new functionality is added, tests for the new functionality MUST be added to an automated test suite. {N/A justification} {Met justification} [[test_policy_mandated](https://www.bestpractices.dev/en/criteria#1.test_policy_mandated)]
 > - The project MUST include, in its documented instructions for change proposals, the policy that tests are to be added for major new functionality. {N/A justification} {Met justification} [[tests_documented_added](https://www.bestpractices.dev/en/criteria#1.tests_documented_added)]
 
+Most of the time you will reference the general "new functionality must have tests" in your contributing guidelines.
+
 ### Good First Issues
 
 > - The project MUST clearly identify small tasks that can be performed by new or casual contributors. {Met URL} [[small_tasks](https://www.bestpractices.dev/en/criteria#2.small_tasks)]
+
+The `good first issue` label on GitHub is a standard label used by open-source projects to identify issues that are particularly suitable for new contributors. These issues are typically:
+- Approachable: They require minimal prior knowledge of the project's codebase or complex technical skills.
+- Well-defined: The task is clearly described, often with steps to reproduce a bug or implement a small feature.
+- Mentored: Project maintainers are often willing to provide extra guidance and support to new contributors working on these issues.
+Purpose of the "good first issue" label:
+- Lowering the barrier to entry: It helps individuals new to open source or a specific project find a starting point for contributions.
+- Encouraging engagement: It fosters a welcoming environment for newcomers, promoting community growth and participation.
+- Streamlining contributions: By clearly identifying easy-to-tackle tasks, it simplifies the process of finding suitable work for new contributors.
+
+As a bonus, many tools out there crawl GitHub repositories for `good first issue` issues, so this can give your project greater exposure to potential open source contributors out there.
 
 ## Security
 
@@ -126,10 +145,23 @@ The best practice is to either outline contribution guidelines in the `README` f
 > - The project MUST document what the user can and cannot expect in terms of security from the software produced by the project (its "security requirements"). {N/A allowed} {Met URL} [[documentation_security](https://www.bestpractices.dev/en/criteria#1.documentation_security)]
 > - The project MUST provide an assurance case that justifies why its security requirements are met. The assurance case MUST include: a description of the threat model, clear identification of trust boundaries, an argument that secure design principles have been applied, and an argument that common implementation security weaknesses have been countered. {Met URL} [[assurance_case](https://www.bestpractices.dev/en/criteria#1.assurance_case)]
 
+There are several guides from the OpenSSF projects should leverage:
+
+- [Guide to implementing a coordinated vulnerability disclosure process for open source projects](https://github.com/ossf/oss-vulnerability-guide/blob/main/maintainer-guide.md)
+- [Concise Guide for Developing More Secure Software](https://best.openssf.org/Concise-Guide-for-Developing-More-Secure-Software)
+- [Systems Engineering and Assurance Modeling (SEAM)](https://modelbasedassurance.org/seamdoc/docs/chapter5/)
+
 ## Developer Docs
 
 > - The project MUST provide reference documentation that describes the external interface (both input and output) of the software produced by the project. {N/A justification} [[documentation_interface](https://www.bestpractices.dev/en/criteria#0.documentation_interface)]
 > - The project MUST include documentation of the architecture (aka high-level design) of the software produced by the project. If the project does not produce software, select "not applicable" (N/A). {N/A justification} {Met URL} [[documentation_architecture](https://www.bestpractices.dev/en/criteria#1.documentation_architecture)]
+
+Reference documentation often will follow one of the establish interface development documentation tools, such as...
+
+- OpenAPI, for API documents
+- Doxygen, for inline code comments to turn them into documentation; this is great for general SDK and defining public interfaces in code.
+
+For high level architecture documentation, these generally take the form of visual modeling, which for simple cases can be done in markdown combined with mermaid. For more complex cases, look towards something like Archi which can be used for defining multiple layers of architecture.
 
 ## Governance and Processes
 
@@ -137,6 +169,13 @@ The best practice is to either outline contribution guidelines in the `README` f
 > - The project MUST adopt a code of conduct and post it in a standard location. {Met URL} [[code_of_conduct](https://www.bestpractices.dev/en/criteria#1.code_of_conduct)]
 > - The project MUST clearly define and publicly document the key roles in the project and their responsibilities, including any tasks those roles must perform. It MUST be clear who has which role(s), though this might not be documented in the same way. {Met URL} [[roles_responsibilities](https://www.bestpractices.dev/en/criteria#1.roles_responsibilities)]
 
+The [LF Energy TSC repository template](https://github.com/lf-energy/tsc-template) has a number of templates projects can use.
+
 ## Keeping Documentation up to date
 
 > - The project MUST make an effort to keep the documentation consistent with the current version of the project results (including software produced by the project). Any known documentation defects making it inconsistent MUST be fixed. If the documentation is generally current, but erroneously includes some older information that is no longer true, just treat that as a defect, then track and fix as usual. {N/A justification} {Met justification} [[documentation_current](https://www.bestpractices.dev/en/criteria#1.documentation_current)]
+
+Some ideas here:
+
+- Have the documentation in the same repo as the code, so that as new changes are added the documentation can be added at the same time ( bonus points - your documentation is easily versioned using this approach ).
+- Include in your release process a documentation review.
