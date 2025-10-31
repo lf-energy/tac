@@ -7,8 +7,9 @@ Digital Substations SIG,https://github.com/lf-energy/tac/issues/89,89,2025-12-09
 TROLIE,https://github.com/lf-energy/tac/issues/79,79,2025-12-09,Next Meeting Agenda Items,2023-09-06,2-annual-review
 SC Decarbonisation Hub,https://github.com/lf-energy/tac/issues/171,171,2025-11-11,Upcoming Meeting Agenda Items,,2-annual-review
 AI SIG,https://github.com/lf-energy/tac/issues/53,53,2025-11-11,Upcoming Meeting Agenda Items,2024-10-29,2-annual-review
+Proposal for SBOM + SigStore + SWHID for LF Energy Releases,https://github.com/lf-energy/tac/pull/653,653,2025-11-11,Upcoming Meeting Agenda Items,,3-tac-meeting-long
 GridFM,https://github.com/lf-energy/tac/issues/260,260,2025-11-19,SIG Annual Reviews,2024-10-29,2-annual-review-sig
-Utility Rate Plan Exchange (URPX),https://github.com/lf-energy/tac/issues/600,600,,In Voting,,1-new-project-wg
+Utility Rate Plan Exchange (URPX),https://github.com/lf-energy/tac/issues/600,600,2026-10-13,Future Meeting Agenda Items,,1-new-project-wg
 FlexMeasures,https://github.com/lf-energy/tac/issues/27,27,2025-12-17,SIG Annual Reviews,2024-11-20,2-annual-review-sig
 RTC-Tools,https://github.com/lf-energy/tac/issues/344,344,2026-09-08,Future Meeting Agenda Items,,2-annual-review
 Power Stability Wide Area Monitoring Protection (p-SWAMP),https://github.com/lf-energy/tac/issues/585,585,2026-09-08,Future Meeting Agenda Items,,2-annual-review
@@ -54,7 +55,6 @@ pyELQ: python Emission Localization and Quantification,https://github.com/lf-ene
 New Project Proposal - Project Origin,https://github.com/lf-energy/tac/issues/576,576,2025-11-11,Upcoming Meeting Agenda Items,,1-new-project-wg
 Global Granular Certificate Registry,https://github.com/lf-energy/tac/issues/556,556,,LF Onboarding,,1-new-project-wg
 New Project Proposal - PowerCore,https://github.com/lf-energy/tac/issues/590,590,,LF Onboarding,,1-new-project-wg
-Proposal for SBOM + SigStore + SWHID for LF Energy Releases,https://github.com/lf-energy/tac/pull/653,653,2025-11-11,Upcoming Meeting Agenda Items,,3-tac-meeting-long
 SEAPATH - Documentation Support,https://github.com/lf-energy/tac/issues/658,658,,Project Resource Requests,,
 CI/CD runners for EVerest - Resource Request,https://github.com/lf-energy/tac/issues/655,655,,Project Resource Requests,,
 Project Lifecycle - Review and make adjustments to align with current project needs ( last changes made in 2021 ),https://github.com/lf-energy/tac/issues/650,650,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
