@@ -286,11 +286,9 @@
     exclude:
     - clomonitor
 - name: ev-charging-sig
-  display_name: EV Charging SIG
-  description: 'LF Energy Special Interest Group (SIG) focused on electric vehicle
+  display_name: Edge Interoperability and Flexibility SIG
+  description: LF Energy Special Interest Group (SIG) focused on electric vehicle
     (EV) charging
-
-    '
   category: Visual Effects and Computer Graphics
   logo_url: https://artwork.lfenergy.org/projects/ev-charging-sigNone
   logo_url_dark: https://artwork.lfenergy.org/projects/ev-charging-sigNone
