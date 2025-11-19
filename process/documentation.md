@@ -10,6 +10,11 @@ The biggest challenge in open source projects is that documentation can be an af
 
 The OpenSSF Best Practices Badge program is a valuable resource for open source projects seeking to enhance their operational processes and strengthen their security posture. It provides numerous references to documentation that projects should have. This document will use the guidelines in the OpenSSF Best Practices Badge as the core guidance to ensure alignment with best practices in open source projects.
 
+Additionally, LF Education maintains these training courses which compliment this document:
+
+- [Open Source Technical Documentation Essentials (LFC111)](https://training.linuxfoundation.org/training/open-source-technical-documentation-essentials-lfc111/)
+- [Creating Effective Documentation for Developers (LFC112)](https://training.linuxfoundation.org/training/creating-effective-documentation-for-developers-lfc112/)
+
 ## Basics
 
 ### Project Description
