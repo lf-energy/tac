@@ -1050,7 +1050,7 @@
   maturity: sandbox
   repositories:
   - name: rtc-tools
-    url: https://github.com/Deltares/rtc-tools
+    url: https://github.com/rtc-tools/rtc-tools
     exclude:
     - clomonitor
 - name: sc-decarbonisation-hub
