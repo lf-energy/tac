@@ -1,5 +1,6 @@
 ---
-parent: Processes
+parent: Best Practices
+title: Documentation
 ---
 
 # Documentation Best Practices for Projects
