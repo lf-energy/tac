@@ -84,7 +84,7 @@ It’s expected that projects in the Sandbox Stage move to the Incubation Stage 
 
 ## Incubation
 
-Incubation projects are projects which the TAC believes are, or have the potential to be, important to the ecosystem of Projects or the ecosystem as a whole. They may be early-stage projects just getting started, or they may be long-established projects with minimal resource needs. The Incubation stage provides a beneficial, neutral home for these projects, fostering collaborative development and paving the way for deeper alignment with other {{ site.foundation_name }} projects.
+Incubation projects are projects that the TAC believes are, or have the potential to be, important to the ecosystem of Projects or the ecosystem as a whole. They may be early-stage projects just getting started, or long-established projects with minimal resource needs. The Incubation stage provides a beneficial, neutral home for these projects, fostering collaborative development and paving the way for deeper alignment with other {{ site.foundation_name }} projects.
 
 ### Acceptance Criteria
 
@@ -97,7 +97,6 @@ To be considered for the Incubation Stage, the project must meet the following r
   - All current Technical Steering Committee members specified in the ‘Technical Steering Committee (TSC)’ committee in LFX Project Control Center (details on how this should be set up are [here]({% link tools/collaboration.md %})).
   - A CODEOWNERS or COMMITTERS file to define individuals or teams that are responsible for code in a repository, as well as documenting current project owners and current and emeritus committers ( [template](https://github.com/lf-energy/tsc-template/blob/main/COMMITTERS.csv) )
 - Documentation of the architecture (aka high-level design) of the software produced by the project ([aligns with this OpenSSF Best Practices Silver badge requirement](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.documentation_architecture)).
-  - The project should work with the Archimate SIG to ensure the project's functional architecture is built in the [{{ site.foundation_name }} ArchiMate tool](http://architecture.lfenergy.org/). 
 - A documented roadmap that describes what the project intends to do and not do for at least the next year ([aligns with this OpenSSF Best Practices Silver badge requirement](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.documentation_roadmap)).
 - Community and contributor growth assessment using the data from LFX Insights. Specific metrics that will be reviewed are.
   - Current number of contributors, committers, and different organizations contributing to the project.
@@ -196,8 +195,8 @@ Projects in this stage are not in active development. Their maintainers may infr
 
 ### Acceptance Criteria
 
-Projects may be granted Emeritus status via a 2/3 vote from the TAC and with approval from project ownership. In cases w t is a lack of project ownership, only a 2/3 vote from the TAC is required.
+Projects may be granted Emeritus status by a 2/3 vote of the TAC, with approval from project ownership. In cases where there is a lack of project ownership or the project is unresponsive or unwilling to do its annual review, only a 2/3 vote from the TAC is required.
 
 ### Benefits
 
-Emeritus stage projects will have a long-term home for the project assets and code. Each Emeritus project will have a sponsor from the TAC to monitor any security or trademark concerns raised, and at the TAC’s discretion may address them. {{ site.foundation_name }} will remove the promotion of Emeritus projects from its website and other promotional materials.
+Emeritus stage projects will have a long-term home for the project assets and code. Each Emeritus project will have a sponsor from the TAC to monitor any security or trademark concerns raised, and at the TAC’s discretion, may address them. {{ site.foundation_name }} will remove the promotion of Emeritus projects from its website and other promotional materials.
