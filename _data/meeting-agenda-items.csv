@@ -1,17 +1,16 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
 Hugging Face GridFM Account upgrade - Resource Request,https://github.com/lf-energy/tac/issues/680,680,,In Voting,,
-Edge Interoperability and Flexibility SIG,https://github.com/lf-energy/tac/issues/458,458,2026-01-13,Next Meeting Agenda Items,,2-annual-review
-New Project Proposal -CityLearn,https://github.com/lf-energy/tac/issues/506,506,2026-01-13,Next Meeting Agenda Items,,1-new-project-wg
-Grid Simulation and Modeling SIG,https://github.com/lf-energy/tac/issues/459,459,2026-01-13,Next Meeting Agenda Items,,2-annual-review
-2026 LF Energy strategic overview,https://github.com/lf-energy/tac/issues/671,671,,Next Meeting Agenda Items,,3-tac-meeting-long
-2026 TAC Priorities,https://github.com/lf-energy/tac/issues/673,673,2026-01-13,Next Meeting Agenda Items,,3-tac-meeting-long
-NODE Collective,https://github.com/lf-energy/tac/issues/108,108,2025-12-09,Upcoming Meeting Agenda Items,2024-04-02,2-annual-review
-New Project Proposal - Project Origin,https://github.com/lf-energy/tac/issues/576,576,2025-12-09,Upcoming Meeting Agenda Items,,4-tac-meeting-short
-TROLIE,https://github.com/lf-energy/tac/issues/79,79,2026-01-13,Next Meeting Agenda Items,2023-09-06,2-annual-review
-Connected Data Specification - Power Systems Data Working Group (CDS WG2),https://github.com/lf-energy/tac/issues/513,513,2025-12-09,Upcoming Meeting Agenda Items,,2-annual-review
-Connected Data Specification - Registration Working Group (CDS WG3),https://github.com/lf-energy/tac/issues/511,511,2025-12-09,Upcoming Meeting Agenda Items,,2-annual-review
-Connected Data Specification - Customer Data Working Group (CDS WG1),https://github.com/lf-energy/tac/issues/512,512,2025-12-09,Upcoming Meeting Agenda Items,,2-annual-review
-Proposal for SBOM + SigStore + SWHID for LF Energy Releases,https://github.com/lf-energy/tac/pull/653,653,2025-12-09,Upcoming Meeting Agenda Items,,3-tac-meeting-long
+Digital Substations SIG,https://github.com/lf-energy/tac/issues/89,89,2025-12-09,In Voting,,4-tac-meeting-short
+NODE Collective,https://github.com/lf-energy/tac/issues/108,108,2026-12-08,Future Meeting Agenda Items,2025-12-09,2-annual-review
+TROLIE,https://github.com/lf-energy/tac/issues/79,79,2026-01-13,Upcoming Meeting Agenda Items,2023-09-06,2-annual-review
+Grid Simulation and Modeling SIG,https://github.com/lf-energy/tac/issues/459,459,2026-01-13,Upcoming Meeting Agenda Items,,2-annual-review
+Edge Interoperability and Flexibility SIG,https://github.com/lf-energy/tac/issues/458,458,2026-01-13,Upcoming Meeting Agenda Items,,2-annual-review
+New Project Proposal -CityLearn,https://github.com/lf-energy/tac/issues/506,506,2026-01-13,Upcoming Meeting Agenda Items,,1-new-project-wg
+New Project Proposal - Project Origin,https://github.com/lf-energy/tac/issues/576,576,2026-01-13,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+Connected Data Specification - Power Systems Data Working Group (CDS WG2),https://github.com/lf-energy/tac/issues/513,513,2026-12-08,Future Meeting Agenda Items,2025-12-09,2-annual-review
+Connected Data Specification - Registration Working Group (CDS WG3),https://github.com/lf-energy/tac/issues/511,511,2026-12-08,Future Meeting Agenda Items,2025-12-09,2-annual-review
+Connected Data Specification - Customer Data Working Group (CDS WG1),https://github.com/lf-energy/tac/issues/512,512,2026-12-08,Future Meeting Agenda Items,2025-12-09,2-annual-review
+Proposal for SBOM + SigStore + SWHID for LF Energy Releases,https://github.com/lf-energy/tac/pull/653,653,2026-01-13,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 AI SIG,https://github.com/lf-energy/tac/issues/53,53,2026-11-10,Future Meeting Agenda Items,2025-11-11,2-annual-review
 GridFM,https://github.com/lf-energy/tac/issues/260,260,2026-11-18,SIG Annual Reviews,2025-11-19,2-annual-review-sig
 Utility Rate Plan Exchange (URPX),https://github.com/lf-energy/tac/issues/600,600,2026-10-13,Future Meeting Agenda Items,,2-annual-review
@@ -48,8 +47,6 @@ Security Strategy updates for LF Energy hosted projects,https://github.com/lf-en
 OperatorFabric,https://github.com/lf-energy/tac/issues/71,71,2026-09-08,Future Meeting Agenda Items,2025-09-02,2-annual-review
 Real Time Data Ingestion Platform (RTDIP),https://github.com/lf-energy/tac/issues/26,26,2026-07-14,Future Meeting Agenda Items,2025-07-08,2-annual-review
 Grid eXchange Fabric (GXF),https://github.com/lf-energy/tac/issues/8,8,2026-07-14,Future Meeting Agenda Items,2025-07-08,2-annual-review
-TAC Priorities 2025,https://github.com/lf-energy/tac/issues/436,436,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
-Digital Substations SIG,https://github.com/lf-energy/tac/issues/89,89,2025-12-09,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 Shapeshifter,https://github.com/lf-energy/tac/issues/136,136,2026-04-14,Future Meeting Agenda Items,2025-04-08,2-annual-review
 Open Renewable Energy System (ORES) Working Group,https://github.com/lf-energy/tac/issues/107,107,2026-04-14,SIG Annual Reviews,2025-04-08,2-annual-review-sig
 OpenSynth,https://github.com/lf-energy/tac/issues/68,68,2026-03-10,Future Meeting Agenda Items,2025-03-11,2-annual-review
@@ -60,5 +57,6 @@ New Project Proposal - PowerCore,https://github.com/lf-energy/tac/issues/590,590
 New Project Proposal - Smart HEMS Benchmark,https://github.com/lf-energy/tac/issues/669,669,,LF Onboarding,,1-new-project-wg
 SEAPATH - Documentation Support,https://github.com/lf-energy/tac/issues/658,658,,Project Resource Requests,,
 CI/CD runners for EVerest - Resource Request,https://github.com/lf-energy/tac/issues/655,655,,Project Resource Requests,,
-Documentation audit/support,https://github.com/lf-energy/tac/issues/546,546,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
-Project Lifecycle - Review and make adjustments to align with current project needs ( last changes made in 2021 ),https://github.com/lf-energy/tac/issues/650,650,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+Project Lifecycle - Review and make adjustments to align with current project needs ( last changes made in 2021 ),https://github.com/lf-energy/tac/issues/650,650,2026-01-13,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+2026 TAC Priorities,https://github.com/lf-energy/tac/issues/673,673,2026-01-13,Upcoming Meeting Agenda Items,,3-tac-meeting-long
+2026 LF Energy strategic overview,https://github.com/lf-energy/tac/issues/671,671,2026-01-13,Upcoming Meeting Agenda Items,,3-tac-meeting-long
