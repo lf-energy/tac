@@ -1038,10 +1038,11 @@
     - clomonitor
 - name: rtc-tools
   display_name: RTC-Tools
-  description: RTC-Tools is an open-source Python package for simulation and operational
-    optimization of assets. Models can be specified in Python or in the Modelica modelling
+  description: RTC-Tools is an open-source Python package designed to model, simulate,
+    and optimize networks of assets such as reservoirs, generating units, pumps, renewables,
+    and batteries. Models can be specified in Python or in the Modelica modelling
     language, making it generically applicable to a broad class of assets. It can
-    be used for model-predictive control and operational decision making of water
+    be used for model-predictive control and operational decision-making for water
     and energy systems.
   category: Visual Effects and Computer Graphics
   logo_url: https://artwork.lfenergy.org/projects/rtc-toolsNone
