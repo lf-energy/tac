@@ -984,6 +984,24 @@
     url: https://github.com/PowerGridModel/power-grid-model-ds
     exclude:
     - clomonitor
+- name: swamp
+  display_name: Power Stability Wide Area Monitoring Protection (p-SWAMP)
+  description: The Power Stability Wide Area Monitoring Protection (p-SWAMP) project
+    provides an open, extensible Research & Development environment for future WAMS
+    innovation. By offering a modular, microservices-based architecture and advanced
+    simulation capabilities, p-SWAMP serves as a testbench for developing, validating,
+    and deploying new technologies for monitoring grid stability, voltage performance,
+    oscillatory behavior, and real-time system operations.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.lfenergy.org/projects/swampNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/swampNone
+  devstats_url: null
+  maturity: sandbox
+  repositories:
+  - name: P-SWAMP
+    url: https://github.com/p-swamp/P-SWAMP
+    exclude:
+    - clomonitor
 - name: powsybl
   display_name: PowSyBL
   description: Open source, modular Java library with Python & Julia bindings designed
