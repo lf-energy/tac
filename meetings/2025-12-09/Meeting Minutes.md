@@ -87,7 +87,9 @@ title: "2025-12-09"
 
 * [Deck](https://drive.google.com/file/d/1MILReiJV7Re80cML04a7wPPcYKJnQVzP/view?usp=sharing)
 * [Project Origin Presentation](https://docs.google.com/presentation/d/18ZjFa_0bjpNzEBJk-h8GUz8G-gESsHa8/edit?usp=sharing&ouid=113494699501969990475&rtpof=true&sd=true)
+* [CDS Working Group Presentation](https://docs.google.com/presentation/d/1roSkHRyfgx-VlWKSg1Rly_2TOR6e__LKRj93rCUp1rs/edit?slide=id.p#slide=id.p)
 * [Recording](https://zoom.us/rec/share/9ha-K54VaK5nRWQil0fptArXBG_twt6mK--yFwECkzm3OZYIdYwhjBgsGx5Dn4k.IH_tppYpG2UdgeDp)
+
 
 
 ## Antitrust Policy Notice
