@@ -998,8 +998,8 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: P-SWAMP
-    url: https://github.com/p-swamp/P-SWAMP
+  - name: p-SWAMP
+    url: https://github.com/p-swamp/p-SWAMP
     exclude:
     - clomonitor
 - name: powsybl
