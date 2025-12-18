@@ -1,8 +1,7 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
 New Project Proposal - AINETUS (AI for safety-critical NEtwork infrastrUctureS),https://github.com/lf-energy/tac/issues/704,704,,Next Meeting Agenda Items,,1-new-project-wg
-Edge Interoperability and Flexibility SIG,https://github.com/lf-energy/tac/issues/458,458,2026-01-13,Next Meeting Agenda Items,,2-annual-review
-Grid Simulation and Modeling SIG,https://github.com/lf-energy/tac/issues/459,459,2026-01-13,Next Meeting Agenda Items,,2-annual-review
-Hugging Face GridFM Account upgrade - Resource Request,https://github.com/lf-energy/tac/issues/680,680,,In Voting,,
+Edge Interoperability and Flexibility SIG,https://github.com/lf-energy/tac/issues/458,458,2026-02-10,Next Meeting Agenda Items,,2-annual-review
+Grid Simulation and Modeling SIG,https://github.com/lf-energy/tac/issues/459,459,2026-02-10,Next Meeting Agenda Items,,2-annual-review
 Digital Substations SIG,https://github.com/lf-energy/tac/issues/89,89,2025-12-09,In Voting,,4-tac-meeting-short
 NODE Collective,https://github.com/lf-energy/tac/issues/108,108,2026-12-08,Future Meeting Agenda Items,2025-12-09,2-annual-review
 TROLIE,https://github.com/lf-energy/tac/issues/79,79,2026-01-13,Upcoming Meeting Agenda Items,2023-09-06,2-annual-review
@@ -27,7 +26,7 @@ OneNet Framework,https://github.com/lf-energy/tac/issues/112,112,,LF Onboarding,
 Grid Vantage,https://github.com/lf-energy/tac/issues/52,52,,SIG Annual Reviews,2023-09-26,2-annual-review-sig
 New Project Proposal - LFC (Load Frequency Controller),https://github.com/lf-energy/tac/issues/520,520,,On Hold,,1-new-project-wg
 Arras,https://github.com/lf-energy/tac/issues/104,104,2026-10-07,SIG Annual Reviews,2025-10-01,2-annual-review-sig
-CitrineOS,https://github.com/lf-energy/tac/issues/59,59,2025-11-26,SIG Annual Reviews,2024-11-27,2-annual-review-sig
+CitrineOS,https://github.com/lf-energy/tac/issues/59,59,2025-11-26,SIG Annual Reviews,2025-12-17,2-annual-review-sig
 Power Grid Model,https://github.com/lf-energy/tac/issues/81,81,2026-02-04,SIG Annual Reviews,2025-02-05,2-annual-review-sig
 SEAPATH ,https://github.com/lf-energy/tac/issues/73,73,2026-01-13,SIG Annual Reviews,2025-01-14,2-annual-review-sig
 EVerest,https://github.com/lf-energy/tac/issues/28,28,2026-01-28,SIG Annual Reviews,2025-01-22,2-annual-review-sig
