@@ -23,7 +23,6 @@ The LF Staff will assist as needed to resolve any voting concerns and questions 
 Voting is only required in these cases:
 
 - Approving new projects or SIGs
-- Approving annual reviews
 - Approving projects moving a [lifecycle stage]({% link process/lifecycle.md %})
 - Changes to [Project Lifecycle]({% link process/lifecycle.md %}) or [SIG Program]({% link process/sigs.md %})
 - Any other decisions where a consensus cannot be achieved.

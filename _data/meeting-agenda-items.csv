@@ -14,7 +14,7 @@ Proposal for SBOM + SigStore + SWHID for LF Energy Releases,https://github.com/l
 AI SIG,https://github.com/lf-energy/tac/issues/53,53,2026-11-10,Future Meeting Agenda Items,2025-11-11,2-annual-review
 GridFM,https://github.com/lf-energy/tac/issues/260,260,2026-11-18,SIG Annual Reviews,2025-11-19,2-annual-review-sig
 Utility Rate Plan Exchange (URPX),https://github.com/lf-energy/tac/issues/600,600,2026-10-13,Future Meeting Agenda Items,,2-annual-review
-FlexMeasures,https://github.com/lf-energy/tac/issues/27,27,2025-12-17,SIG Annual Reviews,2024-11-20,2-annual-review-sig
+FlexMeasures,https://github.com/lf-energy/tac/issues/27,27,2026-12-16,SIG Annual Reviews,2025-12-17,2-annual-review-sig
 RTC-Tools,https://github.com/lf-energy/tac/issues/344,344,2026-09-08,Future Meeting Agenda Items,,2-annual-review
 Power Stability Wide Area Monitoring Protection (p-SWAMP),https://github.com/lf-energy/tac/issues/585,585,2026-09-08,Future Meeting Agenda Items,,2-annual-review
 Grid Edge Interoperability & Security Alliance (GEISA),https://github.com/lf-energy/tac/issues/230,230,2026-10-13,Future Meeting Agenda Items,2025-10-14,2-annual-review
@@ -26,7 +26,7 @@ OneNet Framework,https://github.com/lf-energy/tac/issues/112,112,,LF Onboarding,
 Grid Vantage,https://github.com/lf-energy/tac/issues/52,52,,SIG Annual Reviews,2023-09-26,2-annual-review-sig
 New Project Proposal - LFC (Load Frequency Controller),https://github.com/lf-energy/tac/issues/520,520,,On Hold,,1-new-project-wg
 Arras,https://github.com/lf-energy/tac/issues/104,104,2026-10-07,SIG Annual Reviews,2025-10-01,2-annual-review-sig
-CitrineOS,https://github.com/lf-energy/tac/issues/59,59,2025-11-26,SIG Annual Reviews,2025-12-17,2-annual-review-sig
+CitrineOS,https://github.com/lf-energy/tac/issues/59,59,2026-12-16,SIG Annual Reviews,2025-12-17,2-annual-review-sig
 Power Grid Model,https://github.com/lf-energy/tac/issues/81,81,2026-02-04,SIG Annual Reviews,2025-02-05,2-annual-review-sig
 SEAPATH ,https://github.com/lf-energy/tac/issues/73,73,2026-01-13,SIG Annual Reviews,2025-01-14,2-annual-review-sig
 EVerest,https://github.com/lf-energy/tac/issues/28,28,2026-01-28,SIG Annual Reviews,2025-01-22,2-annual-review-sig
@@ -52,7 +52,7 @@ Open Renewable Energy System (ORES) Working Group,https://github.com/lf-energy/t
 OpenSynth,https://github.com/lf-energy/tac/issues/68,68,2026-03-10,Future Meeting Agenda Items,2025-03-11,2-annual-review
 FledgePower,https://github.com/lf-energy/tac/issues/137,137,2026-06-02,SIG Annual Reviews,2025-06-10,2-annual-review-sig
 pyELQ: python Emission Localization and Quantification,https://github.com/lf-energy/tac/issues/234,234,,LF Onboarding,,2-annual-review
-Global Granular Certificate Registry,https://github.com/lf-energy/tac/issues/556,556,,LF Onboarding,,1-new-project-wg
+LF Energy RegistryOS,https://github.com/lf-energy/tac/issues/556,556,,LF Onboarding,,1-new-project-wg
 New Project Proposal - PowerCore,https://github.com/lf-energy/tac/issues/590,590,,LF Onboarding,,1-new-project-wg
 New Project Proposal - Smart HEMS Benchmark,https://github.com/lf-energy/tac/issues/669,669,,LF Onboarding,,1-new-project-wg
 SEAPATH - Documentation Support,https://github.com/lf-energy/tac/issues/658,658,,Project Resource Requests,,
