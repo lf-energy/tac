@@ -30,11 +30,5 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-
-*.swp
 Gemfile.lock
-<<<<<<< HEAD
-=======
-
-_data/lfenergy.yaml
->>>>>>> origin/main
+*.swp

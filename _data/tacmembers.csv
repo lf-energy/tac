@@ -1,28 +1,51 @@
 Full Name,Account Name: Account Name,Appointed By,Voting Status,Special Role,Title,HeadshotURL
 Alex Thornton,LF Energy,None,Observer,LF Staff,Executive Director,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/athornton9.png?v=1701983391982
 Alexandre Parisot,LF Energy,None,Observer,LF Staff,"Director of ecosystem, AI and energy systems",https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/aparisot.png?v=1686237819215
-Alyona Teyber,Stanford University,None,Observer,None,,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/a.png
-Anne Tilloy,RTE (Reseau de Transport dElectricite),Vote of TSC Committee,Voting Rep,None,Project manager,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/annetill.png?v=1687888565289
+Alyona Teyber,Lawrence Livermore National Laboratory (LLNL),Vote of TSC Committee,Observer,None,,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/a.png
 Antonello Monti,RWTH Aachen University,Vote of TSC Committee,Voting Rep,Chair,Professor,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/amonti.png?v=1686668890422
+Arila Barnes,Energy IoT Open Source,Vote of TSC Committee,Observer,None,Founder,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/arila33.png?v=1746460519817
 Art Pope,Google LLC,Membership Entitlement,Voting Rep,None,Member of Technical Staff,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/artpope.1651852589979.png
-Asimenia Korompili,RWTH Aachen University,Vote of TSC Committee,Observer,None,TSC Chairperson Hyphae,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/a.png
+Barry Nouwt,"TNO, the Netherlands Organisation for Applied Scientific Research",Vote of TSC Committee,Observer,None,,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/b.png
+Ben Thomas,The Linux Foundation,None,Observer,LF Staff,Marketing & Communications Lead,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/b.thomas.png?v=1654879904193
+Benjamin Donnot,RTE (Reseau de Transport dElectricite),Vote of TSC Committee,Observer,None,Data Scientist,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/b.png
 Boris Dolley,RTE (Reseau de Transport dElectricite),Membership Entitlement,Voting Rep,None,Director of OSPO and Sustainable IT Strategy,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/bdolley.png?v=1694544493350
-Bryce Bartmann,"Shell International Exploration & Production, Inc.",Membership Entitlement,Voting Rep,None,Chief Digital Technology Advisor,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/bryce.bartmann.png?v=1666876171968
+Chloe Ching,Shell International Petroleum Company,Membership Entitlement,Observer,None,Senior IoT & Edge Computing Analyst,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/c.png
+Chris Xie,"Futurewei Technologies, Inc.",Vote of TSC Committee,Observer,None,Head of Open Source Strategy,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/c.png
+Christopher Atkins,MISO,Vote of TSC Committee,Observer,None,Senior Advisor,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/catkins.png?v=1759785398574
+Daan Van Es,Alliander,Vote of TSC Committee,Observer,None,,https://s.gravatar.com/avatar/5b42c4b3d2bae3a82ae17a24cdf2420f?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fdv.png
+Dan Brown,The Linux Foundation,None,Observer,LF Staff,Director of Communications,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/dbrownlf.png?v=1706736258421
+Daniel Roesler,UtilityAPI,Vote of TSC Committee,Observer,None,CIO,https://s.gravatar.com/avatar/bbbd8da3d741c7c4b3ff77c4ead27ef2?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fdr.png
+David Chassin,Individual - No Account,Vote of TSC Committee,Observer,None,Owner,https://media.licdn.com/dms/image/C5603AQHayuluKhMUyQ/profile-displayphoto-shrink_800_800/0/1639850810475?e=1694044800&v=beta&t=ez4sgZkaCZwhlIsO9wzSuo6KEvTxJPx-9YnhhsZosmI
+Deandrea Salvador,Individual - No Account,Vote of TSC Committee,Observer,None,,https://avatars.githubusercontent.com/u/150359518?v=4
 Eloi Bail,Savoir-faire Linux,Vote of TSC Committee,Observer,None,Operations Director - Senior Embedded Software Engineer,https://media.licdn.com/dms/image/C5603AQEzfcW5pZuqWw/profile-displayphoto-shrink_800_800/0/1574782496121?e=1687392000&v=beta&t=EsHpHGVdEIP1ccNQx5srk-P4kH0Nb2cg_leTcnuwicM
-Fledgepower Fledgepower,RTE (Reseau de Transport dElectricite),Vote of TSC Committee,Observer,None,FledgePower TSC Chairperson,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/fledgepower.1643635615777
-Frank Kreuwel,Alliander,Vote of TSC Committee,Observer,None,Data Scientist,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/FrankKr.1631707261722
+François Mirallès,Hydro-Québec,Vote of TSC Committee,Observer,None,Researcher,https://s.gravatar.com/avatar/1dde7a59aa031279e2f0f0bb418813c5?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Ffm.png
+Frédéric Didier,RTE (Reseau de Transport dElectricite),Vote of TSC Committee,Voting Rep,None,Lead tech,https://avatars.githubusercontent.com/u/58251627?v=4
+Gabe Hege,Amplabs,Vote of TSC Committee,Observer,None,,https://lh3.googleusercontent.com/a/ACg8ocJeR8hLXeiwVrMT00MLkAMqpV2kGRO59UEaf1wKrwAM=s96-c
+Gus Chadney,Centre for Net Zero Ltd,Vote of TSC Committee,Observer,None,,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/guschadney.1710428880674
+Hugo Van De Pol,Tweede golf bv,Vote of TSC Committee,Observer,None,Director,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/hugovandepol.png?v=1693902313038
+Jesús Andrés Rodríguez Sarasty,Deltares,Vote of TSC Committee,Observer,None,,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/default-user.png
 John Mertic,The Linux Foundation,,Observer,LF Staff,Director of Program Management,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/jmertic.png?v=1709042439248
-Jonas Van Den Bogaard,Alliander,Membership Entitlement,Voting Rep,None,Open Source Office Lead ,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/jonas1991.png?v=1679415925618
+Jonas  Van Den Bogaard,Alliander,Membership Entitlement,Voting Rep,Vice Chair,Open Source Office Lead ,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/jonas1991.png?v=1679415925618
+Jos Zenner,Welotec,Vote of TSC Committee,Observer,None,,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/jzenner.1689933494508
 Maarten Mulder,Alliander,Vote of TSC Committee,Voting Rep,None,PO IoT Field Device Platforms,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/maartenmulder.png?v=1683044464554
-Mike Heinen,"Aspen Technology, Inc.",Membership Entitlement,Observer,None,Technology Director,https://media.licdn.com/dms/image/D5603AQGmE-2KlyNOwA/profile-displayphoto-shrink_800_800/0/1683558695508?e=1691020800&v=beta&t=P0hpYYj7Sn1PJ6iSV5o3choT5YlQQQSTTY3tVA1DvBU
-Nicolas Bernhardi,Energinet,Vote of TSC Committee,Observer,None,Business developer,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/n.png
+Marco Chiaramello,Individual - No Account,Vote of TSC Committee,Observer,None,Responsable d'études R & D,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/marcochiaramello.1670579489508
+Marco Möller,Pionix GmbH,Vote of TSC Committee,Observer,None,CEO,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/marcomoeller.png?v=1736190533126
+Maxime Pelletier,RTE (Reseau de Transport dElectricite),Vote of TSC Committee,Observer,None,,https://s.gravatar.com/avatar/3d79e4b9b0de62af76164621dc1c8b2c?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fmp.png
+Michael Stuber,Southern California Edison,Vote of TSC Committee,Observer,None,,https://s.gravatar.com/avatar/53595d83d69938d94c8683ba6699b3a0?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fms.png
+Moïse K. Kameni,Hydro-Québec,Membership Entitlement,Voting Rep,None,Entreprise Architect and Head of Open Source Program Office,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/mkameni.png?v=1663868355956
 Nicolas Höning,Seita BV,Vote of TSC Committee,Observer,None,Co-Founder,https://avatars.githubusercontent.com/u/1042336?v=4
-Robben Riksen,Alliander,Vote of TSC Committee,Observer,None,Product Owner,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/[.png
+Peter Mitri,Individual - No Account,Vote of TSC Committee,Voting Rep,None,,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/petermitrirte.png?v=1728399607147
+Peter Salemink,Alliander,Vote of TSC Committee,Observer,None,,https://s.gravatar.com/avatar/30025a2ef6eeb9a60564fe3b28da25d7?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fps.png
+Richard Lam,Southern California Edison,Vote of TSC Committee,Observer,None,,https://s.gravatar.com/avatar/87825d0e96a5796c4991e564d2bd0886?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Frl.png
+Robben Riksen,Alliander,Vote of TSC Committee,Observer,None,Product Owner,https://s.gravatar.com/avatar/752661f00969a17a2079f938693fd748?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Frr.png
 Robert De Leeuw,Pionix GmbH,Vote of TSC Committee,Observer,None,Technology EVangelist,https://avatars.githubusercontent.com/u/11439081?v=4
-Sander Jansen,Alliander,Vote of TSC Committee,Observer,None,Data architect / open source consultant,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/sander3003.png?v=1698654743850
+Romain Lebrun Thauront,RTE (Reseau de Transport dElectricite),Vote of TSC Committee,Observer,None,,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/Aeredren.1731056000709
+Sachin Bhakar,Shell Energy Retail Limited,Membership Entitlement,Voting Rep,None, Strategy Advisor - Computational Science & Digital Innovation,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/bhakar.1710242376109
+Sander Jansen,Alliander,Vote of TSC Committee,Observer,None,Product owner,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/sander3003.png?v=1698654743850
+Sebastien Lussier,Hydro-Québec,Membership Entitlement,Alternate Voting Rep,None,R&D Manager of Information Systems and High Performance Computing,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/cv2767.png?v=1714060511290
 Stan Janssen,ELAAD,Vote of TSC Committee,Observer,None,OpenLEADR developer,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/s.png
-Tony Xiang,Alliander,Vote of TSC Committee,Observer,None,Lead Scientific Engineer,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/tonyxiang.png?v=1680254711949
+Stephen Suffian,WattCarbon,Vote of TSC Committee,Observer,None,Principal Software Engineer,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/ssuffian.1611713261446
+Thana Paris,Individual - No Account,Vote of TSC Committee,Observer,None,,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/thanamparis.1704916945554
+Thomas Van Dijk,Individual - No Account,Vote of TSC Committee,Observer,None,,https://s.gravatar.com/avatar/3c18e5fe9b870a344d20ff1dcefa3c39?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Ftv.png
 Travis Sikes,Recurve,Vote of TSC Committee,Voting Rep,None,Data Science Manager,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/travis.1691079014413
-[[Unknown]] Wilbrink,Alliander,Vote of TSC Committee,Observer,None,,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/[.png
-Yarille Ortiz,The Linux Foundation,None,Observer,LF Staff,Senior Project Coordinator,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/yarille.png?v=1719406440407
-Yixing Xu,Microsoft Corporation,Membership Entitlement,Voting Rep,None,"Senior Program Manager, Energy Strategy",https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/yixingxu.png?v=1709857755982
+Yarille Ortiz,The Linux Foundation,None,Observer,LF Staff,Senior Project Coordinator,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/yarille.png?v=1765209292707

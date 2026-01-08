@@ -1,5 +1,5 @@
 title: LF Energy Foundation TAC
-description: Materials and processes for the LF Energy Foundation TAC
+description: Materials and processes for the LF Energy TAC
 logo: "https://artwork.lfenergy.org/other/lf-energy/horizontal/color/lf-energy-horizontal-color.svg"
 theme: just-the-docs
 repository: lf-energy/tac
@@ -31,19 +31,28 @@ landscape_url: 'https://landscape.lfenergy.org'
 calendar_url: 'https://calendar.lfenergy.org'
 slack_url: 'https://slack.lfenergy.org'
 directed_fund_charter_url: 'https://charter.lfenergy.org'
-tac_issues_url: 'https://github.com/lf-energy/tac/issues/new'
+tac_issues_url: 'https://github.com/lf-energy/tac/issues/new?template=01-tac-agenda.yml'
 helpdesk_url: "https://servicedesk.lfenergy.org"
+mailing_list_url: "https://lists.lfenergy.org"
+wiki_url: "https://wiki.lfenergy.org"
+lfx_insights_url: "https://insights.lfx.linuxfoundation.org/foundation/lfenergy"
 tac_mailing_list_url: "https://lists.lfenergy.org/g/tac"
 website_url: "https://lfenergy.org"
 blog_url: "https://lfenergy.org/blog"
-tac_lfx_meeting_url: "https://zoom-lfx.platform.linuxfoundation.org/meeting/97880950229?password=81d2940e-c055-43b9-9b5a-6cd7d7090feb" 
+tac_lfx_meeting_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/lfenergy?view=list&projects=lfenergy
 lfscanning_repo_url: https://github.com/lfscanning/spdx-lfenergy
+tac_member_list_url: https://lfenergy.org/about/people/#technical-advisory-council
+lf_staff_list_url: https://lfenergy.org/about/people/#executive-leadership
+mission_statement_url: https://lfenergy.org/about/why-lf-energy/ 
+tac_agenda_url: https://github.com/orgs/lf-energy/projects/2
+artwork_url: 'https://artwork.lfenergy.org'
 
 # Foundation Settings
-foundation_name: 'LF Energy Foundation'
+foundation_name: 'LF Energy'
 clotributor_name: "lfenergy"
 membership_top_tier: 'Strategic'
 favicon_ico: "css/img/favicon.png"
+archived_lifecycle_stage: "Emeritus"
 
 aux_links:
   "Need help or have a question? Contact us here":
@@ -70,3 +79,17 @@ mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "10.9.0"
+
+callouts:
+  note:
+    title: Note
+    color: blue
+
+defaults:
+  -
+    scope: 
+      path: "meetings/*/README.md"
+      type: "pages"
+    values:
+      title: My Title
+      parent: Meetings

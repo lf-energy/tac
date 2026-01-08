@@ -1,6 +1,7 @@
 ---
 parent: Meetings
 title: "Meeting Template"
+layout: minimal
 nav_exclude: true
 ---
 
@@ -13,7 +14,8 @@ title: "{{ "now" | date: "%Y-%m-%d" }}"
 
 # {{ site.foundation_name }} Technical Advisory Council (TAC) Meeting - {{ "now" | date: "%B %e, %Y" }}
 
-{% if site.tac_lfx_meeting_url -%}
+{%- if site.tac_lfx_meeting_url %}
+
 Join the meeting at [{{ site.tac_lfx_meeting_url }}]({{ site.tac_lfx_meeting_url }})
 {%- endif %}
 
@@ -29,41 +31,47 @@ Join the meeting at [{{ site.tac_lfx_meeting_url }}]({{ site.tac_lfx_meeting_url
 ### Project Representatives
 {% for member in site.data.tacmembers -%}
 {% if member["Appointed By"] == "Vote of TSC Committee" and member['Voting Status'] != 'Observer' %}
+{%- assign roles = '' -%}
 {%- for project in site.data.projects -%}
 {% if project["TAC Representative"] contains member["Full Name"] %}
-- [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
-{%- break -%}
+{%- capture roles -%}{{roles}}, {{ project["Name"] }} Representative{%- endcapture -%}
 {% elsif project["Chair"] contains member["Full Name"] %}
-- [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
-{%- break -%}
+{%- capture roles -%}{{roles}}, {{ project["Name"] }} Representative{%- endcapture -%}
 {%- endif -%}
 {%- endfor -%}
+{%- if roles != '' %}
+- [ ] {{ member["Full Name"] }} - {{ roles | remove_first: ", "}}
+{%- endif -%}
 {%- endif -%}
 {% endfor %}
 
-{%- if site.vote_of_tac_committee_title -%}
+{%- if site.vote_of_tac_committee_title %}
+
 ### {{ site.vote_of_tac_committee_title }}
 {% for member in site.data.tacmembers -%}
 {% if member["Appointed By"] == "Vote of TAC Committee" %}
 - [ ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
 {%- endif -%}
 {% endfor %}
-{%- endif -%}
+
+{%- endif %}
 
 ## Non-Voting Attendees
 
 ### Non-Voting Project and Working Group Representatives
 {% for member in site.data.tacmembers -%}
 {%- if member['Voting Status'] == 'Observer' -%}
+{%- assign roles = '' -%}
 {%- for project in site.data.projects -%}
 {% if project["TAC Representative"] contains member["Full Name"] %}
-- [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
-{%- break -%}
+{%- capture roles -%}{{roles}}, {{ project["Name"] }} Representative{%- endcapture -%}
 {% elsif project["Chair"] contains member["Full Name"] %}
-- [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
-{%- break -%}
+{%- capture roles -%}{{roles}}, {{ project["Name"] }} Representative{%- endcapture -%}
 {%- endif -%}
 {%- endfor -%}
+{%- if roles != '' %}
+- [ ] {{ member["Full Name"] }} - {{ roles | remove_first: ", "}}
+{%- endif -%}
 {%- endif -%}
 {% endfor %}
 
@@ -103,14 +111,39 @@ the Linux Foundation.
 {%- if agendaitem.meeting_label == "4-tac-meeting-short" %}
   - {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
 {%- endif -%}
-{% endfor %}
-{% for agendaitem in agendaitems -%}
-{%- if agendaitem.meeting_label != "4-tac-meeting-short" -%}
+{% endfor -%}
+{% for agendaitem in agendaitems %}
+{%- if agendaitem.meeting_label contains "2-annual-review" %}
+- Annual Review: {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
+{%- elsif agendaitem.meeting_label contains "1-new-project-wg" %}
+- New Project/Working Group Proposal: {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
+{%- elsif agendaitem.meeting_label != "4-tac-meeting-short" %}
 - {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
-{%- endif %}
+{%- endif -%}
 {% endfor %}
+
 ## Notes
 
+
+
+## Next Meeting Agenda
+
+{% assign agendaitems = site.data.meeting-agenda-items | where: "status", "Next Meeting Agenda Items" | sort: "meeting_label" -%}
+- General Updates
+{%- for agendaitem in agendaitems -%}
+{%- if agendaitem.meeting_label == "4-tac-meeting-short" %}
+  - {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
+{%- endif -%}
+{% endfor -%}
+{% for agendaitem in agendaitems %}
+{%- if agendaitem.meeting_label contains "2-annual-review" %}
+- Annual Review: {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
+{%- elsif agendaitem.meeting_label contains "1-new-project-wg" %}
+- New Project/Working Group Proposal: {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
+{%- elsif agendaitem.meeting_label != "4-tac-meeting-short" %}
+- {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
+{%- endif -%}
+{% endfor %}
 
 {%- endcapture -%}
 {{ agenda }}
