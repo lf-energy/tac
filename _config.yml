@@ -42,7 +42,7 @@ tac_private_mailing_list_email: tac-private@lists.lfenergy.org
 leads_mailing_list_email: technical-project-leads@lists.lfenergy.org
 website_url: "https://lfenergy.org"
 blog_url: "https://lfenergy.org/blog"
-tac_lfx_meeting_url: https://zoom-lfx.platform.linuxfoundation.org/meeting/95214651568?password=eda16f17-bdd1-4a9f-a594-0947a1433153
+tac_lfx_meeting_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/lfenergy?view=list&projects=lfenergy
 lfscanning_repo_url: https://github.com/lfscanning/spdx-lfenergy
 tac_member_list_url: https://lfenergy.org/about/people/#technical-advisory-council
 lf_staff_list_url: https://lfenergy.org/about/people/#executive-leadership
