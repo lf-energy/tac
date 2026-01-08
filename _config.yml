@@ -48,12 +48,8 @@ tac_member_list_url: https://lfenergy.org/about/people/#technical-advisory-counc
 lf_staff_list_url: https://lfenergy.org/about/people/#executive-leadership
 mission_statement_url: https://lfenergy.org/about/why-lf-energy/ 
 tac_agenda_url: https://github.com/orgs/lf-energy/projects/2
-<<<<<<< Updated upstream
-artwork_url: 'https://srtwork.lfenergy.org'
-=======
 artwork_url: 'https://artwork.lfenergy.org'
 election_guidelines_url: 'https://github.com/lf-energy/foundation/blob/main/elections.md'
->>>>>>> Stashed changes
 
 # Foundation Settings
 foundation_name: 'LF Energy'
