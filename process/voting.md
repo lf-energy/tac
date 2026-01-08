@@ -22,10 +22,17 @@ The LF Staff will assist as needed to resolve any voting concerns and questions 
 
 Voting is only required in these cases:
 
+<<<<<<< Updated upstream
 - Approving new projects or SIGs
 - Approving annual reviews
+=======
+- Approving new {{ site.project_types | map: 'plural' |  array_to_sentence_string: "or" }}
+>>>>>>> Stashed changes
 - Approving projects moving a [lifecycle stage]({% link process/lifecycle.md %})
-- Changes to [Project Lifecycle]({% link process/lifecycle.md %}) or [SIG Program]({% link process/sigs.md %})
+- Changes to [Project Lifecycle]({% link process/lifecycle.md %}) or other TAC programs and policies.
+{% if site.vote_of_tac_committee_title -%}
+- Approving and renewing {{ site.vote_of_tac_committee_title }} for the TAC.
+{%- endif %}
 - Any other decisions where a consensus cannot be achieved.
 
 ## Voting Process
