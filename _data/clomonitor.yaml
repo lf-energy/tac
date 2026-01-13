@@ -212,18 +212,6 @@
     url: https://github.com/Horizont-Europe-Interstore/Data-Space-Connector-Fiware-Data-App
     exclude:
     - clomonitor
-- name: dsas-working-group
-  display_name: Digital Substations SIG
-  description: 'LF Energy Special Interest Group (SIG) focused on substation digitalization
-    and virtualization
-
-    '
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.lfenergy.org/projects/dsas-working-groupNone
-  logo_url_dark: https://artwork.lfenergy.org/projects/dsas-working-groupNone
-  devstats_url: null
-  maturity: sig
-  repositories: []
 - name: dynawo
   display_name: "Dyna\u03C9o"
   description: 'Open source suite of simulation tools designed for transparent, flexible,
