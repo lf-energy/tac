@@ -72,7 +72,7 @@ Sustainable projects are those the industry adopts and drive economic value with
 
 ## What makes a good project to host at the {{ site.foundation_name }}?
 
-Open-source projects hosted at {{ site.foundation_name }} are ones that benefit the motion picture and visual effects industries. Successful projects bring diverse organizations and participants together; our experiences at the Linux Foundation and in open source tell us that a diverse community drives greater outcomes and innovation. As a vendor-neutral entity, {{ site.foundation_name }} creates that level playing field to drive leveraged, open collaboration.
+Open-source projects hosted at {{ site.foundation_name }} are ones that benefit the energy industry. Successful projects bring diverse organizations and participants together; our experiences at the Linux Foundation and in open source tell us that a diverse community drives greater outcomes and innovation. As a vendor-neutral entity, {{ site.foundation_name }} creates that level playing field to drive leveraged, open collaboration.
 
 In evaluating projects to be hosted at the {{ site.foundation_name }}, the TAC generally has these considerations when evaluating a project.
 
