@@ -30,7 +30,9 @@ Tools not listed above are maintained by the individual project communities and 
 
 ## Build Infrastructure support
 
-{{ site.foundation_name }} does not provide support for any project build infrastructure.
+{{ site.foundation_name }} partners with LF Release Engineering to provide support for projects with AWS and GitHub configuration and infrastructure.
+
+{{ site.foundation_name }} does not provide support for any other infrastructure.
 
 ## Questions?
 
