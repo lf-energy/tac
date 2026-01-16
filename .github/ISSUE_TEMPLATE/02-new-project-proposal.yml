@@ -45,6 +45,7 @@ body:
           - Website and/or docs
           - Communication channels ( such as Mailing lists, Slack, IRC )
           - Social Media Accounts
+          - PyPi, npm, or other App Stores maintainted by the project
     validations:
       required: true 
   - type: textarea
