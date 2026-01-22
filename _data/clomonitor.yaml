@@ -273,13 +273,13 @@
     url: https://github.com/dynawo/dynawo.github.io
     exclude:
     - clomonitor
-- name: edge-interoperability-and-flexibility-sig
+- name: edge-interop-flex-sig
   display_name: Edge Interoperability and Flexibility SIG
   description: LF Energy Special Interest Group (SIG) focused on electric vehicle
     (EV) charging
   category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.lfenergy.org/projects/edge-interoperability-and-flexibility-sigNone
-  logo_url_dark: https://artwork.lfenergy.org/projects/edge-interoperability-and-flexibility-sigNone
+  logo_url: https://artwork.lfenergy.org/projects/edge-interop-flex-sigNone
+  logo_url_dark: https://artwork.lfenergy.org/projects/edge-interop-flex-sigNone
   devstats_url: null
   maturity: sig
   repositories: []
