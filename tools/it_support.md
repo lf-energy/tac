@@ -2,12 +2,12 @@
 parent: Tools
 ---
 
-# IT Support
+# IT and Release Enginering Support
 
 * TOC
 {:toc}
 
-The Linux Foundation provides support for the infrastructure hosted by the {{ site.foundation_name }}. This document outlines the included services available to projects.
+The Linux Foundation provides support for the infrastructure hosted by the {{ site.foundation_name }}. This support includes both IT support, as well as Release Engineering support. This document outlines the included services available to projects.
 
 ## IT Support
 
@@ -30,7 +30,9 @@ Tools not listed above are maintained by the individual project communities and 
 
 ## Build Infrastructure support
 
-{{ site.foundation_name }} does not provide support for any project build infrastructure.
+{{ site.foundation_name }} partners with LF Release Engineering to provide support for projects with AWS and GitHub configuration and infrastructure.
+
+{{ site.foundation_name }} does not provide support for any other infrastructure.
 
 ## Questions?
 

@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for looking to bring your project to the LF Energy Foundation. Please put the name of the project in the title above, replacing PROJECT NAME, and then answer the questions below to have this project added to the agenda at a future TAC meeting for consideration as a new project. Please refer to the guidance in the [project lifecycle](https://wiki.lfenergy.org/display/HOME/New+Proposals+Process).
+        Thank you for looking to bring your project to the LF Energy Foundation. Please put the name of the project in the title above, replacing PROJECT NAME, and then answer the questions below to have this project added to the agenda at a future TAC meeting for consideration as a new project. Please refer to the guidance in the [project lifecycle](https://tac.lfenergy.org/process/lifecycle.html).
         Please also note that you must be available to lead this discussion at a TAC meeting. You can get information on TAC meetings and how to join the meetings at [tac.lfenergy.org/meetings](https://tac.lfenergy.org/meetings/).
   - type: textarea
     attributes:
@@ -20,6 +20,18 @@ body:
     attributes:
       label: Description
       description: (what it does, why it is valuable, origin and history)
+    validations:
+      required: true
+  - type: dropdown
+    id: project-stage
+    attributes:
+      label: Proposed Project Stage
+      description: Please refer to the [project lifecycle](https://tac.lfenergy.org/process/lifecycle.html) for a description of the stages.
+      options:
+        - Sandbox
+        - Incubation
+        - Early Adoption
+        - Graduated
     validations:
       required: true
   - type: textarea
@@ -35,6 +47,7 @@ body:
   - type: textarea
     attributes:
       label: Sponsoring organization(s), along with any other key contributing individuals and/or organizations
+      description: Projects applications must be supported by an LF Energy member organization.
     validations:
       required: true
   - type: textarea
@@ -45,6 +58,7 @@ body:
           - Website and/or docs
           - Communication channels ( such as Mailing lists, Slack, IRC )
           - Social Media Accounts
+          - PyPi, npm, or other App Stores maintainted by the project
     validations:
       required: true 
   - type: textarea
@@ -52,7 +66,7 @@ body:
       label: |
         Are there any specific infrastructure needs or requests outside of what is provided normally by LF Energy ? If so please detail them.
       description: |
-        ( please refer to the [lifecycle](https://wiki.lfenergy.org/display/HOME/Technical+Project+Lifecycle) for project benefits )
+        ( please refer to the [project lifecycle](https://tac.lfenergy.org/process/lifecycle.html) for project benefits )
     validations:
       required: true 
   - type: textarea

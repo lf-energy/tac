@@ -9,7 +9,7 @@ nav_order: 1
 * TOC
 {:toc}
 
-{{ site.foundation_name }} hosts open-source projects and open-collaboration working groups to benefit the motion picture and visual effects industries. Anyone can bring a new project or start a new project at {{ site.foundation_name }}.
+{{ site.foundation_name }} hosts open-source projects and open-collaboration working groups to benefit the energy industry. Anyone can bring a new project or start a new project at {{ site.foundation_name }}.
 
 This document outlines why you should host your project at the {{ site.foundation_name }}, what makes a good {{ site.foundation_name }} hosted project, and the steps for bringing a project to the {{ site.foundation_name }}.
 
@@ -31,7 +31,7 @@ Groundbreaking and game-changing projects are a collective effort across organiz
 
 Shared R&D with a broad ecosystem means bringing more contributors and maintainers into your project - including your competitors.
 
-- [LF Staff](https://lfenergy.org/about/people/#executive-leadership) works with the project to establish open, neutral governance that makes roles clear and paths to leadership available.
+- [LF Staff]({{ site.lf_staff_list_url }}) works with the project to establish open, neutral governance that makes roles clear and paths to leadership available.
 - All projects have a Code of Conduct to ensure collaboration in a safe and welcoming environment.
 - Outreach done through the {{ site.foundation_name }} is done from a neutral perspective, separating product promotion and vendor favoritism and promoting the community's work.
 
@@ -52,7 +52,7 @@ Sustainable projects are those the industry adopts and drive economic value with
 - Conformance programs with community requirements that the {{ site.foundation_name }} Projects manage.
 - Training and certification programs through [LF Training](https://training.linuxfoundation.org/).
 - Badging using [Credly](https://info.credly.com/) to recognize individuals.
-- Events such as Open Source Days and Open Source Forum for the community to connect and collaborate.
+- Events for the community to connect and collaborate.
 
 ### Have world-class tools for measuring project insights and success.
 
@@ -61,11 +61,6 @@ Sustainable projects are those the industry adopts and drive economic value with
 - Getting the visibility you need to remove bottlenecks at any stage of your project’s code pipeline. Drill down into performance metrics across every step in the development lifecycle to identify where you should focus your resources.
 - Ensuring the health and viability of the open-source projects you care about. Leverage data to help validate undertakings for investment and track the activity and growth of projects your organization is already involved in.
 - Showcasing your organization’s leadership and subject matter expertise in the open source community. Leverage affiliations to measure the impact of your employees’ contributions and capture the complete picture of your team’s impact
-
-**LFX Security** is a tool for managing security for your project. Its capabilities include the following:
-
-- Monitoring your entire project for potential vulnerabilities with an aggregated project-level view of your entire software sandwich across source control systems and repositories, with the ability to remediate the found issues.
-- Identifying non-inclusive language and code secrets in your project to prevent embarrassing situations.
 
 ### Leverage the collective experience and expertise of the Linux Foundation.
 
@@ -77,7 +72,7 @@ Sustainable projects are those the industry adopts and drive economic value with
 
 ## What makes a good project to host at the {{ site.foundation_name }}?
 
-Open-source projects hosted at {{ site.foundation_name }} are ones that benefit the motion picture and visual effects industries. Successful projects bring diverse organizations and participants together; our experiences at the Linux Foundation and in open source tell us that a diverse community drives greater outcomes and innovation. As a vendor-neutral entity, {{ site.foundation_name }} creates that level playing field to drive leveraged, open collaboration.
+Open-source projects hosted at {{ site.foundation_name }} are ones that benefit the energy industry. Successful projects bring diverse organizations and participants together; our experiences at the Linux Foundation and in open source tell us that a diverse community drives greater outcomes and innovation. As a vendor-neutral entity, {{ site.foundation_name }} creates that level playing field to drive leveraged, open collaboration.
 
 In evaluating projects to be hosted at the {{ site.foundation_name }}, the TAC generally has these considerations when evaluating a project.
 
@@ -85,7 +80,7 @@ In evaluating projects to be hosted at the {{ site.foundation_name }}, the TAC g
 - Does the project have broad adoption across PSOs, DSOs, TSOs, and/or other related organizations in the energy industry, or is there a clear path to that adoption?
 - Will the project have the potential to gain alignment and participation amongst multiple constituents, including software vendors, end-users, and other related organizations, to participate as contributors and maintainers?
 - Is the project's leadership best positioned and capable of growing the project?
-- For a project proposed at the [Incubation stage] or a project proposed at [Sandbox stage] that would grow into an [Incubation stage] project, could the TAC invest in helping it succeed?
+- For a project proposed at the [Incubation Stage] or a project proposed at [Sandbox Stage] that would grow into an [Incubation Stage] project, could the TAC invest in helping it succeed?
 - What resources would the project need to be successful, and does the {{ site.foundation_name }} have the ability to attract and retain those resources?
 - Will this project divert away resources from existing project(s)?
 - What existing code is coming into the project, and what potential code could come?
@@ -130,7 +125,9 @@ Once the TAC Chairperson reviews the proposal, the LF Staff will follow up with 
 - Have a successful license scan with any critical issues remedied.
 - Provide administrator access to all project tools, such as it’s GitHub organization, collaboration and communicaton tools, and build/testing infrastructure.
 
-In parallel, the project, in conjunction with the LF Staff and TAC voting representative, will record a presentation ( 20-30 minutes in length ) to be shared with TAC members that provides an overview of the project and it’s alignment with {{ site.foundation_name }}. and speak to the information in the contribution proposal. Elements of a good project proposal include the following.
+Generally, the TAC will schedule project proposals at the following [TAC Meeting](/meetings), provided there is at least one week between the submitted project proposal and the scheduled TAC meeting.
+
+Proposed projects will have a 20-minute presentation timeslot at an upcoming TAC meeting as the schedule allows. The project proposal must include a presentation conforming to the structure below to ensure uniform and complete submissions.
 
 *   Overview of the project and its purpose
     *  If a project is new, it’s often helpful to share the vision for the project, the anticipated structure, and benefits.
@@ -142,10 +139,11 @@ In parallel, the project, in conjunction with the LF Staff and TAC voting repres
     *   How do you plan to attract committers and contributors if accepted?
 *   Demo and/or walk-through of the project
 
-The TAC Chairperson will share with TAC voting members the prospective Sandbox project once it has completed the requirements outlined above. TAC voting members will have a two week period to review and raise any questions or concerns with the proposal. If there is no open questions or concerns after two weeks, the project will be accepted into the Sandbox stage. If there are open questions or concerns, the TAC Chairperson will coordinate discussions to address them, and hold a formal vote of TAC voting members to approve.
-
 ### Key things to keep in mind for project proposals to the TAC
 
+- The TAC may consider the project for approval at the proposed stage during the meeting it is presented at, provided a quorum of TAC voting members are present. If there is no quorum of TAC voting members present or if the TAC is not ready to consider the project for approval during the meeting, the TAC will either:
+  - Conduct a vote to approve the project via LFX Voting, or
+  - Continue the discussion via email or Slack, or during a future TAC meeting.
 - Projects accepted at the [Incubation stage] are generally mature, stable projects that have existed for many years. Projects that are newly forming or incomplete should propose to join at the [Sandbox stage].
 - It's rare to see a project accepted at the [Early Adoption stage] or [Graduated stage], as even incoming projects that have existed for years require a fair amount of governance and operations changes as they come into the {{ site.foundation_name }}; those projects tend to come in at the Incubation level and move to Adopted within a year.
 - The TAC may ask for the project to go back and address specific questions and/or concerns and then re-propose the project. Any project that the TAC has not approved, or any project that the TAC does not renew, can only re-propose the project with the approval of the TAC.
