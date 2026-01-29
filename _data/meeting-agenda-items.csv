@@ -2,8 +2,8 @@ title,url,number,scheduled_date,status,last_review_date,meeting_label
 SEAPATH ,https://github.com/lf-energy/tac/issues/73,73,2026-03-10,Next Meeting Agenda Items,2025-01-14,2-annual-review
 OpenSynth,https://github.com/lf-energy/tac/issues/68,68,2026-03-10,Next Meeting Agenda Items,2025-03-11,2-annual-review
 LF Energy Semantic Energy Framework (LFE-SEF),https://github.com/lf-energy/tac/issues/132,132,2026-03-10,Next Meeting Agenda Items,2024-04-23,2-annual-review
-New Project Proposal -CityLearn,https://github.com/lf-energy/tac/issues/506,506,2026-01-13,Future Meeting Agenda Items,,2-annual-review
-New Project Proposal - Project Origin,https://github.com/lf-energy/tac/issues/576,576,2026-01-13,Future Meeting Agenda Items,,2-annual-review
+New Project Proposal -CityLearn,https://github.com/lf-energy/tac/issues/506,506,2027-01-12,Future Meeting Agenda Items,2026-01-13,2-annual-review
+Project Origin,https://github.com/lf-energy/tac/issues/576,576,2026-07-14,Future Meeting Agenda Items,2026-01-13,2-annual-review
 NODE Collective,https://github.com/lf-energy/tac/issues/108,108,2026-12-08,Future Meeting Agenda Items,2025-12-09,2-annual-review
 TROLIE,https://github.com/lf-energy/tac/issues/79,79,2027-01-12,Future Meeting Agenda Items,2026-01-13,2-annual-review
 Connected Data Specification - Power Systems Data Working Group (CDS WG2),https://github.com/lf-energy/tac/issues/513,513,2026-12-08,Future Meeting Agenda Items,2025-12-09,2-annual-review
@@ -46,10 +46,9 @@ OperatorFabric,https://github.com/lf-energy/tac/issues/71,71,2026-09-08,Future M
 Real Time Data Ingestion Platform (RTDIP),https://github.com/lf-energy/tac/issues/26,26,2026-07-14,Future Meeting Agenda Items,2025-07-08,2-annual-review
 Grid eXchange Fabric (GXF),https://github.com/lf-energy/tac/issues/8,8,2026-07-14,Future Meeting Agenda Items,2025-07-08,2-annual-review
 Shapeshifter,https://github.com/lf-energy/tac/issues/136,136,2026-04-14,Future Meeting Agenda Items,2025-04-08,2-annual-review
+LF Energy RegistryOS,https://github.com/lf-energy/tac/issues/556,556,,Future Meeting Agenda Items,,1-new-project-wg
 Open Renewable Energy System (ORES) Working Group,https://github.com/lf-energy/tac/issues/107,107,2026-04-22,SIG Annual Reviews,2025-04-08,2-annual-review-sig
 FledgePower,https://github.com/lf-energy/tac/issues/137,137,2026-06-02,Future Meeting Agenda Items,2025-06-10,2-annual-review
-pyELQ: python Emission Localization and Quantification,https://github.com/lf-energy/tac/issues/234,234,,LF Onboarding,,2-annual-review
-LF Energy RegistryOS,https://github.com/lf-energy/tac/issues/556,556,,LF Onboarding,,1-new-project-wg
 New Project Proposal - PowerCore,https://github.com/lf-energy/tac/issues/590,590,,LF Onboarding,,1-new-project-wg
 New Project Proposal - Smart HEMS Benchmark,https://github.com/lf-energy/tac/issues/669,669,,LF Onboarding,,1-new-project-wg
 SEAPATH - Documentation Support,https://github.com/lf-energy/tac/issues/658,658,,Project Resource Requests,,
