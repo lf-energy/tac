@@ -16,7 +16,7 @@ Projects will schedule their Annual Review as part of the next meeting of their 
 
 Projects should use the [Annual Review template]({% link process/annual_review_template.pptx %}) to structure their presentation.
 
-Projects may request to move to the next lifecycle stage as part of their annual review. To do so, the project should notify the TAC at least two days before the TAC meeting they are scheduled to present at, adding a comment on the annual review GitHub issue.
+Projects may request to move to the next lifecycle stage as part of their annual review. To do so, the project should notify the TAC at least two days before the TAC meeting they are scheduled to present at, adding a comment on the annual review GitHub issue. For projects that conduct their annual review as part of a SIG meeting, after the annual review at the SIG meeting, please open a [TAC meeting agenda request](https://github.com/lf-energy/tac/issues/new?template=01-tac-agenda.yml) to request that the TAC review for moving to the next lifecycle stage; requests will be shared with the TAC during the next TAC meeting, and then after an open comment period of five business days, the TAC will vote via LFX Voting.
 
 If the TAC deems the project not meeting the current stage's requirements, it may vote to move the project to the appropriate or {{ site.archived_lifecycle_stage }} stage. The project may choose to move outside of the {{ site.foundation_name }} at any time.
 
