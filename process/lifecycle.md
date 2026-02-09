@@ -106,7 +106,7 @@ To be considered for the Incubation Stage, the project must meet the following r
 
 ### Approval Process
 
-Sandbox Stage projects that wish to move to the Incubation Stage as part of their [annual review]({% link review_cycle.md %}) or upon request of the project. To be considered for the Incubation Stage, the project must present a review of its progress, including an assessment of whether the Incubation Stage requirements have been completed, as part of its annual review or a separate TAC presentation. 
+Sandbox Stage projects that wish to move to the Incubation Stage as part of their [annual review]({% link process/review_cycle.md %}) or upon request of the project. To be considered for the Incubation Stage, the project must present a review of its progress, including an assessment of whether the Incubation Stage requirements have been completed, as part of its annual review or a separate TAC presentation. 
 
 The project must receive the affirmative majority vote of the TAC to become an Incubation Stage project.
 
@@ -147,7 +147,7 @@ Since these metrics can vary significantly depending on the type, scope, and siz
 
 ### Approval Process
 
-Incubation Stage projects that wish to move to the Early Adoption Stage as part of their [annual review]({% link review_cycle.md %}) or upon request of the project. To be considered for the Early Adoption Stage, the project must present a review of its progress, including an assessment of whether the Early Adoption Stage requirements have been completed, as part of its annual review or a separate TAC presentation. 
+Incubation Stage projects that wish to move to the Early Adoption Stage as part of their [annual review]({% link process/review_cycle.md %}) or upon request of the project. To be considered for the Early Adoption Stage, the project must present a review of its progress, including an assessment of whether the Early Adoption Stage requirements have been completed, as part of its annual review or a separate TAC presentation. 
 
 The project must receive the affirmative majority vote of the TAC and subsequently the affirmative majority vote of the Governing Board to become an Early Adoption Stage project.
 
@@ -176,7 +176,7 @@ To graduate from Incubation or Early Adoption status, or for a new project to jo
 
 ### Approval Process
 
-Early Adoption Stage projects that wish to move to the Graduated Stage as part of their [annual review]({% link review_cycle.md %}) or upon request of the project. To be considered for the Graduated Stage, the project must present a review of its progress, including an assessment of whether the Graduated Stage requirements have been completed, as part of its annual review or a separate TAC presentation. 
+Early Adoption Stage projects that wish to move to the Graduated Stage as part of their [annual review]({% link process/review_cycle.md %}) or upon request of the project. To be considered for the Graduated Stage, the project must present a review of its progress, including an assessment of whether the Graduated Stage requirements have been completed, as part of its annual review or a separate TAC presentation. 
 
 The project must receive the affirmative majority vote of the TAC and subsequently the affirmative majority vote of the Governing Board to become a Graduated Stage project.
 
@@ -197,8 +197,8 @@ Projects in this stage are not in active development. Their maintainers may infr
 
 ### Acceptance Criteria
 
-Projects may be granted Emeritus status by a 2/3 vote of the TAC, with approval from project ownership. In cases where there is a lack of project ownership or the project is unresponsive or unwilling to do its annual review, only a 2/3 vote from the TAC is required.
+Projects may be granted Emeritus status by a 2/3 vote of the TAC, with the approval of the project's leadership. In cases where there is a lack of project leadership or the project is unresponsive or unwilling to do its annual review, only a 2/3 vote from the TAC is required.
 
 ### Benefits
 
-Emeritus stage projects will have a long-term home for the project assets and code. Each Emeritus project will have a sponsor from the TAC to monitor any security or trademark concerns raised, and at the TAC’s discretion, may address them. {{ site.foundation_name }} will remove the promotion of Emeritus projects from its website and other promotional materials.
+Emeritus stage projects will have a long-term home for the project assets and code. Each Emeritus project will have a sponsor from the TAC to monitor any security or trademark concerns raised and, at the TAC’s discretion, address them. {{ site.foundation_name }} will remove the promotion of Emeritus projects from its website and other promotional materials.
