@@ -106,7 +106,7 @@ To be considered for the Incubation Stage, the project must meet the following r
 
 ### Approval Process
 
-SIGs will review Sandbox Stage projects that wish to move to the Incubation Stage as part of their annual review or upon request of the project. The SIG will make a recommendation through its TAC Representative liaison to the TAC for the project to be considered for the Incubation Stage. The project will present a review of its progress, which includes an assessment of completion of the Incubation Stage requirements, at a TAC meeting. 
+Sandbox Stage projects that wish to move to the Incubation Stage as part of their [annual review]({% link review_cycle.md %}) or upon request of the project. To be considered for the Incubation Stage, the project must present a review of its progress, including an assessment of whether the Incubation Stage requirements have been completed, as part of its annual review or a separate TAC presentation. 
 
 The project must receive the affirmative majority vote of the TAC to become an Incubation Stage project.
 
@@ -147,7 +147,7 @@ Since these metrics can vary significantly depending on the type, scope, and siz
 
 ### Approval Process
 
-SIGs will review Incubation Stage projects that wish to move to the Early Adoption Stage as part of their annual review or upon request of the project. The SIG will make a recommendation through its TAC Representative liaison to the TAC for the project to be considered for the Early Adoption Stage. The project will present a review of its progress, which includes an assessment of the completion of the Early Adoption Stage requirements, at a TAC meeting. 
+Incubation Stage projects that wish to move to the Early Adoption Stage as part of their [annual review]({% link review_cycle.md %}) or upon request of the project. To be considered for the Early Adoption Stage, the project must present a review of its progress, including an assessment of whether the Early Adoption Stage requirements have been completed, as part of its annual review or a separate TAC presentation. 
 
 The project must receive the affirmative majority vote of the TAC and subsequently the affirmative majority vote of the Governing Board to become an Early Adoption Stage project.
 
@@ -174,7 +174,9 @@ To graduate from Incubation or Early Adoption status, or for a new project to jo
 - Have a healthy number of contributions or committers from at least three organizations, with any single organization not composing more than 50% of the contributions or committers. Committers must be identified within the project in a COMMITTERS file.
 - Have a public list of project adopters for at least the primary repo (e.g., ADOPTERS.md or logos on the project website).
 
-SIGs will review Early Adoption Stage projects that wish to move to the Graduated Stage as part of their annual review or upon request of the project. The SIG will make a recommendation through its TAC Representative liaison to the TAC for the project to be considered for the Graduated Stage. The project will present a review of its progress, which includes an assessment of completion of the Graduated Stage requirements, at a TAC meeting. 
+### Approval Process
+
+Early Adoption Stage projects that wish to move to the Graduated Stage as part of their [annual review]({% link review_cycle.md %}) or upon request of the project. To be considered for the Graduated Stage, the project must present a review of its progress, including an assessment of whether the Graduated Stage requirements have been completed, as part of its annual review or a separate TAC presentation. 
 
 The project must receive the affirmative majority vote of the TAC and subsequently the affirmative majority vote of the Governing Board to become a Graduated Stage project.
 
