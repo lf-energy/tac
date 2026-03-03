@@ -37,7 +37,7 @@ Shared R&D with a broad ecosystem means bringing more contributors and maintaine
 
 ### Drive broad industry awareness with the press and analysts.
 
-Your project will get broad motion picture, visual effects, tech, and open source exposure through our large audience, extensive media outreach partnerships with publications such as Linux.com and TFiR, and key partners.
+Your project will get broad industry and open source exposure through our large audience, extensive media outreach partnerships with publications such as Linux.com and TFiR, and key partners.
 
 - Your project will be featured on both the [{{ site.foundation_name }}]({{ site.website_url }}) and the [Linux Foundation](https://www.linuxfoundation.org/projects) websites, as well as the [{{ site.foundation_name }} Landscape](https://l.lfenergy.org)
 - Always available guest blog post(s) on the [{{ site.foundation_name }} blog]({{ site.blog_url }}) on project updates.
@@ -86,7 +86,7 @@ In evaluating projects to be hosted at the {{ site.foundation_name }}, the TAC g
 - What existing code is coming into the project, and what potential code could come?
 - Does the project currently have the feature set, robustness, and scalability necessary to adequately solve the problem for film production, or else is there (a) a clear roadmap to get to that point and (b) a team assembled with the skills and experience to successfully execute the plan?
 
-Prospective projects should engage the SIG most related to thier project's domain or use-case to present the work being done to gauge whether the project would be a good fit within the {{ site.foundation_name }}. 
+Prospective projects should engage the SIG most related to their project's domain or use-case to present the work being done to gauge whether the project would be a good fit within the {{ site.foundation_name }}. 
 
 ## Preparing to bring your project here
 
