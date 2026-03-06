@@ -63,7 +63,15 @@ title: "2026-01-13"
 * Christopher Atkins, Miso
 
 ## Meeting Assets
-* [Deck](2026-01-13/LF Energy - TAC Meeting - 2026-01-13)
+
+
+{% for file in site.static_files %}
+{% if file.path contains page.dir %}
+- [{{ file.basename }}]({{ file.path | replace: ".md", ".html" }})
+{%- endif -%}
+{%- endfor -%}
+
+* [Deck](2026-01-13/LF Energy - TAC Meeting - 2026-01-13.pdf)
 * [Project Origin Presentation](https://github.com/user-attachments/files/25430719/LFE.-.Project.Origin.-.Granular.Certificates.-.LFE.TAG.11.11.2025.pptx.pdf)
 * [CityLearn Project Proposal](https://github.com/user-attachments/files/25430808/20250113_CityLearn_TAC.pdf)
 * [Recording](https://zoom.us/rec/share/N_ZXkvpqS_vihFmL9qeN8D-SDkRwMTS8bI-6EwC_BWpC4ESc4snaoMONSTimPOnA.qiZaegjvNr6SfOju)

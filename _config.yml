@@ -8,9 +8,9 @@ exclude: [
   "README.md",
   "completed.md",
   "dco-signoffs/",
-  "Gemfile", 
-  "Gemfile.lock", 
-  "package.json", 
+  "Gemfile",
+  "Gemfile.lock",
+  "package.json",
   "package-lock.json",
   "CODE_OF_CONDUCT.md",
   "LICENSE",
@@ -46,7 +46,7 @@ tac_lfx_meeting_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/lfen
 lfscanning_repo_url: https://github.com/lfscanning/spdx-lfenergy
 tac_member_list_url: https://lfenergy.org/about/people/#technical-advisory-council
 lf_staff_list_url: https://lfenergy.org/about/people/#executive-leadership
-mission_statement_url: https://lfenergy.org/about/why-lf-energy/ 
+mission_statement_url: https://lfenergy.org/about/why-lf-energy/
 tac_agenda_url: https://github.com/orgs/lf-energy/projects/2
 artwork_url: 'https://artwork.lfenergy.org'
 election_guidelines_url: 'https://github.com/lf-energy/foundation/blob/main/elections.md'
@@ -56,7 +56,7 @@ foundation_name: 'LF Energy'
 clotributor_name: "lfenergy"
 membership_top_tier: 'Strategic'
 archived_lifecycle_stage: "Emeritus"
-tac_projects: 
+tac_projects:
   - "Graduated Stage Projects"
 project_types:
   - singular: "Project"
@@ -98,8 +98,7 @@ callouts:
     color: blue
 
 defaults:
-  -
-    scope: 
+  - scope:
       path: "meetings/*/README.md"
       type: "pages"
     values:
