@@ -74,7 +74,7 @@ title: "2025-11-11"
 
 ## Meeting Assets
 
-* [Deck](2025-11-11/LF Energy - TAC Meeting - 2025-11-11.pdf)
+* [Deck](LF Energy - TAC Meeting - 2025-11-11.pdf)
 * [Project Origin Presentation](https://github.com/user-attachments/files/25430719/LFE.-.Project.Origin.-.Granular.Certificates.-.LFE.TAG.11.11.2025.pptx.pdf)
 * [Recording](https://zoom.us/rec/share/ouo1L6v92dyz75eQw7oZNbWO4l_zUulJcPJiR32svqHaPdFX6CBFvKq7FlOweAwR.p0xsP_q1TMmcT0UI)
 
