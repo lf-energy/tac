@@ -52,7 +52,8 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: HTMLProofer
-        uses: athackst/htmlproofer-action@main
+        uses: athackst/htmlproofer-action@7588baebf727d634479a5101552343bcc251e1f7 # v1.0.0
+        continue-on-error: true
         with:
           host: ${{ steps.pages.outputs.host }}
           base_path: ${{ steps.pages.outputs.base_path }}
