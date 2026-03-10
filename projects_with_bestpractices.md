@@ -10,9 +10,9 @@ layout: minimal
 {%- if project['Level'] == 'graduated' -%}
   <div>
   <dt>
-    <img src="{{ project['Logo URL'] }}" >
+    <img src="{{ project['Logo URL'] }}" alt="{{ project['Name']}} Logo">
     {%- if project["Best Practices Badge ID"] and project["Best Practices Badge ID"] != 'none' and project["Best Practices Badge ID"] != 'False' -%}
-    <a href="https://www.bestpractices.dev/projects/{{ project["Best Practices Badge ID"] }}"><img src="https://www.bestpractices.dev/projects/{{ project["Best Practices Badge ID"] }}/badge?{{ "now" | date: "%s" }}"></a>
+    <a href="https://www.bestpractices.dev/projects/{{ project["Best Practices Badge ID"] }}"><img src="https://www.bestpractices.dev/projects/{{ project["Best Practices Badge ID"] }}/badge?{{ "now" | date: "%s" }}" alt="{{ project["Name"] }} Best Practices Badge"></a>
     {%- endif -%}
   </dt>
   </div>
@@ -27,9 +27,9 @@ layout: minimal
 {%- if project['Level'] == 'earlyadoption' -%}
   <div>
   <dt>
-    <img src="{{ project['Logo URL'] }}" >
+    <img src="{{ project['Logo URL'] }}" alt="{{ project['Name']}} Logo">
     {%- if project["Best Practices Badge ID"] and project["Best Practices Badge ID"] != 'none' and project["Best Practices Badge ID"] != 'False' -%}
-    <a href="https://bestpractices.coreinfrastructure.org/projects/{{ project["Best Practices Badge ID"] }}"><img src="https://bestpractices.coreinfrastructure.org/projects/{{ project["Best Practices Badge ID"] }}/badge?{{ "now" | date: "%s" }}"></a>
+    <a href="https://bestpractices.coreinfrastructure.org/projects/{{ project["Best Practices Badge ID"] }}"><img src="https://bestpractices.coreinfrastructure.org/projects/{{ project["Best Practices Badge ID"] }}/badge?{{ "now" | date: "%s" }}" alt="{{ project["Name"] }} Best Practices Badge"i></a>
     {%- endif -%}
   </dt>
   </div>
@@ -44,9 +44,9 @@ layout: minimal
 {%- if project['Level'] == 'incubating' -%}
   <div>
   <dt>
-    <img src="{{ project['Logo URL'] }}" >
+    <img src="{{ project['Logo URL'] }}" alt="{{ project['Name']}} Logo">
     {%- if project["Best Practices Badge ID"] and project["Best Practices Badge ID"] != 'none' and project["Best Practices Badge ID"] != 'False' -%}
-    <a href="https://www.bestpractices.dev/projects/{{ project["Best Practices Badge ID"] }}"><img src="https://www.bestpractices.dev/projects/{{ project["Best Practices Badge ID"] }}/badge?{{ "now" | date: "%s" }}"></a>
+    <a href="https://www.bestpractices.dev/projects/{{ project["Best Practices Badge ID"] }}"><img src="https://www.bestpractices.dev/projects/{{ project["Best Practices Badge ID"] }}/badge?{{ "now" | date: "%s" }}" alt="{{ project["Name"] }} Best Practices Badge"></a>
     {%- endif -%}
   </dt>
   </div>

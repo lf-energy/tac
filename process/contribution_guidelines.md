@@ -60,7 +60,7 @@ You can include this automatically when you commit a change to your local git re
 
 ### DCO and Real Names
 
-The DCO requires the use of a real name that can be used to identify someone in case there is an issue about a contribution they made. 
+The DCO requires the use of a real name that can be used to identify someone in case there is an issue about a contribution they made.
 
 A real name does not require a legal name, nor a birth name, nor any name that appears on an official ID (e.g. a passport). Your real name is the name you convey to people in the community for them to use to identify you as you. The key concern is that your identification is sufficient enough to contact you if an issue were to arise in the future about your contribution.
 
@@ -108,9 +108,9 @@ This process can be automated using the [DCO Org Check script](https://github.co
 
 The [Probot: DCO](https://github.com/probot/dco) app requires that the email address and name specified in the DCO Signoff match that of the current information from the user making the commit. Generally, this is handled automatically when using a local git client, but when making contributions from the GitHub website directly, this needs to be aligned manually.
 
-[Apache License, Version 2.0]: http://www.apache.org/licenses/LICENSE-2.0
+[Apache License, Version 2.0]: https://www.apache.org/licenses/LICENSE-2.0
 [Community Data License Agreement (CDLA) license]: https://cdla.io/
-[Creative Commons Attribution 4.0 International License]: http://creativecommons.org/licenses/by/4.0/
+[Creative Commons Attribution 4.0 International License]: https://creativecommons.org/licenses/by/4.0/
 [DCO]: https://developercertificate.org/
 [GitHub commit signoff policy]: https://docs.github.com/en/organizations/managing-organization-settings/managing-the-commit-signoff-policy-for-your-organization
 [GitHub DCO App]: https://github.com/apps/dco
