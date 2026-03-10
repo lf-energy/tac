@@ -56,7 +56,7 @@ jobs:
         with:
           host: ${{ steps.pages.outputs.host }}
           base_path: ${{ steps.pages.outputs.base_path }}
-          ignore_urls: ['https://www.googletagmanager.com/gtag/js?id=361402579']
+          ignore_urls: 'https://www.googletagmanager.com/gtag/js?id=361402579'
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4.0.0
