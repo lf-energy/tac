@@ -65,9 +65,9 @@ title: "2025-12-09"
 
 ## Meeting Assets
 
-* [Deck](2025-12-09/LF Energy - TAC Meeting - 2025-12-09.pdf)
+* [Deck](LF Energy - TAC Meeting - 2025-12-09.pdf)
 * [Project Origin Presentation](https://github.com/user-attachments/files/25430719/LFE.-.Project.Origin.-.Granular.Certificates.-.LFE.TAG.11.11.2025.pptx.pdf)
-* [CDS Working Group Presentation](2025-12-09/CDS - TAC Meeting Presentation - 2025-12-09.pdf)
+* [CDS Working Group Presentation](CDS - TAC Meeting Presentation - 2025-12-09.pdf)
 * [Recording](https://zoom.us/rec/share/9ha-K54VaK5nRWQil0fptArXBG_twt6mK--yFwECkzm3OZYIdYwhjBgsGx5Dn4k.IH_tppYpG2UdgeDp)
 
 ## Antitrust Policy Notice
