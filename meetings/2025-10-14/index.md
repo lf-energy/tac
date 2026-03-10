@@ -61,8 +61,8 @@ title: "2025-10-14"
 
 ## Meeting Assets
 
-* [Recording]()https://zoom.us/rec/share/jdNrZOGE7yJtW2CU-dm8FeztcQsltcIK1SjAILoaLnwp3KaoA5R9Jo_CEssjFW_K.6lmEqrdWh1U4ofGr)
-* [Deck](2025-10-14/LF Energy - TAC Meeting - 2025-10-14.pdf)
+* [Recording](https://zoom.us/rec/share/jdNrZOGE7yJtW2CU-dm8FeztcQsltcIK1SjAILoaLnwp3KaoA5R9Jo_CEssjFW_K.6lmEqrdWh1U4ofGr)
+* [Deck](LF Energy - TAC Meeting - 2025-10-14.pdf)
 
 ## Antitrust Policy Notice
 
