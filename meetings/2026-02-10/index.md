@@ -87,8 +87,8 @@ title: "2026-02-10"
 
 
 
-* [Deck](https://drive.google.com/file/d/1EfbtPZlouETKssYMebwm9yQndc0FqITA/view?usp=drive_link)
-* [AINETUS Project Proposal](https://drive.google.com/file/d/1_FqBWSimk7NaPOkCONTXZ3fi2a5G734X/view?usp=drive_link)
+* [Deck](https://github.com/lf-energy/tac/blob/main/meetings/2026-02-10/LF%20Energy%20-%20TAC%20Meeting%20-%202026-02-10.pdf)
+* [AINETUS Project Proposal](https://github.com/lf-energy/tac/blob/main/meetings/2026-02-10/AI4REALNET_LFE_TAC.pdf)
 * [Recording](https://zoom.us/rec/share/r4uJRQ82gnHBVGo279UeI-VeuxatFfrySU-mvTCbjit-9FIk5F_F-SF_2A-DFo-9.gBa923U6-6O8Q8WZ)
 
 
