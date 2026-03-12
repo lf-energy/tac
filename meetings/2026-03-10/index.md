@@ -84,8 +84,8 @@ title: "2026-03-10"
 
 
 
-* [Deck](https://drive.google.com/file/d/1tMGz6bNBGxh6C_tIY-ykwKTSidnP9VsW/view?usp=sharing)
-* LF Energy RegistryOS Project Proposal
+* [Deck](https://github.com/lf-energy/tac/blob/main/meetings/2026-03-10/LF%20Energy%20-%20TAC%20Meeting%20-%202026-03-10.pdf)
+* [LF Energy RegistryOS Project Proposal](https://github.com/lf-energy/tac/blob/main/meetings/2026-03-10/LF%20Energy%20%20RegistryOS%20TAC%20Sandbox%20Proposal.pdf)
 * [Recording](https://zoom.us/rec/share/Vk8rlm3wyIlP5E3YCOBeFMrCsmQAff16QSqD-c2cB0_-iXBepFEeOanmsnHuNvTY.KuTFr1eCFsrNqBKD)
 
 
