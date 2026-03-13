@@ -1,0 +1,81 @@
+name: New Issues Automation
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  process-proposal:
+    if: contains(github.event.issue.labels.*.name, '1-new-project-wg')
+    runs-on: ubuntu-latest
+
+    permissions:
+      issues: write
+      projects: write
+      contents: read
+
+    steps:
+      - name: Extract Project Name from Issue Form
+        id: extract
+        run: |
+          # Extract the value under "Project Name:"
+          PROJECT_NAME=$(echo "${{ github.event.issue.body }}" \
+            | awk '/### Project Name:/{getline; print}' \
+            | xargs)
+
+          echo "project_name=$PROJECT_NAME" >> $GITHUB_OUTPUT
+
+      - name: Update Issue Title
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue edit ${{ github.event.issue.number }} \
+            --title "${{ steps.extract.outputs.project_name }}"
+      - name: Post TAC intake comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ github.token }}
+          issue-number: ${{ github.event.issue.number }}
+          body-file: .github/workflows/templates/tac-intake-comment.md
+          env:
+            SUBMITTER: ${{ github.event.issue.user.login }}
+            PROJECT_NAME: ${{ steps.extract.outputs.project_name }}
+      - name: Add to Project and Set Status
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NODE_ID: ${{ github.event.issue.node_id }}
+        run: |
+          PROJECT_ID="PVT_kwDOAyvYo84ASxew"           # <-- replace
+          STATUS_FIELD_ID="PVTSSF_lADOAyvYo84ASxewzgL_W30"       # <-- replace
+          STATUS_OPTION_ID="dd6dacf8"              # <-- replace
+
+          # Add issue to project
+          ITEM_ID=$(gh api graphql -f query='
+            mutation($project:ID!, $content:ID!) {
+              addProjectV2ItemById(input: {
+                projectId: $project,
+                contentId: $content
+              }) {
+                item { id }
+              }
+            }' \
+            -f project=$PROJECT_ID \
+            -f content=$ISSUE_NODE_ID \
+            --jq '.data.addProjectV2ItemById.item.id')
+
+          # Update Status field (move to column)
+          gh api graphql -f query='
+            mutation($project:ID!, $item:ID!, $field:ID!, $option:String!) {
+              updateProjectV2ItemFieldValue(input: {
+                projectId: $project
+                itemId: $item
+                fieldId: $field
+                value: { singleSelectOptionId: $option }
+              }) {
+                projectV2Item { id }
+              }
+            }' \
+            -f project=$PROJECT_ID \
+            -f item=$ITEM_ID \
+            -f field=$STATUS_FIELD_ID \
+            -f option=$STATUS_OPTION_ID
