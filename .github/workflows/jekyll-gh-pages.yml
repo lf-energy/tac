@@ -32,14 +32,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@58077d3c7e43986b6b15fba718e8ea69e387dfcc # v2.15.1
+        uses: step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594 # v2.16.0
         with:
           egress-policy: audit
 
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - name: Setup Ruby
-        uses: ruby/setup-ruby@6ca151fd1bfcfd6fe0c4eb6837eb0584d0134a0c # v1.290.0
+        uses: ruby/setup-ruby@dffb23f65a78bba8db45d387d5ea1bbd6be3ef18 # v1.293.0
         with:
           ruby-version: '3.2.2'
           bundler-cache: true
@@ -52,7 +52,7 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: HTMLProofer
-        uses: athackst/htmlproofer-action@7588baebf727d634479a5101552343bcc251e1f7 # v1.0.0
+        uses: athackst/htmlproofer-action@465b6433083a1e0526ec5302868dd987ea5fffac # v2.0.0
         continue-on-error: true
         with:
           host: ${{ steps.pages.outputs.host }}
@@ -71,7 +71,7 @@ jobs:
     needs: build
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@58077d3c7e43986b6b15fba718e8ea69e387dfcc # v2.15.1
+        uses: step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594 # v2.16.0
         with:
           egress-policy: audit
 
