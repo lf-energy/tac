@@ -35,7 +35,7 @@ This document provides for five lifecycle stages for contributed projects (“Pr
 - [Graduated](#graduated); and
 - [Emeritus](#emeritus)
 
-![Lifecycle Image](./assets/-V6A8WeK55PFD-YJsuxSZPLhNWUHol-vWuSgRS3nkhs7x7DeRD1eHcM8KddVngWsnFeqvTK2ecJwfBKcwd2GEC2kNF6diOncNeLry8RSFWvW_gpLK71dG53IRzoDVoUEt4iNKqwgON7FAI-5YFTolg.png)
+![Lifecycle Image](./assets/lifecycle-image.png)
 
 All projects must meet the Sandbox stage requirements. It is possible that some projects may be approved at the Incubation stage and pass a review for the Early Adoption and/or Graduated stage at the same time to advance directly to those stages. 
 
