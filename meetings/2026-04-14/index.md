@@ -92,9 +92,9 @@ title: "2026-04-14"
 
 
 * [Deck](https://drive.google.com/file/d/1tMGz6bNBGxh6C_tIY-ykwKTSidnP9VsW/view?usp=sharing)
-* EnerGNN Project Proposal
-* Shapeshifter Annual Review
-* LFE-SEF Annual Review
+* [EnerGNN Project Proposal](https://github.com/lf-energy/tac/blob/main/meetings/2026-04-14/EnerGNN_LFE_TAC.pdf)
+* [Shapeshifter Annual Review](https://github.com/lf-energy/tac/blob/main/meetings/2026-04-14/Shapeshifter%20Annual%20Review%20TAC%20April%202026.pdf)
+* [LFE-SEF Annual Review](https://github.com/lf-energy/tac/blob/main/meetings/2026-04-14/LFE%20SEF%20-%20review%20meeting.pdf)
 * [Recording](https://zoom.us/rec/share/UKNleCrJyulv6PGHrrZX-uEjJmrA_HqSnO2E2dcl9BpZqExhyzbaXOtcoAlHnXrG.nQ9oIpi8C8H1l01M)
 
 
