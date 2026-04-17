@@ -66,7 +66,7 @@ Examples of types of actions that are prohibited at Linux Foundation meetings an
 
 ## Deck
 
-[Deck](2025-03-11/2025-03-11-LF_Energy_TAC_Meeting.pdf)
+[Deck](LF Energy - TAC Meeting - 2025-03-11.pdf)
 
 ## Recording
 
