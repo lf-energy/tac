@@ -20,7 +20,7 @@ When a new project or repository is to be added, please [submit a request](https
 If adding the new project or repository will include a significant contribution, requesting a code license scan is highly recommended before bringing the code in. This scan will look for and will provide recommendations (or, in some cases, required prior remediation) for:
 
 - The presence of third-party licenses (OSI-approved or otherwise) that might be considered incompatible with the project's license
-- Presence of headers with the project's designated license(s) and preferred copyright notices in project files (refer to the [License Specification in the Contribution Guidelines](/process/contribution_guidelines.md#license-specification) for more information)
+- Presence of headers with the project's designated license(s) and preferred copyright notices in project files (refer to the [License Specification in the Contribution Guidelines]({% link process/contribution_guidelines.md %}#license-specification) for more information)
 - Any other best practices guidance 
 
 Projects can [submit a request]({{ site.helpdesk_url }}) to facilitate the process. Typically code license scans are a quick turnaround, but that might take longer for more significant code bases.
@@ -50,7 +50,7 @@ Generally, the following settings apply to all hosted project repositories and o
 
 ### DCO
 
-By default, all GitHub repositories have both the [GitHub DCO App][] installed and [commit signoffs enabled][GitHub commit signoff policy]. DCO guidelines for hosted projects are outlined in the [contributing guidelines](/process/contributing#Code+License+Identification).
+By default, all GitHub repositories have both the [GitHub DCO App][] installed and [commit signoffs enabled][GitHub commit signoff policy]. DCO guidelines for hosted projects are outlined in the [contributing guidelines]({% link process/contribution_guidelines.md %}#code-license-identification).
 
 ### CLA
 
@@ -66,7 +66,7 @@ The best process for adding a new committer is to have that committer issue a pu
 
 The below branch protection settings on the `master` or `main` branch are enabled by default.
 
-![](./assets/branch_protection.png)
+![Branch Protection Diagram]({{ './assets/branch_protection.png' | relative_url }})
 
 ## Issue management
 
@@ -129,6 +129,6 @@ As project communities and members look for the {{ site.foundation_name }} to pr
 If there are concerns about this, feel free to [submit a request][].
 
 [submit a request]: {{ site.helpdesk_url }} 
-[Code of Conduct]: /code_of_conduct
+[Code of Conduct]: {% link code_of_conduct.md %}
 [GitHub commit signoff policy]: https://docs.github.com/en/organizations/managing-organization-settings/managing-the-commit-signoff-policy-for-your-organization
 [GitHub DCO App]: https://github.com/apps/dco
