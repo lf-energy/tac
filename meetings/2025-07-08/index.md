@@ -110,7 +110,7 @@ the Linux Foundation.
 
 ## Resources
 
-- [Deck](2025-07-08/LF%20Energy%20-%20TAC%20Meeting%20-%202025-07-08.pdf)
+- [Deck](LF%20Energy%20-%20TAC%20Meeting%20-%202025-07-08.pdf)
 - [Recording](https://zoom.us/rec/share/wInyiSIRoNA6P9GgmYJolEZuwCx9mzKANtRBvaDV23Vy8Xgzsb2W4wtG1Ft3fzrx.L4xRanTArPBAUqUX)
 
 ## Notes
