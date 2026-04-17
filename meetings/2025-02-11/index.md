@@ -42,7 +42,7 @@ title: "2025-02-11"
 
 ## Deck
 
-[Deck](2025-02-11/LF Energy - TAC Meeting - 2025-02-11.pdf)
+[Deck](LF Energy - TAC Meeting - 2025-02-11.pdf)
 
 ## Notes
 
