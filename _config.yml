@@ -3,6 +3,7 @@ description: Materials and processes for the LF Energy TAC
 logo: "https://artwork.lfenergy.org/other/lf-energy/horizontal/color/lf-energy-horizontal-color.svg"
 theme: just-the-docs
 repository: lf-energy/tac
+url: "https://tac.lfenergy.org"
 
 exclude: [
   "README.md",
