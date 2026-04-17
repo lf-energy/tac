@@ -70,7 +70,7 @@ Examples of types of actions that are prohibited at Linux Foundation meetings an
 ## Assets
 
 - [Recording](https://zoom.us/rec/share/kmlLQg7Ucp3yt-ZQw1PUYM-KqetH9NsTUFB5vwhf5MLioMCsZO_WANx2SPaK8v8L.NBYIh0FeKTbyBSmM)
-- [Deck](2025-06-10/LF%20Energy%20-%20TAC%20Meeting%20-%202025-06-10.pdf)
+- [Deck](LF%20Energy%20-%20TAC%20Meeting%20-%202025-06-10.pdf)
 
 ## Notes
 
