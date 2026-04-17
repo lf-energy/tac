@@ -58,6 +58,8 @@ jobs:
           host: ${{ steps.pages.outputs.host }}
           base_path: ${{ steps.pages.outputs.base_path }}
           ignore_urls: 'https://www.googletagmanager.com/gtag/js?id=361402579'
+          tokens: |
+            {"https://github.com": "${{ secrets.GITHUB_TOKEN }}"}
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
