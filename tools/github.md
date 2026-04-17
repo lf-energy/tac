@@ -78,13 +78,13 @@ Using an issue or pull template request helps ensure the project maintainers hav
 
 ### CODEOWNERS
 
-Defining a CODEOWNERS makes an automated process for assigning new pull requests to the right committers for review. Read more in the [GitHub CODEOWNERS documentation.](https://docs.github.com/en/github/creating-cloning-and-archiving-repositoriesitories/about-code-owners#about-code-owners)
+Defining a CODEOWNERS makes an automated process for assigning new pull requests to the right committers for review. Read more in the [GitHub CODEOWNERS documentation.](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners#about-code-owners)
 
 ### Project boards
 
 Issue triaging can be complicated and overwhelming, especially when managing a project to a release point. For projects that utilize an organization, having a single view of open issues across repositories is also very helpful in release management.
 
-GitHub has the functionality for doing either a [single repository project board](https://docs.github.com/en/github/managing-your-work-on-github/creating-a-project-board#creating-a-repositoriesitory-project-board) or a [multiple repository project board](https://docs.github.com/en/github/managing-your-work-on-github/creating-a-project-board#creating-an-organization-wide-project-board). Automation capabilities can also be leveraged to aid in using project boards.
+GitHub has the functionality for doing either a [single repository project board](https://docs.github.com/en/github/managing-your-work-on-github/creating-a-project-board#creating-a-repository-project-board) or a [multiple repository project board](https://docs.github.com/en/github/managing-your-work-on-github/creating-a-project-board#creating-an-organization-wide-project-board). Automation capabilities can also be leveraged to aid in using project boards.
 
 ## Using GitHub
 
@@ -107,7 +107,7 @@ There are also various tools you can use to help you see how your Markdown file 
 These practices will help you improve your GitHub presence to help you attract more users and developers to your project, secure your account, be precise about licensing, and maintain good housekeeping. Please issue a PR to add new recommendations or update existing ones.
 
 * Use the [REPOLINTER](https://github.com/todogroup/repolinter) tool created by the TODO Group to identify common issues in GitHub repositories. 
-* Ensure that every repo includes a LICENSE file. 
+* Ensure that every repo includes a LICENSE file.
 * Add a README file to your repositories welcoming new community members to the project and explaining why the project is useful and how to get started. Follow the guidelines in the [README checklist](https://github.com/ddbeck/readme-checklist) to create an excellent README file.
 * Add a CONTRIBUTING file to your repositories explaining to other developers and your community of users how to contribute to the project. At a high level, the file would explain what types of contributions are needed and how the process works.
 * Add the CODEOWNERS file to define individuals or teams responsible for code in a repository.
@@ -128,7 +128,7 @@ As project communities and members look for the {{ site.foundation_name }} to pr
 
 If there are concerns about this, feel free to [submit a request][].
 
-[submit a request]: {{ site.helpdesk_url }} 
+[submit a request]: {{ site.helpdesk_url }}
 [Code of Conduct]: {% link code_of_conduct.md %}
 [GitHub commit signoff policy]: https://docs.github.com/en/organizations/managing-organization-settings/managing-the-commit-signoff-policy-for-your-organization
 [GitHub DCO App]: https://github.com/apps/dco

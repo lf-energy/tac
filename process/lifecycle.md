@@ -32,7 +32,7 @@ This document provides for five lifecycle stages for contributed projects (“Pr
 - [Sandbox](#sandbox);
 - [Incubation](#incubation);
 - [Early Adoption](#early-adoption);
-- [Graduated](##graduated); and
+- [Graduated](#graduated); and
 - [Emeritus](#emeritus)
 
 ![Lifecycle Image]({% link process/assets/lifecycle-image.png %})
