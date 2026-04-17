@@ -36,7 +36,7 @@ tac_issues_url: 'https://github.com/lf-energy/tac/issues/new?template=01-tac-age
 helpdesk_url: "https://servicedesk.lfenergy.org"
 mailing_list_url: "https://lists.lfenergy.org"
 wiki_url: "https://wiki.lfenergy.org"
-lfx_insights_url: "https://insights.lfx.linuxfoundation.org/foundation/lfenergy"
+lfx_insights_url: "https://insights.linuxfoundation.org/collection/details/lf-energy-(lfe)"
 tac_mailing_list_url: "https://lists.lfenergy.org/g/tac"
 tac_mailing_list_email: tac@lists.aswf.io
 tac_private_mailing_list_email: tac-private@lists.lfenergy.org
