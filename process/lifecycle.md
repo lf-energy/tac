@@ -32,10 +32,10 @@ This document provides for five lifecycle stages for contributed projects (“Pr
 - [Sandbox](#sandbox);
 - [Incubation](#incubation);
 - [Early Adoption](#early-adoption);
-- [Graduated](#graduated); and
+- [Graduated](##graduated); and
 - [Emeritus](#emeritus)
 
-![Lifecycle Image](./assets/lifecycle-image.png)
+![Lifecycle Image]({% link assets/lifecycle-image.png %})
 
 All projects must meet the Sandbox stage requirements. It is possible that some projects may be approved at the Incubation stage and pass a review for the Early Adoption and/or Graduated stage at the same time to advance directly to those stages. 
 
@@ -53,7 +53,7 @@ Projects submitted to {{ site.foundation_name }} at the Sandbox stage are intend
 
 To be accepted at the Sandbox stage, a project must:
 
-- Submit a completed Project Contribution Proposal to the TAC via the process outlined at [Project Contribution](/process/start_project) Process.
+- Submit a completed Project Contribution Proposal to the TAC via the process outlined at [Project Contribution]({% link /process/start_project.md %}) Process.
 - Complete and approve the Technical Charter and agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones.
 - Have a successful license scan with any critical issues remedied.
 - Provide administrator access to all project tools, such as its GitHub organization, collaboration and communication tools, and build/test infrastructure.
@@ -161,7 +161,7 @@ The benefits for Early Adoption stage projects focus on ecosystem enablement. In
 - Support and funding for a CI/CD environment.
 - The ability for the project to develop a conformance program and training program to support downstream adoption.
 
-## Graduated Stage
+## Graduated
 
 The Graduated Stage is for projects that have reached their growth goals and are now on a sustaining cycle of development, maintenance, and long-term support. Graduated Stage projects are commonly used in enterprise production environments and have large, well-established project communities.
 
@@ -189,7 +189,7 @@ Graduated Stage projects are considered “TAC Projects” as defined in the {{ 
 - Access to discretionary budget for supporting project-specific outreach and ecosystem development activities, subject to approval by the Governing Board.
 - Advanced marketing/communication/PR support that includes project promotion via blog posts, social media, and {{ site.foundation_name }} website; support with white papers and posters, and any marketing collateral designated to promote the project.
 
-## Emeritus Stage
+## Emeritus
 
 Emeritus projects are projects that the maintainers or the TAC feel have reached or are nearing end-of-life. Emeritus projects have contributed to the ecosystem, but are not necessarily recommended for modern development, as there may be more actively maintained choices. {{ site.foundation_name }} appreciates the contributions of these projects and their communities, as well as the role they have played in advancing the ecosystem.
 
