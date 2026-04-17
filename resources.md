@@ -20,6 +20,8 @@ If you are new to open source, or have some experience in open source and lookin
         - [Secure Software Development: Implementation (LFD105x)](https://training.linuxfoundation.org/training/secure-software-development-implementation-lfd105/)
         - [Developing Secure Software (LFD121)](https://training.linuxfoundation.org/training/developing-secure-software-lfd121/)
         - [Understanding the OWASP® Top 10 Security Threats (SKF100)](https://training.linuxfoundation.org/training/owasp-top-ten-security-threats-skf100/)
+        - [OpenSSF Guide to implementing a coordinated vulnerability disclosure process for open source projects
+](https://github.com/ossf/oss-vulnerability-guide/blob/main/maintainer-guide.md)
     - Documentation
         - [Open Source Technical Documentation Essentials (LFC111)](https://training.linuxfoundation.org/training/open-source-technical-documentation-essentials-lfc111/)
         - [Creating Effective Documentation for Developers (LFC112)](https://training.linuxfoundation.org/training/creating-effective-documentation-for-developers-lfc112/)
