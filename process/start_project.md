@@ -86,7 +86,7 @@ In evaluating projects to be hosted at the {{ site.foundation_name }}, the TAC g
 - What existing code is coming into the project, and what potential code could come?
 - Does the project currently have the feature set, robustness, and scalability necessary to adequately solve the problem for film production, or else is there (a) a clear roadmap to get to that point and (b) a team assembled with the skills and experience to successfully execute the plan?
 
-Prospective projects should engage the SIG most related to their project's domain or use-case to present the work being done to gauge whether the project would be a good fit within the {{ site.foundation_name }}. 
+Prospective projects should engage the SIG most related to their project's domain or use-case to present the work being done to gauge whether the project would be a good fit within the {{ site.foundation_name }}.
 
 ## Preparing to bring your project here
 
@@ -97,7 +97,7 @@ The “LF Way”, which is aligned with how {{ site.foundation_name }} operates,
 The project must:
 
 - Use an approved [OSI open-source license](https://opensource.org/licenses).
-- Be supported by a [TAC member]({{ site.tac_member_list.url }}).
+- Be supported by a [TAC member]({{ site.tac_member_list_url }}).
 - Allow neutral ownership of project assets such as a trademark, domain, or GitHub account (the community can define and manage rules).
 - Technical "do-ocracy" and separation of business governance from technical governance (we're flexible on the model) are clearly documented (which we can help you establish).
 - Allow anyone to participate in the technical community, whether or not a financial member or supporter of the project.
@@ -106,13 +106,13 @@ Often projects are new open-source projects, but that isn’t a requirement - ex
 
 ### Project Preparation Checklist
 
-- Prepare draft mission and scope statement. 
-- Identify internal teams within the mission and scope. 
-- Identify developers internally 
-- Analyze code for identification of licenses, license quality, and project dependencies 
-- Assess the potential universe of project participants. Identify ecosystem constituents and concerns of each. 
-- Identify any trademarks leveraged by the project (these will be owned by the LF neutrally) 
-- Outline infrastructure, marketing any other requirements needed for the project. 
+- Prepare draft mission and scope statement.
+- Identify internal teams within the mission and scope.
+- Identify developers internally
+- Analyze code for identification of licenses, license quality, and project dependencies
+- Assess the potential universe of project participants. Identify ecosystem constituents and concerns of each.
+- Identify any trademarks leveraged by the project (these will be owned by the LF neutrally)
+- Outline infrastructure, marketing any other requirements needed for the project.
 - Complete the [project proposal](/process/proposal_template) and submit it to the TAC for consideration
 
 The {{ site.foundation_name }} staff is happy to engage and advise during this process - let us know how we can help!
@@ -133,9 +133,9 @@ Proposed projects will have a 20-minute presentation timeslot at an upcoming TAC
     *  If a project is new, it’s often helpful to share the vision for the project, the anticipated structure, and benefits.
     *  If the project is an existing open-source project proposed to join ASWF, it is often helpful to schedule a project walkthrough for the community to understand better the project, including the architecture, structure, and how to get started using the project. This often helps review progress more efficiently.
 *   How does this submission support the [{{ site.foundation_name }} Mission and Vision statements]( {{ site.mission_statement_url }})?
-*   Does the project have any users? 
+*   Does the project have any users?
     *   How do you plan to attract users if accepted?
-*   How many committers will you have upfront, and from which companies? 
+*   How many committers will you have upfront, and from which companies?
     *   How do you plan to attract committers and contributors if accepted?
 *   Demo and/or walk-through of the project
 

@@ -37,7 +37,7 @@ This document provides for five lifecycle stages for contributed projects (“Pr
 
 ![Lifecycle Image]({% link process/assets/lifecycle-image.png %})
 
-All projects must meet the Sandbox stage requirements. It is possible that some projects may be approved at the Incubation stage and pass a review for the Early Adoption and/or Graduated stage at the same time to advance directly to those stages. 
+All projects must meet the Sandbox stage requirements. It is possible that some projects may be approved at the Incubation stage and pass a review for the Early Adoption and/or Graduated stage at the same time to advance directly to those stages.
 
 ## Sandbox
 
@@ -53,7 +53,7 @@ Projects submitted to {{ site.foundation_name }} at the Sandbox stage are intend
 
 To be accepted at the Sandbox stage, a project must:
 
-- Submit a completed Project Contribution Proposal to the TAC via the process outlined at [Project Contribution]({% link /process/start_project.md %}) Process.
+- Submit a completed Project Contribution Proposal to the TAC via the process outlined at [Project Contribution]({% link process/start_project.md %}) Process.
 - Complete and approve the Technical Charter and agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones.
 - Have a successful license scan with any critical issues remedied.
 - Provide administrator access to all project tools, such as its GitHub organization, collaboration and communication tools, and build/test infrastructure.

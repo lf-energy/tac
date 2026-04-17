@@ -7,7 +7,7 @@ parent: Tools
 * TOC
 {:toc}
 
-{{ site.foundation_name }} projects generally use GitHub for code hosting and issue management. GitHub organizations for hosted projects are owned and administered by the Linux Foundation staff, including the Linux Foundation release engineering team, to ensure the sustainability of the infrastructure. 
+{{ site.foundation_name }} projects generally use GitHub for code hosting and issue management. GitHub organizations for hosted projects are owned and administered by the Linux Foundation staff, including the Linux Foundation release engineering team, to ensure the sustainability of the infrastructure.
 
 This document outlines project policies and procedures using GitHub for code hosting. In addition, the Linux Foundation release engineering team maintains [documentation](https://docs.releng.linuxfoundation.org/en/latest/) on its services, policies, and procedures.
 
@@ -21,7 +21,7 @@ If adding the new project or repository will include a significant contribution,
 
 - The presence of third-party licenses (OSI-approved or otherwise) that might be considered incompatible with the project's license
 - Presence of headers with the project's designated license(s) and preferred copyright notices in project files (refer to the [License Specification in the Contribution Guidelines]({% link process/contribution_guidelines.md %}#license-specification) for more information)
-- Any other best practices guidance 
+- Any other best practices guidance
 
 Projects can [submit a request]({{ site.helpdesk_url }}) to facilitate the process. Typically code license scans are a quick turnaround, but that might take longer for more significant code bases.
 
@@ -37,11 +37,11 @@ If a project anticipates having multiple repositories, the {{ site.foundation_na
 
 There are two strategies for migrating the code to a hosted project repository.
 
-- The best practice is for the {{ site.foundation_name }} staff to provision a new repository, where the new code can be contributed to as a pull request. 
-- If preserving the commit history is important, the repository can be transferred using the [GitHub transfer repository](https://docs.github.com/en/github/administering-a-repositoriesitory/transferring-a-repositoriesitory) process. If doing this, before the transfer, you must add a commit to the repositories providing a DCO signoff for all previous commits. The easiest way is to check in a file called `past-dco-signoff.txt` with the contents below...
+- The best practice is for the {{ site.foundation_name }} staff to provision a new repository, where the new code can be contributed to as a pull request.
+- If preserving the commit history is important, the repository can be transferred using the [GitHub transfer repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository) process. If doing this, before the transfer, you must add a commit to the repositories providing a DCO signoff for all previous commits. The easiest way is to check in a file called `past-dco-signoff.txt` with the contents below...
 
 ```
-I, <AUTHOR NAME> <<AUTHOR EMAIL>> hereby sign-off-by all of the commits prior to and including <COMMIT_HASH> to this repo subject to the Developer Certificate of Origin (DCO), Version 1.1. 
+I, <AUTHOR NAME> <<AUTHOR EMAIL>> hereby sign-off-by all of the commits prior to and including <COMMIT_HASH> to this repo subject to the Developer Certificate of Origin (DCO), Version 1.1.
 ```
 
 ## Settings
@@ -58,7 +58,7 @@ All projects requiring a Contributor License Agreement (CLA) leverage [EasyCLA](
 
 ### Permissions
 
-Projects should define a COMMITTERS.* file for indicating committers that can merge in code to a repository. The list of committers is generally approved by the TSC or the committers, aligning with the requirements described in the project's governance. Permissions are managed using GitHub teams, where the TSC or committers will have a team, and that team will be given ['maintain' permission](https://docs.github.com/en/github/setting-up-and-managing-organizations-and-teams/repositoriesitory-permission-levels-for-an-organization#permission-levels-for-repositoriesitories-owned-by-an-organization) on the repositories.
+Projects should define a COMMITTERS.* file for indicating committers that can merge in code to a repository. The list of committers is generally approved by the TSC or the committers, aligning with the requirements described in the project's governance. Permissions are managed using GitHub teams, where the TSC or committers will have a team, and that team will be given ['maintain' permission](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) on the repositories.
 
 The best process for adding a new committer is to have that committer issue a pull request to add their name to the COMMITTERS.* file, where the required number of TSC members or committers can +1 the request, and the TSC chairperson can merge in it and can add the individual to the team.
 
@@ -66,7 +66,7 @@ The best process for adding a new committer is to have that committer issue a pu
 
 The below branch protection settings on the `master` or `main` branch are enabled by default.
 
-![Branch Protection Diagram]({{ './assets/branch_protection.png' | relative_url }})
+![Branch Protection Diagram]({% link tools/assets/branch_protection.png %})
 
 ## Issue management
 
