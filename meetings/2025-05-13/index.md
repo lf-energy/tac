@@ -79,10 +79,10 @@ the Linux Foundation.
 ## Recording and Deck
 
 - [Recording](https://zoom.us/rec/share/aYBLHcvP8xGyavIleO70BhPtJUC91Wmp2Kww4JUlpP0ai3mdr6zOPs3SLxYaAhsC.qbwBwWstjUzBnojd)
-- [Deck](2025-05-13/LF%20Energy%20-%20TAC%20Meeting%20-%202025-05-13.pdf)
- - [CUPID Project Proposal](2025-05-13/CUPID.pdf)
- - [SOGNO Annual Review](2025-05-13/LFE-SOGNO-TAC-Review-2025.pdf)
- - [OpenDSM Annual Review](2025-05-13/LFE_OpenDSM_ProjectAnnualReview_TAC_2025.pdf)
+- [Deck](LF%20Energy%20-%20TAC%20Meeting%20-%202025-05-13.pdf)
+ - [CUPID Project Proposal](CUPID.pdf)
+ - [SOGNO Annual Review](LFE-SOGNO-TAC-Review-2025.pdf)
+ - [OpenDSM Annual Review](LFE_OpenDSM_ProjectAnnualReview_TAC_2025.pdf)
 
 ## Agenda
 
