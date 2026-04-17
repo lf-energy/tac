@@ -58,7 +58,7 @@ All projects requiring a Contributor License Agreement (CLA) leverage [EasyCLA](
 
 ### Permissions
 
-Projects should define a COMMITTERS.* file for indicating committers that can merge in code to a repository. The list of committers is generally approved by the TSC or the committers, aligning with the requirements described in the project's governance. Permissions are managed using GitHub teams, where the TSC or committers will have a team, and that team will be given ['maintain' permission](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) on the repositories.
+Projects should define a COMMITTERS.* file for indicating committers that can merge in code to a repository. The list of committers is generally approved by the TSC or the committers, aligning with the requirements described in the project's governance. Permissions are managed using GitHub teams, where the TSC or committers will have a team, and that team will be given ['maintain' permission](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization) on the repositories.
 
 The best process for adding a new committer is to have that committer issue a pull request to add their name to the COMMITTERS.* file, where the required number of TSC members or committers can +1 the request, and the TSC chairperson can merge in it and can add the individual to the team.
 
@@ -84,7 +84,7 @@ Defining a CODEOWNERS makes an automated process for assigning new pull requests
 
 Issue triaging can be complicated and overwhelming, especially when managing a project to a release point. For projects that utilize an organization, having a single view of open issues across repositories is also very helpful in release management.
 
-GitHub has the functionality for doing either a [single repository project board](https://docs.github.com/en/github/managing-your-work-on-github/creating-a-project-board#creating-a-repository-project-board) or a [multiple repository project board](https://docs.github.com/en/github/managing-your-work-on-github/creating-a-project-board#creating-an-organization-wide-project-board). Automation capabilities can also be leveraged to aid in using project boards.
+GitHub has the functionality for [project boards for one or more repositories](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project). Automation capabilities can also be leveraged to aid in using project boards.
 
 ## Using GitHub
 
