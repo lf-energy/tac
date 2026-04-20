@@ -1,8 +1,11 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
+Grid2Op,https://github.com/lf-energy/tac/issues/287,287,2026-06-09,Next Meeting Agenda Items,2025-02-11,2-annual-review
+CoMPAS ,https://github.com/lf-energy/tac/issues/72,72,2026-06-09,Next Meeting Agenda Items,2025-06-10,2-annual-review
+Security Advisory: Active Exploitation of Weak GitHub Actions Configurations,https://github.com/lf-energy/tac/issues/775,775,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+OpenDSM,https://github.com/lf-energy/tac/issues/7,7,2026-05-12,Upcoming Meeting Agenda Items,2025-05-13,2-annual-review
+CUPID (Controllable Unit Protocol Interface for DER) (was IEEE 2030.5 over NATS),https://github.com/lf-energy/tac/issues/383,383,2026-05-12,Upcoming Meeting Agenda Items,2025-05-13,2-annual-review
+SOGNO,https://github.com/lf-energy/tac/issues/75,75,2026-05-12,Upcoming Meeting Agenda Items,2025-05-13,2-annual-review
 New Project Proposal - EnerGNN,https://github.com/lf-energy/tac/issues/753,753,2026-04-14,In Voting,,1-new-project-wg
-SOGNO,https://github.com/lf-energy/tac/issues/75,75,2026-05-12,Next Meeting Agenda Items,2025-05-13,2-annual-review
-CUPID (Controllable Unit Protocol Interface for DER) (was IEEE 2030.5 over NATS),https://github.com/lf-energy/tac/issues/383,383,2026-05-12,Next Meeting Agenda Items,2025-05-13,2-annual-review
-OpenDSM,https://github.com/lf-energy/tac/issues/7,7,2026-05-12,Next Meeting Agenda Items,2025-05-13,2-annual-review
 LF Energy RegistryOS,https://github.com/lf-energy/tac/issues/556,556,2027-02-09,Future Meeting Agenda Items,,2-annual-review
 AINETUS (AI for safety-critical NEtwork infrastrUctureS),https://github.com/lf-energy/tac/issues/704,704,2027-03-09,Future Meeting Agenda Items,,2-annual-review
 OpenSynth,https://github.com/lf-energy/tac/issues/68,68,2026-04-21,SIG Annual Reviews,2025-03-11,2-annual-review-sig
@@ -32,10 +35,8 @@ Power Grid Model,https://github.com/lf-energy/tac/issues/81,81,2027-02-03,SIG An
 EVerest,https://github.com/lf-energy/tac/issues/28,28,2027-01-27,SIG Annual Reviews,2026-01-28,2-annual-review-sig
 PowSyBl,https://github.com/lf-energy/tac/issues/22,22,2026-12-02,SIG Annual Reviews,2025-12-03,2-annual-review-sig
 Hyphae,https://github.com/lf-energy/tac/issues/74,74,2027-03-24,SIG Annual Reviews,2026-03-25,2-annual-review-sig
-Grid2Op,https://github.com/lf-energy/tac/issues/287,287,2026-06-09,Future Meeting Agenda Items,2025-02-11,2-annual-review
 covXtreme,https://github.com/lf-energy/tac/issues/66,66,2026-04-01,SIG Annual Reviews,2025-04-02,2-annual-review-sig
 OpenSTEF,https://github.com/lf-energy/tac/issues/25,25,2027-02-03,SIG Annual Reviews,2026-02-04,2-annual-review-sig
-CoMPAS ,https://github.com/lf-energy/tac/issues/72,72,2026-06-09,Future Meeting Agenda Items,2025-06-10,2-annual-review
 Dynaωo,https://github.com/lf-energy/tac/issues/29,29,2026-04-01,SIG Annual Reviews,2025-10-01,2-annual-review-sig
 LFX Insights updates,https://github.com/lf-energy/tac/issues/351,351,,On Hold,,3-tac-meeting-long
 SC Decarbonisation Hub,https://github.com/lf-energy/tac/issues/171,171,2025-11-11,On Hold,,2-annual-review
@@ -49,10 +50,10 @@ New Project Proposal - PowerCore,https://github.com/lf-energy/tac/issues/590,590
 New Project Proposal - Smart HEMS Benchmark,https://github.com/lf-energy/tac/issues/669,669,,LF Onboarding,,1-new-project-wg
 SEAPATH - Documentation Support,https://github.com/lf-energy/tac/issues/658,658,,Project Resource Requests,,
 CI/CD runners for EVerest - Resource Request,https://github.com/lf-energy/tac/issues/655,655,,Project Resource Requests,,
-2026 TAC Priorities,https://github.com/lf-energy/tac/issues/673,673,2026-02-10,Upcoming Meeting Agenda Items,,3-tac-meeting-long
-Proposal for SBOM + SigStore + SWHID for LF Energy Releases,https://github.com/lf-energy/tac/pull/653,653,2026-04-14,Upcoming Meeting Agenda Items,,4-tac-meeting-short
-Shapeshifter,https://github.com/lf-energy/tac/issues/136,136,2026-04-14,Upcoming Meeting Agenda Items,2025-04-08,2-annual-review
-LF Energy Semantic Energy Framework (LFE-SEF),https://github.com/lf-energy/tac/issues/132,132,2026-04-14,Upcoming Meeting Agenda Items,2024-04-23,2-annual-review
+2026 TAC Priorities,https://github.com/lf-energy/tac/issues/673,673,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+Proposal for SBOM + SigStore + SWHID for LF Energy Releases,https://github.com/lf-energy/tac/pull/653,653,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+Shapeshifter,https://github.com/lf-energy/tac/issues/136,136,2027-04-13,Future Meeting Agenda Items,2026-04-14,2-annual-review
+LF Energy Semantic Energy Framework (LFE-SEF),https://github.com/lf-energy/tac/issues/132,132,2027-04-13,Future Meeting Agenda Items,2026-04-14,2-annual-review
 Determine prioritization for Security Audits,https://github.com/lf-energy/tac/issues/408,408,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 SEAPATH ,https://github.com/lf-energy/tac/issues/73,73,,Future Meeting Agenda Items,2025-01-14,2-annual-review
 Grid Simulation and Modeling SIG,https://github.com/lf-energy/tac/issues/459,459,2027-02-09,Future Meeting Agenda Items,2026-02-10,2-annual-review
@@ -64,6 +65,5 @@ G-SYSTEM Ω-PRIME-Σ (SIGMA): Stochastic Pulse Protocol for Battery Longevity,ht
 G-SYSTEM OMEGA-PRIME-SIGMA: 40-Year Battery Longevity Protocol,https://github.com/lf-energy/tac/issues/713,713,,LF Onboarding,,1-new-project-wg
 New Project Proposal - GridMind,https://github.com/lf-energy/tac/issues/750,750,,LF Onboarding,,1-new-project-wg
 OSPO SIG,https://github.com/lf-energy/tac/issues/771,771,2026-11-10,Future Meeting Agenda Items,,2-annual-review
-Security Advisory: Active Exploitation of Weak GitHub Actions Configurations,https://github.com/lf-energy/tac/issues/775,775,,Next Meeting Agenda Items,,4-tac-meeting-short
 AWS request for genAI openSTEF documentation pipeline,https://github.com/lf-energy/tac/issues/793,793,,Project Resource Requests,,
 Annual Review format review/revise,https://github.com/lf-energy/tac/issues/798,798,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
