@@ -1,4 +1,5 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
+AWS request for genAI openSTEF documentation pipeline,https://github.com/lf-energy/tac/issues/793,793,,In Voting,,
 Grid2Op,https://github.com/lf-energy/tac/issues/287,287,2026-06-09,Next Meeting Agenda Items,2025-02-11,2-annual-review
 CoMPAS ,https://github.com/lf-energy/tac/issues/72,72,2026-06-09,Next Meeting Agenda Items,2025-06-10,2-annual-review
 Security Advisory: Active Exploitation of Weak GitHub Actions Configurations,https://github.com/lf-energy/tac/issues/775,775,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
@@ -45,7 +46,7 @@ Security Strategy updates for LF Energy hosted projects,https://github.com/lf-en
 OperatorFabric,https://github.com/lf-energy/tac/issues/71,71,2026-09-08,Future Meeting Agenda Items,2025-09-02,2-annual-review
 Real Time Data Ingestion Platform (RTDIP),https://github.com/lf-energy/tac/issues/26,26,2026-07-14,Future Meeting Agenda Items,2025-07-08,2-annual-review
 Grid eXchange Fabric (GXF),https://github.com/lf-energy/tac/issues/8,8,2026-07-14,Future Meeting Agenda Items,2025-07-08,2-annual-review
-Open Renewable Energy System (ORES) Working Group,https://github.com/lf-energy/tac/issues/107,107,2026-04-22,SIG Annual Reviews,2025-04-08,2-annual-review-sig
+Open Renewable Energy System (ORES) Working Group,https://github.com/lf-energy/tac/issues/107,107,2027-04-21,SIG Annual Reviews,2026-04-22,2-annual-review-sig
 New Project Proposal - PowerCore,https://github.com/lf-energy/tac/issues/590,590,,LF Onboarding,,1-new-project-wg
 New Project Proposal - Smart HEMS Benchmark,https://github.com/lf-energy/tac/issues/669,669,,LF Onboarding,,1-new-project-wg
 SEAPATH - Documentation Support,https://github.com/lf-energy/tac/issues/658,658,,Project Resource Requests,,
@@ -63,5 +64,4 @@ RAVEN :Recognition of Asset and Vegetation for Electrical Network,https://github
 ReLife,https://github.com/lf-energy/tac/issues/762,762,,LF Onboarding,,1-new-project-wg
 New Project Proposal - GridMind,https://github.com/lf-energy/tac/issues/750,750,,LF Onboarding,,1-new-project-wg
 OSPO SIG,https://github.com/lf-energy/tac/issues/771,771,2026-11-10,Future Meeting Agenda Items,,2-annual-review
-AWS request for genAI openSTEF documentation pipeline,https://github.com/lf-energy/tac/issues/793,793,,Project Resource Requests,,
 Annual Review format review/revise,https://github.com/lf-energy/tac/issues/798,798,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
