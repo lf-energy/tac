@@ -1,5 +1,4 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
-AWS request for genAI openSTEF documentation pipeline,https://github.com/lf-energy/tac/issues/793,793,,In Voting,,
 Grid2Op,https://github.com/lf-energy/tac/issues/287,287,2026-06-09,Next Meeting Agenda Items,2025-02-11,2-annual-review
 CoMPAS ,https://github.com/lf-energy/tac/issues/72,72,2026-06-09,Next Meeting Agenda Items,2025-06-10,2-annual-review
 Security Advisory: Active Exploitation of Weak GitHub Actions Configurations,https://github.com/lf-energy/tac/issues/775,775,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
