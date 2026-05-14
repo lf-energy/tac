@@ -78,7 +78,7 @@ The Sandbox Stage benefits are outlined below.
 - Regularly scheduled license scans of the project’s codebase with results reported to the project’s mailing list.
 - Use of the LFX platform, including LFX Insights and LFX Security, for managing project health and security status.
 
-Sandbox Stage projects will provide a quarterly report and present an annual review to the primary SIG it is aligned with, outlining its progress on completing the requirements for the Incubation Stage. 
+Sandbox Stage projects will present an [annual review]({% link process/review_cycle.md %}) to either the TAC or the primary SIG it is aligned with, outlining its progress on completing the requirements for the Incubation Stage. 
 
 It’s expected that projects in the Sandbox Stage move to the Incubation Stage within one year. In the case of a Sandbox Stage project that is not renewed with {{ site.foundation_name }}, the trademark and any other assets will be returned to the project maintainers or an organization they designate.
 
@@ -185,7 +185,7 @@ The project must receive the affirmative majority vote of the TAC and subsequent
 Graduated Stage projects are considered “TAC Projects” as defined in the {{ site.foundation_name }} Charter, with all the rights and responsibilities as defined in the {{ site.foundation_name }} Charter. In particular, Graduated Stage projects are entitled to the following benefits in addition to those benefits at the Incubation and Early Adoption stages.
 
 - A voting representative from the project on the TAC.
-- Quarterly strategic planning meetings with the project leadership and the {{ site.foundation_name }} staff to define the actions and activities to support the project.
+- Regular strategic planning meetings with the project leadership and the {{ site.foundation_name }} staff to define the actions and activities to support the project.
 - Access to discretionary budget for supporting project-specific outreach and ecosystem development activities, subject to approval by the Governing Board.
 - Advanced marketing/communication/PR support that includes project promotion via blog posts, social media, and {{ site.foundation_name }} website; support with white papers and posters, and any marketing collateral designated to promote the project.
 
