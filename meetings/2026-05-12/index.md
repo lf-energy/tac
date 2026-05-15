@@ -69,9 +69,8 @@
 
 
 
-* Deck
-* OpenDSM Annual Review
-* SOGNO Annual Review
+* [Deck](https://github.com/lf-energy/tac/blob/main/meetings/2026-05-12/LF%20Energy%20-%20TAC%20Meeting%20-%202026-05-12.pdf)
+* [OpenDSM Annual Review](https://github.com/lf-energy/tac/blob/main/meetings/2026-05-12/LFE_OpenDSM_ProjectAnnualReview_TAC_2026.pdf)
 * [Recording](https://zoom.us/rec/share/OHJ7ps341YHNF4YDQzYoBRpkpO_7r630SE5KUnpOFA3VKTTzRntuH31XuZKo24sp.d8J1wM5g4oy4HtOj)
 
 
