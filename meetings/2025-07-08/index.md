@@ -112,6 +112,8 @@ the Linux Foundation.
 
 - [Deck](LF%20Energy%20-%20TAC%20Meeting%20-%202025-07-08.pdf)
 - [Recording](https://zoom.us/rec/share/wInyiSIRoNA6P9GgmYJolEZuwCx9mzKANtRBvaDV23Vy8Xgzsb2W4wtG1Ft3fzrx.L4xRanTArPBAUqUX)
+- [Annual Review - GXF](2025%20-%20Annual%20Review%20GXF.pdf)
+- [Annual Review - RTDIP](RTDIP%202025%20Annual%20Review.pdf)
 
 ## Notes
 
