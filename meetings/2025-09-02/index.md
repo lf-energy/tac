@@ -83,6 +83,7 @@ Join the meeting at [https://zoom-lfx.platform.linuxfoundation.org/meeting/95214
 - [Deck](LF%20Energy%20-%20TAC%20Meeting%20-%202025-09-02.pdf)
 - [Annual Review: OperatorFabric](OperatorFabric_Annual_Review_2025.pdf)
 - [New Project/Working Group Proposal: RTC-Tools](RTC-Tools%20TAC%20LF%20Energy%20Meeting%20Sep%202%20-2025.pdf)
+- [New Project/Working Group Proposal: p-SWAMP](Statnett%20R%26D%20WAMPAC%20LF%20energy%20TAC%202%20sept%202025.pdf)
 - [Recording](https://zoom.us/rec/share/hYHjA8oU94NYMCuCCpE3o2yE9hsT5Fhz36q36uf5g2OpH1Al9NGydyAxcHQ1Sxgz.yiIEU6tIIC9h3ql1)
 
 ## Antitrust Policy Notice
