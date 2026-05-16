@@ -1,4 +1,5 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
+New Project Proposal - Smart HEMS Benchmark,https://github.com/lf-energy/tac/issues/669,669,,Upcoming Meeting Agenda Items,,1-new-project-wg
 Annual Review format review/revise,https://github.com/lf-energy/tac/issues/798,798,,In Voting,,4-tac-meeting-short
 Grid eXchange Fabric (GXF),https://github.com/lf-energy/tac/issues/8,8,2026-07-14,Next Meeting Agenda Items,2025-07-08,2-annual-review
 Real Time Data Ingestion Platform (RTDIP),https://github.com/lf-energy/tac/issues/26,26,2026-07-14,Next Meeting Agenda Items,2025-07-08,2-annual-review
@@ -49,7 +50,6 @@ Security Strategy updates for LF Energy hosted projects,https://github.com/lf-en
 OperatorFabric,https://github.com/lf-energy/tac/issues/71,71,2026-09-08,Future Meeting Agenda Items,2025-09-02,2-annual-review
 Open Renewable Energy System (ORES) Working Group,https://github.com/lf-energy/tac/issues/107,107,2027-04-21,SIG Annual Reviews,2026-04-22,2-annual-review-sig
 New Project Proposal - PowerCore,https://github.com/lf-energy/tac/issues/590,590,,LF Onboarding,,1-new-project-wg
-New Project Proposal - Smart HEMS Benchmark,https://github.com/lf-energy/tac/issues/669,669,,LF Onboarding,,1-new-project-wg
 SEAPATH - Documentation Support,https://github.com/lf-energy/tac/issues/658,658,,Project Resource Requests,,
 CI/CD runners for EVerest - Resource Request,https://github.com/lf-energy/tac/issues/655,655,,Project Resource Requests,,
 2026 TAC Priorities,https://github.com/lf-energy/tac/issues/673,673,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
