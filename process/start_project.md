@@ -13,6 +13,10 @@ nav_order: 1
 
 This document outlines why you should host your project at the {{ site.foundation_name }}, what makes a good {{ site.foundation_name }} hosted project, and the steps for bringing a project to the {{ site.foundation_name }}.
 
+You can also check out the video below which outlines the steps to bring a project to LF Energy.
+
+[![Bringing a project to LF Energy](https://img.youtube.com/vi/Vd7yEM45Ycc/0.jpg)](https://www.youtube.com/watch?v=Vd7yEM45Ycc)
+
 ## Why host your project at the {{ site.foundation_name }}?
 
 A basic premise behind the Linux Foundation, the {{ site.foundation_name }}, and open source in general, is that most interactions are positive-sum. No fixed amount of investment, mindshare, or development contributions are allocated to specific projects. Just as open source development is based on the idea that we are collectively smarter than one any of us, open source foundations work to make the entire community better off. **Equally important, a neutral home for a project and community fosters this positive-sum thinking. It drives growth and diversity, core elements of a successful open-source project.**
