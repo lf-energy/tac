@@ -1,0 +1,93 @@
+# Proposal: Adopt SBOM + Sigstore + SWHID for All Releases Across LF Energy Projects
+
+In this [recent and insightful post from Mike Dolan](https://www.linkedin.com/posts/michaelkdolan_opensource-cybersecurity-activity-7382412809453723648-CHfd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEB-KLQB8OFyT2PtR11cYpzvvm0C1XU8xR8), he outlines how SBOMs and cryptographic signatures can be systematically associated with binary releases. Building on this direction, this proposal recommends extending that practice across **all LF Energy projects** — and adding a third, complementary element: the SoftWare Hash IDentifier (SWHID).
+
+Together, these three mechanisms — **SBOM (SPDX), Sigstore signatures, and SWHID** — ensure complete transparency, verifiable provenance, and long-term preservation for every release.
+
+---
+
+## ✅ Standards and Recommended Implementations
+
+**1. SBOM — SPDX (ISO/IEC 5962)**
+SPDX is the recognized international standard for representing a Software Bill of Materials.
+
+**2. Signatures — Sigstore**
+Sigstore provides identity-based, short-lived cryptographic signatures stored in an immutable transparency log.
+
+**3. Source Preservation — SWHID (ISO/IEC 18670)**
+SWHIDs provide a permanent, content-based identifier linked to a specific revision archived by Software Heritage.
+
+---
+
+## ✅ Why This Matters
+
+### 1. SBOM – *Know What’s Inside*
+
+An SBOM offers:
+
+* Transparency on dependencies and licensing
+* Faster vulnerability and compliance analysis
+* Alignment with regulatory frameworks (EU CRA, NIS2, US EO 14028, etc.)
+* Easier long-term maintenance
+
+**It answers:** *What exactly is in this release?*
+
+### 2. Sigstore – *Trust the Source*
+
+Sigstore modernizes signing practices by eliminating private key silos and tying signatures to verified identities.
+
+It guarantees:
+
+* Authenticated authorship
+* Tamper detection
+* Public record via Rekor
+* CI/CD-native integration
+
+**It answers:** *Who built this, and has it remained intact?*
+
+### 3. SWHID – *Preserve It Forever*
+
+SWHIDs connect a release to its exact source code, archived independently of any platform.
+
+This enables:
+
+* Immutable long-term reference
+* Reproducibility and citation
+* Protection against repository loss or rewriting
+* FAIR/Open Science and Digital Commons alignment
+
+**It answers:** *Where is the exact source, even in 20 years?*
+
+---
+
+## ✅ The Power of Combining All Three
+
+Using SBOM + Sigstore + SWHID delivers end-to-end provenance:
+
+| Aspect       | Question Solved                          | Mechanism   |
+| ------------ | ---------------------------------------- | ----------- |
+| Composition  | What is in the release?                  | SBOM (SPDX) |
+| Authenticity | Who built it and is it unchanged?        | Sigstore    |
+| Permanence   | Where is the definitive historical copy? | SWHID       |
+
+**Combined, they offer:**
+
+* Complete provenance (what + who + where + when)
+* Regulatory and contractual readiness
+* Industrial and institutional trust
+* Alignment with digital public goods and sovereign tech strategies
+
+---
+
+## ✅ Conclusion
+
+Adopting these three elements across LF Energy projects would make releases:
+
+* **Auditable** – compliant with security and policy requirements
+* **Verifiable** – cryptographically traceable over time
+* **Reproducible** – resilient to platform or repo changes
+* **Credible** – enterprise- and government-grade
+
+This is no longer optional: it reflects the emerging baseline for responsible open-source distribution in 2026 and beyond.
+
+I would be happy to help define a minimal implementation roadmap or template for all LF Energy repositories.
