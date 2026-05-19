@@ -1,4 +1,6 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
+New Project Proposal - GridMind,https://github.com/lf-energy/tac/issues/750,750,,On Hold,,1-new-project-wg
+New Project Proposal - PowerCore,https://github.com/lf-energy/tac/issues/590,590,,On Hold,,1-new-project-wg
 New Project Proposal - Smart HEMS Benchmark,https://github.com/lf-energy/tac/issues/669,669,,Upcoming Meeting Agenda Items,,1-new-project-wg
 Annual Review format review/revise,https://github.com/lf-energy/tac/issues/798,798,,In Voting,,4-tac-meeting-short
 Grid eXchange Fabric (GXF),https://github.com/lf-energy/tac/issues/8,8,2026-07-14,Next Meeting Agenda Items,2025-07-08,2-annual-review
@@ -49,7 +51,6 @@ Speakers from other LF projects on community building,https://github.com/lf-ener
 Security Strategy updates for LF Energy hosted projects,https://github.com/lf-energy/tac/issues/14,14,,On Hold,,4-tac-meeting-short
 OperatorFabric,https://github.com/lf-energy/tac/issues/71,71,2026-09-08,Future Meeting Agenda Items,2025-09-02,2-annual-review
 Open Renewable Energy System (ORES) Working Group,https://github.com/lf-energy/tac/issues/107,107,2027-04-21,SIG Annual Reviews,2026-04-22,2-annual-review-sig
-New Project Proposal - PowerCore,https://github.com/lf-energy/tac/issues/590,590,,LF Onboarding,,1-new-project-wg
 SEAPATH - Documentation Support,https://github.com/lf-energy/tac/issues/658,658,,Project Resource Requests,,
 CI/CD runners for EVerest - Resource Request,https://github.com/lf-energy/tac/issues/655,655,,Project Resource Requests,,
 2026 TAC Priorities,https://github.com/lf-energy/tac/issues/673,673,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
@@ -62,6 +63,5 @@ Grid Simulation and Modeling SIG,https://github.com/lf-energy/tac/issues/459,459
 Edge Interoperability and Flexibility SIG,https://github.com/lf-energy/tac/issues/458,458,2027-02-09,Future Meeting Agenda Items,2026-02-10,2-annual-review
 EDDIE - European Distributed Data Infrastructure for Energy,https://github.com/lf-energy/tac/issues/719,719,,LF Onboarding,,1-new-project-wg
 RAVEN :Recognition of Asset and Vegetation for Electrical Network,https://github.com/lf-energy/tac/issues/764,764,,LF Onboarding,,1-new-project-wg
-New Project Proposal - GridMind,https://github.com/lf-energy/tac/issues/750,750,,LF Onboarding,,1-new-project-wg
 OSPO SIG,https://github.com/lf-energy/tac/issues/771,771,2026-11-10,Future Meeting Agenda Items,,2-annual-review
 Create guide for projects to help them focus on the right things as they move through the lifecycle,https://github.com/lf-energy/tac/pull/823,823,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
