@@ -1,6 +1,8 @@
 ---
 parent: "2024"
 title: "2024-12-10"
+redirect_from:
+    - meetings/2024-12-10
 ---
 
 # LF Energy TAC Meeting Minutes

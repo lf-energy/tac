@@ -1,6 +1,8 @@
 ---
 parent: "2025"
 title: "2025-09-02"
+redirect_from:
+   - meetings/2025-09-02
 ---
 
 # LF Energy Technical Advisory Council (TAC) Meeting - September 2, 2025

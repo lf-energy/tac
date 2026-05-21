@@ -1,6 +1,8 @@
 ---
 parent: "2025"
 title: "2025-01-21"
+redirect_from:
+   - meetings/2025-01-21
 ---
 
 

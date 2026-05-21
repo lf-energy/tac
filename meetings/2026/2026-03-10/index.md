@@ -2,6 +2,8 @@
 parent: "2026"
 grand_parent: "Meetings"
 title: "2026-03-10"
+redirect_from:
+   - meetings/2026-03-10
 ---
 
 

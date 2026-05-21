@@ -1,6 +1,8 @@
 ---
 parent: "2025"
 title: "2025-03-11"
+redirect_from:
+   - meetings/2025-03-11
 ---
 
 # LF Energy Technical Advisory Council (TAC) Meeting - March 11, 2025

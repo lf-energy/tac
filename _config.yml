@@ -100,7 +100,7 @@ callouts:
 
 defaults:
   - scope:
-      path: "meetings/*/README.md"
+      path: "meetings/*/index.md"
       type: "pages"
     values:
       title: My Title

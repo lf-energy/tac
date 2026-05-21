@@ -2,6 +2,8 @@
 parent: "2026"
 grand_parent: "Meetings"
 title: "2026-01-13"
+redirect_from:
+   - meetings/2026-01-13
 ---
 
 # LF Energy Technical Advisory Council (TAC) Meeting - January 13, 2026

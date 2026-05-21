@@ -1,6 +1,8 @@
 ---
 parent: "2025"
 title: "2025-02-11"
+redirect_from:
+   - meetings/2025-02-11
 ---
 
 # LF Energy TAC Meeting Minutes - February 11, 2025
