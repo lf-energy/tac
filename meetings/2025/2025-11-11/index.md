@@ -17,8 +17,8 @@ redirect_from:
 - [x] Art Pope - Google LLC
 - [ ] Boris Dolley - RTE (Reseau de Transport dElectricite)
 - [x] Sachin Bakhar - Shell International Exploration & Production, Inc.
-- [x] Jonas van den Bogaard - Alliander 
-- [ ] Moise Kameni - Hydro-Quebec 
+- [x] Jonas van den Bogaard - Alliander
+- [ ] Moise Kameni - Hydro-Quebec
 
 
 ### Project Representatives
@@ -27,7 +27,7 @@ redirect_from:
 
 - [ ] Clément Bouvier - OperatorFabric Representative
 - [x] Maarten Mulder - Grid eXchange Fabric (GXF) Representative
-- [ ] Peter Mitri - PowSyBl Representative 
+- [ ] Peter Mitri - PowSyBl Representative
 - [ ] Travis Sikes - OpenDSM Representative
 
 
@@ -90,9 +90,9 @@ Examples of types of actions that are prohibited at Linux Foundation meetings an
 ## Agenda
 
 * General Updates
-* New Project Proposal: Project Origin [#576](https://github.com/orgs/lf-energy/projects/2?pane=issue&itemId=118976779&issue=lf-energy%7Ctac%7C576)
-* Annual Review: AI SIG [#93](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=45965002&issue=lf-energy%7Ctac%7C93)
-* Annual Review: SC Decarbonisation Hub [#171](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=66748737&issue=lf-energy%7Ctac%7C171)
+* New Project Proposal: Project Origin [#576](https://github.com/lf-energy/tac/issues/576)
+* Annual Review: AI SIG [#93](https://github.com/lf-energy/tac/issues/93)
+* Annual Review: SC Decarbonisation Hub [#171](https://github.com/lf-energy/tac/issues/171)
 * Marketing and Events Updates
 
 ## Notes
@@ -119,25 +119,25 @@ Mertic provided an update on the projects in the pipeline.
 
 ### TAC Priorities
 
-Mertic reviewed the 2025 priorities and mentioned a session to discuss TAC priorities for 2026 is tentatively planned for the January meeting. He asked the TAC to review and provide feedback on the [pull request for the documentation audit support](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=136016025&issue=lf-energy%7Ctac%7C546) to get it finalized by the next meeting. Mertic also asked the TAC to continue providing feedback on the [current lifecycle adjustments](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=136015884&issue=lf-energy%7Ctac%7C650) so that a draft of potential changes could be presented at the next meeting.
+Mertic reviewed the 2025 priorities and mentioned a session to discuss TAC priorities for 2026 is tentatively planned for the January meeting. He asked the TAC to review and provide feedback on the [pull request for the documentation audit support](https://github.com/lf-energy/tac/issues/546) to get it finalized by the next meeting. Mertic also asked the TAC to continue providing feedback on the [current lifecycle adjustments](https://github.com/lf-energy/tac/issues/650) so that a draft of potential changes could be presented at the next meeting.
 
 Mertic mentioned the focus of security audits is shifting to lighter-weight security threat models and he asked Incubation-stage projects to comment if they would like to participate in one of the approximately five available engagements.
 
 Mertic concluded the updates with a reminder that Projects should review the license scan reports and the newly included SBOMs from Jeff Shapiro. The main ask is to address key findings and general maintenance work outlined in the report.
 
-### Project Origin Presentation [#576](https://github.com/orgs/lf-energy/projects/2?pane=issue&itemId=118976779&issue=lf-energy%7Ctac%7C576)
+### Project Origin Presentation [#576](https://github.com/lf-energy/tac/issues/576)
 
 Thomas Wisbech presented Project Origin, a decentralized certificate registry system that allows for tokenization and proof of ownership in energy management systems. He explained that the system has been in production and was recently published. Wisbech highlighted its potential applications in home energy management systems and its alignment with ORES. He emphasized the need for true decentralization, cryptographic consistency between registries, and proper governance to validate transactions and manage rules. Thomas also mentioned his departure from Energinet on December 31st and expressed his desire to hand over the project to the public domain.
 
-Wisbech explained that Project Origin was discontinued by its original developer, Energinet, due to misalignment with their core mission. He noted that while the project had been in production and had received European Commission approval, it hadn't found market fit, with market participants only wanting minor changes before going to market. The TAC discussed the challenges of bringing discontinued projects into LF Energy, with Mertic highlighting that successful projects typically come with existing development resources and community support, which Project Origin currently lacks. 
+Wisbech explained that Project Origin was discontinued by its original developer, Energinet, due to misalignment with their core mission. He noted that while the project had been in production and had received European Commission approval, it hadn't found market fit, with market participants only wanting minor changes before going to market. The TAC discussed the challenges of bringing discontinued projects into LF Energy, with Mertic highlighting that successful projects typically come with existing development resources and community support, which Project Origin currently lacks.
 
 The group discussed the Project Origin proposal. A TAC member raised concerns about adoption and potential use cases, particularly for utilities in demand response management. Wisbech shared Energinet's experience with vehicle-to-grid technology and emphasized the need for standards in this area. Arila Barnes proposed a knowledge transfer from Energinet to the ORES Group and the Hyphae project, highlighting the potential benefits for distributed microgrids and tokenization efforts. Barnes suggested exploring potential synergies between the two solutions. Wisbech and Barnes agreed to meet to discuss the opportunity and then report back to the TAC.
 
-### AI SIG Annual Review [#53](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=39989290&issue=lf-energy%7Ctac%7C53)
+### AI SIG Annual Review [#53](https://github.com/lf-energy/tac/issues/53)
 
 Alexandre Parisot presented the AI annual review, highlighting its activities, projects, and outreach efforts. He mentioned the publication of an AI white paper and the SIG's response to the EU's call for evidence on digitalization and AI in the energy sector. David Chassin raised concerns about data quality and biases in AI models, which Parisot acknowledged as a significant issue. The group discussed potential tools and strategies to address these challenges. Parisot mentioned the SIG would be hosting annual reviews for its projects, noting the first would be GridFM.
 
-### SC Decarbonisation Annual Review [#171](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=66748737&issue=lf-energy%7Ctac%7C171)
+### SC Decarbonisation Annual Review [#171](https://github.com/lf-energy/tac/issues/171)
 
 Bhakar reported changes in the project leadership and will provide updates at a future meeting.
 

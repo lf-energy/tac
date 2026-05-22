@@ -75,9 +75,9 @@ Examples of types of actions that are prohibited at Linux Foundation meetings an
 ## Agenda
 
 * General Updates
-* New Project Proposal: Project Origin [#576](https://github.com/orgs/lf-energy/projects/2?pane=issue&itemId=118976779&issue=lf-energy%7Ctac%7C576)
-* Annual Review: Archimate [#93](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=45965002&issue=lf-energy%7Ctac%7C93)
-* Annual Review: GEISA [#230](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=79780662&issue=lf-energy%7Ctac%7C230)
+* New Project Proposal: Project Origin [#576](https://github.com/lf-energy/tac/issues/576)
+* Annual Review: Archimate [#93](https://github.com/lf-energy/tac/issues/93)
+* Annual Review: GEISA [#230](https://github.com/lf-energy/tac/issues/230)
 * Marketing and Events Updates
 
 ## Notes
@@ -104,13 +104,13 @@ Finally, Mertic announced a refresh of the Project Lifecycle Review. A short sur
 
 Mertic spoke about security audits and proposed a strategy for 2026 to focus on "lighter weight" security audits for incubation projects, rather than full-blown audits. He noted the cost of one full audit is equivalent to five lighter audits, and that some projects, like SOGNO, might be better suited for a threat model analysis. Van den Bogaard supported this idea, noting that it offers more options beyond the current full security audit and could serve as a stepping stone for more advanced audits. Many other TAC members agreed.
 
-### Project Origin Presentation [#576](https://github.com/orgs/lf-energy/projects/2?pane=issue&itemId=118976779&issue=lf-energy%7Ctac%7C576)
+### Project Origin Presentation [#576](https://github.com/lf-energy/tac/issues/576)
 
 There were no representatives present for the Project Origin proposal. Ortiz will work to reschedule the presentation.
 
-### ArchiMate SIG Annual Review [#93](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=45965002&issue=lf-energy%7Ctac%7C93)
+### ArchiMate SIG Annual Review [#93](https://github.com/lf-energy/tac/issues/93)
 
-Prince Singh and van den Bogaard presented the ArchiMate annual review. Singh mentioned the SIG began with 6 to 7 members and is now down to 3. 
+Prince Singh and van den Bogaard presented the ArchiMate annual review. Singh mentioned the SIG began with 6 to 7 members and is now down to 3.
 
 Singh shared their request to move ArchiMate to Emeritus status as there has been declining interest from projects in adopting the functional architecture beyond Alliander. He outlined the group's past goals of creating synergy and standardizing modeling practices with ArchiMate, noting that while they achieved deliverables like the functional architecture and reference models, sustained interest from projects in modeling or reviewing their architectures has been low.
 
@@ -118,7 +118,7 @@ TAC members expressed appreciation for the ArchiMate project's efforts and the i
 
 Van den Bogaard reiterated that placing the SIG in "emeritus status" means it can be reactivated if new traction emerges. He suggested that the TAC could serve as a point of contact for architectural questions, which could, in turn, signal sufficient interest to reactivate the SIG. The group agreed to move the project to emeritus status via an offline LFX vote and to add a future TAC agenda item to discuss broader strategies for project alignment.
 
-### GEISA Annual Review [#230](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=79780662&issue=lf-energy%7Ctac%7C230)
+### GEISA Annual Review [#230](https://github.com/lf-energy/tac/issues/230)
 
 Michael Stuber and Richard Lam presented the GEISA annual review. They provided a summary of their mission and accomplishments over the past year. Stuber outlined plans for the next 12 months which involve further building out the specification, expanding conformance tests, and increasing momentum through demos at UBBA and Distributec 2026.
 

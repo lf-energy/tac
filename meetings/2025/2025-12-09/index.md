@@ -81,8 +81,8 @@ Examples of types of actions that are prohibited at Linux Foundation meetings an
 ## Agenda
 
 * General Updates
-* Annual Review: CDS WG Annual Reviews [#93](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=45965002&issue=lf-energy%7Ctac%7C93)
-* Annual Review: NODE Collective [#171](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=66748737&issue=lf-energy%7Ctac%7C171)
+* Annual Review: CDS WG Annual Reviews [#93](https://github.com/lf-energy/tac/issues/93)
+* Annual Review: NODE Collective [#171](https://github.com/lf-energy/tac/issues/171)
 * Marketing and Events Updates
 
 ## Notes
@@ -95,7 +95,7 @@ Mertic reviewed the antitrust policy and introduced the meeting agenda.
 
 ### Projects and Working Group Leads
 
-Mertic briefly reviewed the TAC project annual review schedule and project pipeline. \
+Mertic briefly reviewed the TAC project annual review schedule and project pipeline.
 
 ### TAC Vote on GridFM Resource Request
 
@@ -111,7 +111,7 @@ The 2026 meeting schedule is set, and the TAC will begin planning its priorities
 
 The group has requested to shut down due to a lack of leadership and momentum. The TAC tentatively agreed to archive the SIG for now but may resurrect it later, especially in light of upcoming European Commission projects on the topic.
 
-### Project Origin Update [#576](https://github.com/orgs/lf-energy/projects/2?pane=issue&itemId=118976779&issue=lf-energy%7Ctac%7C576)
+### Project Origin Update [#576](https://github.com/lf-energy/tac/issues/576)
 
 Thomas Wisbech provided an update addressing previous concerns about continuity. He mentioned the project will move to Mjølner Informatics, with the current core team remaining involved, and plans for a Rust implementation. Wisbech agreed to update the GitHub issue with this proposal for additional feedback.
 

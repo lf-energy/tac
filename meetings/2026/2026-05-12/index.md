@@ -75,8 +75,8 @@ redirect_from:
 
 
 
-* [Deck](https://github.com/lf-energy/tac/blob/main/meetings/2026-05-12/LF%20Energy%20-%20TAC%20Meeting%20-%202026-05-12.pdf)
-* [OpenDSM Annual Review](https://github.com/lf-energy/tac/blob/main/meetings/2026-05-12/LFE_OpenDSM_ProjectAnnualReview_TAC_2026.pdf)
+* [Deck](LF%20Energy%20-%20TAC%20Meeting%20-%202026-05-12.pdf)
+* [OpenDSM Annual Review](LFE_OpenDSM_ProjectAnnualReview_TAC_2026.pdf)
 * [Recording](https://zoom.us/rec/share/OHJ7ps341YHNF4YDQzYoBRpkpO_7r630SE5KUnpOFA3VKTTzRntuH31XuZKo24sp.d8J1wM5g4oy4HtOj)
 
 
@@ -94,10 +94,10 @@ Examples of types of actions that are prohibited at Linux Foundation meetings an
 * Opening and General Updates
     * TAC member updates and annual review date reminders
     * Project Pipeline
-    * Security Audit Prioritization [#408](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=155708761&issue=lf-energy%7Ctac%7C408)
-    * Annual Review Reformat [#798](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=175470560&issue=lf-energy%7Ctac%7C798)
-* Annual Review: OpenDSM [#7](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=35467684&issue=lf-energy%7Ctac%7C7)
-* Annual Review: SOGNO [#75](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=42397734&issue=lf-energy%7Ctac%7C75)
+    * Security Audit Prioritization [#408](https://github.com/lf-energy/tac/issues/408)
+    * Annual Review Reformat [#798](https://github.com/lf-energy/tac/issues/798)
+* Annual Review: OpenDSM [#7](https://github.com/lf-energy/tac/issues/7)
+* Annual Review: SOGNO [#75](https://github.com/lf-energy/tac/issues/75)
 * Marketing and PR Updates
 * Closing and Next Meeting
 
@@ -116,17 +116,17 @@ Mertic reviewed the TAC and SIG review calendars. Nico Rikken from the OSPO SIG 
 Mertic provided project pipeline updates. He noted several projects (ReLife, RAVEN, and EDDIE) are currently in the last stages of the onboarding process. He mentioned EnerGNN was recently approved and Omega Prime has fallen out of the onboarding process due to an unresponsive submitter.
 
 
-### Security Audit Prioritization [#408](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=155708761&issue=lf-energy%7Ctac%7C408)
+### Security Audit Prioritization [#408](https://github.com/lf-energy/tac/issues/408)
 
 Mertic shared CoMPAS, Power Grid Model, and OpenSTEF are moving forward, the audits. He shared we are awaiting confirmation from Shapeshifter to confirm if they are interested in participating in the security threat model assessment. The TAC suggested Flex Measures as a strong candidate to encourage adoption.
 
 
-### Security Audit Prioritization [#408](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=155708761&issue=lf-energy%7Ctac%7C408)
+### Security Audit Prioritization [#408](https://github.com/lf-energy/tac/issues/408)
 
 Mertic shared CoMPAS, Power Grid Model, and OpenSTEF are moving forward, the audits. He shared we are awaiting confirmation from Shapeshifter to confirm if they are interested in participating in the security threat model assessment. The TAC suggested Flex Measures as a strong candidate to encourage adoption.
 
 
-### Annual Review Reformat [#798](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=175470560&issue=lf-energy%7Ctac%7C798)
+### Annual Review Reformat [#798](https://github.com/lf-energy/tac/issues/798)
 
 Mertic reviewed the proposed adjustments to the annual review template to save time during TAC meetings. Mertic detailed the following process:
 
@@ -139,7 +139,7 @@ Mertic reviewed the proposed adjustments to the annual review template to save t
 The TAC agreed to these changes and Ortiz stated she would follow with a formal LFX vote. She will pilot the new process with CoMPAS and Grid2OP in the next meeting.
 
 
-## Annual Review: OpenDSM [#7](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=35467684&issue=lf-energy%7Ctac%7C7)
+## Annual Review: OpenDSM [#7](https://github.com/lf-energy/tac/issues/7)
 
 Travis Sikes presented the OpenDSM annual review. He stated the project’s current** **release is v1.2.7. Sikes reported the project has seen heavy adoption and integration.
 
@@ -154,7 +154,7 @@ Sikes provide the following updates:
 * **Lifecycle Progression:** OpenDSM meets most criteria for "Early Adoption" but still needs to formalize a Growth Plan and finalize the OpenSSF Best Practices Badge (currently at 87% silver).
 
 
-## Annual Review: SOGNO [#75](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=42397734&issue=lf-energy%7Ctac%7C75)
+## Annual Review: SOGNO [#75](https://github.com/lf-energy/tac/issues/75)
 
 The SOGNO annual review will be rescheduled due to a conflict with the presenter.
 

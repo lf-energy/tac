@@ -168,7 +168,7 @@ Donon explained that the project focuses on data representation and GNN implemen
 The TAC agreed to vote to accept the proposed project at the sandbox stage following the meeting via LFX.
 
 
-## Annual Review: Shapeshifter [#136](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=58390380&issue=lf-energy%7Ctac%7C136)
+## Annual Review: Shapeshifter [#136](https://github.com/lf-energy/tac/issues/136)
 
 Hugo van der Zwaag presented the annual review for Shapeshifter, which implements the Universal Smart Energy Framework for flexibility forecasting, offering, ordering, and settlement processes. He highlighted that the project has been stable over the past year with consistent contributor participation, though there has been a decrease in commits due to no major protocol updates. He said the project is currently focused on improving documentation and exploring new use cases for congestion management in the Netherlands to increase adoption among grid operators. Van der Zwaag proposed staying in the incubator stage for 2026, with plans to professionalize work on involvement and aim for early adoption in 2027.
 

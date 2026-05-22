@@ -81,11 +81,11 @@ Examples of types of actions that are prohibited at Linux Foundation meetings an
 ## Agenda
 
 * Opening and General Updates
-    * Project Lifecycle Review [#650](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=136015884&issue=lf-energy%7Ctac%7C650)
+    * Project Lifecycle Review [#650](https://github.com/lf-energy/tac/issues/650)
     * Update - Project Origin [#576](https://github.com/lf-energy/tac/issues/576)
-* 2026 Strategic Overview [#671](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=137459583&issue=lf-energy%7Ctac%7C671) and 2026 Priorities [#673](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=137460235&issue=lf-energy%7Ctac%7C673)
-* New Project Proposal: CityLearn [#506](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=107677636&issue=lf-energy%7Ctac%7C506)
-* Annual Review: TROLIE [#79](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=43784059&issue=lf-energy%7Ctac%7C79)
+* 2026 Strategic Overview [#671](https://github.com/lf-energy/tac/issues/671) and 2026 Priorities [#673](https://github.com/lf-energy/tac/issues/673)
+* New Project Proposal: CityLearn [#506](https://github.com/lf-energy/tac/issues/506)
+* Annual Review: TROLIE [#79](https://github.com/lf-energy/tac/issues/79)
 * Marketing and PR Updates
 * Closing and Next Meeting
 
@@ -101,7 +101,7 @@ Mertic reviewed the antitrust policy and introduced the meeting agenda.
 
 Mertic briefly reviewed the TAC and SIG review calendars and project pipeline. He noted PyEQL will be maintaining their project and not bringing it to LF Energy at this time. He also announced the addition of the EDDIE project to the pipeline.
 
-### Project Origin Update [#576](https://github.com/orgs/lf-energy/projects/2?pane=issue&itemId=118976779&issue=lf-energy%7Ctac%7C576)
+### Project Origin Update [#576](https://github.com/lf-energy/tac/issues/576)
 
 The TAC discussed Project Origin, with Thomas Wisbech offering to help lead during the transitions phase. Jonas proposed moving the project to a sandbox stage with a 6-month check-in to review its progress. Thomas agreed, noting that Project Origin has been presented at summits for three years and has the expertise but lacks funding. The group decided to move forward with the sandbox stage proposal for LFX voting, with TAC members set to submit their votes shortly after the meeting.
 
@@ -117,13 +117,13 @@ The TAC also discussed project workshops and meetups from the last LF Energy Sum
 
 Van den Bogaard invited feedback from the group to refine these priorities before the next meeting.
 
-## New Project Proposal: CityLearn [#506](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=107677636&issue=lf-energy%7Ctac%7C506)
+## New Project Proposal: CityLearn [#506](https://github.com/lf-energy/tac/issues/506)
 
 Zoltan Nagy presented CityLearn, a new project focused on unlocking flexibility in building energy use for grid decarbonization. He explained the motivation behind the project, its sandbox environment for testing control strategies, and its potential for cross-project collaborations. Zoltan also highlighted the project's user base, data sets, and ongoing community challenges, as well as its integration with other projects like Power Grid Model.
 
 Van den Bogaard inquired about the relationship between CityLearn and the Hyphae project, leading to a discussion of potential applications and synergies. The group agreed to propose CityLearn for an LF Energy sandbox vote, with van den Bogaard expressing support.
 
-## Annual Review: TROLIE [#79](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=43784059&issue=lf-energy%7Ctac%7C79)
+## Annual Review: TROLIE [#79](https://github.com/lf-energy/tac/issues/79)
 
 Updates on the Trolie project were presented by Christopher Atkins. This project is focused on standardizing dynamic ratings for grid operators and has been adopted by GE Vernova. While the project continues to be enhanced, Atkins stressed the necessity of developing a conformance suite. Atkins explained that while the specification is open source and widely accepted, there's a need for more vendor adoption beyond the current single implementation.
 
