@@ -95,9 +95,9 @@ redirect_from:
 
 
 * [Deck](https://drive.google.com/file/d/1tMGz6bNBGxh6C_tIY-ykwKTSidnP9VsW/view?usp=sharing)
-* [EnerGNN Project Proposal](https://github.com/lf-energy/tac/blob/main/meetings/2026-04-14/EnerGNN_LFE_TAC.pdf)
-* [Shapeshifter Annual Review](https://github.com/lf-energy/tac/blob/main/meetings/2026-04-14/Shapeshifter%20Annual%20Review%20TAC%20April%202026.pdf)
-* [LFE-SEF Annual Review](https://github.com/lf-energy/tac/blob/main/meetings/2026-04-14/LFE%20SEF%20-%20review%20meeting.pdf)
+* [EnerGNN Project Proposal](EnerGNN_LFE_TAC.pdf)
+* [Shapeshifter Annual Review](Shapeshifter%20Annual%20Review%20TAC%20April%202026.pdf)
+* [LFE-SEF Annual Review](LFE%20SEF%20-%20review%20meeting.pdf)
 * [Recording](https://zoom.us/rec/share/UKNleCrJyulv6PGHrrZX-uEjJmrA_HqSnO2E2dcl9BpZqExhyzbaXOtcoAlHnXrG.nQ9oIpi8C8H1l01M)
 
 
@@ -115,12 +115,12 @@ Examples of types of actions that are prohibited at Linux Foundation meetings an
 * Opening and General Updates
     * TAC member updates and annual review date reminders
     * Project Pipeline
-    * Security Audit Prioritization [#408](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=155708761&issue=lf-energy%7Ctac%7C408)
-    * Annual Review Reformat [#798](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=175470560&issue=lf-energy%7Ctac%7C798)
+    * Security Audit Prioritization [#408](https://github.com/lf-energy/tac/issues/408)
+    * Annual Review Reformat [#798](https://github.com/lf-energy/tac/issues/798)
     * Project Onboarding Video [#797](https://github.com/lf-energy/tac/issues/797)
-* New Project Proposal: EnerGNN [#753](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=156895978&issue=lf-energy%7Ctac%7C753)
-* Annual Review: Shapeshifter [#136](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=58390380&issue=lf-energy%7Ctac%7C136)
-* Annual Review: LFE-SEF [#132](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=58094818&issue=lf-energy%7Ctac%7C132)
+* New Project Proposal: EnerGNN [#753](https://github.com/lf-energy/tac/issues/753)
+* Annual Review: Shapeshifter [#136](https://github.com/lf-energy/tac/issues/136)
+* Annual Review: LFE-SEF [#132](https://github.com/lf-energy/tac/issues/132)
 * Marketing and PR Updates
 * Closing and Next Meeting
 
@@ -137,12 +137,12 @@ Mertic reviewed the antitrust policy and introduced the meeting agenda.
 Mertic reviewed the TAC and SIG review calendars and project pipeline.
 
 
-### Security Audit Prioritization [#408](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=155708761&issue=lf-energy%7Ctac%7C408)
+### Security Audit Prioritization [#408](https://github.com/lf-energy/tac/issues/408)
 
 Mertic shared that the TAC has an ability to fund up to five Security Threat Model Assessments in 2026 with room for two more. Boris Dolley said he would confirm Dynawo’s interest and Hugo van der Zwaag would add this as a topic at the upcoming Shapeshifter TSC meeting.
 
 
-### Annual Review Reformat [#798](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=175470560&issue=lf-energy%7Ctac%7C798)
+### Annual Review Reformat [#798](https://github.com/lf-energy/tac/issues/798)
 
 Mertic proposed a change to the annual review process to manage the heavy schedule of upcoming reviews, noting that the SIGs, while initially created for this purpose, no longer sufficiently address the volume. Mertic said he hopes to preview the new format beginning June-July 2026. The proposal involves:
 
@@ -159,7 +159,7 @@ Mertic proposed a change to the annual review process to manage the heavy schedu
 Mertic presented a video, developed with assistance from Gemini, designed to guide prospective projects and address common inquiries. He requested the TAC members review the video and offer their feedback. The video link is available[ here.](https://drive.google.com/file/d/1dC360noWIB8x5EqlROJXncv1lMXNcSRN/view?usp=sharing)
 
 
-## New Project Proposal: EnerGNN [#753](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=156895978&issue=lf-energy%7Ctac%7C753)
+## New Project Proposal: EnerGNN [#753](https://github.com/lf-energy/tac/issues/753)
 
 Balthazaar Donon presented the EnerGNN project, an open-source graph neural network library designed for complex energy systems, highlighting its ability to handle hyper-heterogeneous multi-graphs and real-life data discrepancies. He explained the library's key features, including its use of Jax and Flax, and demonstrated its application in various use cases such as contingency screening and voltage control. Donon highlighted ongoing collaborations with universities and expressed openness to new use cases, model improvements, and community contributions.
 
@@ -173,7 +173,7 @@ The TAC agreed to vote to accept the proposed project at the sandbox stage follo
 Hugo van der Zwaag presented the annual review for Shapeshifter, which implements the Universal Smart Energy Framework for flexibility forecasting, offering, ordering, and settlement processes. He highlighted that the project has been stable over the past year with consistent contributor participation, though there has been a decrease in commits due to no major protocol updates. He said the project is currently focused on improving documentation and exploring new use cases for congestion management in the Netherlands to increase adoption among grid operators. Van der Zwaag proposed staying in the incubator stage for 2026, with plans to professionalize work on involvement and aim for early adoption in 2027.
 
 
-## Annual Review: LFE-SEF [#132](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=58094818&issue=lf-energy%7Ctac%7C132)
+## Annual Review: LFE-SEF [#132](https://github.com/lf-energy/tac/issues/132)
 
 Milenko Tosic presented the LF Energy Semantic Energy Framework project annual review. He noted that LFE-SEF originated from the Horizon 2020 Interconnect project and is now being developed under the Linux Foundation for Energy. Tosic stated that the project is currently between milestones 1 and 2, with the technical committee working on redesigning the existing source code and defining the architecture suitable for the Linux Foundation for Energy. The TAC inquired about collaboration with other LF Energy projects, to which Tosic confirmed they plan to test interoperability enablers with other projects and build new use cases for validation.
 
