@@ -90,8 +90,8 @@ redirect_from:
 
 
 
-* [Deck](https://github.com/lf-energy/tac/blob/main/meetings/2026-02-10/LF%20Energy%20-%20TAC%20Meeting%20-%202026-02-10.pdf)
-* [AINETUS Project Proposal](https://github.com/lf-energy/tac/blob/main/meetings/2026-02-10/AI4REALNET_LFE_TAC.pdf)
+* [Deck](LF%20Energy%20-%20TAC%20Meeting%20-%202026-02-10.pdf)
+* [AINETUS Project Proposal](AI4REALNET_LFE_TAC.pdf)
 * [Recording](https://zoom.us/rec/share/r4uJRQ82gnHBVGo279UeI-VeuxatFfrySU-mvTCbjit-9FIk5F_F-SF_2A-DFo-9.gBa923U6-6O8Q8WZ)
 
 
@@ -107,10 +107,10 @@ Examples of types of actions that are prohibited at Linux Foundation meetings an
 
 
 * Opening and General Updates
-    * Project Lifecycle Review -Power Grid Model Transition to Early Adoption  [#745](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=144393286&issue=lf-energy%7Ctac%7C704)
-* New Project Proposal: AINETUS [#704](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=144393286&issue=lf-energy%7Ctac%7C704)
-* Annual Review: Edge Flexibility and Interoperability SIG [#458](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=100934024&issue=lf-energy%7Ctac%7C458)
-* Annual Review: Grid Simulation and Modeling SIG [#459](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=100934024&issue=lf-energy%7Ctac%7C458)
+    * Project Lifecycle Review - Power Grid Model Transition to Early Adoption  [#745](https://github.com/lf-energy/tac/issues/745)
+* New Project Proposal: AINETUS [#704](https://github.com/lf-energy/tac/issues/704)
+* Annual Review: Edge Flexibility and Interoperability SIG [#458](https://github.com/lf-energy/tac/issues/758)
+* Annual Review: Grid Simulation and Modeling SIG [#459](https://github.com/lf-energy/tac/issues/459)
 * Marketing and PR Updates
 * Closing and Next Meeting
 
@@ -150,7 +150,7 @@ Van Dijk discussed the fragmentation and potential consolidation of models in th
 Kjell Petter Myhren inquired about the use of IEC 61850 standard for modeling substations and mapping to systems, which van Dijk agreed to look into. Alexandre Parisot discussed the need for connections between SIGs, particularly AI SIG and GridFM, and suggested brainstorming ways to facilitate these connections. Thomas expressed interest in exploring how different models interact in the AI space.
 
 
-## New Project Proposal: AINETUS [#506](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=107677636&issue=lf-energy%7Ctac%7C506)
+## New Project Proposal: AINETUS
 
 Ricardo Bessa presented the AI for Real Net project, which aims to develop AI assistance for critical infrastructure, focusing on the power grid. He explained the motivation for using AI in critical infrastructure operations, highlighting the need for more sophisticated decision-making tools to handle complex and extreme scenarios. He said the project uses reinforcement learning and other AI techniques to provide recommendations to human operators, with a focus on congestion management and topology optimization. Bessa demonstrated the interactive AI interface, which allows for human-AI collaboration. The project is open source and involves collaboration across different sectors and organizations.
 
