@@ -87,8 +87,8 @@ redirect_from:
 
 
 
-* [Deck](https://github.com/lf-energy/tac/blob/main/meetings/2026-03-10/LF%20Energy%20-%20TAC%20Meeting%20-%202026-03-10.pdf)
-* [LF Energy RegistryOS Project Proposal](https://github.com/lf-energy/tac/blob/main/meetings/2026-03-10/LF%20Energy%20%20RegistryOS%20TAC%20Sandbox%20Proposal.pdf)
+* [Deck](LF%20Energy%20-%20TAC%20Meeting%20-%202026-03-10.pdf)
+* [LF Energy RegistryOS Project Proposal](LF%20Energy%20%20RegistryOS%20TAC%20Sandbox%20Proposal.pdf)
 * [Recording](https://zoom.us/rec/share/Vk8rlm3wyIlP5E3YCOBeFMrCsmQAff16QSqD-c2cB0_-iXBepFEeOanmsnHuNvTY.KuTFr1eCFsrNqBKD)
 
 
@@ -106,11 +106,11 @@ Examples of types of actions that are prohibited at Linux Foundation meetings an
 * Opening and General Updates
     * TAC member updates and annual review date reminders
     * Project Pipeline
-    * Security Audit Prioritization [#408](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=155708761&issue=lf-energy%7Ctac%7C408)
+    * Security Audit Prioritization [#408](https://github.com/lf-energy/tac/issues/408)
     * Slack Pro
     * Security Advisory: Active Exploitation of Weak GitHub Actions Configurations [#775](https://github.com/lf-energy/tac/issues/775)
-    * FledgePower moving to Emeritus [#137](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=58391059&issue=lf-energy%7Ctac%7C137)
-* New Project Proposal: LF Energy RegistryOS [#556](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=114751178&issue=lf-energy%7Ctac%7C556)
+    * FledgePower moving to Emeritus [#137](https://github.com/lf-energy/tac/issues/137)
+* New Project Proposal: LF Energy RegistryOS [#556](https://github.com/lf-energy/tac/issues/556)
 * Marketing and PR Updates
 * Closing and Next Meeting
 
@@ -137,19 +137,19 @@ Mertic announced that after hard work, the Linux Foundation has negotiated free 
 Mertic shared a current exploitation of weak GitHub actions and urged projects to review contents of PRs for high priority advisory on GitHub Actions configurations.
 
 
-### Security Audit Prioritization [#408](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=155708761&issue=lf-energy%7Ctac%7C408)
+### Security Audit Prioritization [#408](https://github.com/lf-energy/tac/issues/408)
 
 Mertic shared that the TAC has an ability to fund up to five Security Threat Model Assessments in 2026.
 
 He explained these are lighter-weight security assessments than the previous audits, and it includes a 1-hour discovery, asynchronous Q&A (Slack/email), and time to address vulnerabilities. Mertic listed projects that were recommended to undergo the audits: CoMPAS (already requested), Power Grid Model (recently moved to Early Adoption, so likely should be considered), OpenSTEF, and asked the TAC for other recommendations.
 
 
-### FledgePower moving to Emeritus [#137](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=58391059&issue=lf-energy%7Ctac%7C137)
+### FledgePower moving to Emeritus [#137](https://github.com/lf-energy/tac/issues/137)
 
 Boris Dolley and Romain Lebrun Thauront presented the request to transition FledgePower to Emeritus status. They explained patches would be completed by the end of April before archiving the GitHub repositories. Dolley explained that FledgePower would not return to RTE due to reputation issues, and they discussed potentially presenting lessons learned at a future LF Energy Summit or TAC meeting. The discussion highlighted the importance of supply chain diversity in open source projects, with Dolley emphasizing the need for commercial-grade open source solutions with multiple providers rather than relying on a single vendor. Mertic noted the value of the LF Energy project lifecycle stages in building trust and recognition for projects.
 
 
-## New Project Proposal: LF Energy RegistryOS [#556](https://github.com/orgs/lf-energy/projects/2/views/1?pane=issue&itemId=114751178&issue=lf-energy%7Ctac%7C556)
+## New Project Proposal: LF Energy RegistryOS [#556](https://github.com/lf-energy/tac/issues/556)
 
 Casey Martinez presented LF Energy RegistryOS, a software solution designed to enhance existing EAC (Energy Attribute Certificate) registries by enabling the issuance of granular certificates. Martinez stated that the solution aims to address the lack of standardization and slow adoption of new capabilities in current EAC registries. He highlighted the benefits of open sourcing the software, including neutral governance and global reach, and mentioned ongoing pilots with companies like Akamai Technologies. The team aims to follow the Red Hat model by helping implement the open-source registry software for existing registries and operating an instance globally. The TAC discussed synergies between the project and CDS.
 
