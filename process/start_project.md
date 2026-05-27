@@ -135,7 +135,7 @@ Proposed projects will have a 20-minute presentation timeslot at an upcoming TAC
 
 *   Overview of the project and its purpose
     *  If a project is new, it’s often helpful to share the vision for the project, the anticipated structure, and benefits.
-    *  If the project is an existing open-source project proposed to join ASWF, it is often helpful to schedule a project walkthrough for the community to understand better the project, including the architecture, structure, and how to get started using the project. This often helps review progress more efficiently.
+    *  If the project is an existing open-source project proposed to join LF Energy, it is often helpful to schedule a project walkthrough for the community to understand better the project, including the architecture, structure, and how to get started using the project. This often helps review progress more efficiently.
 *   How does this submission support the [{{ site.foundation_name }} Mission and Vision statements]( {{ site.mission_statement_url }})?
 *   Does the project have any users?
     *   How do you plan to attract users if accepted?
