@@ -9,7 +9,7 @@ Real Time Data Ingestion Platform (RTDIP),https://github.com/lf-energy/tac/issue
 Security Advisory: Active Exploitation of Weak GitHub Actions Configurations,https://github.com/lf-energy/tac/issues/775,775,,Next Meeting Agenda Items,,4-tac-meeting-short
 ReLife,https://github.com/lf-energy/tac/issues/762,762,,Upcoming Meeting Agenda Items,,1-new-project-wg
 CoMPAS ,https://github.com/lf-energy/tac/issues/72,72,2026-06-09,Upcoming Meeting Agenda Items,2025-06-10,2-annual-review
-Grid2Op,https://github.com/lf-energy/tac/issues/287,287,2026-06-09,SIG Annual Reviews,2025-02-11,2-annual-review-sig
+Grid2Op,https://github.com/lf-energy/tac/issues/287,287,2026-06-18,SIG Annual Reviews,2025-02-11,2-annual-review-sig
 OpenDSM,https://github.com/lf-energy/tac/issues/7,7,2027-05-11,Future Meeting Agenda Items,2026-05-12,2-annual-review
 SOGNO,https://github.com/lf-energy/tac/issues/75,75,2026-05-12,Next Meeting Agenda Items,2025-05-13,2-annual-review
 CUPID (Controllable Unit Protocol Interface for DER) (was IEEE 2030.5 over NATS),https://github.com/lf-energy/tac/issues/383,383,,On Hold,2025-05-13,2-annual-review
@@ -63,4 +63,3 @@ Grid Simulation and Modeling SIG,https://github.com/lf-energy/tac/issues/459,459
 Edge Interoperability and Flexibility SIG,https://github.com/lf-energy/tac/issues/458,458,2027-02-09,Future Meeting Agenda Items,2026-02-10,2-annual-review
 EDDIE - European Distributed Data Infrastructure for Energy,https://github.com/lf-energy/tac/issues/719,719,2026-07-14,LF Onboarding,,1-new-project-wg
 OSPO SIG,https://github.com/lf-energy/tac/issues/771,771,2026-11-10,Future Meeting Agenda Items,,2-annual-review
-Create guide for projects to help them focus on the right things as they move through the lifecycle,https://github.com/lf-energy/tac/pull/823,823,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
