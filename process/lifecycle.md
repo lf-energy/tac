@@ -53,7 +53,7 @@ Projects submitted to {{ site.foundation_name }} at the Sandbox stage are intend
 
 To be accepted at the Sandbox stage, a project must:
 
-- Submit a completed Project Contribution Proposal to the TAC via the process outlined at [Project Contribution]({% link process/start_project.md %}) Process.
+- Submit a completed Project Contribution Proposal to the TAC via the process outlined in the [Project Contribution Process].
 - Complete and approve the Technical Charter and agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones.
 - Have a successful license scan with any critical issues remedied.
 - Provide administrator access to all project tools, such as its GitHub organization, collaboration and communication tools, and build/test infrastructure.
@@ -62,7 +62,7 @@ To be accepted at the Sandbox stage, a project must:
 
 ### Approval Process
 
-In conjunction with the LF staff and TAC voting representative, the project will be scheduled to be presented at an upcoming TAC meeting. This presentation should provide an overview of the project and its alignment with {{ site.foundation_name }}, and speak to the information shared in the project contribution proposal. Voting will be done per the [TAC voting policy]({% link process/voting.md %}).
+In conjunction with the LF staff and TAC voting representative, the project will be scheduled to be presented at an upcoming TAC meeting. This presentation should provide an overview of the project and its alignment with {{ site.foundation_name }}, and speak to the information shared in the project contribution proposal. Voting will be done per the [TAC voting policy].
 
 ### Benefits
 
@@ -78,7 +78,7 @@ The Sandbox Stage benefits are outlined below.
 - Regularly scheduled license scans of the project’s codebase with results reported to the project’s mailing list.
 - Use of the LFX platform, including LFX Insights and LFX Security, for managing project health and security status.
 
-Sandbox Stage projects will present an [annual review]({% link process/review_cycle.md %}) to either the TAC or the primary SIG it is aligned with, outlining its progress on completing the requirements for the Incubation Stage. 
+Sandbox Stage projects will present an [annual review] to either the TAC or the primary SIG it is aligned with, outlining its progress on completing the requirements for the Incubation Stage. 
 
 It’s expected that projects in the Sandbox Stage move to the Incubation Stage within one year. In the case of a Sandbox Stage project that is not renewed with {{ site.foundation_name }}, the trademark and any other assets will be returned to the project maintainers or an organization they designate.
 
@@ -90,14 +90,14 @@ Incubation projects are projects that the TAC believes are, or have the potentia
 
 To be considered for the Incubation Stage, the project must meet the following requirements:
 
-- Have achieved and maintained an [OpenSSF Best Practices Badge](https://bestpractices.coreinfrastructure.org/) at the [‘Passing' level](https://bestpractices.coreinfrastructure.org/en/criteria/0).
+- Have achieved and maintained an [OpenSSF Best Practices Badge at the ‘Passing' level].
 - Have an open and documented technical governance, including:
-  - A README file in each code repository, welcoming new community members to the project and explaining why the project is useful and how to get started (follow the guidelines at the [README checklist](https://github.com/ddbeck/readme-checklist) to create an excellent README file).
-  - A GOVERNANCE file that documents the project’s technical governance ([template](https://github.com/lf-energy/tsc-template/blob/main/GOVERNANCE.md)).
+  - A README file in each code repository, welcoming new community members to the project and explaining why the project is useful and how to get started (follow the guidelines at the [README checklist] to create an excellent README file).
+  - A GOVERNANCE file that documents the project’s technical governance ([GOVERNACE.md template]).
   - All current Technical Steering Committee members specified in the ‘Technical Steering Committee (TSC)’ committee in LFX Project Control Center (details on how this should be set up are [here]({% link tools/collaboration.md %})).
-  - A CODEOWNERS or COMMITTERS file to define individuals or teams that are responsible for code in a repository, as well as documenting current project owners and current and emeritus committers ( [template](https://github.com/lf-energy/tsc-template/blob/main/COMMITTERS.csv) )
-- Documentation of the architecture (aka high-level design) of the software produced by the project ([aligns with this OpenSSF Best Practices Silver badge requirement](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.documentation_architecture)).
-- A documented roadmap that describes what the project intends to do and not do for at least the next year ([aligns with this OpenSSF Best Practices Silver badge requirement](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.documentation_roadmap)).
+  - A CODEOWNERS or COMMITTERS file to define individuals or teams that are responsible for code in a repository, as well as documenting current project owners and current and emeritus committers ([COMMITTERS.csv template])
+- Documentation of the architecture (aka high-level design) of the software produced by the project (aligns with the [OpenSSF Best Practices Silver badge requirement 'documentation_architecture']).
+- A documented roadmap that describes what the project intends to do and not do for at least the next year (aligns with the [OpenSSF Best Practices Silver badge requirement 'documentation_roadmap']).
 - Community and contributor growth assessment using the data from LFX Insights. Specific metrics that will be reviewed are.
   - Current number of contributors, committers, and different organizations contributing to the project.
   - Flow of commits / merged contributions
@@ -106,7 +106,7 @@ To be considered for the Incubation Stage, the project must meet the following r
 
 ### Approval Process
 
-Sandbox Stage projects that wish to move to the Incubation Stage as part of their [annual review]({% link process/review_cycle.md %}) or upon request of the project. To be considered for the Incubation Stage, the project must present a review of its progress, including an assessment of whether the Incubation Stage requirements have been completed, as part of its annual review or a separate TAC presentation. 
+Sandbox Stage projects that wish to move to the Incubation Stage as part of their [annual review] or upon request of the project. To be considered for the Incubation Stage, the project must present a review of its progress, including an assessment of whether the Incubation Stage requirements have been completed, as part of its annual review or a separate TAC presentation. 
 
 The project must receive the affirmative majority vote of the TAC to become an Incubation Stage project.
 
@@ -134,8 +134,8 @@ To be considered for the Early Adoption stage, the project must meet the followi
   - Growth in the number of commits to the project, the number of project committers, and the organizational diversity of contributions and committers.
   - Production or planned production use of the project by at least two independent end users, which, in the TAC’s judgment, are of adequate quality and scope.
 - Technical Governance of the project is operational, as measured by:
-  - A Technical Steering Committee with at least five members and a chairperson elected by the members, holding regular open meetings ([aligns with OpenSSF Best Practices Gold badge requirement](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#2.bus_factor))
-  - Achievement of the OpenSSF Best Practice badge at the ['Silver' Level](https://bestpractices.coreinfrastructure.org/en/criteria/1)
+  - A Technical Steering Committee with at least five members and a chairperson elected by the members, holding regular open meetings (aligns with the [OpenSSF Best Practices Gold badge requirement 'bus_factor']).
+  - Achievement of the [OpenSSF Best Practices badge at the 'Silver' Level].
 - Development of a growth plan, to be done in conjunction with their project mentor(s) at the TAC. This plan should address the following points: 
   - Release plans for the next 18 months.
   - Target end-users.
@@ -147,7 +147,7 @@ Since these metrics can vary significantly depending on the type, scope, and siz
 
 ### Approval Process
 
-Incubation Stage projects that wish to move to the Early Adoption Stage as part of their [annual review]({% link process/review_cycle.md %}) or upon request of the project. To be considered for the Early Adoption Stage, the project must present a review of its progress, including an assessment of whether the Early Adoption Stage requirements have been completed, as part of its annual review or a separate TAC presentation. 
+Incubation Stage projects that wish to move to the Early Adoption Stage as part of their [annual review] or upon request of the project. To be considered for the Early Adoption Stage, the project must present a review of its progress, including an assessment of whether the Early Adoption Stage requirements have been completed, as part of its annual review or a separate TAC presentation. 
 
 The project must receive the affirmative majority vote of the TAC and subsequently the affirmative majority vote of the Governing Board to become an Early Adoption Stage project.
 
@@ -169,14 +169,14 @@ The Graduated Stage is for projects that have reached their growth goals and are
 
 To graduate from Incubation or Early Adoption status, or for a new project to join with Graduated status, a project must meet the Early Adoption stage criteria plus:
 
-- Achievement of the OpenSSF Best Practices badge at the ['Gold' level](https://bestpractices.coreinfrastructure.org/en/criteria/2).
+- Achievement of the [OpenSSF Best Practices badge at the 'Gold' level].
 - Have fulfilled or are on track to complete the growth plan defined in the Early Adoption stage proposal.
 - Have a healthy number of contributions or committers from at least three organizations, with any single organization not composing more than 50% of the contributions or committers. Committers must be identified within the project in a COMMITTERS file.
 - Have a public list of project adopters for at least the primary repo (e.g., ADOPTERS.md or logos on the project website).
 
 ### Approval Process
 
-Early Adoption Stage projects that wish to move to the Graduated Stage as part of their [annual review]({% link process/review_cycle.md %}) or upon request of the project. To be considered for the Graduated Stage, the project must present a review of its progress, including an assessment of whether the Graduated Stage requirements have been completed, as part of its annual review or a separate TAC presentation. 
+Early Adoption Stage projects that wish to move to the Graduated Stage as part of their [annual review] or upon request of the project. To be considered for the Graduated Stage, the project must present a review of its progress, including an assessment of whether the Graduated Stage requirements have been completed, as part of its annual review or a separate TAC presentation. 
 
 The project must receive the affirmative majority vote of the TAC and subsequently the affirmative majority vote of the Governing Board to become a Graduated Stage project.
 
@@ -202,3 +202,16 @@ Projects may be granted Emeritus status by a 2/3 vote of the TAC, with the appro
 ### Benefits
 
 Emeritus stage projects will have a long-term home for the project assets and code. Each Emeritus project will have a sponsor from the TAC to monitor any security or trademark concerns raised and, at the TAC’s discretion, address them. {{ site.foundation_name }} will remove the promotion of Emeritus projects from its website and other promotional materials.
+
+[Project Contribution Process]: {% link process/start_project.md %}
+[TAC voting policy]: {% link process/voting.md %}
+[annual review]: {% link process/review_cycle.md %}
+[OpenSSF Best Practices Badge at the ‘Passing' level]: https://bestpractices.coreinfrastructure.org/en/criteria/0
+[OpenSSF Best Practices badge at the 'Silver' Level]: https://bestpractices.coreinfrastructure.org/en/criteria/1
+[OpenSSF Best Practices Silver badge requirement 'documentation_architecture']: https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.documentation_architecture
+[OpenSSF Best Practices Silver badge requirement 'documentation_roadmap']: https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.documentation_roadmap
+[OpenSSF Best Practices badge at the 'Gold' level]: https://bestpractices.coreinfrastructure.org/en/criteria/2
+[OpenSSF Best Practices Gold badge requirement 'bus_factor']: https://www.bestpractices.dev/en/criteria?details=true&rationale=true#2.bus_factor
+[README checklist]: https://github.com/ddbeck/readme-checklist
+[GOVERNACE.md template]: https://github.com/lf-energy/tsc-template/blob/main/GOVERNANCE.md
+[COMMITTERS.csv template]: https://github.com/lf-energy/tsc-template/blob/main/COMMITTERS.csv
