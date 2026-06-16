@@ -1,17 +1,17 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
+Smart HEMS Benchmark,https://github.com/lf-energy/tac/issues/669,669,2027-06-08,Future Meeting Agenda Items,,1-new-project-wg
+CoMPAS ,https://github.com/lf-energy/tac/issues/72,72,2027-06-08,In Voting,2026-06-09,2-annual-review
 Battery Data Alliance,https://github.com/lf-energy/tac/issues/57,57,2026-09-08,Next Meeting Agenda Items,2025-09-02,2-annual-review
 Power Stability Wide Area Monitoring Protection (p-SWAMP),https://github.com/lf-energy/tac/issues/585,585,2026-09-08,Next Meeting Agenda Items,,2-annual-review
 RTC-Tools,https://github.com/lf-energy/tac/issues/344,344,2026-09-08,Next Meeting Agenda Items,,2-annual-review
 OperatorFabric,https://github.com/lf-energy/tac/issues/71,71,2026-09-08,Next Meeting Agenda Items,2025-09-02,2-annual-review
 Real Time Data Ingestion Platform (RTDIP),https://github.com/lf-energy/tac/issues/26,26,2026-07-14,Upcoming Meeting Agenda Items,2025-07-08,2-annual-review
 Grid eXchange Fabric (GXF),https://github.com/lf-energy/tac/issues/8,8,2026-07-21,Upcoming Meeting Agenda Items,2025-07-08,2-annual-review
-RAVEN :Recognition of Asset and Vegetation for Electrical Network,https://github.com/lf-energy/tac/issues/764,764,2026-07-14,Upcoming Meeting Agenda Items,,1-new-project-wg
-ReLife,https://github.com/lf-energy/tac/issues/762,762,,In Voting,,1-new-project-wg
-New Project Proposal - Smart HEMS Benchmark,https://github.com/lf-energy/tac/issues/669,669,,In Voting,,1-new-project-wg
+RAVEN :Recognition of Asset and Vegetation for Electrical Network,https://github.com/lf-energy/tac/issues/764,764,2026-07-21,Upcoming Meeting Agenda Items,,1-new-project-wg
+ReLife,https://github.com/lf-energy/tac/issues/762,762,2027-06-08,Future Meeting Agenda Items,,1-new-project-wg
 New Project Proposal - GridMind,https://github.com/lf-energy/tac/issues/750,750,,On Hold,,1-new-project-wg
 New Project Proposal - PowerCore,https://github.com/lf-energy/tac/issues/590,590,,On Hold,,1-new-project-wg
 Security Advisory: Active Exploitation of Weak GitHub Actions Configurations,https://github.com/lf-energy/tac/issues/775,775,,Next Meeting Agenda Items,,4-tac-meeting-short
-CoMPAS ,https://github.com/lf-energy/tac/issues/72,72,2027-06-08,Upcoming Meeting Agenda Items,2026-06-09,2-annual-review
 Grid2Op,https://github.com/lf-energy/tac/issues/287,287,2026-06-18,SIG Annual Reviews,2025-02-11,2-annual-review-sig
 OpenDSM,https://github.com/lf-energy/tac/issues/7,7,2027-05-11,Future Meeting Agenda Items,2026-05-12,2-annual-review
 SOGNO,https://github.com/lf-energy/tac/issues/75,75,2026-05-12,Next Meeting Agenda Items,2025-05-13,2-annual-review
