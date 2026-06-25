@@ -82,7 +82,7 @@ redirect_from:
 * [Deck](https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-06-09/LF%20Energy%20-%20TAC%20Meeting%20-%202026-06-09.pdf)
 * [Smart Hems Benchmark Project Proposal](https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-06-09/LF-Energy%20Smart%20HEMS-BenchMark.pdf)
 * [ReLife Project Proposal](https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-06-09/relife_tac_lfe.pdf)
-* CoMPAS Annual Review 
+* [CoMPAS Annual Review](https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-06-09/CoMPAS%20annual%20review-%20260609.pdf) 
 * [Recording](https://zoom.us/rec/share/fjvo2ILqGBzOBPra1XEpMlB0IC8hrVdzjyxe7UK-Y9C7BuSvxl4rylkSRq9AgJ-4.fjzbh3Pqjga8fO75)
 
 
