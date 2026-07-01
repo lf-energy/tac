@@ -1,5 +1,5 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
-EDDIE - European Distributed Data Infrastructure for Energy,https://github.com/lf-energy/tac/issues/719,719,2026-07-14,LF Onboarding,,1-new-project-wg
+EDDIE - European Distributed Data Infrastructure for Energy,https://github.com/lf-energy/tac/issues/719,719,,LF Onboarding,,1-new-project-wg
 CUPID (Controllable Unit Protocol Interface for DER) (was IEEE 2030.5 over NATS),https://github.com/lf-energy/tac/issues/383,383,,On Hold,2025-05-13,2-annual-review
 SEAPATH ,https://github.com/lf-energy/tac/issues/73,73,2026-07-21,Upcoming Meeting Agenda Items,2025-01-14,2-annual-review
 Smart HEMS Benchmark,https://github.com/lf-energy/tac/issues/669,669,2027-06-08,Future Meeting Agenda Items,,1-new-project-wg
@@ -60,3 +60,4 @@ Edge Interoperability and Flexibility SIG,https://github.com/lf-energy/tac/issue
 OSPO SIG,https://github.com/lf-energy/tac/issues/771,771,2026-11-10,Future Meeting Agenda Items,,2-annual-review
 Add six month timeline to complete project onboarding,https://github.com/lf-energy/tac/pull/847,847,2026-07-21,Upcoming Meeting Agenda Items,,
 Revise Sandbox stage project acceptance requirements,https://github.com/lf-energy/tac/pull/846,846,2026-07-21,Upcoming Meeting Agenda Items,,
+Project AI Guidelines,https://github.com/lf-energy/tac/issues/864,864,,Upcoming Meeting Agenda Items,,
