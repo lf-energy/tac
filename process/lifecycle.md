@@ -58,7 +58,7 @@ To be accepted at the Sandbox stage, a project must:
 - Have a successful license scan with any critical issues remedied.
 - Provide administrator access to all project tools, such as its GitHub organization, collaboration and communication tools, and build/test infrastructure.
 
-*NOTE: The LF Energy TAC expects projects to complete the requirements above within six months of the Project Contribution Proposal submission. If a project is unable to complete the requirements in that timeframe, the TAC may request that the project reapply when they can focus on completing the requirements.*
+{: .note } The LF Energy TAC expects projects to complete the requirements above within six months of the Project Contribution Proposal submission. If a project is unable to complete the requirements in that timeframe, the TAC may request that the project reapply when they can focus on completing the requirements.
 
 ### Approval Process
 
@@ -81,6 +81,8 @@ The Sandbox Stage benefits are outlined below.
 Sandbox Stage projects will present an [annual review] to either the TAC or the primary SIG it is aligned with, outlining its progress on completing the requirements for the Incubation Stage. 
 
 It’s expected that projects in the Sandbox Stage move to the Incubation Stage within one year. In the case of a Sandbox Stage project that is not renewed with {{ site.foundation_name }}, the trademark and any other assets will be returned to the project maintainers or an organization they designate.
+
+{: .note } Sandbox Stage projects should have completed all the [project onboarding requirements] within six months of the TAC approval. If a project is unable to complete the requirements in that timeframe, the TAC may request that the project reapply when they can focus on completing the requirements.
 
 ## Incubation
 
@@ -215,3 +217,4 @@ Emeritus stage projects will have a long-term home for the project assets and co
 [README checklist]: https://github.com/ddbeck/readme-checklist
 [GOVERNACE.md template]: https://github.com/lf-energy/tsc-template/blob/main/GOVERNANCE.md
 [COMMITTERS.csv template]: https://github.com/lf-energy/tsc-template/blob/main/COMMITTERS.csv
+[project onboarding requirements]: {% link process/onboarding.md %}
