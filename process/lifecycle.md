@@ -54,7 +54,8 @@ Projects submitted to {{ site.foundation_name }} at the Sandbox stage are intend
 To be accepted at the Sandbox stage, a project must:
 
 - Submit a completed Project Contribution Proposal to the TAC via the process outlined in the [Project Contribution Process].
-- Complete and approve the Technical Charter and agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones.
+- Complete and approve the Technical Charter and agree to transfer any relevant marks, domain names, accounts, and other assets, to The Linux Foundation or its affiliate, LF Projects, LLC or Linux Foundation Europe, and to assist in filing for any relevant unregistered trademarks.
+- Have at least one active maintainer, preferably several.
 - Have a successful license scan with any critical issues remedied.
 - Provide administrator access to all project tools, such as its GitHub organization, collaboration and communication tools, and build/test infrastructure.
 
