@@ -14,7 +14,7 @@ Projects will schedule their Annual Review as part of the next meeting of their 
 - Assessment of whether the project is fulfilling the requirements to remain at its current stage or be considered for a different stage.
 - Feedback on its experience as an {{ site.foundation_name }} project, including benefits from being an {{ site.foundation_name }} project and areas that the TAC and {{ site.foundation_name }} staff can better support the project.
 
-Projects should use the [Annual Review template]({% link process/annual_review_template.pptx %}) to structure their presentation. 
+Projects should use the [Annual Review template]({% link process/annual_review_template.pptx %}) to structure their presentation.
 
 For projects doing their annual review at the TAC, the presentation deck must be shared with the TAC no later than one week before the TAC meeting, along with a few bullet points of key things to share with the TAC. Projects will be allotted 15 minutes during the TAC meeting for their annual review. 
 
