@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: jmertic/lfx-tac-actions@7b0810791d6ebc84594ae2e409bb4c1ffa4ebb06 # 20260815
+      - uses: jmertic/lfx-tac-actions@2682b048da24d3046b4c4b1959bbc3723666b635 # 20260826
         with:
           landscape_url: https://landscape.lfenergy.org
           lfx_tac_committee_url: https://projectadmin.lfx.linuxfoundation.org/project/a094100001Cb6HaAAJ/collaboration/committees/45a1d03a-608d-48e4-9bd4-ffc94edda0b7
