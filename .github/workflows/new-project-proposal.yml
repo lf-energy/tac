@@ -7,6 +7,7 @@ on:
 jobs:
   comment:
     runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, '1-new-project-wg')
     steps:
       - uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
         id: app-token
@@ -14,19 +15,8 @@ jobs:
           client-id: ${{ vars.APP_CLIENT_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           
-      - name: Check for '1-new-project-wg' label
-        id: check_label
-        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
-        with:
-          token: ${{ steps.app-token.outputs.token }}
-          script: |
-            const labels = context.payload.issue.labels || [];
-            const hasLabel = labels.some(label => label.name === '1-new-project-wg');
-            core.setOutput('has_label', hasLabel);
-
       - name: Add thank you comment and next steps
         uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5.0.0
-        if: steps.check_label.outputs.has_label == 'true'
         with:
           token: ${{ steps.app-token.outputs.token }}
           issue-number: ${{ github.event.issue.number }}
@@ -39,7 +29,6 @@ jobs:
           reactions: '+1'
 
       - name: Extract new title from issue body
-        if: steps.check_label.outputs.has_label == 'true'
         id: get_title
         run: |
           echo "Parsing issue body..."
@@ -58,7 +47,7 @@ jobs:
           fi
 
       - name: Update the issue title
-        if: steps.get_title.outputs.should_update == 'true' && steps.check_label.outputs.has_label == 'true'
+        if: steps.get_title.outputs.should_update == 'true'
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         with:
           script: |
