@@ -1,58 +1,70 @@
 name: Automation - Project Board
 
 on:
-  project_item:
-    types: [edited]
+  schedule:
+    # Runs every 15 minutes
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # Allows manual trigger from the GitHub Actions tab
 
 jobs:
-  # Verification, Delay & Payload Extraction
-  verify_and_extract:
+  process_project_board:
     runs-on: ubuntu-latest
-    outputs:
-      should_proceed: ${{ steps.verify.outputs.should_proceed }}
-      issue_number: ${{ steps.verify.outputs.issue_number }}
-      repo_owner: ${{ steps.verify.outputs.repo_owner }}
-      repo_name: ${{ steps.verify.outputs.repo_name }}
-      field_name: ${{ steps.verify.outputs.field_name }}
-      to_status: ${{ steps.verify.outputs.to_status }}
-      from_status: ${{ steps.verify.outputs.from_status }}
-      has_target_label: ${{ steps.verify.outputs.has_target_label }}
-      is_scheduled_date_set: ${{ steps.verify.outputs.is_scheduled_date_set }}
     steps:
-      # Wait 10 seconds to handle accidental moves/drag-and-drop mistakes
-      - name: Wait for undo buffer
-        run: sleep 10
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Fetch and verify current state via GraphQL
-        id: verify
+      - name: Process Project Board Items
         uses: actions/github-script@v7
         with:
+          github-token: ${{ secrets.PROJECT_TOKEN }}
           script: |
-            const itemId = "${{ github.event.projects_v2_item.node_id }}";
-            const changedFieldName = "${{ github.event.changes.field_value.field_name }}";
-            const expectedToStatus = "${{ github.event.changes.field_value.to.name }}";
-            const expectedFromStatus = "${{ github.event.changes.field_value.from.name }}";
+            const fs = require('fs');
 
-            // Query current item status, labels, repository, and issue number
+            // --- CONFIGURATION ---
+            const ORG_NAME = "lf-energy"; // Replace with your Org/User login
+            const PROJECT_NUMBER = 2;         // Replace with your Project V2 number
+
+            // Load comment templates from repository files
+            const msgLfOnboarding = fs.readFileSync('messages/lf-onboarding-welcome.md', 'utf8');
+            const msgAgenda = fs.readFileSync('messages/agenda-transition.md', 'utf8');
+            const msgScheduledDate = fs.readFileSync('messages/scheduled-date-set.md', 'utf8');
+            const msgInVoting = fs.readFileSync('messages/in-voting.md', 'utf8');
+
+            const agendaColumns = [
+              "Upcoming Meeting Agenda Items",
+              "Next Meeting Agenda Items",
+              "Future Meeting Agenda Items"
+            ];
+
+            // --- GRAPHQL QUERY ---
             const query = `
-              query($itemId: ID!) {
-                node(id: $itemId) {
-                  ... on ProjectV2Item {
-                    fieldValueByName(name: "Status") {
-                      ... on ProjectV2ItemFieldSingleSelectValue { name }
-                    }
-                    fieldValueByName(name: "Scheduled Date") {
-                      ... on ProjectV2ItemFieldDateValue { date }
-                    }
-                    content {
-                      ... on Issue {
-                        number
-                        repository {
-                          name
-                          owner { login }
+              query($org: String!, $number: Int!) {
+                organization(login: $org) {
+                  projectV2(number: $number) {
+                    items(first: 50) {
+                      nodes {
+                        id
+                        updatedAt
+                        status: fieldValueByName(name: "Status") {
+                          ... on ProjectV2ItemFieldSingleSelectValue { name }
                         }
-                        labels(first: 50) {
-                          nodes { name }
+                        scheduledDate: fieldValueByName(name: "Scheduled Date") {
+                          ... on ProjectV2ItemFieldDateValue { date }
+                        }
+                        content {
+                          ... on Issue {
+                            number
+                            repository {
+                              name
+                              owner { login }
+                            }
+                            labels(first: 50) {
+                              nodes { name }
+                            }
+                            comments(last: 30) {
+                              nodes { body }
+                            }
+                          }
                         }
                       }
                     }
@@ -60,115 +72,56 @@ jobs:
                 }
               }`;
 
-            const res = await github.graphql(query, { itemId });
-            const item = res.node;
-            const issue = item?.content;
+            const res = await github.graphql(query, { org: ORG_NAME, number: PROJECT_NUMBER });
+            const items = res.organization?.projectV2?.items?.nodes || [];
 
-            if (!issue || !issue.number) {
-              core.notice("Item is not an Issue (could be a Draft Issue or Pull Request). Skipping.");
-              core.setOutput('should_proceed', 'false');
-              return;
+            for (const item of items) {
+              const issue = item.content;
+              if (!issue || !issue.number) continue; // Skip draft items or PRs
+
+              const currentStatus = item.status?.name || "";
+              const scheduledDateValue = item.scheduledDate?.date || null;
+              const hasScheduledDate = Boolean(scheduledDateValue);
+              const labels = issue.labels.nodes.map(l => l.name);
+              const hasTargetLabel = labels.includes('1-new-project-wg');
+              const existingComments = issue.comments.nodes.map(c => c.body);
+
+              const owner = issue.repository.owner.login;
+              const repo = issue.repository.name;
+              const issue_number = issue.number;
+
+              // Helper function to post comment if not already present
+              async function ensureComment(commentText) {
+                const alreadyPosted = existingComments.some(b => b.trim() === commentText.trim());
+                if (!alreadyPosted) {
+                  console.log(`Posting comment to ${owner}/${repo}#${issue_number}`);
+                  await github.rest.issues.createComment({
+                    owner,
+                    repo,
+                    issue_number,
+                    body: commentText
+                  });
+                }
+              }
+
+              // --- RULE 1: Moved into 'LF Onboarding' ---
+              if (currentStatus === 'LF Onboarding') {
+                await ensureComment(msgLfOnboarding);
+              }
+
+              // --- RULE 2: Moved into Agenda columns ---
+              if (agendaColumns.includes(currentStatus)) {
+                await ensureComment(msgAgenda);
+              }
+
+              // --- RULE 3: Scheduled Date set for label '1-new-project-wg' ---
+              if (hasTargetLabel && hasScheduledDate) {
+                const formattedComment = msgScheduledDate.replace('{{SCHEDULED_DATE}}', scheduledDateValue);
+                await ensureComment(formattedComment);
+              }
+
+              // --- RULE 4: Moved into 'In Voting' for label '1-new-project-wg' ---
+              if (hasTargetLabel && currentStatus === 'In Voting') {
+                await ensureComment(msgInVoting);
+              }
             }
-
-            const currentStatus = item?.fieldValueByName?.name || "";
-            const scheduledDate = item?.fieldValueByName?.date;
-
-            // Check if status match passed the delay check
-            if (changedFieldName === "Status" && currentStatus !== expectedToStatus) {
-              core.notice(`Move canceled: status changed to "${currentStatus}" during delay.`);
-              core.setOutput('should_proceed', 'false');
-              return;
-            }
-
-            const labels = issue.labels.nodes.map(l => l.name);
-            const hasTargetLabel = labels.includes('1-new-project-wg');
-
-            // Pass outputs downstream
-            core.setOutput('should_proceed', 'true');
-            core.setOutput('issue_number', issue.number);
-            core.setOutput('repo_owner', issue.repository.owner.login);
-            core.setOutput('repo_name', issue.repository.name);
-            core.setOutput('field_name', changedFieldName);
-            core.setOutput('to_status', currentStatus);
-            core.setOutput('from_status', expectedFromStatus);
-            core.setOutput('has_target_label', hasTargetLabel ? 'true' : 'false');
-            core.setOutput('is_scheduled_date_set', scheduledDate ? 'true' : 'false');
-
-  # Item moved into 'LF Onboarding'
-  on_moved_to_lf_onboarding:
-    needs: verify_and_extract
-    if: >-
-      needs.verify_and_extract.outputs.should_proceed == 'true' &&
-      needs.verify_and_extract.outputs.field_name == 'Status' &&
-      needs.verify_and_extract.outputs.to_status == 'LF Onboarding'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-
-      - name: Add comment from Markdown file
-        uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5.0.0
-        with:
-          issue-number: ${{ needs.verify_and_extract.outputs.issue_number }}
-          repository: ${{ needs.verify_and_extract.outputs.repo_owner }}/${{ needs.verify_and_extract.outputs.repo_name }}
-          body-path: 'messages/lf-onboarding-welcome.md'
-
-  # Item moved out of 'LF Onboarding' into Agenda Columns
-  on_moved_from_lf_to_agenda:
-    needs: verify_and_extract
-    if: >-
-      needs.verify_and_extract.outputs.should_proceed == 'true' &&
-      needs.verify_and_extract.outputs.field_name == 'Status' &&
-      needs.verify_and_extract.outputs.from_status == 'LF Onboarding' &&
-      contains(fromJSON('["Upcoming Meeting Agenda Items", "Next Meeting Agenda Items", "Future Meeting Agenda Items"]'), needs.verify_and_extract.outputs.to_status)
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-
-      - name: Add comment from Markdown file
-        uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5.0.0
-        with:
-          issue-number: ${{ needs.verify_and_extract.outputs.issue_number }}
-          repository: ${{ needs.verify_and_extract.outputs.repo_owner }}/${{ needs.verify_and_extract.outputs.repo_name }}
-          body-path: 'messages/agenda-transition.md'
-
-  # 'Scheduled Date' field set for item with label `1-new-project-wg`
-  on_scheduled_date_set:
-    needs: verify_and_extract
-    if: >-
-      needs.verify_and_extract.outputs.should_proceed == 'true' &&
-      needs.verify_and_extract.outputs.field_name == 'Scheduled Date' &&
-      needs.verify_and_extract.outputs.has_target_label == 'true' &&
-      needs.verify_and_extract.outputs.is_scheduled_date_set == 'true'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-
-      - name: Add comment from Markdown file
-        uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5.0.0
-        with:
-          issue-number: ${{ needs.verify_and_extract.outputs.issue_number }}
-          repository: ${{ needs.verify_and_extract.outputs.repo_owner }}/${{ needs.verify_and_extract.outputs.repo_name }}
-          body-path: 'messages/scheduled-date-set.md'
-
-  # Item moved into 'In Voting' with label `1-new-project-wg`
-  on_moved_to_in_voting:
-    needs: verify_and_extract
-    if: >-
-      needs.verify_and_extract.outputs.should_proceed == 'true' &&
-      needs.verify_and_extract.outputs.field_name == 'Status' &&
-      needs.verify_and_extract.outputs.to_status == 'In Voting' &&
-      needs.verify_and_extract.outputs.has_target_label == 'true'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-
-      - name: Add comment from Markdown file
-        uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5.0.0
-        with:
-          issue-number: ${{ needs.verify_and_extract.outputs.issue_number }}
-          repository: ${{ needs.verify_and_extract.outputs.repo_owner }}/${{ needs.verify_and_extract.outputs.repo_name }}
-          body-path: 'messages/in-voting.md'
