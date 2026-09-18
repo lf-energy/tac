@@ -1,7 +1,7 @@
 name: Automation - Project Board
 
 on:
-  projects_v2_item:
+  project_item:
     types: [edited]
 
 jobs:
