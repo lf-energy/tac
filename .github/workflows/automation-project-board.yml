@@ -1,4 +1,4 @@
-name: Project Board Automation
+name: Automation - Project Board
 
 on:
   projects_v2_item:
