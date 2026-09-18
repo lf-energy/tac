@@ -1,0 +1,174 @@
+name: Project Board Automation
+
+on:
+  projects_v2_item:
+    types: [edited]
+
+jobs:
+  # Verification, Delay & Payload Extraction
+  verify_and_extract:
+    runs-on: ubuntu-latest
+    outputs:
+      should_proceed: ${{ steps.verify.outputs.should_proceed }}
+      issue_number: ${{ steps.verify.outputs.issue_number }}
+      repo_owner: ${{ steps.verify.outputs.repo_owner }}
+      repo_name: ${{ steps.verify.outputs.repo_name }}
+      field_name: ${{ steps.verify.outputs.field_name }}
+      to_status: ${{ steps.verify.outputs.to_status }}
+      from_status: ${{ steps.verify.outputs.from_status }}
+      has_target_label: ${{ steps.verify.outputs.has_target_label }}
+      is_scheduled_date_set: ${{ steps.verify.outputs.is_scheduled_date_set }}
+    steps:
+      # Wait 10 seconds to handle accidental moves/drag-and-drop mistakes
+      - name: Wait for undo buffer
+        run: sleep 10
+
+      - name: Fetch and verify current state via GraphQL
+        id: verify
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const itemId = "${{ github.event.projects_v2_item.node_id }}";
+            const changedFieldName = "${{ github.event.changes.field_value.field_name }}";
+            const expectedToStatus = "${{ github.event.changes.field_value.to.name }}";
+            const expectedFromStatus = "${{ github.event.changes.field_value.from.name }}";
+
+            // Query current item status, labels, repository, and issue number
+            const query = `
+              query($itemId: ID!) {
+                node(id: $itemId) {
+                  ... on ProjectV2Item {
+                    fieldValueByName(name: "Status") {
+                      ... on ProjectV2ItemFieldSingleSelectValue { name }
+                    }
+                    fieldValueByName(name: "Scheduled Date") {
+                      ... on ProjectV2ItemFieldDateValue { date }
+                    }
+                    content {
+                      ... on Issue {
+                        number
+                        repository {
+                          name
+                          owner { login }
+                        }
+                        labels(first: 50) {
+                          nodes { name }
+                        }
+                      }
+                    }
+                  }
+                }
+              }`;
+
+            const res = await github.graphql(query, { itemId });
+            const item = res.node;
+            const issue = item?.content;
+
+            if (!issue || !issue.number) {
+              core.notice("Item is not an Issue (could be a Draft Issue or Pull Request). Skipping.");
+              core.setOutput('should_proceed', 'false');
+              return;
+            }
+
+            const currentStatus = item?.fieldValueByName?.name || "";
+            const scheduledDate = item?.fieldValueByName?.date;
+
+            // Check if status match passed the delay check
+            if (changedFieldName === "Status" && currentStatus !== expectedToStatus) {
+              core.notice(`Move canceled: status changed to "${currentStatus}" during delay.`);
+              core.setOutput('should_proceed', 'false');
+              return;
+            }
+
+            const labels = issue.labels.nodes.map(l => l.name);
+            const hasTargetLabel = labels.includes('1-new-project-wg');
+
+            // Pass outputs downstream
+            core.setOutput('should_proceed', 'true');
+            core.setOutput('issue_number', issue.number);
+            core.setOutput('repo_owner', issue.repository.owner.login);
+            core.setOutput('repo_name', issue.repository.name);
+            core.setOutput('field_name', changedFieldName);
+            core.setOutput('to_status', currentStatus);
+            core.setOutput('from_status', expectedFromStatus);
+            core.setOutput('has_target_label', hasTargetLabel ? 'true' : 'false');
+            core.setOutput('is_scheduled_date_set', scheduledDate ? 'true' : 'false');
+
+  # Item moved into 'LF Onboarding'
+  on_moved_to_lf_onboarding:
+    needs: verify_and_extract
+    if: >-
+      needs.verify_and_extract.outputs.should_proceed == 'true' &&
+      needs.verify_and_extract.outputs.field_name == 'Status' &&
+      needs.verify_and_extract.outputs.to_status == 'LF Onboarding'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Add comment from Markdown file
+        uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5.0.0
+        with:
+          issue-number: ${{ needs.verify_and_extract.outputs.issue_number }}
+          repository: ${{ needs.verify_and_extract.outputs.repo_owner }}/${{ needs.verify_and_extract.outputs.repo_name }}
+          body-path: 'messages/lf-onboarding-welcome.md'
+
+  # Item moved out of 'LF Onboarding' into Agenda Columns
+  on_moved_from_lf_to_agenda:
+    needs: verify_and_extract
+    if: >-
+      needs.verify_and_extract.outputs.should_proceed == 'true' &&
+      needs.verify_and_extract.outputs.field_name == 'Status' &&
+      needs.verify_and_extract.outputs.from_status == 'LF Onboarding' &&
+      contains(fromJSON('["Upcoming Meeting Agenda Items", "Next Meeting Agenda Items", "Future Meeting Agenda Items"]'), needs.verify_and_extract.outputs.to_status)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Add comment from Markdown file
+        uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5.0.0
+        with:
+          issue-number: ${{ needs.verify_and_extract.outputs.issue_number }}
+          repository: ${{ needs.verify_and_extract.outputs.repo_owner }}/${{ needs.verify_and_extract.outputs.repo_name }}
+          body-path: 'messages/agenda-transition.md'
+
+  # 'Scheduled Date' field set for item with label `1-new-project-wg`
+  on_scheduled_date_set:
+    needs: verify_and_extract
+    if: >-
+      needs.verify_and_extract.outputs.should_proceed == 'true' &&
+      needs.verify_and_extract.outputs.field_name == 'Scheduled Date' &&
+      needs.verify_and_extract.outputs.has_target_label == 'true' &&
+      needs.verify_and_extract.outputs.is_scheduled_date_set == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Add comment from Markdown file
+        uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5.0.0
+        with:
+          issue-number: ${{ needs.verify_and_extract.outputs.issue_number }}
+          repository: ${{ needs.verify_and_extract.outputs.repo_owner }}/${{ needs.verify_and_extract.outputs.repo_name }}
+          body-path: 'messages/scheduled-date-set.md'
+
+  # Item moved into 'In Voting' with label `1-new-project-wg`
+  on_moved_to_in_voting:
+    needs: verify_and_extract
+    if: >-
+      needs.verify_and_extract.outputs.should_proceed == 'true' &&
+      needs.verify_and_extract.outputs.field_name == 'Status' &&
+      needs.verify_and_extract.outputs.to_status == 'In Voting' &&
+      needs.verify_and_extract.outputs.has_target_label == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Add comment from Markdown file
+        uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5.0.0
+        with:
+          issue-number: ${{ needs.verify_and_extract.outputs.issue_number }}
+          repository: ${{ needs.verify_and_extract.outputs.repo_owner }}/${{ needs.verify_and_extract.outputs.repo_name }}
+          body-path: 'messages/in-voting.md'
