@@ -1,4 +1,4 @@
-name: New Project Proposal automation
+name: Automation - New Project Proposal
 
 on:
   issues:
