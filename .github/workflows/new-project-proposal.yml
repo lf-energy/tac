@@ -1,4 +1,4 @@
-name: Automatic reply to new project proposal
+name: New Project Proposal automation
 
 on:
   issues:
@@ -8,47 +8,38 @@ jobs:
   comment:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        id: app-token
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          
       - name: Check for '1-new-project-wg' label
         id: check_label
-        run: |
-          echo "Checking for '1-new-project-wg' label..."
-          HAS_LABEL=false
-          for label in "${{ toJson(github.event.issue.labels) }}"; do
-            if [[ "$label" == *"1-new-project-wg"* ]]; then
-              HAS_LABEL=true
-              break
-            fi
-          done
-          echo "has_label=$HAS_LABEL" >> $GITHUB_OUTPUT
-
-      - name: Exit if label not found
-        if: steps.check_label.outputs.has_label != 'true'
-        run: |
-          echo "No '1-new-project-wg' label. Skipping welcome comment."
-          exit 0
-
-      - name: Read welcome message from file
-        id: readfile
-        run: |
-          MESSAGE=$(cat messages/new-project-proposal.md)
-          echo "message<<EOF" >> $GITHUB_OUTPUT
-          echo "$MESSAGE" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-
-      - name: Comment on the new issue
-        uses: actions/github-script@v7
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         with:
+          token: ${{ steps.app-token.outputs.token }}
           script: |
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `${{ steps.readfile.outputs.message }}`
-            })
+            const labels = context.payload.issue.labels || [];
+            const hasLabel = labels.some(label => label.name === '1-new-project-wg');
+            core.setOutput('has_label', hasLabel);
+
+      - name: Add thank you comment and next steps
+        uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5.0.0
+        if: steps.check_label.outputs.has_label == 'true'
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            Thank you for submitting this project proposal. The LF Energy TAC Leadership and staff will review
+            this submission within the next few days, and will respond with any questions and next steps.
+
+            In the meantime, please refer to https://tac.lfenergy.org/process/start_project.html#what-happens-next 
+            for more information on the next steps in the project proposal process.
+          reactions: '+1'
 
       - name: Extract new title from issue body
+        if: steps.check_label.outputs.has_label == 'true'
         id: get_title
         run: |
           echo "Parsing issue body..."
@@ -67,8 +58,8 @@ jobs:
           fi
 
       - name: Update the issue title
-        if: steps.get_title.outputs.should_update == 'true'
-        uses: actions/github-script@v7
+        if: steps.get_title.outputs.should_update == 'true' && steps.check_label.outputs.has_label == 'true'
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         with:
           script: |
             github.rest.issues.update({
