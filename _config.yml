@@ -3,14 +3,15 @@ description: Materials and processes for the LF Energy TAC
 logo: "https://artwork.lfenergy.org/other/lf-energy/horizontal/color/lf-energy-horizontal-color.svg"
 theme: just-the-docs
 repository: lf-energy/tac
+url: "https://tac.lfenergy.org"
 
 exclude: [
   "README.md",
   "completed.md",
   "dco-signoffs/",
-  "Gemfile", 
-  "Gemfile.lock", 
-  "package.json", 
+  "Gemfile",
+  "Gemfile.lock",
+  "package.json",
   "package-lock.json",
   "CODE_OF_CONDUCT.md",
   "LICENSE",
@@ -28,6 +29,7 @@ gh_edit_view_mode: "tree"
 
 # Various URLs used across the site
 landscape_url: 'https://landscape.lfenergy.org'
+landscape_project_embed_uri: 'embed/embed.html?base-path=&key=sig&headers=true&category-header=false&category-in-subcategory=false&title-uppercase=false&title-alignment=left&title-font-family=sans-serif&title-font-size=16&style=clean&bg-color=%23ffffff&fg-color=%23000000&item-modal=true&item-name=false&size=lg&items-alignment=left&iframe-resizer=true'
 calendar_url: 'https://calendar.lfenergy.org'
 slack_url: 'https://slack.lfenergy.org'
 directed_fund_charter_url: 'https://charter.lfenergy.org'
@@ -35,29 +37,42 @@ tac_issues_url: 'https://github.com/lf-energy/tac/issues/new?template=01-tac-age
 helpdesk_url: "https://servicedesk.lfenergy.org"
 mailing_list_url: "https://lists.lfenergy.org"
 wiki_url: "https://wiki.lfenergy.org"
-lfx_insights_url: "https://insights.lfx.linuxfoundation.org/foundation/lfenergy"
+lfx_insights_url: "https://insights.linuxfoundation.org/collection/details/lfenergy"
 tac_mailing_list_url: "https://lists.lfenergy.org/g/tac"
+tac_mailing_list_email: tac@lists.aswf.io
+tac_private_mailing_list_email: tac-private@lists.lfenergy.org
+leads_mailing_list_email: technical-project-leads@lists.lfenergy.org
 website_url: "https://lfenergy.org"
 blog_url: "https://lfenergy.org/blog"
-tac_lfx_meeting_url: https://zoom-lfx.platform.linuxfoundation.org/meeting/95214651568?password=eda16f17-bdd1-4a9f-a594-0947a1433153
+tac_lfx_meeting_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/lfenergy?view=list&projects=lfenergy
 lfscanning_repo_url: https://github.com/lfscanning/spdx-lfenergy
 tac_member_list_url: https://lfenergy.org/about/people/#technical-advisory-council
 lf_staff_list_url: https://lfenergy.org/about/people/#executive-leadership
-mission_statement_url: https://lfenergy.org/about/why-lf-energy/ 
+mission_statement_url: https://lfenergy.org/about/why-lf-energy/
 tac_agenda_url: https://github.com/orgs/lf-energy/projects/2
-artwork_url: 'https://srtwork.lfenergy.org'
+artwork_url: 'https://artwork.lfenergy.org'
+election_guidelines_url: 'https://github.com/lf-energy/foundation/blob/main/elections.md'
 
 # Foundation Settings
 foundation_name: 'LF Energy'
+foundation_benefits: "energy industry"
 clotributor_name: "lfenergy"
 membership_top_tier: 'Strategic'
-favicon_ico: "css/img/favicon.png"
 archived_lifecycle_stage: "Emeritus"
+tac_projects:
+  - "Graduated Stage Projects"
+project_types:
+  - singular: "Project"
+    plural: "Projects"
+  - singular: "Working Group"
+    plural: "Working Groups"
+  - singular: "SIG"
+    plural: "SIGs"
 
 aux_links:
   "Need help or have a question? Contact us here":
-    - "//servicedesk.lfenergy.org"
-footer_content: Copyright &copy; The Linux Foundation&reg;. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage">Trademark Usage</a> page. Linux is a registered trademark of Linus Torvalds. <a href="http://www.linuxfoundation.org/privacy">Privacy Policy</a> and <a href="http://www.linuxfoundation.org/terms">Terms of Use</a>.
+    - "https://servicedesk.lfenergy.org"
+footer_content: Copyright &copy; The Linux Foundation&reg;. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage">Trademark Usage</a> page. Linux is a registered trademark of Linus Torvalds. <a href="https://www.linuxfoundation.org/privacy">Privacy Policy</a> and <a href="https://www.linuxfoundation.org/terms">Terms of Use</a>.
 
 readme_index:
   with_frontmatter: true
@@ -86,9 +101,8 @@ callouts:
     color: blue
 
 defaults:
-  -
-    scope: 
-      path: "meetings/*/README.md"
+  - scope:
+      path: "meetings/*/index.md"
       type: "pages"
     values:
       title: My Title

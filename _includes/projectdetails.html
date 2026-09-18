@@ -4,7 +4,7 @@
 {%- for project in site.data.projects -%}
     {%- unless excluded_levels contains project["Level"] -%}
     <tr>
-        <td><img id="{{ project["Name"] }}" src="{{ project["Logo URL"] }}" /></td>
+        <td><img id="{{ project["Name"] }}" src="{{ project["Logo URL"] }}" alt="{{ project["Name"]}} Logo" /></td>
         <td>
             {%- if project["Github Org"] -%}
             Repo: <a href="{{ project["Github Org"] }}">{{ project["Github Org"] }}</a><br />
@@ -23,13 +23,10 @@
             {%- if project["Mailing List"] and project["Mailing List"] != 'none' -%}
             Mailing List: <a href="{{ project["Mailing List"] }}">{{ project["Mailing List"] }}</a><br />
             {%- endif -%}
-            {%- if project["Slack"] and project["Slack"] != 'none' -%}
-            {{ assign slackstart = project["Slack"] | slice: 0 }}
-            {%- if slackstart == "#" %}
-            Slack: <a href="{{ site.slack_url }}">{{ project["Slack"] }}</a><br />
-            {%- elsif project["Slack"] -%}
-            Slack: <a href="{{ project["Slack"] }}">{{ project["Slack"] }}</a><br />
-            {%- endif -%}
+            {%- if project["Chat Channel"] and project["Chat Channel"] != 'none' -%}
+            Slack: <a href="{{ site.slack_url }}">{{ project["Chat Channel"] }}</a><br />
+            {%- elsif project["Slack URL"] -%}
+            Slack: <a href="{{ project["Slack URL"] }}">{{ project["Slack URL"] }}</a><br />
             {%- endif -%}
             {%- if project["LFX Insights URL"] and project["LFX Insights URL"] != 'none' -%}
             LFX Insights: <a href="{{ project["LFX Insights URL"] }}">{{ project["LFX Insights URL"] }}</a><br />
@@ -45,9 +42,6 @@
             {%- endif -%}
             {%- if project["Calendar"] and project["Calendar"] != 'none' -%}
             Public Calendar: <a href="{{ project["Calendar"] }}">{{ project["Calendar"] }}</a><br />
-            {%- endif -%}
-            {%- if project["iCal"] and project["iCal"] != 'none' -%}
-            iCal: <a href="{{ project["iCal"] }}">{{ project["iCal"] }}</a><br />
             {%- endif -%}
             {%- if project["Best Practices Badge ID"] and project["Best Practices Badge ID"] != 'none' and project["Best Practices Badge ID"] != 'False' -%}
             <a href="https://bestpractices.coreinfrastructure.org/projects/{{ project["Best Practices Badge ID"] }}"><img src="https://bestpractices.coreinfrastructure.org/projects/{{ project["Best Practices Badge ID"] }}/badge"></a>

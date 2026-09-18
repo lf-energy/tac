@@ -2,12 +2,14 @@ name: New Working Group Proposal
 description: Template for proposing a new Working Group to the TAC
 title: 'New Working Group/Special Interest Group Proposal - NAME'
 labels: ["1-new-project-wg"]
+assignees: 
+  - lfenewprojectwg
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for proposing a Working Group or Special Interest Group to the LF Energy Foundation. Please provide the name of the working group in the title above in place of NAME, and then answer the questions below to have this working group be added to the agenda at a future TAC meeting for consideration as a new project. Please refer to the guideance in the [Working Group and Special Interest Group Lifecycle](https://wiki.lfenergy.org/display/HOME/Working+Group+and+Special+Interest+Group+Lifecycle).
-        Please also note you must be available to lead this discussion on a TAC meeting. You can get information on TAC meetings and how to join the meetings at https://wiki.lfenergy.org/display/HOME/Technical+Advisory+Council#TechnicalAdvisoryCouncil-MeetingDetails.
+        Thank you for proposing a Working Group or Special Interest Group to the LF Energy Foundation. Please provide the name of the working group in the title above in place of NAME, and then answer the questions below to have this working group be added to the agenda at a future TAC meeting for consideration as a new project. Please refer to the guidance in the [Working Group and Special Interest Group Lifecycle](https://wiki.lfenergy.org/display/HOME/Working+Group+and+Special+Interest+Group+Lifecycle).
+        Please also note that you must be available to lead this discussion at a TAC meeting. You can get information on TAC meetings and how to join the meetings at [tac.lfenergy.org/meetings](https://tac.lfenergy.org/meetings/).
   - type: textarea
     attributes:
       label: Mission Statement
