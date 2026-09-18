@@ -22,10 +22,13 @@ jobs:
           issue-number: ${{ github.event.issue.number }}
           body: |
             Thank you for submitting this project proposal. The LF Energy TAC Leadership and staff will review
-            this submission within the next few days, and will respond with any questions and next steps.
+            this submission within the next few days, and will respond with any questions and next steps. If you do not hear anything from the LF Energy staff in two business days, please contact us
+            at support@lfenergy.org.
 
             In the meantime, please refer to https://tac.lfenergy.org/process/start_project.html#what-happens-next 
             for more information on the next steps in the project proposal process.
+
+            Thank you again for your interest in bringing your project to LF Energy!
           reactions: '+1'
 
       - name: Extract new title from issue body
