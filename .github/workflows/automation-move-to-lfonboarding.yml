@@ -1,0 +1,88 @@
+name: Automation - Move item to `LF Onboarding` column
+
+on:
+  projects_v2_item:
+    types: [edited]
+
+jobs:
+  handle_move:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        id: app-token
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          
+      # Quick filter to check if the 'Status' field was changed
+      - name: Check if Status field changed
+        id: check_field
+        run: |
+          if [[ "${{ github.event.changes.field_value.field_name }}" == "Status" ]]; then
+            echo "is_status_change=true" >> $GITHUB_OUTPUT
+          else
+            echo "is_status_change=false" >> $GITHUB_OUTPUT
+          fi
+
+      # Wait for 10 second buffer period
+      - name: Wait for undo buffer
+        if: steps.check_field.outputs.is_status_change == 'true'
+        run: |
+          echo "Waiting 10 seconds in case move was accidental..."
+          sleep 10
+
+      # Verify the item is STILL in the intended column
+      - name: Verify status after delay
+        if: steps.check_field.outputs.is_status_change == 'true'
+        id: verify
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          script: |
+            const itemId = "${{ github.event.projects_v2_item.node_id }}";
+            const expectedStatus = "${{ github.event.changes.field_value.to.name }}";
+
+            // Query current status directly from GitHub
+            const query = `
+              query($itemId: ID!) {
+                node(id: $itemId) {
+                  ... on ProjectV2Item {
+                    fieldValueByName(name: "Status") {
+                      ... on ProjectV2ItemFieldSingleSelectValue {
+                        name
+                      }
+                    }
+                  }
+                }
+              }`;
+
+            const res = await github.graphql(query, { itemId });
+            const currentStatus = res.node?.fieldValueByName?.name;
+
+            if (currentStatus !== expectedStatus) {
+              core.notice(`Item status changed from "${expectedStatus}" to "${currentStatus}" during delay. Canceling action.`);
+              core.setOutput('should_proceed', 'false');
+            } else {
+              echo "Item is still in target column. Proceeding.";
+              core.setOutput('should_proceed', 'true');
+            }
+
+      # Keep going only if state is confirmed
+      - name: Add note to indicate project is in LF Onboarding
+        if: steps.verify.outputs.should_proceed == 'true'
+        uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5.0.0
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            Your project proposal has now moved to the 'LF Onboarding' stage. Details these next actions are
+            listed at https://tac.lfenergy.org/process/start_project.html#what-happens-next. 
+
+            If you do not hear anything from the LF Energy staff in two business days, please contact us
+            at support@lfenergy.org.
+
+            Thank you again for your interest in bringing your project to LF Energy!
+          reactions: '+1'
+      
+      - name: Process Move
+        run: |
+          echo "Processing issue move to column: ${{ github.event.changes.field_value.to.name }}"
