@@ -133,30 +133,13 @@ jobs:
 
               const completedDateStr = scheduledDateVal.date;
               const [cYear, cMonth, cDay] = completedDateStr.split('-').map(Number);
-              const completedDate = new Date(Date.UTC(cYear, cMonth - 1, cDay));
 
-              // 1 Year Mark
+              // Target month/year is exact same month 1 year later
               const targetYear = cYear + 1;
-              const targetMonth = cMonth - 1; // 0-indexed month
+              const targetMonth = cMonth - 1; // 0-indexed month for JS Date
 
-              // Option A: 2nd Tuesday of the target month
-              let secondTuesdayTargetMonth = getSecondTuesday(targetYear, targetMonth);
-
-              // Option B: 2nd Tuesday of the preceding month
-              let prevMonth = targetMonth === 0 ? 11 : targetMonth - 1;
-              let prevYear = targetMonth === 0 ? targetYear - 1 : targetYear;
-              let secondTuesdayPrevMonth = getSecondTuesday(prevYear, prevMonth);
-
-              const exactOneYearMark = new Date(Date.UTC(targetYear, targetMonth, cDay));
-
-              // Choose the 2nd Tuesday that lands on or immediately before 1 year out
-              let finalReviewDate;
-              if (secondTuesdayTargetMonth <= exactOneYearMark) {
-                finalReviewDate = secondTuesdayTargetMonth;
-              } else {
-                finalReviewDate = secondTuesdayPrevMonth;
-              }
-
+              // Calculate 2nd Tuesday of that same target month 1 year out
+              const finalReviewDate = getSecondTuesday(targetYear, targetMonth);
               const nextScheduledDateStr = finalReviewDate.toISOString().split('T')[0];
 
               // Update 'Last Review Date'
