@@ -23,6 +23,7 @@ jobs:
           github-token: ${{ steps.app-token.outputs.token }}
           script: |
             const fs = require('fs');
+            const path = require('path');
 
             // --- CONFIGURATION ---
             const ORG_NAME = "lf-energy"; // Replace with your Org/User login
