@@ -39,10 +39,10 @@ jobs:
             }
 
             // Load comment templates from .github/workflows directory
-            const msgLfOnboarding = loadTemplate('.github/workflows/lf-onboarding-welcome.md');
-            const msgAgenda = loadTemplate('.github/workflows/agenda-transition.md');
-            const msgScheduledDate = loadTemplate('.github/workflows/scheduled-date-set.md');
-            const msgInVoting = loadTemplate('.github/workflows/in-voting.md');
+            const msgLfOnboarding = loadTemplate('.github/workflows/messages/lf-onboarding-welcome.md');
+            const msgAgenda = loadTemplate('.github/workflows/messages/agenda-transition.md');
+            const msgScheduledDate = loadTemplate('.github/workflows/messages/scheduled-date-set.md');
+            const msgInVoting = loadTemplate('.github/workflows/messages/in-voting.md');
 
             const agendaColumns = [
               "Upcoming Meeting Agenda Items",
