@@ -38,7 +38,7 @@ jobs:
               return fs.readFileSync(fullPath, 'utf8');
             }
 
-            // Load comment templates from .github/workflows directory
+            // Load comment templates from .github/workflows/messages directory
             const msgLfOnboarding = loadTemplate('.github/workflows/messages/lf-onboarding-welcome.md');
             const msgAgenda = loadTemplate('.github/workflows/messages/agenda-transition.md');
             const msgScheduledDate = loadTemplate('.github/workflows/messages/scheduled-date-set.md');
@@ -52,7 +52,7 @@ jobs:
 
             // --- GRAPHQL QUERY ---
             const query = `
-              query(\(org: String!,\)number: Int!) {
+              query getProjectItems(\(org: String!,\)number: Int!) {
                 organization(login: $org) {
                   projectV2(number: $number) {
                     items(first: 50) {
@@ -142,3 +142,4 @@ jobs:
                 await ensureComment(msgInVoting);
               }
             }
+            
