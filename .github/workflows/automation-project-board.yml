@@ -52,7 +52,7 @@ jobs:
 
             // --- GRAPHQL QUERY ---
             const query = `
-              query getProjectItems(\(org: String!,\)number: Int!) {
+              query getProjectItems($org: String!, $number: Int!) {
                 organization(login: $org) {
                   projectV2(number: $number) {
                     items(first: 50) {
@@ -111,7 +111,7 @@ jobs:
                 const alreadyPosted = existingComments.some(body => body === targetText || body.includes(targetText.substring(0, 30)));
                 
                 if (!alreadyPosted) {
-                  console.log(`Posting comment to \({owner}/\){repo}#\({issue_number} (Status:\){currentStatus})`);
+                  console.log(`Posting comment to ${owner}/${repo}#${issue_number} - Status: ${currentStatus}`);
                   await github.rest.issues.createComment({
                     owner,
                     repo,
