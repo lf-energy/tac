@@ -98,7 +98,7 @@ jobs:
               const scheduledDateValue = item.scheduledDate?.date || null;
               const hasScheduledDate = Boolean(scheduledDateValue);
               const labels = issue.labels.nodes.map(l => l.name);
-              const hasTargetLabel = labels.includes('1-new-project-wg');
+              const isNewProjectWG = labels.includes('1-new-project-wg');
               const existingComments = issue.comments.nodes.map(c => c.body.trim());
 
               const owner = issue.repository.owner.login;
@@ -121,24 +121,24 @@ jobs:
                 }
               }
 
-              // --- RULE 1: Moved into 'LF Onboarding' ---
-              if (currentStatus === 'LF Onboarding') {
+              // --- RULE 1: Moved into 'LF Onboarding' for label '1-new-project-wg' ---
+              if (isNewProjectWG && currentStatus === 'LF Onboarding') {
                 await ensureComment(msgLfOnboarding);
               }
 
-              // --- RULE 2: Moved into Agenda columns ---
-              if (agendaColumns.includes(currentStatus)) {
+              // --- RULE 2: Moved into Agenda columns for label '1-new-project-wg' ---
+              if (isNewProjectWG && agendaColumns.includes(currentStatus)) {
                 await ensureComment(msgAgenda);
               }
 
               // --- RULE 3: Scheduled Date set for label '1-new-project-wg' ---
-              if (hasTargetLabel && hasScheduledDate) {
+              if (isNewProjectWG && hasScheduledDate) {
                 const formattedComment = msgScheduledDate.replace('{{SCHEDULED_DATE}}', scheduledDateValue);
                 await ensureComment(formattedComment);
               }
 
-              // --- RULE 4: Moved into 'In Voting' for label '1-new-project-wg' ---
-              if (hasTargetLabel && currentStatus === 'In Voting') {
+              // --- RULE 4: Moved into 'In Voting' ---
+              if (currentStatus === 'In Voting') {
                 await ensureComment(msgInVoting);
               }
             }
