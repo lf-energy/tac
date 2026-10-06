@@ -22,7 +22,7 @@ jobs:
         with:
           client-id: ${{ vars.APP_CLIENT_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
-      
+
       - name: Calculate, Update Dates, and Move Status
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         with:
@@ -31,7 +31,7 @@ jobs:
             const issue = context.payload.issue;
             const comment = context.payload.comment;
 
-            const hasReviewLabel = issue.labels.some(label => 
+            const hasReviewLabel = issue.labels.some(label =>
               label.name.startsWith('2-annual-review')
             );
 
@@ -44,12 +44,12 @@ jobs:
             function getSecondTuesday(year, month) {
               let d = new Date(Date.UTC(year, month, 1));
               let dayOfWeek = d.getUTCDay(); // 0 = Sun, 2 = Tue
-              
+
               // Days until first Tuesday
               let offsetToFirstTue = (2 - dayOfWeek + 7) % 7;
               // Second Tuesday is 7 days after first Tuesday
               let secondTuesdayDate = 1 + offsetToFirstTue + 7;
-              
+
               return new Date(Date.UTC(year, month, secondTuesdayDate));
             }
 
@@ -142,7 +142,7 @@ jobs:
               const finalReviewDate = getSecondTuesday(targetYear, targetMonth);
               const nextScheduledDateStr = finalReviewDate.toISOString().split('T')[0];
 
-              // Update 'Last Review Date'
+              // Set Last Review Date to current Scheduled Date
               const updateLastReviewMutation = `
                 mutation {
                   updateProjectV2ItemFieldValue(
@@ -160,7 +160,7 @@ jobs:
 
               await github.graphql(updateLastReviewMutation);
 
-              // Update 'Scheduled Date'
+              // Set Scheduled Date to new date 1 year out (snapped prior)
               const updateScheduledDateMutation = `
                 mutation {
                   updateProjectV2ItemFieldValue(
@@ -178,7 +178,7 @@ jobs:
 
               await github.graphql(updateScheduledDateMutation);
 
-              // Update 'Status'
+              // Update Status
               if (statusField) {
                 const targetOption = statusField.options.find(
                   opt => opt.name && opt.name.trim().toLowerCase() === 'future meeting agenda items'

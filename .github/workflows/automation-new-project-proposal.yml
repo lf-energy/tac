@@ -14,7 +14,7 @@ jobs:
         with:
           client-id: ${{ vars.APP_CLIENT_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
-          
+
       - name: Add thank you comment and next steps
         uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5.0.0
         with:
@@ -25,7 +25,7 @@ jobs:
             this submission within the next few days, and will respond with any questions and next steps. If you do not hear anything from the LF Energy staff in two business days, please contact us
             at support@lfenergy.org.
 
-            In the meantime, please refer to https://tac.lfenergy.org/process/start_project.html#what-happens-next 
+            In the meantime, please refer to https://tac.lfenergy.org/process/start_project.html#what-happens-next
             for more information on the next steps in the project proposal process.
 
             Thank you again for your interest in bringing your project to LF Energy!
@@ -36,7 +36,7 @@ jobs:
         run: |
           echo "Parsing issue body..."
           BODY="${{ github.event.issue.body }}"
-          
+
           # This assumes the field label is `### Project Name`
           TITLE=$(echo "$BODY" | awk '/### Project Name/{getline; print}' | xargs)
 
