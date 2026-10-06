@@ -1,4 +1,4 @@
-name: Automation - Project Board
+name: TAC Issues Automation - Add comments when items are moved on TAC Issues project board
 
 on:
   schedule:
