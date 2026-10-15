@@ -81,10 +81,10 @@ redirect_from:
 ## Meeting Assets
 
 
-* [Deck](https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-09-08/LF%20Energy%20-%20TAC%20Meeting%20-%202026-09-08%20(2).pdf)
+* [Deck](https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-10-13/LF%20Energy%20-%20TAC%20Meeting%20-%202026-10-13.pdf)
 * [OneNet Project Presentation/Review](https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-09-08/OneNet_Data_Space_for_LFE_v0.2.pdf)
-* [SOGNO Annual Review](https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-09-08/OperatorFabric_Annual_Review_2026.pdf)
-* [Utility Rate Plan Exchange (URPX) Annual Review](https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-09-08/batterydataalliance-2026-annual_review%20.pdf)
+* [SOGNO Annual Review](https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-10-13/LFE-SOGNO-TAC-Review-2026.pptx)
+* [Utility Rate Plan Exchange (URPX) Annual Review](https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-10-13/urpx-tac-annual-review-2026-10-13.pdf)
 * [Recording](https://zoom.us/rec/share/yjGJ7Y0zu8qXa3U_QMr3QGM9duHfgzHma1CtcLNOkAZtPeH8pjQrUzvzS4kCEpkm.qI1kFnU7EEGoo6xp)
 
 
