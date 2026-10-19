@@ -5,7 +5,7 @@ p:has(+dl[id$="_projects_with_bestpractices"]),
 h2:has(+p+dl[id$="_projects_with_bestpractices"]) {
   text-align: center;
 }
- 
+
 dl[id$="_projects_with_bestpractices"] {
   display: flex;
   flex-wrap: wrap;
@@ -54,10 +54,10 @@ dl[id$="_projects_with_bestpractices"] {
 			background: #EEEEEE !important;
 		}
 		& div:nth-child(-n+6) {
-			text-align: center; 
-			margin: auto; 
+			text-align: center;
+			margin: auto;
 			margin-top: 0;
-		} 	
+		}
 	}
 }
 #sgam_zones, #sgam_domains, #sgam_by_project .project-sgam {
@@ -80,7 +80,7 @@ dl[id$="_projects_with_bestpractices"] {
 		background: white;
 		font-family: "Roboto Slab"
 	}
-	& div a { 
+	& div a {
 		margin: auto;
 		height: 35px;
 		padding: 5px;
@@ -108,16 +108,30 @@ dl[id$="_projects_with_bestpractices"] {
 		font-size: x-small;
 	}
 	& div:nth-child(-n+5) {
-		text-align: center; 
-		margin: auto; 
+		text-align: center;
+		margin: auto;
 		margin-top: 0;
-	} 
+	}
 }
 #sgam_zones {
 	grid-template-columns: repeat(6, 16.6%);
 	& div:nth-child(-n+7) {
-		text-align: center; 
-		margin: auto; 
+		text-align: center;
+		margin: auto;
 		margin-top: 0;
-	} 
+	}
 }
+
+iframe.embed {
+  width: 600px;
+  height: 1950px;
+  border: 0px;
+}
+
+@supports (frame-sizing: content-height) {
+  iframe.embed {
+    height: auto;
+    frame-sizing: content-height;
+  }
+}
+
