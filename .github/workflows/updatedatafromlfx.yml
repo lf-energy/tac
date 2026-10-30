@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+      - uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
         id: app-token
         with:
           client-id: ${{ vars.APP_CLIENT_ID }}
@@ -21,6 +21,8 @@ jobs:
           landscape_url: https://landscape.lfenergy.org
           lfx_tac_committee_url: https://projectadmin.lfx.linuxfoundation.org/project/a094100001Cb6HaAAJ/collaboration/committees/45a1d03a-608d-48e4-9bd4-ffc94edda0b7
           tac_agenda_gh_project_url: https://github.com/orgs/lf-energy/projects/2
+          tac_gh_repo_url: ${{ github.server_url }}/${{ github.repository }}
+          checkcommitteeurl: true
         env:
           token: ${{ steps.app-token.outputs.token }}
           repository: ${{ github.repository }}

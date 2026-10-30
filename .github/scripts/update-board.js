@@ -30,23 +30,25 @@ module.exports = async ({ github, context }) => {
   const today = new Date();
   today.setUTCHours(0, 0, 0, 0);
 
-  // 1. Find the 2nd Tuesday of the current month
-  let nextMeeting = getSecondTuesday(today.getUTCFullYear(), today.getUTCMonth());
+  // 1. Calculate the 2nd Tuesday of the current month
+  let upcomingMeeting = getSecondTuesday(today.getUTCFullYear(), today.getUTCMonth());
 
-  // If the current month's 2nd Tuesday has already passed, the next meeting is next month's 2nd Tuesday
-  if (today > nextMeeting) {
-    nextMeeting = getSecondTuesday(today.getUTCFullYear(), today.getUTCMonth() + 1);
+  // If today is STRICTLY AFTER the 2nd Tuesday (i.e., Wednesday or later), 
+  // shift the upcoming meeting to next month's 2nd Tuesday.
+  if (today > upcomingMeeting) {
+    upcomingMeeting = getSecondTuesday(today.getUTCFullYear(), today.getUTCMonth() + 1);
   }
 
-  // 2. Find the 2nd Tuesday of the following month
-  const followingMeeting = getSecondTuesday(
-    nextMeeting.getUTCFullYear(),
-    nextMeeting.getUTCMonth() + 1
+  // 2. Find the 2nd Tuesday of the following month relative to upcomingMeeting
+  const nextMeeting = getSecondTuesday(
+    upcomingMeeting.getUTCFullYear(),
+    upcomingMeeting.getUTCMonth() + 1
   );
 
-  console.log("Calculated TAC Meeting Schedule:");
-  console.log("  -> Upcoming Meeting Date:", nextMeeting.toISOString().split("T")[0]);
-  console.log("  -> Next Meeting Date:    ", followingMeeting.toISOString().split("T")[0]);
+  console.log("Calculated Monthly TAC Meeting Schedule:");
+  console.log("  -> Current Run Date:        ", today.toISOString().split("T")[0]);
+  console.log("  -> Upcoming Meeting Date:   ", upcomingMeeting.toISOString().split("T")[0]);
+  console.log("  -> Next Meeting Date:       ", nextMeeting.toISOString().split("T")[0]);
 
   // Inlined Query
   const query = `
@@ -153,13 +155,13 @@ module.exports = async ({ github, context }) => {
     let targetOption = null;
     let targetStatusName = null;
 
-    if (scheduledDate >= today && scheduledDate <= nextMeeting) {
+    if (scheduledDate >= today && scheduledDate <= upcomingMeeting) {
       targetOption = upcomingOption;
       targetStatusName = STATUS_UPCOMING;
-    } else if (scheduledDate > nextMeeting && scheduledDate <= followingMeeting) {
+    } else if (scheduledDate > upcomingMeeting && scheduledDate <= nextMeeting) {
       targetOption = nextOption;
       targetStatusName = STATUS_NEXT;
-    } else if (scheduledDate > followingMeeting) {
+    } else if (scheduledDate > nextMeeting) {
       targetOption = futureOption;
       targetStatusName = STATUS_FUTURE;
     }

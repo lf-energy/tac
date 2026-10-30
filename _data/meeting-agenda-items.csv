@@ -1,22 +1,23 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
-Grid Edge Interoperability & Security Alliance (GEISA),https://github.com/lf-energy/tac/issues/230,230,2026-11-10,Next Meeting Agenda Items,2025-10-14,2-annual-review
-OneNet Framework,https://github.com/lf-energy/tac/issues/112,112,2026-10-13,Upcoming Meeting Agenda Items,2024-05-14,2-annual-review
-RTC-Tools,https://github.com/lf-energy/tac/issues/344,344,2026-11-10,Next Meeting Agenda Items,,2-annual-review
-OSPO SIG,https://github.com/lf-energy/tac/issues/771,771,2026-11-10,Next Meeting Agenda Items,,2-annual-review
-AI SIG,https://github.com/lf-energy/tac/issues/53,53,2026-11-10,Next Meeting Agenda Items,2025-11-11,2-annual-review
+NODE Collective,https://github.com/lf-energy/tac/issues/108,108,2026-11-10,Upcoming Meeting Agenda Items,2025-12-09,2-annual-review
+OneNet Framework,https://github.com/lf-energy/tac/issues/112,112,2026-10-13,In Voting,2024-05-14,2-annual-review
+Grid Edge Interoperability & Security Alliance (GEISA),https://github.com/lf-energy/tac/issues/230,230,2026-11-10,Upcoming Meeting Agenda Items,2025-10-14,2-annual-review
+RTC-Tools,https://github.com/lf-energy/tac/issues/344,344,2026-11-10,Upcoming Meeting Agenda Items,,2-annual-review
+OSPO SIG,https://github.com/lf-energy/tac/issues/771,771,2026-11-10,Upcoming Meeting Agenda Items,,2-annual-review
+AI SIG,https://github.com/lf-energy/tac/issues/53,53,2026-12-08,Upcoming Meeting Agenda Items,2025-11-11,2-annual-review
 Project AI Guidelines,https://github.com/lf-energy/tac/issues/864,864,2026-10-13,Upcoming Meeting Agenda Items,,
-SOGNO,https://github.com/lf-energy/tac/issues/75,75,2026-10-13,Upcoming Meeting Agenda Items,2025-05-13,2-annual-review
-Utility Rate Plan Exchange (URPX),https://github.com/lf-energy/tac/issues/600,600,2026-10-13,Upcoming Meeting Agenda Items,,2-annual-review
+SOGNO,https://github.com/lf-energy/tac/issues/75,75,2027-10-12,Future Meeting Agenda Items,2026-10-13,2-annual-review
+Utility Rate Plan Exchange (URPX),https://github.com/lf-energy/tac/issues/600,600,2027-10-12,Future Meeting Agenda Items,2026-10-13,2-annual-review
 Power Stability Wide Area Monitoring Protection (p-SWAMP),https://github.com/lf-energy/tac/issues/585,585,2027-09-14,Future Meeting Agenda Items,2026-09-08,2-annual-review
 Battery Data Alliance,https://github.com/lf-energy/tac/issues/57,57,2027-09-14,Future Meeting Agenda Items,2026-09-08,2-annual-review
 OperatorFabric,https://github.com/lf-energy/tac/issues/71,71,2027-09-14,Future Meeting Agenda Items,2026-09-08,2-annual-review
-VAREN: VEGETATION AND ASSET RECOGNITION FOR ELECTRICAL NETWORK,https://github.com/lf-energy/tac/issues/764,764,2027-07-13,Future Meeting Agenda Items,,2-annual-review
+VAREN: VEGETATION AND ASSET RECOGNITION FOR ELECTRICAL NETWORK,https://github.com/lf-energy/tac/issues/764,764,2027-07-13,Future Meeting Agenda Items,,2-annual-review-sig
 SEAPATH ,https://github.com/lf-energy/tac/issues/73,73,2027-07-13,Future Meeting Agenda Items,2026-07-21,2-annual-review
 2026 TAC Priorities,https://github.com/lf-energy/tac/issues/673,673,,Next Meeting Agenda Items,,4-tac-meeting-short
 Proposal for SBOM + SigStore + SWHID for LF Energy Releases,https://github.com/lf-energy/tac/pull/653,653,,Next Meeting Agenda Items,,4-tac-meeting-short
 Real Time Data Ingestion Platform (RTDIP),https://github.com/lf-energy/tac/issues/26,26,,On Hold,2025-07-08,2-annual-review
 EDDIE - European Distributed Data Infrastructure for Energy,https://github.com/lf-energy/tac/issues/719,719,,LF Onboarding,,1-new-project-wg
-CUPID (Controllable Unit Protocol Interface for DER) (was IEEE 2030.5 over NATS),https://github.com/lf-energy/tac/issues/383,383,,On Hold,2025-05-13,2-annual-review
+CUPID (Controllable Unit Protocol Interface for DER) (was IEEE 2030.5 over NATS),https://github.com/lf-energy/tac/issues/383,383,2027-01-12,Future Meeting Agenda Items,2025-05-13,2-annual-review
 Smart HEMS Benchmark,https://github.com/lf-energy/tac/issues/669,669,2027-06-08,Future Meeting Agenda Items,,2-annual-review
 CoMPAS ,https://github.com/lf-energy/tac/issues/72,72,2027-06-08,Future Meeting Agenda Items,2026-06-09,2-annual-review
 AssetLife,https://github.com/lf-energy/tac/issues/762,762,2027-06-08,Future Meeting Agenda Items,,2-annual-review
@@ -27,21 +28,20 @@ LF Energy RegistryOS,https://github.com/lf-energy/tac/issues/556,556,2027-02-09,
 AINETUS (AI for safety-critical NEtwork infrastrUctureS),https://github.com/lf-energy/tac/issues/704,704,2027-03-09,Future Meeting Agenda Items,,2-annual-review
 OpenSynth,https://github.com/lf-energy/tac/issues/68,68,2027-04-20,Future Meeting Agenda Items,2026-04-21,2-annual-review-sig
 CityLearn,https://github.com/lf-energy/tac/issues/506,506,2027-01-12,Future Meeting Agenda Items,2026-01-13,2-annual-review
-NODE Collective,https://github.com/lf-energy/tac/issues/108,108,2026-12-08,Future Meeting Agenda Items,2025-12-09,2-annual-review
 TROLIE,https://github.com/lf-energy/tac/issues/79,79,2027-01-12,Future Meeting Agenda Items,2026-01-13,2-annual-review
-Connected Data Specification - Power Systems Data Working Group (CDS WG2),https://github.com/lf-energy/tac/issues/513,513,2026-12-08,Future Meeting Agenda Items,2025-12-09,2-annual-review
-Connected Data Specification - Registration Working Group (CDS WG3),https://github.com/lf-energy/tac/issues/511,511,2026-12-08,Future Meeting Agenda Items,2025-12-09,2-annual-review
-Connected Data Specification - Customer Data Working Group (CDS WG1),https://github.com/lf-energy/tac/issues/512,512,2026-12-08,Future Meeting Agenda Items,2025-12-09,2-annual-review
+Connected Data Specification - Power Systems Data Working Group (CDS WG2),https://github.com/lf-energy/tac/issues/513,513,2026-12-08,Next Meeting Agenda Items,2025-12-09,2-annual-review
+Connected Data Specification - Registration Working Group (CDS WG3),https://github.com/lf-energy/tac/issues/511,511,2026-12-08,Next Meeting Agenda Items,2025-12-09,2-annual-review
+Connected Data Specification - Customer Data Working Group (CDS WG1),https://github.com/lf-energy/tac/issues/512,512,2026-12-08,Next Meeting Agenda Items,2025-12-09,2-annual-review
 OpenGridFM,https://github.com/lf-energy/tac/issues/260,260,2027-06-17,Future Meeting Agenda Items,2026-06-18,2-annual-review-sig
 FlexMeasures,https://github.com/lf-energy/tac/issues/27,27,2026-12-23,Future Meeting Agenda Items,2025-12-17,2-annual-review-sig
 OpenLEADR,https://github.com/lf-energy/tac/issues/24,24,2027-06-23,Future Meeting Agenda Items,2026-06-24,2-annual-review-sig
-FIDOPower,https://github.com/lf-energy/tac/issues/82,82,2026-08-05,SIG Annual Reviews,2025-06-04,2-annual-review-sig
+FIDOPower,https://github.com/lf-energy/tac/issues/82,82,2026-12-02,Next Meeting Agenda Items,2025-06-04,2-annual-review-sig
 Grid Vantage,https://github.com/lf-energy/tac/issues/52,52,,SIG Annual Reviews,2023-09-26,2-annual-review-sig
-Arras,https://github.com/lf-energy/tac/issues/104,104,2026-12-02,SIG Annual Reviews,2025-10-01,2-annual-review-sig
+Arras,https://github.com/lf-energy/tac/issues/104,104,2026-12-02,Next Meeting Agenda Items,2025-10-01,2-annual-review-sig
 CitrineOS,https://github.com/lf-energy/tac/issues/59,59,2026-12-23,Future Meeting Agenda Items,2025-12-17,2-annual-review-sig
 Power Grid Model,https://github.com/lf-energy/tac/issues/81,81,2027-02-03,Future Meeting Agenda Items,2026-02-04,2-annual-review-sig
 EVerest,https://github.com/lf-energy/tac/issues/28,28,2027-01-27,Future Meeting Agenda Items,2026-01-28,2-annual-review-sig
-PowSyBl,https://github.com/lf-energy/tac/issues/22,22,2026-12-02,Future Meeting Agenda Items,2025-12-03,2-annual-review-sig
+PowSyBl,https://github.com/lf-energy/tac/issues/22,22,2026-12-02,Next Meeting Agenda Items,2025-12-03,2-annual-review-sig
 Hyphae,https://github.com/lf-energy/tac/issues/74,74,2027-03-24,Future Meeting Agenda Items,2026-03-25,2-annual-review-sig
 covXtreme,https://github.com/lf-energy/tac/issues/66,66,,SIG Annual Reviews,2025-04-02,2-annual-review-sig
 OpenSTEF,https://github.com/lf-energy/tac/issues/25,25,2027-02-03,Future Meeting Agenda Items,2026-02-04,2-annual-review-sig

@@ -1,16 +1,14 @@
 Full Name,Account Name: Account Name,Appointed By,Voting Status,Special Role,Title,HeadshotURL
 Alex Thornton,LF Energy,None,Observer,LF Staff,Executive Director,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/athornton9.png?v=1701983391982
 Alexandre Lucas,INESC TEC,None,Observer,None,,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/a.png
-Alexandre Parisot,LF Energy,None,Observer,LF Staff,"Director of ecosystem, AI and energy systems",https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/aparisot.png?v=1686237819215
 Alyona Teyber,Lawrence Livermore National Laboratory (LLNL),Vote of TSC Committee,Observer,None,,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/a.png
 Antonello Monti,RWTH Aachen University,Vote of TSC Committee,Voting Rep,Chair,Professor,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/amonti.png?v=1686668890422
 Arila Barnes,Energy IoT Open Source,Vote of TSC Committee,Observer,None,Founder,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/arila33.png?v=1746460519817
-Art Pope,Google LLC,Membership Entitlement,Voting Rep,None,Member of Technical Staff,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/artpope.1651852589979.png
 Balthazar Donon,RTE (Reseau de Transport dElectricite),None,Observer,None,,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/bdonon.png?v=1790341438654
 Barry Nouwt,"TNO, the Netherlands Organisation for Applied Scientific Research",Vote of TSC Committee,Observer,None,,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/b.png
 Bazil Sterling,The Linux Foundation,None,Observer,LF Staff,Marketing Communications Manager,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/bsterling.png?v=1749660351199
 Benjamin Donnot,RTE (Reseau de Transport dElectricite),Vote of TSC Committee,Observer,None,Data Scientist,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/b.png
-Boris Dolley,RTE (Reseau de Transport dElectricite),Membership Entitlement,Voting Rep,None,Director of OSPO and Sustainable IT Strategy,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/bdolley.png?v=1694544493350
+Boris Dolley,RTE (Reseau de Transport dElectricite),Vote of TAC Committee,Voting Rep,Vice Chair,Director of OSPO and Sustainable IT Strategy,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/bdolley.png?v=1694544493350
 Chloe Ching,Shell International Petroleum Company,Membership Entitlement,Observer,None,Senior IoT & Edge Computing Analyst,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/c.png
 Chris Xie,"Futurewei Technologies, Inc.",Vote of TSC Committee,Observer,None,Head of Open Source Strategy,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/c.png
 Christopher Atkins,MISO,Vote of TSC Committee,Observer,None,Senior Advisor,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/catkins.png?v=1759785398574
@@ -23,17 +21,18 @@ François Mirallès,Hydro-Québec,Vote of TSC Committee,Observer,None,Researcher
 Frédéric Didier,RTE (Reseau de Transport dElectricite),Vote of TSC Committee,Voting Rep,None,Lead tech,https://avatars.githubusercontent.com/u/58251627?v=4
 Gabe Hege,Amplabs,Vote of TSC Committee,Observer,None,,https://lh3.googleusercontent.com/a/ACg8ocJeR8hLXeiwVrMT00MLkAMqpV2kGRO59UEaf1wKrwAM=s96-c
 Gus Chadney,Centre for Net Zero Ltd,Vote of TSC Committee,Observer,None,,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/guschadney.1710428880674
+Hamed Khalilinia,Google,Membership Entitlement,Voting Rep,None,,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/h.png
 Hugo Van De Pol,Tweede golf bv,Vote of TSC Committee,Observer,None,Director,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/hugovandepol.png?v=1693902313038
 Jesús Andrés Rodríguez Sarasty,Deltares,Vote of TSC Committee,Observer,None,,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/default-user.png
 John Mertic,The Linux Foundation,,Observer,LF Staff,Director of Program Management,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/jmertic.png?v=1709042439248
-Jonas  Van Den Bogaard,Alliander,Membership Entitlement,Voting Rep,Vice Chair,Open Source Office Lead ,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/jonas1991.png?v=1679415925618
 Kjell Petter Myhren,Statnett,None,Observer,None,,https://s.gravatar.com/avatar/0e3185960b8b34c87c9eab3c7f0620a2?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fkp.png
 Klaartje De Schepper,Flux Tailor LLC,None,Observer,None,CEO,https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/k.png
-Maarten Mulder,Alliander,Vote of TSC Committee,Voting Rep,None,PO IoT Field Device Platforms,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/maartenmulder.png?v=1683044464554
+Maarten Mulder,Alliander,Vote of TSC Committee,Observer,None,PO IoT Field Device Platforms,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/maartenmulder.png?v=1683044464554
 Marco Chiaramello,Individual - No Account,Vote of TSC Committee,Observer,None,Responsable d'études R & D,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/marcochiaramello.1670579489508
 Marco Möller,Pionix GmbH,Vote of TSC Committee,Observer,None,CEO,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/marcomoeller.png?v=1736190533126
 Michael Stuber,Southern California Edison,Vote of TSC Committee,Observer,None,,https://s.gravatar.com/avatar/53595d83d69938d94c8683ba6699b3a0?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fms.png
 Moïse K. Kameni,Hydro-Québec,Membership Entitlement,Voting Rep,None,Entreprise Architect and Head of Open Source Program Office,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/mkameni.png?v=1663868355956
+Nico Rikken,Alliander,Membership Entitlement,Voting Rep,None,Open Source Ambassador / Solution Architect,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/nicorikken.png?v=1759836995046
 Nicolas Höning,Seita BV,Vote of TSC Committee,Observer,None,Co-Founder,https://avatars.githubusercontent.com/u/1042336?v=4
 Peter Mitri,Individual - No Account,Vote of TSC Committee,Alternate Voting Rep,None,,https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/petermitrirte.png?v=1728399607147
 Peter Salemink,Alliander,Vote of TSC Committee,Observer,None,,https://s.gravatar.com/avatar/30025a2ef6eeb9a60564fe3b28da25d7?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fps.png
