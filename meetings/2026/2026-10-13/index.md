@@ -134,11 +134,6 @@ Ortiz announced that the TAC Vice Chair election resulted in a tie between Nico 
 van den Bogaard presented new AI assistant contribution guidelines implemented within the OpenSTEF project. He explained the guidelines require that AI tools be used transparently and that contributors remain fully responsible for the code's quality and alignment with project guidelines. Klaartje De Schepper noted that AI assistance was instrumental in the URPX project and expressed interest in standardizing these harnessing instructions across LF Energy projects.
 
 
-#### TAC Chair/Vice Chair Election Update
-
-Mertic noted that Jonas van den Bogaard is stepping back from the TAC Vice Chair role to take the Governing Board seat for Alliander, and Antonello Monti has agreed to remain as TAC Chair for another year. Nico Rikken and Boris Dolley were both nominated for the Vice Chair position. Mertic said there will be an offline LFX election for the voting members to decide the Vice Chair. 
-
-
 ### OneNet Framework Review/Discussion [#112](https://github.com/lf-energy/tac/issues/112)
 
 Antonello Monti reviewed the OneNet Framework project, clarifying that its scope has been narrowed to focus specifically on the connector and middleware components to build the OneNet architecture. Monti confirmed the project is ready for official onboarding once the repository migration is complete. The TAC agreed to move forward with a formal vote after updates are made to the original project proposal in GitHub to reflect the revised scope. 
