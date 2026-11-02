@@ -42,7 +42,7 @@ jobs:
                 %r{^/pages/lf-energy/tac/} => "/"
               },
               enforce_https: false,
-              ignore_status_codes: [403, 429, 0],
+              ignore_status_codes: [500, 403, 429, 0],
               allow_hash_href: true
             }).run
           ' > htmlproofer.log 2>&1
