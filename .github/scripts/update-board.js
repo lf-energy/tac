@@ -2,6 +2,7 @@ module.exports = async ({ github, context }) => {
   const organizationName = context.repo.owner;
   const DATE_FIELD_NAME = "Scheduled Date";
   const PROJECT_NUMBER = 2;
+  const IGNORE_LABEL = "2-annual-review-sig";
 
   // Target Status Column Names
   const STATUS_UPCOMING = "Upcoming Meeting Agenda Items";
@@ -46,11 +47,11 @@ module.exports = async ({ github, context }) => {
   );
 
   console.log("Calculated Monthly TAC Meeting Schedule:");
-  console.log("  -> Current Run Date:        ", today.toISOString().split("T")[0]);
-  console.log("  -> Upcoming Meeting Date:   ", upcomingMeeting.toISOString().split("T")[0]);
-  console.log("  -> Next Meeting Date:       ", nextMeeting.toISOString().split("T")[0]);
+  console.log("  -> Current Run Date:         ", today.toISOString().split("T")[0]);
+  console.log("  -> Upcoming Meeting Date:    ", upcomingMeeting.toISOString().split("T")[0]);
+  console.log("  -> Next Meeting Date:        ", nextMeeting.toISOString().split("T")[0]);
 
-  // Inlined Query
+  // Inlined Query with labels added
   const query = `
     query getProjectData {
       organization(login: "${organizationName}") {
@@ -78,9 +79,19 @@ module.exports = async ({ github, context }) => {
               content {
                 ... on Issue {
                   title
+                  labels(first: 20) {
+                    nodes {
+                      name
+                    }
+                  }
                 }
                 ... on PullRequest {
                   title
+                  labels(first: 20) {
+                    nodes {
+                      name
+                    }
+                  }
                 }
                 ... on DraftIssue {
                   title
@@ -136,9 +147,17 @@ module.exports = async ({ github, context }) => {
   }
 
   for (const item of project.items.nodes) {
+    const itemTitle = item.content?.title || "Untitled Item";
+
+    // Check for ignored labels
+    const labels = item.content?.labels?.nodes?.map((l) => l.name) || [];
+    if (labels.includes(IGNORE_LABEL)) {
+      console.log(`Skipping "${itemTitle}" (${item.id}) - contains label "${IGNORE_LABEL}"`);
+      continue;
+    }
+
     let scheduledDate = null;
     let currentStatus = null;
-    const itemTitle = item.content?.title || "Untitled Item";
 
     for (const val of item.fieldValues.nodes) {
       if (val.field?.name === DATE_FIELD_NAME) {
