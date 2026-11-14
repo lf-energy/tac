@@ -1,2 +1,10 @@
 
-<iframe src="{{ site.calendar_url }}?view=list" style="border: 0" width="600" height="1950" frameborder="0" scrolling="no"></iframe>
+
+<iframe class="embed" src="{{ site.calendar_url }}?view=list"></iframe>
+<script>
+  window.addEventListener('load', (event) => {
+    if ("requestResize" in window) {
+      window.requestResize();
+    }
+  })
+</script>
