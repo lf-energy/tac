@@ -1,7 +1,7 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
-LF Energy RegistryOS,https://github.com/lf-energy/tac/issues/556,556,2027-02-09,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+LF Energy RegistryOS,https://github.com/lf-energy/tac/issues/556,556,2026-12-08,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 EDDIE - European Distributed Data Infrastructure for Energy,https://github.com/lf-energy/tac/issues/719,719,,On Hold,,1-new-project-wg
-NODE Collective,https://github.com/lf-energy/tac/issues/108,108,2026-11-10,Upcoming Meeting Agenda Items,2025-12-09,2-annual-review
+NODE Collective,https://github.com/lf-energy/tac/issues/108,108,2026-11-10,Upcoming Meeting Agenda Items,2026-12-08,2-annual-review
 OneNet Framework,https://github.com/lf-energy/tac/issues/112,112,2026-10-13,In Voting,2024-05-14,2-annual-review
 Grid Edge Interoperability & Security Alliance (GEISA),https://github.com/lf-energy/tac/issues/230,230,2026-11-10,Upcoming Meeting Agenda Items,2025-10-14,2-annual-review
 RTC-Tools,https://github.com/lf-energy/tac/issues/344,344,2026-11-10,Upcoming Meeting Agenda Items,,2-annual-review
@@ -17,7 +17,7 @@ VAREN: VEGETATION AND ASSET RECOGNITION FOR ELECTRICAL NETWORK,https://github.co
 SEAPATH ,https://github.com/lf-energy/tac/issues/73,73,2027-07-13,Future Meeting Agenda Items,2026-07-21,2-annual-review
 2026 TAC Priorities,https://github.com/lf-energy/tac/issues/673,673,,Next Meeting Agenda Items,,4-tac-meeting-short
 Proposal for SBOM + SigStore + SWHID for LF Energy Releases,https://github.com/lf-energy/tac/pull/653,653,,Next Meeting Agenda Items,,4-tac-meeting-short
-Real Time Data Ingestion Platform (RTDIP),https://github.com/lf-energy/tac/issues/26,26,,On Hold,2025-07-08,2-annual-review
+Real Time Data Ingestion Platform (RTDIP),https://github.com/lf-energy/tac/issues/26,26,2026-12-08,Upcoming Meeting Agenda Items,2025-07-08,4-tac-meeting-short
 New Project Proposal - TwinREV,https://github.com/lf-energy/tac/issues/937,937,,LF Onboarding,,1-new-project-wg
 CUPID (Controllable Unit Protocol Interface for DER) (was IEEE 2030.5 over NATS),https://github.com/lf-energy/tac/issues/383,383,2027-01-12,Next Meeting Agenda Items,2025-05-13,2-annual-review
 Smart HEMS Benchmark,https://github.com/lf-energy/tac/issues/669,669,2027-06-08,Future Meeting Agenda Items,,2-annual-review
@@ -44,7 +44,7 @@ Power Grid Model,https://github.com/lf-energy/tac/issues/81,81,2027-02-03,SIG An
 EVerest,https://github.com/lf-energy/tac/issues/28,28,2027-01-27,SIG Annual Reviews,2026-01-28,2-annual-review-sig
 PowSyBl,https://github.com/lf-energy/tac/issues/22,22,2026-12-02,SIG Annual Reviews,2025-12-03,2-annual-review-sig
 Hyphae,https://github.com/lf-energy/tac/issues/74,74,2027-03-24,SIG Annual Reviews,2026-03-25,2-annual-review-sig
-covXtreme,https://github.com/lf-energy/tac/issues/66,66,,On Hold,2025-04-02,2-annual-review-sig
+covXtreme,https://github.com/lf-energy/tac/issues/66,66,2026-12-08,Upcoming Meeting Agenda Items,2025-04-02,4-tac-meeting-short
 OpenSTEF,https://github.com/lf-energy/tac/issues/25,25,2027-02-03,SIG Annual Reviews,2026-02-04,2-annual-review-sig
 Dynaωo,https://github.com/lf-energy/tac/issues/29,29,2027-04-07,SIG Annual Reviews,2026-04-01,2-annual-review-sig
 LFX Insights updates,https://github.com/lf-energy/tac/issues/351,351,,On Hold,,3-tac-meeting-long
